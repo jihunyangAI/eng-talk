@@ -3,7 +3,7 @@ node_modules/
 out/
 next-env.d.ts
 *.tsbuildinfo
-.env*.local
+.env*
 .vercel
 .playwright-mcp/
 .omc/
