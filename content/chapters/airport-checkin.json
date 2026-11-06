@@ -1,0 +1,177 @@
+{
+  "id": "airport-checkin",
+  "order": 1,
+  "title": {
+    "en": "Airport Check-in",
+    "ko": "공항 체크인",
+    "th": "เช็คอินที่สนามบิน"
+  },
+  "description": {
+    "en": "Check in for your flight, drop your bag, and choose a seat.",
+    "ko": "항공편 체크인을 하고, 짐을 부치고, 좌석을 고르는 상황",
+    "th": "เช็คอินเที่ยวบิน โหลดกระเป๋า และเลือกที่นั่ง"
+  },
+  "level": "beginner",
+  "cover": "/images/airport-checkin/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Staff",
+        "role": {
+          "en": "Airline staff",
+          "ko": "항공사 직원",
+          "th": "พนักงานสายการบิน"
+        },
+        "look": "woman in her 30s, navy airline uniform with a red scarf, dark hair in a neat bun",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Traveler",
+        "role": {
+          "en": "Traveler",
+          "ko": "여행객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "man in his 20s, short black hair, grey hoodie, small black backpack",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good morning. Where are you flying to today?",
+        "ko": "안녕하세요. 오늘 어디로 가시나요?",
+        "th": "สวัสดีค่ะ วันนี้จะเดินทางไปที่ไหนคะ",
+        "audio": "/audio/airport-checkin/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I'm flying to Bangkok. Here's my passport.",
+        "ko": "방콕으로 가요. 여기 제 여권이요.",
+        "th": "ผมจะไปกรุงเทพฯ ครับ นี่พาสปอร์ตของผมครับ",
+        "audio": "/audio/airport-checkin/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Thank you. Do you have any bags to check?",
+        "ko": "감사합니다. 부칠 짐이 있으신가요?",
+        "th": "ขอบคุณค่ะ มีกระเป๋าที่จะโหลดใต้เครื่องไหมคะ",
+        "audio": "/audio/airport-checkin/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Yes, just this one suitcase.",
+        "ko": "네, 이 캐리어 하나만요.",
+        "th": "มีครับ แค่กระเป๋าเดินทางใบนี้ใบเดียวครับ",
+        "audio": "/audio/airport-checkin/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Please put it on the scale. Would you like a window or an aisle seat?",
+        "ko": "저울 위에 올려 주세요. 창가 좌석과 통로 좌석 중 어느 쪽이 좋으세요?",
+        "th": "กรุณาวางบนตาชั่งค่ะ ต้องการที่นั่งริมหน้าต่างหรือริมทางเดินคะ",
+        "audio": "/audio/airport-checkin/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "A window seat, please.",
+        "ko": "창가 좌석으로 주세요.",
+        "th": "ขอที่นั่งริมหน้าต่างครับ",
+        "audio": "/audio/airport-checkin/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Here's your boarding pass. Boarding starts at 10:30 at Gate 23.",
+        "ko": "탑승권 여기 있습니다. 탑승은 10시 30분, 23번 게이트에서 시작합니다.",
+        "th": "นี่บัตรขึ้นเครื่องค่ะ เริ่มขึ้นเครื่องเวลา 10:30 น. ที่ประตู 23 ค่ะ",
+        "audio": "/audio/airport-checkin/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Gate 23 at 10:30. Got it.",
+        "ko": "23번 게이트, 10시 30분이요. 알겠습니다.",
+        "th": "ประตู 23 เวลา 10:30 น. เข้าใจแล้วครับ",
+        "audio": "/audio/airport-checkin/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "Have a nice flight!",
+        "ko": "즐거운 비행 되세요!",
+        "th": "ขอให้เดินทางโดยสวัสดิภาพนะคะ",
+        "audio": "/audio/airport-checkin/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Thank you so much.",
+        "ko": "정말 감사합니다.",
+        "th": "ขอบคุณมากครับ",
+        "audio": "/audio/airport-checkin/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/airport-checkin/s1.webp",
+        "prompt": "At an airline check-in counter, the staff greets the traveler with a smile while he hands over his passport."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/airport-checkin/s2.webp",
+        "prompt": "The staff asks about luggage; the traveler points to a single blue suitcase beside him."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/airport-checkin/s3.webp",
+        "prompt": "The traveler lifts his blue suitcase onto the baggage scale; the staff looks at a seat map on her screen."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/airport-checkin/s4.webp",
+        "prompt": "The staff hands a boarding pass across the counter, pointing at the gate number; the traveler reads it."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/airport-checkin/s5.webp",
+        "prompt": "The traveler waves goodbye and walks away from the counter toward the departures sign; the staff smiles."
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "cafe-order",
+  "order": 2,
+  "title": {
+    "en": "Ordering at a Café",
+    "ko": "카페에서 주문하기",
+    "th": "สั่งเครื่องดื่มที่คาเฟ่"
+  },
+  "description": {
+    "en": "Order a drink, choose options, and pay at a café.",
+    "ko": "카페에서 음료를 주문하고, 옵션을 고르고, 결제하는 상황",
+    "th": "สั่งเครื่องดื่ม เลือกตัวเลือก และจ่ายเงินที่คาเฟ่"
+  },
+  "level": "beginner",
+  "cover": "/images/cafe-order/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Barista",
+        "role": {
+          "en": "Barista",
+          "ko": "바리스타",
+          "th": "บาริสต้า"
+        },
+        "look": "man in his 20s, curly brown hair, dark green apron over a white t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "woman in her 30s, shoulder-length black hair, beige trench coat, tote bag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi! What can I get for you?",
+        "ko": "안녕하세요! 뭘 드릴까요?",
+        "th": "สวัสดีครับ รับอะไรดีครับ",
+        "audio": "/audio/cafe-order/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Can I get an iced latte, please?",
+        "ko": "아이스 라테 한 잔 주시겠어요?",
+        "th": "ขอไอซ์ลาเต้หนึ่งแก้วค่ะ",
+        "audio": "/audio/cafe-order/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Sure. What size would you like?",
+        "ko": "네. 사이즈는 어떻게 해 드릴까요?",
+        "th": "ได้ครับ รับขนาดไหนดีครับ",
+        "audio": "/audio/cafe-order/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Medium, please. And can I get it with oat milk?",
+        "ko": "미디엄으로 주세요. 그리고 귀리 우유로 해 주실 수 있나요?",
+        "th": "ขนาดกลางค่ะ แล้วขอเปลี่ยนเป็นนมโอ๊ตได้ไหมคะ",
+        "audio": "/audio/cafe-order/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "No problem. Is that for here or to go?",
+        "ko": "물론이죠. 드시고 가세요, 가져가세요?",
+        "th": "ได้เลยครับ ทานที่นี่หรือรับกลับบ้านครับ",
+        "audio": "/audio/cafe-order/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "To go, please.",
+        "ko": "가져갈게요.",
+        "th": "รับกลับบ้านค่ะ",
+        "audio": "/audio/cafe-order/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "That'll be five fifty.",
+        "ko": "5달러 50센트입니다.",
+        "th": "ทั้งหมดห้าดอลลาร์ห้าสิบเซ็นต์ครับ",
+        "audio": "/audio/cafe-order/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Can I pay by card?",
+        "ko": "카드로 결제해도 되나요?",
+        "th": "จ่ายด้วยบัตรได้ไหมคะ",
+        "audio": "/audio/cafe-order/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "Of course. Your drink will be ready at the counter.",
+        "ko": "물론이죠. 음료는 카운터에서 받아 가시면 됩니다.",
+        "th": "ได้แน่นอนครับ รับเครื่องดื่มได้ที่เคาน์เตอร์นะครับ",
+        "audio": "/audio/cafe-order/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Great, thanks!",
+        "ko": "좋아요, 고마워요!",
+        "th": "ดีเลยค่ะ ขอบคุณค่ะ",
+        "audio": "/audio/cafe-order/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cafe-order/s1.webp",
+        "prompt": "In a cozy café, the barista behind the register greets the customer, who looks up at the chalkboard menu."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cafe-order/s2.webp",
+        "prompt": "The barista holds up small, medium and large cups; the customer points at the medium cup."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cafe-order/s3.webp",
+        "prompt": "The barista holds a takeaway cup with a marker; the customer gestures toward the door, meaning to go."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cafe-order/s4.webp",
+        "prompt": "The register screen shows the total; the customer holds out a credit card toward the card reader."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/cafe-order/s5.webp",
+        "prompt": "The barista places an iced latte in a takeaway cup on the pickup counter; the customer smiles and reaches for it."
+      }
+    ]
+  }
+}

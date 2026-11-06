@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #faf8f4;
+  --surface: #ffffff;
+  --ink: #1d2125;
+  --muted: #5f6670;
+  --line: #e7e2d9;
+  --line-strong: #cfc8bb;
+  --chip: #efebe4;
+  --accent: #0f766e;
+  --accent-soft: #ddf1ee;
+  --bubble-right: #d9efe9;
+  --ok: #15803d;
+  --close: #b45309;
+  --miss: #b91c1c;
+  --miss-soft: #fdecec;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  font-family:
+    system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Noto Sans Thai",
+    "Leelawadee UI", Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

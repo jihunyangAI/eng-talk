@@ -1,0 +1,152 @@
+{
+  "id": "library-card",
+  "order": 3,
+  "title": {
+    "en": "Borrowing a Book at the Library",
+    "ko": "도서관에서 책 빌리기",
+    "th": "ยืมหนังสือที่ห้องสมุด"
+  },
+  "description": {
+    "en": "Get a library card and ask about borrowing rules.",
+    "ko": "도서관 카드를 만들고 대출 규칙을 물어보는 상황",
+    "th": "ทำบัตรห้องสมุดและสอบถามกฎการยืมหนังสือ"
+  },
+  "level": "beginner",
+  "cover": "/images/library-card/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Student",
+        "role": {
+          "en": "Student",
+          "ko": "학생",
+          "th": "นักศึกษา"
+        },
+        "look": "man in his early 20s, round glasses, messy brown hair, blue denim jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Librarian",
+        "role": {
+          "en": "Librarian",
+          "ko": "사서",
+          "th": "บรรณารักษ์"
+        },
+        "look": "woman in her 50s, short grey hair, reading glasses on a chain, burgundy cardigan",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. I'd like to borrow this book.",
+        "ko": "실례합니다. 이 책을 빌리고 싶어요.",
+        "th": "ขอโทษครับ ผมอยากยืมหนังสือเล่มนี้ครับ",
+        "audio": "/audio/library-card/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Sure. Do you have a library card?",
+        "ko": "네. 도서관 카드 있으세요?",
+        "th": "ได้ค่ะ มีบัตรห้องสมุดไหมคะ",
+        "audio": "/audio/library-card/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "No, I don't. How can I get one?",
+        "ko": "아니요, 없어요. 어떻게 만들 수 있나요?",
+        "th": "ไม่มีครับ ต้องทำอย่างไรถึงจะได้บัตรครับ",
+        "audio": "/audio/library-card/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Just fill out this form and show me your ID.",
+        "ko": "이 신청서를 작성하시고 신분증을 보여 주세요.",
+        "th": "กรอกแบบฟอร์มนี้แล้วแสดงบัตรประจำตัวด้วยค่ะ",
+        "audio": "/audio/library-card/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Here you are. How long can I keep the book?",
+        "ko": "여기 있어요. 책은 얼마 동안 빌릴 수 있나요?",
+        "th": "นี่ครับ ยืมหนังสือได้นานเท่าไรครับ",
+        "audio": "/audio/library-card/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "For two weeks. You can renew it online.",
+        "ko": "2주 동안이요. 온라인으로 연장할 수 있어요.",
+        "th": "สองสัปดาห์ค่ะ ต่ออายุการยืมทางออนไลน์ได้ค่ะ",
+        "audio": "/audio/library-card/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "What happens if I return it late?",
+        "ko": "늦게 반납하면 어떻게 되나요?",
+        "th": "ถ้าคืนช้าจะเป็นอย่างไรครับ",
+        "audio": "/audio/library-card/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "There's a small fine for each day it's late.",
+        "ko": "하루 늦을 때마다 연체료가 조금씩 붙어요.",
+        "th": "จะมีค่าปรับเล็กน้อยทุกวันที่คืนช้าค่ะ",
+        "audio": "/audio/library-card/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/library-card/s1.webp",
+        "prompt": "At a library front desk surrounded by bookshelves, the student places a thick book on the desk; the librarian looks up from her computer."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/library-card/s2.webp",
+        "prompt": "The librarian slides a paper application form and a pen across the desk toward the student."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/library-card/s3.webp",
+        "prompt": "The student hands over the completed form and an ID card; the librarian holds up two fingers, meaning two weeks."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/library-card/s4.webp",
+        "prompt": "The librarian points to a small sign about late fees on the desk; the student nods, holding the book and his new library card."
+      }
+    ]
+  }
+}

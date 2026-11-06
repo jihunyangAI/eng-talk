@@ -1,0 +1,177 @@
+{
+  "id": "airport-immigration",
+  "order": 4,
+  "title": {
+    "en": "Immigration Check",
+    "ko": "입국심사",
+    "th": "ตรวจคนเข้าเมือง"
+  },
+  "description": {
+    "en": "Answer the immigration officer's questions when you arrive.",
+    "ko": "도착한 공항에서 입국심사관의 질문에 답하는 상황",
+    "th": "ตอบคำถามเจ้าหน้าที่ตรวจคนเข้าเมืองเมื่อเดินทางถึง"
+  },
+  "level": "beginner",
+  "cover": "/images/airport-immigration/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Officer",
+        "role": {
+          "en": "Immigration officer",
+          "ko": "입국심사관",
+          "th": "เจ้าหน้าที่ตรวจคนเข้าเมือง"
+        },
+        "look": "man in his 40s, short dark hair, light blue officer uniform shirt with dark epaulettes",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Traveler",
+        "role": {
+          "en": "Traveler",
+          "ko": "여행객",
+          "th": "นักท่องเที่ยว"
+        },
+        "look": "woman in her 20s, long brown hair in a ponytail, white t-shirt, green cardigan, small shoulder bag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good afternoon. May I see your passport, please?",
+        "ko": "안녕하세요. 여권 좀 보여 주시겠어요?",
+        "th": "สวัสดีครับ ขอดูพาสปอร์ตหน่อยครับ",
+        "audio": "/audio/airport-immigration/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Sure, here it is.",
+        "ko": "네, 여기 있어요.",
+        "th": "ได้ค่ะ นี่ค่ะ",
+        "audio": "/audio/airport-immigration/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "What's the purpose of your visit?",
+        "ko": "방문 목적이 무엇인가요?",
+        "th": "มาด้วยวัตถุประสงค์อะไรครับ",
+        "audio": "/audio/airport-immigration/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "I'm here on vacation.",
+        "ko": "휴가로 왔어요.",
+        "th": "มาเที่ยวพักผ่อนค่ะ",
+        "audio": "/audio/airport-immigration/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "How long will you be staying?",
+        "ko": "얼마나 머무르실 예정인가요?",
+        "th": "จะพักอยู่นานเท่าไรครับ",
+        "audio": "/audio/airport-immigration/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "For about a week.",
+        "ko": "일주일 정도요.",
+        "th": "ประมาณหนึ่งสัปดาห์ค่ะ",
+        "audio": "/audio/airport-immigration/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Where will you be staying?",
+        "ko": "어디에서 머무르시나요?",
+        "th": "จะพักที่ไหนครับ",
+        "audio": "/audio/airport-immigration/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "At the Grand Hotel downtown.",
+        "ko": "시내에 있는 그랜드 호텔에서요.",
+        "th": "ที่โรงแรมแกรนด์ในตัวเมืองค่ะ",
+        "audio": "/audio/airport-immigration/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "All right. Enjoy your stay.",
+        "ko": "알겠습니다. 즐거운 여행 되세요.",
+        "th": "เรียบร้อยครับ ขอให้เที่ยวให้สนุกนะครับ",
+        "audio": "/audio/airport-immigration/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Thank you!",
+        "ko": "감사합니다!",
+        "th": "ขอบคุณค่ะ",
+        "audio": "/audio/airport-immigration/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/airport-immigration/s1.webp",
+        "prompt": "At an airport immigration booth, the officer sits behind the glass counter and asks for the passport; the traveler hands her passport through the window."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/airport-immigration/s2.webp",
+        "prompt": "The officer looks up from the passport with a neutral expression; the traveler smiles and answers."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/airport-immigration/s3.webp",
+        "prompt": "The officer types on his computer; the traveler holds up one finger, meaning one week."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/airport-immigration/s4.webp",
+        "prompt": "The traveler shows a hotel booking on her phone screen to the officer, who leans forward to look."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/airport-immigration/s5.webp",
+        "prompt": "The officer stamps the passport and hands it back; the traveler takes it with a happy smile."
+      }
+    ]
+  }
+}

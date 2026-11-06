@@ -1,0 +1,177 @@
+{
+  "id": "taxi-ride",
+  "order": 5,
+  "title": {
+    "en": "Taking a Taxi",
+    "ko": "택시 타기",
+    "th": "นั่งแท็กซี่"
+  },
+  "description": {
+    "en": "Tell the driver where to go and pay at the end of the ride.",
+    "ko": "택시 기사에게 목적지를 말하고, 도착해서 요금을 내는 상황",
+    "th": "บอกจุดหมายกับคนขับและจ่ายค่าโดยสารเมื่อถึงที่หมาย"
+  },
+  "level": "beginner",
+  "cover": "/images/taxi-ride/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Driver",
+        "role": {
+          "en": "Taxi driver",
+          "ko": "택시 기사",
+          "th": "คนขับแท็กซี่"
+        },
+        "look": "man in his 50s, short grey beard, glasses, navy polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "woman in her 30s, short black bob haircut, black blazer, small grey carry-on suitcase",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi there. Where to?",
+        "ko": "안녕하세요. 어디로 모실까요?",
+        "th": "สวัสดีครับ ไปไหนครับ",
+        "audio": "/audio/taxi-ride/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "To the Grand Hotel, please.",
+        "ko": "그랜드 호텔로 가 주세요.",
+        "th": "ไปโรงแรมแกรนด์ค่ะ",
+        "audio": "/audio/taxi-ride/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Sure. Can I put your bag in the trunk?",
+        "ko": "네. 가방은 트렁크에 넣어 드릴까요?",
+        "th": "ได้ครับ ให้ผมเอากระเป๋าใส่ท้ายรถไหมครับ",
+        "audio": "/audio/taxi-ride/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Yes, please. Thank you.",
+        "ko": "네, 부탁드려요. 고맙습니다.",
+        "th": "ค่ะ รบกวนด้วยนะคะ ขอบคุณค่ะ",
+        "audio": "/audio/taxi-ride/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Traffic is a little heavy today.",
+        "ko": "오늘은 차가 좀 막히네요.",
+        "th": "วันนี้รถติดนิดหน่อยนะครับ",
+        "audio": "/audio/taxi-ride/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "How long will it take?",
+        "ko": "얼마나 걸릴까요?",
+        "th": "ใช้เวลานานเท่าไรคะ",
+        "audio": "/audio/taxi-ride/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "About twenty minutes.",
+        "ko": "20분 정도요.",
+        "th": "ประมาณยี่สิบนาทีครับ",
+        "audio": "/audio/taxi-ride/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Okay. Could you turn on the air conditioning?",
+        "ko": "알겠어요. 에어컨 좀 켜 주시겠어요?",
+        "th": "โอเคค่ะ ช่วยเปิดแอร์ให้หน่อยได้ไหมคะ",
+        "audio": "/audio/taxi-ride/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "Here we are. That's twenty-five dollars.",
+        "ko": "도착했습니다. 25달러입니다.",
+        "th": "ถึงแล้วครับ ยี่สิบห้าดอลลาร์ครับ",
+        "audio": "/audio/taxi-ride/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Here you go. Keep the change.",
+        "ko": "여기 있어요. 잔돈은 가지세요.",
+        "th": "นี่ค่ะ ไม่ต้องทอนนะคะ",
+        "audio": "/audio/taxi-ride/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/taxi-ride/s1.webp",
+        "prompt": "At a taxi stand outside an airport, the driver leans out of the open window of a yellow taxi; the passenger stands beside the car with her carry-on suitcase."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/taxi-ride/s2.webp",
+        "prompt": "The driver lifts the grey carry-on suitcase into the open trunk of the yellow taxi; the passenger watches and smiles."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/taxi-ride/s3.webp",
+        "prompt": "Inside the taxi, the driver at the steering wheel glances back; through the windshield there is slow city traffic; the passenger sits in the back seat."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/taxi-ride/s4.webp",
+        "prompt": "Inside the taxi, the driver reaches for the air conditioning controls on the dashboard; the passenger in the back seat fans herself with her hand."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/taxi-ride/s5.webp",
+        "prompt": "The taxi has stopped in front of a hotel entrance; the passenger hands cash to the driver from the back seat."
+      }
+    ]
+  }
+}

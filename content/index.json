@@ -1,0 +1,90 @@
+[
+  {
+    "id": "airport-checkin",
+    "order": 1,
+    "title": {
+      "en": "Airport Check-in",
+      "ko": "공항 체크인",
+      "th": "เช็คอินที่สนามบิน"
+    },
+    "level": "beginner",
+    "cover": "/images/airport-checkin/s1.webp"
+  },
+  {
+    "id": "cafe-order",
+    "order": 2,
+    "title": {
+      "en": "Ordering at a Café",
+      "ko": "카페에서 주문하기",
+      "th": "สั่งเครื่องดื่มที่คาเฟ่"
+    },
+    "level": "beginner",
+    "cover": "/images/cafe-order/s1.webp"
+  },
+  {
+    "id": "library-card",
+    "order": 3,
+    "title": {
+      "en": "Borrowing a Book at the Library",
+      "ko": "도서관에서 책 빌리기",
+      "th": "ยืมหนังสือที่ห้องสมุด"
+    },
+    "level": "beginner",
+    "cover": "/images/library-card/s1.webp"
+  },
+  {
+    "id": "airport-immigration",
+    "order": 4,
+    "title": {
+      "en": "Immigration Check",
+      "ko": "입국심사",
+      "th": "ตรวจคนเข้าเมือง"
+    },
+    "level": "beginner",
+    "cover": "/images/airport-immigration/s1.webp"
+  },
+  {
+    "id": "taxi-ride",
+    "order": 5,
+    "title": {
+      "en": "Taking a Taxi",
+      "ko": "택시 타기",
+      "th": "นั่งแท็กซี่"
+    },
+    "level": "beginner",
+    "cover": "/images/taxi-ride/s1.webp"
+  },
+  {
+    "id": "hotel-checkin",
+    "order": 6,
+    "title": {
+      "en": "Hotel Check-in",
+      "ko": "호텔 체크인",
+      "th": "เช็กอินโรงแรม"
+    },
+    "level": "beginner",
+    "cover": "/images/hotel-checkin/s1.webp"
+  },
+  {
+    "id": "restaurant-order",
+    "order": 7,
+    "title": {
+      "en": "Ordering at a Restaurant",
+      "ko": "식당에서 주문하기",
+      "th": "สั่งอาหารที่ร้านอาหาร"
+    },
+    "level": "beginner",
+    "cover": "/images/restaurant-order/s1.webp"
+  },
+  {
+    "id": "asking-directions",
+    "order": 8,
+    "title": {
+      "en": "Asking for Directions",
+      "ko": "길 묻기",
+      "th": "ถามทาง"
+    },
+    "level": "beginner",
+    "cover": "/images/asking-directions/s1.webp"
+  }
+]

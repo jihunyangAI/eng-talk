@@ -1,0 +1,177 @@
+{
+  "id": "hotel-checkin",
+  "order": 6,
+  "title": {
+    "en": "Hotel Check-in",
+    "ko": "호텔 체크인",
+    "th": "เช็กอินโรงแรม"
+  },
+  "description": {
+    "en": "Check in to your hotel and ask about breakfast, Wi-Fi and check-out.",
+    "ko": "호텔에 체크인하면서 조식, 와이파이, 체크아웃 시간을 물어보는 상황",
+    "th": "เช็กอินโรงแรมและสอบถามเรื่องอาหารเช้า ไวไฟ และเวลาเช็กเอาต์"
+  },
+  "level": "beginner",
+  "cover": "/images/hotel-checkin/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Receptionist",
+        "role": {
+          "en": "Receptionist",
+          "ko": "호텔 직원",
+          "th": "พนักงานต้อนรับ"
+        },
+        "look": "woman in her 20s, black hair in a low bun, grey hotel uniform blazer with a name tag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Korean man in his 30s, short black hair, navy jacket over a white shirt, black rolling suitcase",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good evening. Welcome to the Grand Hotel.",
+        "ko": "안녕하세요. 그랜드 호텔에 오신 것을 환영합니다.",
+        "th": "สวัสดีค่ะ ยินดีต้อนรับสู่โรงแรมแกรนด์ค่ะ",
+        "audio": "/audio/hotel-checkin/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Hi. I have a reservation under the name Kim.",
+        "ko": "안녕하세요. '김'이라는 이름으로 예약했어요.",
+        "th": "สวัสดีครับ ผมจองห้องไว้ในชื่อคิมครับ",
+        "audio": "/audio/hotel-checkin/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Let me check. Yes, a double room for three nights.",
+        "ko": "확인해 볼게요. 네, 더블룸 3박이시네요.",
+        "th": "ขอตรวจสอบสักครู่นะคะ ใช่ค่ะ ห้องดับเบิลสามคืนค่ะ",
+        "audio": "/audio/hotel-checkin/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "That's right. Is breakfast included?",
+        "ko": "맞아요. 조식이 포함되어 있나요?",
+        "th": "ถูกต้องครับ รวมอาหารเช้าด้วยไหมครับ",
+        "audio": "/audio/hotel-checkin/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Yes, breakfast is served from seven to ten.",
+        "ko": "네, 조식은 7시부터 10시까지 제공됩니다.",
+        "th": "รวมค่ะ อาหารเช้าเสิร์ฟตั้งแต่เจ็ดโมงถึงสิบโมงค่ะ",
+        "audio": "/audio/hotel-checkin/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Great. What's the Wi-Fi password?",
+        "ko": "좋네요. 와이파이 비밀번호가 뭔가요?",
+        "th": "ดีเลยครับ รหัสไวไฟคืออะไรครับ",
+        "audio": "/audio/hotel-checkin/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "It's on your key card holder. Here's your key.",
+        "ko": "키 카드 케이스에 적혀 있어요. 여기 키입니다.",
+        "th": "อยู่บนซองคีย์การ์ดค่ะ นี่คีย์การ์ดของคุณค่ะ",
+        "audio": "/audio/hotel-checkin/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thanks. What time is check-out?",
+        "ko": "고마워요. 체크아웃은 몇 시예요?",
+        "th": "ขอบคุณครับ เช็กเอาต์กี่โมงครับ",
+        "audio": "/audio/hotel-checkin/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "Check-out is at eleven. Enjoy your stay!",
+        "ko": "체크아웃은 11시입니다. 편히 쉬세요!",
+        "th": "เช็กเอาต์เวลาสิบเอ็ดโมงค่ะ ขอให้พักผ่อนให้สบายนะคะ",
+        "audio": "/audio/hotel-checkin/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Thank you. Good night.",
+        "ko": "감사합니다. 좋은 밤 되세요.",
+        "th": "ขอบคุณครับ ราตรีสวัสดิ์ครับ",
+        "audio": "/audio/hotel-checkin/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hotel-checkin/s1.webp",
+        "prompt": "In an elegant hotel lobby at the front desk, the receptionist greets the guest with a warm smile; the guest stands at the counter with his rolling suitcase."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hotel-checkin/s2.webp",
+        "prompt": "The receptionist checks the reservation on her computer screen; the guest leans on the counter and asks a question."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hotel-checkin/s3.webp",
+        "prompt": "The receptionist gestures toward the restaurant area of the lobby; the guest holds up his smartphone."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hotel-checkin/s4.webp",
+        "prompt": "The receptionist hands the guest a key card in a small paper holder across the counter."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/hotel-checkin/s5.webp",
+        "prompt": "The guest waves goodnight and walks toward the elevators with his suitcase; the receptionist smiles from the front desk."
+      }
+    ]
+  }
+}

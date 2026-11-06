@@ -1,0 +1,152 @@
+{
+  "id": "asking-directions",
+  "order": 8,
+  "title": {
+    "en": "Asking for Directions",
+    "ko": "길 묻기",
+    "th": "ถามทาง"
+  },
+  "description": {
+    "en": "Ask a local how to get to the subway station.",
+    "ko": "현지인에게 지하철역까지 가는 길을 묻는 상황",
+    "th": "ถามคนในพื้นที่ว่าจะไปสถานีรถไฟใต้ดินอย่างไร"
+  },
+  "level": "beginner",
+  "cover": "/images/asking-directions/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Tourist",
+        "role": {
+          "en": "Tourist",
+          "ko": "여행객",
+          "th": "นักท่องเที่ยว"
+        },
+        "look": "Asian woman in her 20s, black hair with bangs, light denim jacket, small backpack, holding a smartphone",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Local",
+        "role": {
+          "en": "Local resident",
+          "ko": "현지인",
+          "th": "คนในพื้นที่"
+        },
+        "look": "man in his 60s, white hair, tan cardigan over a checked shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. Could you help me?",
+        "ko": "실례합니다. 좀 도와주시겠어요?",
+        "th": "ขอโทษค่ะ ช่วยอะไรหน่อยได้ไหมคะ",
+        "audio": "/audio/asking-directions/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Sure. What do you need?",
+        "ko": "그럼요. 무엇을 도와드릴까요?",
+        "th": "ได้ครับ ต้องการอะไรครับ",
+        "audio": "/audio/asking-directions/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "How do I get to the subway station?",
+        "ko": "지하철역에 어떻게 가나요?",
+        "th": "ไปสถานีรถไฟใต้ดินยังไงคะ",
+        "audio": "/audio/asking-directions/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Go straight for two blocks and turn left.",
+        "ko": "두 블록 직진해서 왼쪽으로 도세요.",
+        "th": "ตรงไปสองช่วงตึกแล้วเลี้ยวซ้ายครับ",
+        "audio": "/audio/asking-directions/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Is it far from here?",
+        "ko": "여기서 먼가요?",
+        "th": "ไกลจากที่นี่ไหมคะ",
+        "audio": "/audio/asking-directions/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "No, it's about a five-minute walk.",
+        "ko": "아니요, 걸어서 5분 정도예요.",
+        "th": "ไม่ไกลครับ เดินประมาณห้านาทีครับ",
+        "audio": "/audio/asking-directions/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Is there a convenience store on the way?",
+        "ko": "가는 길에 편의점이 있나요?",
+        "th": "ระหว่างทางมีร้านสะดวกซื้อไหมคะ",
+        "audio": "/audio/asking-directions/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Yes, there's one right next to the station.",
+        "ko": "네, 역 바로 옆에 하나 있어요.",
+        "th": "มีครับ อยู่ติดกับสถานีเลยครับ",
+        "audio": "/audio/asking-directions/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/asking-directions/s1.webp",
+        "prompt": "On a sunny city sidewalk, the tourist politely approaches the local man and holds up her phone with a map."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/asking-directions/s2.webp",
+        "prompt": "The local man points down the street, explaining the way; the tourist looks in the direction he is pointing."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/asking-directions/s3.webp",
+        "prompt": "The local man holds up five fingers with a friendly smile; the tourist nods, relieved."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/asking-directions/s4.webp",
+        "prompt": "The tourist waves thank you to the local man; in the distance there is a subway station entrance with a small convenience store next to it."
+      }
+    ]
+  }
+}

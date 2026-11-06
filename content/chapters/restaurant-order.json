@@ -1,0 +1,177 @@
+{
+  "id": "restaurant-order",
+  "order": 7,
+  "title": {
+    "en": "Ordering at a Restaurant",
+    "ko": "식당에서 주문하기",
+    "th": "สั่งอาหารที่ร้านอาหาร"
+  },
+  "description": {
+    "en": "Ask for a recommendation, order a meal, and ask for the check.",
+    "ko": "추천 메뉴를 묻고, 식사를 주문하고, 계산서를 요청하는 상황",
+    "th": "ถามเมนูแนะนำ สั่งอาหาร และขอเช็กบิล"
+  },
+  "level": "beginner",
+  "cover": "/images/restaurant-order/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Server",
+        "role": {
+          "en": "Server",
+          "ko": "종업원",
+          "th": "พนักงานเสิร์ฟ"
+        },
+        "look": "man in his 30s, short blond hair, black shirt with a long black apron, holding a small notepad",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "woman in her 20s, wavy red hair, mustard yellow sweater",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Are you ready to order?",
+        "ko": "주문하시겠어요?",
+        "th": "พร้อมสั่งอาหารหรือยังครับ",
+        "audio": "/audio/restaurant-order/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Yes. What do you recommend?",
+        "ko": "네. 뭘 추천하시나요?",
+        "th": "พร้อมแล้วค่ะ มีเมนูไหนแนะนำบ้างคะ",
+        "audio": "/audio/restaurant-order/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "The grilled salmon is very popular.",
+        "ko": "연어구이가 아주 인기 있어요.",
+        "th": "แซลมอนย่างเป็นเมนูยอดนิยมครับ",
+        "audio": "/audio/restaurant-order/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Sounds good. I'll have the salmon, please.",
+        "ko": "좋네요. 연어로 할게요.",
+        "th": "น่าสนใจค่ะ ขอแซลมอนค่ะ",
+        "audio": "/audio/restaurant-order/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Would you like a salad or fries with that?",
+        "ko": "샐러드와 감자튀김 중 무엇을 곁들이시겠어요?",
+        "th": "จะรับสลัดหรือเฟรนช์ฟรายส์คู่กันดีครับ",
+        "audio": "/audio/restaurant-order/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "A salad, please.",
+        "ko": "샐러드로 주세요.",
+        "th": "สลัดค่ะ",
+        "audio": "/audio/restaurant-order/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "And anything to drink?",
+        "ko": "음료는 뭐로 하시겠어요?",
+        "th": "แล้วรับเครื่องดื่มอะไรดีครับ",
+        "audio": "/audio/restaurant-order/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Just water, please.",
+        "ko": "그냥 물 주세요.",
+        "th": "ขอแค่น้ำเปล่าค่ะ",
+        "audio": "/audio/restaurant-order/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "How is everything?",
+        "ko": "식사는 괜찮으세요?",
+        "th": "อาหารเป็นอย่างไรบ้างครับ",
+        "audio": "/audio/restaurant-order/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "It's delicious. Could I get the check, please?",
+        "ko": "맛있어요. 계산서 좀 주시겠어요?",
+        "th": "อร่อยมากค่ะ ขอเช็กบิลด้วยค่ะ",
+        "audio": "/audio/restaurant-order/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/restaurant-order/s1.webp",
+        "prompt": "In a cozy restaurant, the server stands by the table with his notepad; the customer sits holding an open menu and looks up at him."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/restaurant-order/s2.webp",
+        "prompt": "The server leans in and points to an item on the menu; the customer nods with interest."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/restaurant-order/s3.webp",
+        "prompt": "The server writes the order on his notepad; the customer closes the menu and hands it to him."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/restaurant-order/s4.webp",
+        "prompt": "The server pours water from a glass carafe into the customer's glass; she smiles and thanks him."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/restaurant-order/s5.webp",
+        "prompt": "The customer is eating grilled salmon with a side salad; the server checks on her and she gives a thumbs up."
+      }
+    ]
+  }
+}
