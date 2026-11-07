@@ -186,7 +186,7 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
             {speakers.map((s, si) => {
               const count = lines.filter((l) => l.speaker === s.id).length;
-              const tone = si === 0 ? { bg: "var(--accent-soft)", fg: "var(--accent-ink)" } : { bg: "#ECE6FF", fg: "#5B43C4" };
+              const tone = si === 0 ? { bg: "var(--accent-soft)", fg: "var(--accent-ink)" } : { bg: "var(--violet-soft)", fg: "var(--violet-ink)" };
               return (
                 <button
                   key={s.id}

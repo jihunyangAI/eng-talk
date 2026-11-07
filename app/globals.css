@@ -18,12 +18,93 @@
   --close: #b45309;
   --miss: #b91c1c;
   --miss-soft: #fdecec;
+  --violet-soft: #ece6ff;
+  --violet-ink: #5b43c4;
+  --all-soft: #f1ecf7;
+  --all-strong: #2e2440;
+  --on-ink: #ffffff; /* --ink 배경 위 글자 */
+  --shadow-tint: rgba(46, 36, 64, 0.18);
+  color-scheme: light;
+}
+
+/* 다크 모드 — 밤에 보기 편한 짙은 자두색 바탕. 토글(data-theme)이 우선, 없으면 시스템 설정을 따름 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1624;
+    --surface: #251f31;
+    --ink: #f3edf7;
+    --muted: #b4a9c6;
+    --line: #382f47;
+    --line-strong: #4c415e;
+    --chip: #2e2740;
+    --accent: #d93a6e;
+    --accent-soft: #48223a;
+    --accent-ink: #ff8db3;
+    --bubble-right: #3a2335;
+    --lilac: #a99cff;
+    --ok: #4ade80;
+    --close: #fbbf24;
+    --miss: #f87171;
+    --miss-soft: #3c1d25;
+    --violet-soft: #332b55;
+    --violet-ink: #bcadff;
+    --all-soft: #2e2740;
+    --all-strong: #8b7cf6;
+    --on-ink: #1b1624;
+    --shadow-tint: rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b1624;
+  --surface: #251f31;
+  --ink: #f3edf7;
+  --muted: #b4a9c6;
+  --line: #382f47;
+  --line-strong: #4c415e;
+  --chip: #2e2740;
+  --accent: #d93a6e;
+  --accent-soft: #48223a;
+  --accent-ink: #ff8db3;
+  --bubble-right: #3a2335;
+  --lilac: #a99cff;
+  --ok: #4ade80;
+  --close: #fbbf24;
+  --miss: #f87171;
+  --miss-soft: #3c1d25;
+  --violet-soft: #332b55;
+  --violet-ink: #bcadff;
+  --all-soft: #2e2740;
+  --all-strong: #8b7cf6;
+  --on-ink: #1b1624;
+  --shadow-tint: rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+/* 카테고리 색: 라이트는 파스텔 그대로, 다크는 진한 색을 바탕에 섞어 톤 다운 */
+.cat {
+  --c-bg: var(--c-soft);
+  --c-icon: var(--c-strong);
+  --c-icon-bg: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .cat {
+    --c-bg: color-mix(in srgb, var(--c-strong) 30%, var(--surface));
+    --c-icon: color-mix(in srgb, var(--c-strong) 40%, #ffffff);
+    --c-icon-bg: var(--surface);
+  }
+}
+:root[data-theme="dark"] .cat {
+  --c-bg: color-mix(in srgb, var(--c-strong) 30%, var(--surface));
+  --c-icon: color-mix(in srgb, var(--c-strong) 40%, #ffffff);
+  --c-icon-bg: var(--surface);
 }
 
 html,
 body {
   background: var(--bg);
   color: var(--ink);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 body {

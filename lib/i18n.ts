@@ -30,6 +30,7 @@ type Messages = {
   keyExpressions: string;
   alsoSay: string;
   keyWords: string;
+  theme: { toDark: string; toLight: string };
   sceneOf: (i: number, n: number) => string;
   finish: string;
   practice: Practice;
@@ -107,6 +108,7 @@ export const messages: Record<TranslationLang, Messages> = {
     keyExpressions: "핵심 표현",
     alsoSay: "이렇게도 말해요",
     keyWords: "필수 단어",
+    theme: { toDark: "다크 모드로 바꾸기", toLight: "라이트 모드로 바꾸기" },
     sceneOf: (i, n) => `장면 ${i} / ${n}`,
     finish: "완료! 목록으로",
     practice: {
@@ -184,6 +186,7 @@ export const messages: Record<TranslationLang, Messages> = {
     keyExpressions: "สำนวนเด็ด",
     alsoSay: "พูดแบบนี้ก็ได้",
     keyWords: "คำศัพท์สำคัญ",
+    theme: { toDark: "เปลี่ยนเป็นโหมดมืด", toLight: "เปลี่ยนเป็นโหมดสว่าง" },
     sceneOf: (i, n) => `ฉาก ${i} / ${n}`,
     finish: "เสร็จแล้ว! กลับไปที่รายการ",
     practice: {

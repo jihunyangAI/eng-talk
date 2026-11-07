@@ -8,12 +8,13 @@ import { CATEGORIES, CATEGORY_COLORS } from "@/lib/categories";
 import type { ChapterListItem } from "@/lib/content";
 import { CategoryIcon, CloseIcon, SearchIcon, SupansaAvatar } from "./icons";
 import { LangSwitcher } from "./LangSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { useSettings } from "./SettingsProvider";
 
 type CatFilter = Category | "all";
 type LevelFilter = Level | "all";
 
-const ALL_COLORS = { soft: "#F1ECF7", strong: "#2E2440" };
+const ALL_COLORS = { soft: "var(--all-soft)", strong: "var(--all-strong)" };
 const colorsOf = (c: CatFilter) => (c === "all" ? ALL_COLORS : CATEGORY_COLORS[c]);
 
 function readUrl(): { cat: CatFilter; level: LevelFilter; q: string } {
@@ -92,7 +93,10 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
             <span className="block text-sm font-medium text-[var(--accent-ink)]">English App</span>
           </span>
         </div>
-        <LangSwitcher />
+        <div className="flex shrink-0 items-center gap-2">
+          <ThemeToggle />
+          <LangSwitcher />
+        </div>
       </header>
 
       <section className="px-4 pt-6">
@@ -122,8 +126,8 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
       </section>
 
       {/* 카테고리 탭 + 난이도 — 스크롤해도 위에 고정 */}
-      <div className="sticky top-0 z-10 mt-5 bg-[var(--bg)]/92 pb-3 pt-3 backdrop-blur">
-        <div role="tablist" aria-label={h.all} className="no-scrollbar flex gap-2 overflow-x-auto px-4 pb-1 sm:flex-wrap sm:overflow-visible">
+      <div className="sticky top-0 z-10 mt-5 bg-[var(--bg)]/92 pb-3 pt-1.5 backdrop-blur">
+        <div role="tablist" aria-label={h.all} className="no-scrollbar flex gap-2 overflow-x-auto px-4 pb-2.5 pt-1.5 sm:flex-wrap sm:overflow-visible">
           {tabs.map((c) => {
             const col = colorsOf(c);
             const selected = cat === c;
@@ -138,15 +142,15 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
                 aria-selected={selected}
                 onClick={() => setCat(c)}
                 style={{ "--c-soft": col.soft, "--c-strong": col.strong } as React.CSSProperties}
-                className={`flex shrink-0 items-center gap-1.5 rounded-full py-2 pl-2.5 pr-3.5 text-[0.9375rem] font-medium transition-colors ${
+                className={`cat flex shrink-0 items-center gap-1.5 rounded-full py-2 pl-2.5 pr-3.5 text-[0.9375rem] font-medium transition-[transform,box-shadow,background-color] duration-200 ease-out hover:-translate-y-1 active:translate-y-0 active:duration-75 ${
                   selected
-                    ? "bg-[var(--c-strong)] text-white shadow-[0_6px_16px_-8px_var(--c-strong)]"
-                    : "bg-[var(--c-soft)] text-[var(--ink)] hover:brightness-[0.97]"
+                    ? "bg-[var(--c-strong)] text-white shadow-[0_6px_16px_-8px_var(--c-strong)] hover:shadow-[0_12px_22px_-8px_var(--c-strong)]"
+                    : "bg-[var(--c-bg)] text-[var(--ink)] hover:shadow-[0_10px_20px_-10px_var(--shadow-tint)]"
                 }`}
               >
                 <span
                   className={`flex h-7 w-7 items-center justify-center rounded-full ${
-                    selected ? "bg-white/25 text-white" : "bg-white text-[var(--c-strong)]"
+                    selected ? "bg-white/25 text-white" : "bg-[var(--c-icon-bg)] text-[var(--c-icon)]"
                   }`}
                 >
                   <CategoryIcon category={c} className="h-4 w-4" />
@@ -168,7 +172,7 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
                 onClick={() => setLevel(lv)}
                 className={`rounded-full border px-3 py-1 transition-colors ${
                   level === lv
-                    ? "border-[var(--ink)] bg-[var(--ink)] text-white"
+                    ? "border-[var(--ink)] bg-[var(--ink)] text-[var(--on-ink)]"
                     : "border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] hover:text-[var(--ink)]"
                 }`}
               >
@@ -218,8 +222,8 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
                       loading={i < 6 ? "eager" : "lazy"}
                     />
                     <span
-                      className="absolute bottom-1 left-1 flex h-6 w-6 items-center justify-center rounded-full ring-2 ring-white"
-                      style={{ background: col.soft, color: col.strong }}
+                      className="cat absolute bottom-1 left-1 flex h-6 w-6 items-center justify-center rounded-full bg-[var(--c-bg)] text-[var(--c-icon)] ring-2 ring-[var(--surface)]"
+                      style={{ "--c-soft": col.soft, "--c-strong": col.strong } as React.CSSProperties}
                     >
                       <CategoryIcon category={ch.category} className="h-3.5 w-3.5" />
                     </span>
@@ -232,7 +236,7 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
                         className={`rounded-full px-2 py-0.5 font-medium ${
                           ch.level === "beginner"
                             ? "bg-[var(--accent-soft)] text-[var(--accent-ink)]"
-                            : "bg-[#ECE6FF] text-[#5B43C4]"
+                            : "bg-[var(--violet-soft)] text-[var(--violet-ink)]"
                         }`}
                       >
                         {t.level[ch.level]}
