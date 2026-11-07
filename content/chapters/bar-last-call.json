@@ -1,0 +1,183 @@
+{
+  "id": "bar-last-call",
+  "order": 83,
+  "title": {
+    "en": "Last Call!",
+    "ko": "라스트 오더 안내",
+    "th": "ลาสต์คอล!"
+  },
+  "description": {
+    "en": "Announce last call and help guests wrap up.",
+    "ko": "마감 전 마지막 주문을 알리고 정리하는 상황",
+    "th": "ประกาศสั่งรอบสุดท้ายและช่วยแขกเตรียมตัวกลับ"
+  },
+  "level": "intermediate",
+  "category": "bar-work",
+  "cover": "/images/bar-last-call/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a Dutch man in his 30s, very tall, with short blond hair and a light blue shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Last call, everyone! We close in twenty minutes.",
+        "ko": "여러분, 마지막 주문 받아요! 20분 후에 문 닫아요.",
+        "th": "สั่งรอบสุดท้ายแล้วนะคะทุกคน อีกยี่สิบนาทีร้านปิดค่ะ",
+        "audio": "/audio/bar-last-call/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Already? Time flies. One more beer, please.",
+        "ko": "벌써요? 시간 빠르네요. 맥주 한 잔만 더요.",
+        "th": "แล้วเหรอ เวลาผ่านไปเร็วจัง ขอเบียร์อีกแก้วครับ",
+        "audio": "/audio/bar-last-call/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "You got it. Should I close out your tab too?",
+        "ko": "알겠어요. 탭도 같이 정산해 드릴까요?",
+        "th": "ได้เลยค่ะ ปิดบิลไปด้วยเลยไหมคะ",
+        "audio": "/audio/bar-last-call/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Yeah, let's wrap it up.",
+        "ko": "네, 마무리하죠.",
+        "th": "ได้ครับ ปิดเลย",
+        "audio": "/audio/bar-last-call/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Did you have a good time tonight?",
+        "ko": "오늘 밤 즐거우셨어요?",
+        "th": "คืนนี้สนุกไหมคะ",
+        "audio": "/audio/bar-last-call/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "The best. This place has such a good vibe.",
+        "ko": "최고였어요. 여기 분위기 정말 좋아요.",
+        "th": "สุดยอดเลยครับ ที่นี่บรรยากาศดีมาก",
+        "audio": "/audio/bar-last-call/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Aw, that means a lot. We're open again tomorrow at five.",
+        "ko": "어머, 그 말 정말 힘이 돼요. 내일 5시에 다시 열어요.",
+        "th": "ขอบคุณมากค่ะ ดีใจจัง พรุ่งนี้เปิดห้าโมงเย็นนะคะ",
+        "audio": "/audio/bar-last-call/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Then I'll see you tomorrow!",
+        "ko": "그럼 내일 봬요!",
+        "th": "งั้นเจอกันพรุ่งนี้ครับ!",
+        "audio": "/audio/bar-last-call/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-last-call/s1.webp",
+        "prompt": "Near closing time in a dimly lit bar, Supansa rings a small bell behind the counter."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-last-call/s2.webp",
+        "prompt": "A tall guest raises his empty glass and smiles."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-last-call/s3.webp",
+        "prompt": "Supansa hands the guest the final bill in a small folder."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-last-call/s4.webp",
+        "prompt": "The guest puts on his jacket and waves goodbye at the door; Supansa waves back."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Last call",
+      "ko": "'마지막 주문' — 바 마감 전 외치는 말.",
+      "th": "‘สั่งรอบสุดท้าย’ ประกาศก่อนร้านปิด",
+      "alt": "Final orders"
+    },
+    {
+      "line": "l2",
+      "en": "Time flies.",
+      "ko": "'시간 참 빠르다'",
+      "th": "‘เวลาผ่านไปเร็วจัง’",
+      "alt": "Where did the time go?"
+    },
+    {
+      "line": "l4",
+      "en": "wrap it up",
+      "ko": "'마무리하다'",
+      "th": "‘ปิดจบ เคลียร์ให้เรียบร้อย’",
+      "alt": "finish up"
+    },
+    {
+      "line": "l6",
+      "en": "a good vibe",
+      "ko": "'분위기가 좋다' — 원어민이 정말 많이 쓰는 표현.",
+      "th": "‘บรรยากาศดี’ คนพูดบ่อยมาก",
+      "alt": "a great atmosphere"
+    }
+  ]
+}

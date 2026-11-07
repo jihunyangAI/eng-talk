@@ -1,0 +1,183 @@
+{
+  "id": "fr-running-late",
+  "order": 94,
+  "title": {
+    "en": "Running Late",
+    "ko": "약속에 늦을 때",
+    "th": "มาสาย"
+  },
+  "description": {
+    "en": "Tell a friend you're running late and apologize.",
+    "ko": "약속에 늦는다고 친구에게 알리고 사과하는 상황",
+    "th": "บอกเพื่อนว่าจะไปสายและขอโทษ"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-running-late/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hey, I'm so sorry. I'm running a little late.",
+        "ko": "야, 진짜 미안. 나 조금 늦을 것 같아.",
+        "th": "ขอโทษนะ ไปสายนิดนึง",
+        "audio": "/audio/fr-running-late/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "No worries. How far away are you?",
+        "ko": "괜찮아. 얼마나 남았어?",
+        "th": "ไม่เป็นไร อยู่ไกลแค่ไหนแล้ว",
+        "audio": "/audio/fr-running-late/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "About fifteen minutes. The bus was packed, so I had to wait for the next one.",
+        "ko": "15분쯤. 버스가 꽉 차서 다음 거 기다려야 했어.",
+        "th": "ประมาณสิบห้านาที รถเมล์แน่นมาก เลยต้องรอคันต่อไป",
+        "audio": "/audio/fr-running-late/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Ugh, rush hour. Take your time.",
+        "ko": "아, 퇴근 시간이구나. 천천히 와.",
+        "th": "ชั่วโมงเร่งด่วนนี่เนอะ ค่อย ๆ มา",
+        "audio": "/audio/fr-running-late/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Thanks. Go ahead and order without me.",
+        "ko": "고마워. 나 기다리지 말고 먼저 주문해.",
+        "th": "ขอบคุณนะ สั่งไปก่อนเลยไม่ต้องรอ",
+        "audio": "/audio/fr-running-late/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Want me to order something for you?",
+        "ko": "너 것도 시켜 줄까?",
+        "th": "ให้สั่งอะไรเผื่อไหม",
+        "audio": "/audio/fr-running-late/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Yes, please! Just get me the usual.",
+        "ko": "응, 부탁해! 늘 먹던 걸로.",
+        "th": "เอา! สั่งเหมือนเดิมให้เลย",
+        "audio": "/audio/fr-running-late/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Got it. See you soon!",
+        "ko": "알겠어. 이따 봐!",
+        "th": "ได้ เดี๋ยวเจอกัน!",
+        "audio": "/audio/fr-running-late/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-running-late/s1.webp",
+        "prompt": "On a crowded bus at rush hour, Supansa holds onto a strap and talks on her phone apologetically."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-running-late/s2.webp",
+        "prompt": "Ryan sits at a restaurant table and answers his phone, relaxed."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-running-late/s3.webp",
+        "prompt": "Supansa looks out the bus window at heavy traffic."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-running-late/s4.webp",
+        "prompt": "Supansa rushes into the restaurant smiling; Ryan waves from a table with two drinks."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "running a little late",
+      "ko": "'조금 늦을 것 같아' — late보다 부드러워요.",
+      "th": "‘จะไปสายนิดนึง’ ฟังนุ่มกว่า I'm late",
+      "alt": "a bit behind"
+    },
+    {
+      "line": "l3",
+      "en": "packed",
+      "ko": "'꽉 찬, 사람으로 미어터지는'",
+      "th": "‘แน่นมาก คนเต็ม’",
+      "alt": "really crowded"
+    },
+    {
+      "line": "l4",
+      "en": "rush hour",
+      "ko": "'러시아워, 출퇴근 시간'",
+      "th": "‘ชั่วโมงเร่งด่วน’",
+      "alt": "peak time"
+    },
+    {
+      "line": "l5",
+      "en": "Go ahead and",
+      "ko": "'먼저 ~해(괜찮아)'",
+      "th": "‘…ไปก่อนเลย’",
+      "alt": "Feel free to"
+    }
+  ]
+}

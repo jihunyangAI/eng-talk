@@ -1,0 +1,183 @@
+{
+  "id": "fr-food-craving",
+  "order": 91,
+  "title": {
+    "en": "What Are You Craving?",
+    "ko": "뭐 먹을지 정하기",
+    "th": "อยากกินอะไรดี"
+  },
+  "description": {
+    "en": "Decide where to eat with a hungry friend.",
+    "ko": "배고픈 친구와 어디서 먹을지 정하는 상황",
+    "th": "ตัดสินใจกับเพื่อนว่าจะกินที่ไหน"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-food-craving/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Jess",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Jess, an American woman in her mid 20s with shoulder-length wavy light-brown hair, freckles, and a mustard-yellow cardigan",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "I'm starving. What do you feel like eating?",
+        "ko": "배고파 죽겠어. 뭐 먹고 싶어?",
+        "th": "หิวจะตายแล้ว อยากกินอะไร",
+        "audio": "/audio/fr-food-craving/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Hmm, I'm craving something spicy.",
+        "ko": "음, 매운 게 땡겨.",
+        "th": "อืม อยากกินอะไรเผ็ด ๆ",
+        "audio": "/audio/fr-food-craving/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "There's a new Korean place down the street. Have you tried it?",
+        "ko": "길 아래 새로 생긴 한식집 있어. 가 봤어?",
+        "th": "มีร้านเกาหลีเปิดใหม่ตรงถนนนี้ เคยลองยัง",
+        "audio": "/audio/fr-food-craving/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Not yet, but I heard it's really good.",
+        "ko": "아직, 근데 엄청 맛있대.",
+        "th": "ยังเลย แต่ได้ยินว่าอร่อยมาก",
+        "audio": "/audio/fr-food-craving/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Let's check it out! Their fried chicken is supposed to be amazing.",
+        "ko": "가 보자! 거기 치킨이 대박이래.",
+        "th": "ไปลองกัน! ได้ยินว่าไก่ทอดเด็ดมาก",
+        "audio": "/audio/fr-food-craving/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Say no more. I'm in.",
+        "ko": "더 말할 필요 없어. 갈래.",
+        "th": "ไม่ต้องพูดต่อ ไปเลย",
+        "audio": "/audio/fr-food-craving/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Wait, is there usually a line?",
+        "ko": "잠깐, 거기 보통 줄 서?",
+        "th": "เดี๋ยวนะ ปกติคนต่อคิวเยอะไหม",
+        "audio": "/audio/fr-food-craving/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Probably, but it's totally worth it.",
+        "ko": "아마도, 근데 완전 그럴 가치 있어.",
+        "th": "น่าจะนะ แต่คุ้มแน่นอน",
+        "audio": "/audio/fr-food-craving/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-food-craving/s1.webp",
+        "prompt": "In the evening on a busy street lined with restaurants, Jess holds her stomach dramatically while Supansa laughs."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-food-craving/s2.webp",
+        "prompt": "Supansa and Jess look at a food app on Jess's phone together."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-food-craving/s3.webp",
+        "prompt": "Supansa and Jess walk excitedly toward a small Korean restaurant with a glowing sign."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-food-craving/s4.webp",
+        "prompt": "Supansa and Jess wait in a short line outside the restaurant, chatting happily."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "I'm starving.",
+      "ko": "'배고파 죽겠어' — I'm hungry보다 훨씬 강하고 자연스러워요.",
+      "th": "‘หิวจะตาย’ แรงและเป็นธรรมชาติกว่า I'm hungry",
+      "alt": "I'm so hungry."
+    },
+    {
+      "line": "l2",
+      "en": "I'm craving",
+      "ko": "'~가 땡겨'",
+      "th": "‘อยากกิน…มาก ๆ’",
+      "alt": "I really want"
+    },
+    {
+      "line": "l5",
+      "en": "check it out",
+      "ko": "'한번 가 보다, 구경해 보다'",
+      "th": "‘ไปลองดู ไปดูหน่อย’",
+      "alt": "try it"
+    },
+    {
+      "line": "l6",
+      "en": "Say no more.",
+      "ko": "'더 말 안 해도 돼(바로 콜)'",
+      "th": "‘ไม่ต้องพูดต่อ เอาเลย’",
+      "alt": "You don't have to ask twice."
+    }
+  ]
+}

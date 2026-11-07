@@ -1,0 +1,183 @@
+{
+  "id": "fr-surprise-party",
+  "order": 98,
+  "title": {
+    "en": "Planning a Surprise Party",
+    "ko": "깜짝 생일 파티 계획",
+    "th": "วางแผนปาร์ตี้เซอร์ไพรส์"
+  },
+  "description": {
+    "en": "Plan a secret birthday party for a friend.",
+    "ko": "친구 몰래 생일 파티를 준비하는 상황",
+    "th": "วางแผนปาร์ตี้วันเกิดลับ ๆ ให้เพื่อน"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-surprise-party/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "So, Jess's birthday is next Friday. Let's throw her a surprise party!",
+        "ko": "제스 생일이 다음 주 금요일이야. 깜짝 파티 해 주자!",
+        "th": "วันเกิดเจสศุกร์หน้า จัดปาร์ตี้เซอร์ไพรส์ให้เธอกัน!",
+        "audio": "/audio/fr-surprise-party/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Yes! She's gonna love it. Where should we have it?",
+        "ko": "좋아! 엄청 좋아할 거야. 어디서 할까?",
+        "th": "เอาเลย! เธอต้องชอบแน่ จัดที่ไหนดี",
+        "audio": "/audio/fr-surprise-party/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "How about my place? I'll take care of the decorations.",
+        "ko": "우리 집 어때? 장식은 내가 맡을게.",
+        "th": "ที่บ้านฉันไหม เดี๋ยวจัดการเรื่องตกแต่งเอง",
+        "audio": "/audio/fr-surprise-party/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Perfect. I can make the cake. I'm getting better at baking.",
+        "ko": "완벽해. 케이크는 내가 만들게. 베이킹 실력 늘고 있거든.",
+        "th": "เพอร์เฟกต์ เค้กฉันทำเอง ช่วงนี้ทำขนมเก่งขึ้นแล้ว",
+        "audio": "/audio/fr-surprise-party/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Nice! How do we get her there without her finding out?",
+        "ko": "좋다! 들키지 않고 어떻게 데려오지?",
+        "th": "เยี่ยม! แล้วจะพาเธอมายังไงไม่ให้รู้ตัว",
+        "audio": "/audio/fr-surprise-party/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "I'll tell her we're just having dinner. She'll never see it coming.",
+        "ko": "그냥 저녁 먹는다고 할게. 절대 눈치 못 챌 거야.",
+        "th": "เดี๋ยวบอกว่าแค่ไปกินข้าวกัน เธอไม่มีทางรู้แน่",
+        "audio": "/audio/fr-surprise-party/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Genius! Just don't let it slip.",
+        "ko": "천재다! 대신 말 새지 않게 해.",
+        "th": "อัจฉริยะ! แต่ระวังเผลอหลุดปากนะ",
+        "audio": "/audio/fr-surprise-party/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Don't worry, I'm good at keeping secrets.",
+        "ko": "걱정 마, 나 비밀 잘 지켜.",
+        "th": "ไม่ต้องห่วง ฉันเก็บความลับเก่ง",
+        "audio": "/audio/fr-surprise-party/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-surprise-party/s1.webp",
+        "prompt": "At a café table, Ryan and Supansa lean in and whisper like they're planning something secret."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-surprise-party/s2.webp",
+        "prompt": "Ryan shows party decoration ideas with balloons on his phone."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-surprise-party/s3.webp",
+        "prompt": "Supansa sketches a cake design on a notebook while Ryan watches."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-surprise-party/s4.webp",
+        "prompt": "Supansa puts a finger to her lips in a 'shh' gesture; Ryan laughs."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "throw her a surprise party",
+      "ko": "'깜짝 파티를 열어 주다' — 파티는 throw로 열어요.",
+      "th": "‘จัดปาร์ตี้เซอร์ไพรส์’ ใช้คำว่า throw",
+      "alt": "have a surprise party for her"
+    },
+    {
+      "line": "l3",
+      "en": "take care of",
+      "ko": "'~을 맡다, 처리하다'",
+      "th": "‘จัดการ รับผิดชอบ’",
+      "alt": "handle"
+    },
+    {
+      "line": "l6",
+      "en": "She'll never see it coming.",
+      "ko": "'절대 예상 못 할 거야'",
+      "th": "‘เธอไม่มีทางคาดคิดแน่’",
+      "alt": "She'll be so surprised."
+    },
+    {
+      "line": "l7",
+      "en": "let it slip",
+      "ko": "'(비밀을) 무심코 말해 버리다'",
+      "th": "‘เผลอหลุดปาก’",
+      "alt": "spill the beans"
+    }
+  ]
+}

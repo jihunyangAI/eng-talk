@@ -1,0 +1,183 @@
+{
+  "id": "bar-wrong-drink",
+  "order": 81,
+  "title": {
+    "en": "Fixing a Wrong Order",
+    "ko": "잘못 나간 음료 바로잡기",
+    "th": "แก้ไขเครื่องดื่มที่ทำผิด"
+  },
+  "description": {
+    "en": "Apologize for a mix-up and make it right.",
+    "ko": "주문이 섞였을 때 사과하고 바로잡는 상황",
+    "th": "ขอโทษที่สลับออร์เดอร์และแก้ไขให้"
+  },
+  "level": "intermediate",
+  "category": "bar-work",
+  "cover": "/images/bar-wrong-drink/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a Korean man in his 30s with short black hair and a beige jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me, I think this isn't what I ordered.",
+        "ko": "저기요, 이거 제가 주문한 게 아닌 것 같아요.",
+        "th": "ขอโทษครับ อันนี้ไม่ใช่ที่ผมสั่งนะ",
+        "audio": "/audio/bar-wrong-drink/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Oh no, really? What did you order?",
+        "ko": "어머, 정말요? 뭘 주문하셨어요?",
+        "th": "แย่แล้ว จริงเหรอคะ สั่งอะไรไว้คะ",
+        "audio": "/audio/bar-wrong-drink/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "A gin and tonic. This tastes like vodka.",
+        "ko": "진토닉이요. 이건 보드카 맛이 나요.",
+        "th": "จินโทนิกครับ อันนี้รสเหมือนวอดก้า",
+        "audio": "/audio/bar-wrong-drink/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "I'm so sorry, that's my bad. I must have mixed up the orders.",
+        "ko": "정말 죄송해요, 제 실수예요. 주문을 헷갈렸나 봐요.",
+        "th": "ขอโทษจริง ๆ ค่ะ ความผิดหนูเอง คงสลับออร์เดอร์กัน",
+        "audio": "/audio/bar-wrong-drink/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "It's okay. It happens.",
+        "ko": "괜찮아요. 그럴 수 있죠.",
+        "th": "ไม่เป็นไรครับ เกิดขึ้นได้",
+        "audio": "/audio/bar-wrong-drink/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Let me make you a fresh one right away.",
+        "ko": "바로 새로 만들어 드릴게요.",
+        "th": "เดี๋ยวทำแก้วใหม่ให้เลยนะคะ",
+        "audio": "/audio/bar-wrong-drink/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Thanks. No rush.",
+        "ko": "고마워요. 천천히 하세요.",
+        "th": "ขอบคุณครับ ไม่ต้องรีบ",
+        "audio": "/audio/bar-wrong-drink/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Here you go. And this one's on me for the trouble.",
+        "ko": "여기요. 번거롭게 해 드려서 이건 제가 살게요.",
+        "th": "นี่ค่ะ แก้วนี้หนูเลี้ยงนะคะ ขอโทษที่ทำให้ยุ่งยาก",
+        "audio": "/audio/bar-wrong-drink/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-wrong-drink/s1.webp",
+        "prompt": "At a busy bar, a guest holds up a glass and speaks politely to Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-wrong-drink/s2.webp",
+        "prompt": "Supansa looks apologetic with her hand on her chest."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-wrong-drink/s3.webp",
+        "prompt": "Supansa quickly makes a gin and tonic with a slice of lime."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-wrong-drink/s4.webp",
+        "prompt": "Supansa hands the new drink to the smiling guest."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l4",
+      "en": "that's my bad",
+      "ko": "'제 잘못이에요' — 가볍지만 진심 있는 사과.",
+      "th": "‘ความผิดฉันเอง’ ขอโทษแบบเป็นกันเอง",
+      "alt": "my mistake"
+    },
+    {
+      "line": "l4",
+      "en": "mixed up",
+      "ko": "'헷갈리다, 뒤섞다'",
+      "th": "‘สลับกัน สับสน’",
+      "alt": "confused"
+    },
+    {
+      "line": "l5",
+      "en": "It happens.",
+      "ko": "'그럴 수 있죠' — 실수를 너그럽게 넘길 때.",
+      "th": "‘เกิดขึ้นได้’ ใช้ให้อภัยเรื่องเล็ก ๆ",
+      "alt": "No big deal."
+    },
+    {
+      "line": "l8",
+      "en": "this one's on me",
+      "ko": "'이건 제가 살게요'",
+      "th": "‘แก้วนี้ฉันเลี้ยง’",
+      "alt": "it's my treat"
+    }
+  ]
+}

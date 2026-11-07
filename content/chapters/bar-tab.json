@@ -1,0 +1,183 @@
+{
+  "id": "bar-tab",
+  "order": 74,
+  "title": {
+    "en": "Opening and Closing a Tab",
+    "ko": "탭(외상) 열고 계산하기",
+    "th": "เปิดบิลและปิดบิล"
+  },
+  "description": {
+    "en": "Keep a card behind the bar and close the tab at the end.",
+    "ko": "카드를 맡아 두고 마지막에 한 번에 계산하는 상황",
+    "th": "เก็บบัตรไว้หลังบาร์แล้วเช็กบิลตอนท้าย"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-tab/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an American man in his 30s with a buzz cut and a black leather jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Can I start a tab?",
+        "ko": "탭으로 계산해도 돼요?",
+        "th": "ขอเปิดบิลไว้ก่อนได้ไหมครับ",
+        "audio": "/audio/bar-tab/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Sure. I'll just need to hold on to your card.",
+        "ko": "그럼요. 카드만 맡겨 주시면 돼요.",
+        "th": "ได้ค่ะ ขอเก็บบัตรไว้ก่อนนะคะ",
+        "audio": "/audio/bar-tab/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "No problem. Here you go.",
+        "ko": "괜찮아요. 여기요.",
+        "th": "ไม่มีปัญหาครับ นี่ครับ",
+        "audio": "/audio/bar-tab/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Thanks. Just let me know when you want to close it out.",
+        "ko": "고마워요. 계산하고 싶으실 때 말씀하세요.",
+        "th": "ขอบคุณค่ะ จะปิดบิลเมื่อไหร่บอกได้เลยนะคะ",
+        "audio": "/audio/bar-tab/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Actually, I think I'm good for tonight. Can I close my tab?",
+        "ko": "사실 오늘은 이 정도면 될 것 같아요. 계산할게요.",
+        "th": "จริง ๆ คืนนี้พอแล้วครับ ขอปิดบิลเลย",
+        "audio": "/audio/bar-tab/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Of course. That's three beers, so it comes to eighteen dollars.",
+        "ko": "물론이죠. 맥주 세 잔이라 18달러예요.",
+        "th": "ได้ค่ะ เบียร์สามแก้ว ทั้งหมดสิบแปดดอลลาร์ค่ะ",
+        "audio": "/audio/bar-tab/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Here's twenty-five. Keep the change.",
+        "ko": "25달러 드릴게요. 잔돈은 넣어 두세요.",
+        "th": "นี่ยี่สิบห้าครับ ไม่ต้องทอน",
+        "audio": "/audio/bar-tab/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Aw, thank you! Have a great night.",
+        "ko": "어머, 고마워요! 좋은 밤 보내세요.",
+        "th": "ว้าย ขอบคุณมากค่ะ ขอให้เป็นคืนที่ดีนะคะ",
+        "audio": "/audio/bar-tab/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-tab/s1.webp",
+        "prompt": "At a busy bar, a guest hands Supansa his credit card across the counter."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-tab/s2.webp",
+        "prompt": "Supansa places the card in a small tray behind the bar."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-tab/s3.webp",
+        "prompt": "Later, the guest has an empty glass and gestures for the check."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-tab/s4.webp",
+        "prompt": "The guest hands Supansa cash; she smiles warmly and waves."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "start a tab",
+      "ko": "'외상 장부를 열다' — 마시고 마지막에 한 번에 계산.",
+      "th": "‘เปิดบิลไว้’ ดื่มไปก่อนแล้วจ่ายทีเดียว",
+      "alt": "open a tab"
+    },
+    {
+      "line": "l4",
+      "en": "close it out",
+      "ko": "'(탭을) 정산하다'",
+      "th": "‘ปิดบิล เคลียร์ยอด’",
+      "alt": "settle up"
+    },
+    {
+      "line": "l5",
+      "en": "I'm good",
+      "ko": "'괜찮아요/이제 됐어요' — 거절할 때 자연스러운 말.",
+      "th": "‘พอแล้ว ไม่เอาเพิ่ม’ ปฏิเสธอย่างสุภาพ",
+      "alt": "I'm all set"
+    },
+    {
+      "line": "l7",
+      "en": "Keep the change.",
+      "ko": "'잔돈은 가지세요' — 팁으로 줄 때.",
+      "th": "‘ไม่ต้องทอน’ ให้เป็นทิป",
+      "alt": "Keep the rest."
+    }
+  ]
+}

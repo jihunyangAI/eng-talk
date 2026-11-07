@@ -1,0 +1,183 @@
+{
+  "id": "fr-movie-night",
+  "order": 92,
+  "title": {
+    "en": "Movie Night",
+    "ko": "영화 뭐 볼까?",
+    "th": "คืนดูหนัง"
+  },
+  "description": {
+    "en": "Pick something to watch together at home.",
+    "ko": "집에서 같이 볼 영화를 고르는 상황",
+    "th": "เลือกหนังดูด้วยกันที่บ้าน"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-movie-night/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Okay, what are we watching tonight?",
+        "ko": "자, 오늘 밤 뭐 볼까?",
+        "th": "โอเค คืนนี้ดูอะไรดี",
+        "audio": "/audio/fr-movie-night/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I'm in the mood for something funny.",
+        "ko": "웃긴 거 보고 싶은 기분이야.",
+        "th": "อยากดูอะไรตลก ๆ",
+        "audio": "/audio/fr-movie-night/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Have you seen the new comedy everyone's talking about?",
+        "ko": "요즘 다들 얘기하는 새 코미디 봤어?",
+        "th": "ดูหนังตลกเรื่องใหม่ที่ทุกคนพูดถึงยัง",
+        "audio": "/audio/fr-movie-night/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "No, but I heard it's hilarious. No spoilers!",
+        "ko": "아니, 근데 엄청 웃기대. 스포 금지!",
+        "th": "ยัง แต่ได้ยินว่าฮามาก ห้ามสปอยล์นะ!",
+        "audio": "/audio/fr-movie-night/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "My lips are sealed. I'll make the popcorn.",
+        "ko": "입 꾹 다물게. 내가 팝콘 만들게.",
+        "th": "ปิดปากสนิท เดี๋ยวทำป๊อปคอร์นให้",
+        "audio": "/audio/fr-movie-night/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Perfect. Can you get some drinks too?",
+        "ko": "완벽해. 음료도 좀 가져올래?",
+        "th": "เพอร์เฟกต์ เอาเครื่องดื่มมาด้วยได้ไหม",
+        "audio": "/audio/fr-movie-night/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "On it. Don't start without me!",
+        "ko": "바로 할게. 나 없이 시작하지 마!",
+        "th": "จัดให้ อย่าเริ่มก่อนนะ!",
+        "audio": "/audio/fr-movie-night/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "I won't. Hurry up!",
+        "ko": "안 해. 빨리 와!",
+        "th": "ไม่เริ่มหรอก รีบมาเร็ว!",
+        "audio": "/audio/fr-movie-night/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-movie-night/s1.webp",
+        "prompt": "In a cozy living room at night, Supansa sits on the sofa with a TV remote while Ryan stands nearby."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-movie-night/s2.webp",
+        "prompt": "Supansa and Ryan scroll through movie options on a big TV screen."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-movie-night/s3.webp",
+        "prompt": "In the kitchen, Ryan pours popcorn into a big bowl, grinning."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-movie-night/s4.webp",
+        "prompt": "Supansa on the sofa waves impatiently at Ryan, who hurries over with popcorn and drinks."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I'm in the mood for",
+      "ko": "'~가 당기는 기분이야'",
+      "th": "‘อารมณ์อยาก…’",
+      "alt": "I feel like"
+    },
+    {
+      "line": "l4",
+      "en": "hilarious",
+      "ko": "'엄청 웃긴' — funny보다 훨씬 강해요.",
+      "th": "‘ฮามาก’ แรงกว่า funny",
+      "alt": "so funny"
+    },
+    {
+      "line": "l5",
+      "en": "My lips are sealed.",
+      "ko": "'입 꾹 다물게(비밀 지킬게)'",
+      "th": "‘ปิดปากเงียบ จะไม่พูด’",
+      "alt": "I won't say a word."
+    },
+    {
+      "line": "l7",
+      "en": "On it.",
+      "ko": "'바로 할게' — 아주 짧고 자연스러운 대답.",
+      "th": "‘จัดให้ทันที’ คำตอบสั้น ๆ ที่ใช้บ่อย",
+      "alt": "I'm on it."
+    }
+  ]
+}

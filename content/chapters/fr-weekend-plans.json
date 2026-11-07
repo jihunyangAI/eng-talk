@@ -1,0 +1,183 @@
+{
+  "id": "fr-weekend-plans",
+  "order": 90,
+  "title": {
+    "en": "Weekend Plans",
+    "ko": "주말 계획 세우기",
+    "th": "แพลนวันหยุด"
+  },
+  "description": {
+    "en": "Make casual plans for the weekend with a friend.",
+    "ko": "친구와 주말 계획을 가볍게 정하는 상황",
+    "th": "วางแผนวันหยุดสบาย ๆ กับเพื่อน"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-weekend-plans/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hey, got any plans this weekend?",
+        "ko": "야, 이번 주말에 계획 있어?",
+        "th": "เฮ้ เสาร์อาทิตย์นี้มีแพลนไหม",
+        "audio": "/audio/fr-weekend-plans/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Not really. I'm off on Sunday. Why?",
+        "ko": "딱히. 일요일에 쉬어. 왜?",
+        "th": "ไม่มีนะ วันอาทิตย์หยุด ทำไมเหรอ",
+        "audio": "/audio/fr-weekend-plans/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "A few of us are going to the beach. Wanna come?",
+        "ko": "몇 명이서 바다 가려고. 같이 갈래?",
+        "th": "พวกเราจะไปทะเลกัน ไปด้วยกันไหม",
+        "audio": "/audio/fr-weekend-plans/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "I'm down! What time are you leaving?",
+        "ko": "콜! 몇 시에 출발해?",
+        "th": "ไปสิ! ออกกี่โมง",
+        "audio": "/audio/fr-weekend-plans/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Around nine. I can pick you up if you want.",
+        "ko": "9시쯤. 원하면 데리러 갈게.",
+        "th": "ประมาณเก้าโมง ไปรับได้นะถ้าอยากให้ไปรับ",
+        "audio": "/audio/fr-weekend-plans/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "That'd be awesome. Should I bring anything?",
+        "ko": "그럼 완전 좋지. 뭐 챙겨 갈까?",
+        "th": "ดีมากเลย ต้องเอาอะไรไปไหม",
+        "audio": "/audio/fr-weekend-plans/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Just sunscreen and snacks. We've got the rest covered.",
+        "ko": "선크림이랑 간식만. 나머지는 우리가 준비했어.",
+        "th": "แค่ครีมกันแดดกับขนม ที่เหลือพวกเราจัดการแล้ว",
+        "audio": "/audio/fr-weekend-plans/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Sweet. See you Sunday!",
+        "ko": "좋아. 일요일에 봐!",
+        "th": "เจ๋ง เจอกันวันอาทิตย์!",
+        "audio": "/audio/fr-weekend-plans/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-weekend-plans/s1.webp",
+        "prompt": "At a small café table, Ryan talks to Supansa while scrolling his phone."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-weekend-plans/s2.webp",
+        "prompt": "Supansa smiles and checks her work schedule on her phone."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-weekend-plans/s3.webp",
+        "prompt": "Ryan points to a beach photo on his phone; Supansa looks excited."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-weekend-plans/s4.webp",
+        "prompt": "Supansa and Ryan do a fist bump across the café table."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "got any plans",
+      "ko": "'계획 있어?' — Do you have any plans?를 줄인 말.",
+      "th": "‘มีแพลนไหม’ ย่อจาก Do you have any plans?",
+      "alt": "doing anything"
+    },
+    {
+      "line": "l2",
+      "en": "I'm off",
+      "ko": "'나 쉬어(근무 없어)'",
+      "th": "‘หยุดงาน’",
+      "alt": "I have the day off"
+    },
+    {
+      "line": "l4",
+      "en": "I'm down!",
+      "ko": "'콜! 나도 낄래!' — 제안에 찬성할 때.",
+      "th": "‘เอาด้วย!’ ตอบรับคำชวน",
+      "alt": "I'm in!"
+    },
+    {
+      "line": "l7",
+      "en": "We've got the rest covered.",
+      "ko": "'나머지는 우리가 알아서 할게'",
+      "th": "‘ที่เหลือพวกเราจัดการเอง’",
+      "alt": "We'll take care of the rest."
+    }
+  ]
+}

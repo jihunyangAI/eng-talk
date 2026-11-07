@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Chapter } from "@/content/types";
 import type { TranslationMode } from "@/lib/i18n";
+import { ExpressionCard } from "./ExpressionCard";
 import { LangSwitcher } from "./LangSwitcher";
 import { LineBubble } from "./LineBubble";
 import { useSettings } from "./SettingsProvider";
@@ -137,6 +138,7 @@ export function DialogueViewer({ chapter }: { chapter: Chapter }) {
               />
             );
           })}
+          <ExpressionCard items={(chapter.expressions ?? []).filter((x) => scene.lines.includes(x.line))} />
         </div>
       </main>
 

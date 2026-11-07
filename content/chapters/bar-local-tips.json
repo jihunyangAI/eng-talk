@@ -1,0 +1,183 @@
+{
+  "id": "bar-local-tips",
+  "order": 78,
+  "title": {
+    "en": "Sharing Local Tips",
+    "ko": "현지 꿀팁 알려 주기",
+    "th": "แนะนำที่เที่ยวแบบคนท้องถิ่น"
+  },
+  "description": {
+    "en": "Recommend hidden spots and street food like a local.",
+    "ko": "현지인처럼 숨은 명소와 길거리 음식을 추천하는 상황",
+    "th": "แนะนำที่ลับและสตรีทฟู้ดแบบคนท้องถิ่น"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-local-tips/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a French man in his 20s with wavy dark hair and a striped shirt, holding a small travel guidebook",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "So, if you had one day off, where would you go?",
+        "ko": "만약 하루 쉬는 날이 있으면 어디 가요?",
+        "th": "ถ้ามีวันหยุดหนึ่งวัน คุณจะไปไหนครับ",
+        "audio": "/audio/bar-local-tips/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Honestly? Skip the tourist spots and go to the old town.",
+        "ko": "솔직히요? 관광지는 건너뛰고 구시가지로 가세요.",
+        "th": "พูดตรง ๆ นะคะ ข้ามที่เที่ยวนักท่องเที่ยวไปเลย ไปเมืองเก่าดีกว่า",
+        "audio": "/audio/bar-local-tips/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Really? What's there?",
+        "ko": "정말요? 거기 뭐가 있어요?",
+        "th": "จริงเหรอ มีอะไรครับ",
+        "audio": "/audio/bar-local-tips/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Cute little cafés, street art, and the best noodle soup in town.",
+        "ko": "아기자기한 카페, 거리 예술, 그리고 이 동네 최고의 국수요.",
+        "th": "คาเฟ่น่ารัก ๆ สตรีทอาร์ต แล้วก็ก๋วยเตี๋ยวที่อร่อยที่สุดในเมืองค่ะ",
+        "audio": "/audio/bar-local-tips/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "I'm sold. Is it easy to get there?",
+        "ko": "완전 넘어갔어요. 가기 쉬워요?",
+        "th": "โดนแล้วครับ ไปง่ายไหม",
+        "audio": "/audio/bar-local-tips/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Super easy. Just hop on the blue bus. It's about twenty minutes.",
+        "ko": "엄청 쉬워요. 파란 버스 타면 돼요. 20분쯤 걸려요.",
+        "th": "ง่ายมากค่ะ ขึ้นรถเมล์สีฟ้าไปเลย ประมาณยี่สิบนาที",
+        "audio": "/audio/bar-local-tips/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "You're a lifesaver. Thanks for the tip!",
+        "ko": "덕분에 살았어요. 팁 고마워요!",
+        "th": "ช่วยชีวิตผมไว้เลย ขอบคุณสำหรับทิปนะครับ",
+        "audio": "/audio/bar-local-tips/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Anytime! Tell me how it goes.",
+        "ko": "언제든지요! 어땠는지 알려 주세요.",
+        "th": "ยินดีเสมอค่ะ ไปแล้วเล่าให้ฟังด้วยนะคะ",
+        "audio": "/audio/bar-local-tips/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-local-tips/s1.webp",
+        "prompt": "At a relaxed bar in the early evening, a traveler with a guidebook leans on the counter and asks Supansa a question."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-local-tips/s2.webp",
+        "prompt": "Supansa draws a small map on a paper napkin."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-local-tips/s3.webp",
+        "prompt": "The traveler looks at the napkin map with excitement."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-local-tips/s4.webp",
+        "prompt": "The traveler waves goodbye with the napkin map in hand; Supansa waves back."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Skip",
+      "ko": "'건너뛰다, 안 가도 된다'",
+      "th": "‘ข้ามไปเลย ไม่ต้องไป’",
+      "alt": "Don't bother with"
+    },
+    {
+      "line": "l5",
+      "en": "I'm sold.",
+      "ko": "'완전 넘어갔어요(하기로 했어요)'",
+      "th": "‘โดนแล้ว ตกลงเอา’",
+      "alt": "You had me at …"
+    },
+    {
+      "line": "l6",
+      "en": "hop on",
+      "ko": "'(버스 등에) 훌쩍 타다'",
+      "th": "‘กระโดดขึ้นรถ’ คือขึ้นรถแบบง่าย ๆ",
+      "alt": "take"
+    },
+    {
+      "line": "l7",
+      "en": "You're a lifesaver.",
+      "ko": "'덕분에 살았어요' — 큰 도움을 받았을 때.",
+      "th": "‘ช่วยชีวิตไว้เลย’ ใช้ขอบคุณที่ช่วยมาก",
+      "alt": "You saved me."
+    }
+  ]
+}

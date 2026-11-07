@@ -1,0 +1,183 @@
+{
+  "id": "fr-rough-day",
+  "order": 96,
+  "title": {
+    "en": "Venting After a Rough Day",
+    "ko": "힘든 하루 하소연",
+    "th": "ระบายหลังวันแย่ ๆ"
+  },
+  "description": {
+    "en": "Comfort a friend after a bad day at work.",
+    "ko": "회사에서 힘든 하루를 보낸 친구를 위로하는 상황",
+    "th": "ปลอบเพื่อนหลังวันทำงานแย่ ๆ"
+  },
+  "level": "intermediate",
+  "category": "friends",
+  "cover": "/images/fr-rough-day/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Jess",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Jess, an American woman in her mid 20s with shoulder-length wavy light-brown hair, freckles, and a mustard-yellow cardigan",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Ugh, today was such a rough day.",
+        "ko": "아, 오늘 진짜 힘든 하루였어.",
+        "th": "เฮ้อ วันนี้แย่มากเลย",
+        "audio": "/audio/fr-rough-day/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Aw, what happened? Do you want to talk about it?",
+        "ko": "어머, 무슨 일이야? 얘기하고 싶어?",
+        "th": "อ้าว เกิดอะไรขึ้น อยากเล่าไหม",
+        "audio": "/audio/fr-rough-day/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "My boss yelled at me in front of everyone. It wasn't even my fault.",
+        "ko": "상사가 다들 앞에서 나한테 소리 질렀어. 내 잘못도 아닌데.",
+        "th": "หัวหน้าตะโกนใส่ต่อหน้าทุกคน ทั้งที่ไม่ใช่ความผิดฉันเลย",
+        "audio": "/audio/fr-rough-day/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "That's so unfair! I'd be upset too.",
+        "ko": "너무 불공평하다! 나라도 속상했을 거야.",
+        "th": "ไม่ยุติธรรมเลย ถ้าเป็นฉันก็คงเสียใจเหมือนกัน",
+        "audio": "/audio/fr-rough-day/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "I just wanted to cry, honestly.",
+        "ko": "솔직히 그냥 울고 싶었어.",
+        "th": "พูดตรง ๆ อยากร้องไห้เลย",
+        "audio": "/audio/fr-rough-day/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "That makes total sense. Hang in there. It'll get better.",
+        "ko": "완전 이해돼. 힘내. 좋아질 거야.",
+        "th": "เข้าใจเลย สู้ ๆ นะ เดี๋ยวก็ดีขึ้น",
+        "audio": "/audio/fr-rough-day/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Thanks for listening. I feel a little better already.",
+        "ko": "들어 줘서 고마워. 벌써 좀 나아졌어.",
+        "th": "ขอบคุณที่ฟังนะ รู้สึกดีขึ้นแล้วนิดนึง",
+        "audio": "/audio/fr-rough-day/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Anytime. Let's get some ice cream and forget about it.",
+        "ko": "언제든지. 아이스크림 먹고 잊어버리자.",
+        "th": "ได้ตลอดเลย ไปกินไอติมแล้วลืม ๆ มันไปเถอะ",
+        "audio": "/audio/fr-rough-day/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-rough-day/s1.webp",
+        "prompt": "On a park bench at sunset, Jess sits with her head in her hands while Supansa sits beside her."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-rough-day/s2.webp",
+        "prompt": "Supansa puts a comforting hand on Jess's shoulder."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-rough-day/s3.webp",
+        "prompt": "Jess wipes a tear and gives a small smile; Supansa hugs her from the side."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-rough-day/s4.webp",
+        "prompt": "Supansa and Jess walk in the park eating ice cream cones and smiling."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "a rough day",
+      "ko": "'힘든 하루'",
+      "th": "‘วันที่แย่ หนักหนา’",
+      "alt": "a tough day"
+    },
+    {
+      "line": "l2",
+      "en": "Do you want to talk about it?",
+      "ko": "'얘기하고 싶어?' — 위로할 때 기본 표현.",
+      "th": "‘อยากเล่าไหม’ ประโยคพื้นฐานเวลาปลอบใจ",
+      "alt": "Wanna talk?"
+    },
+    {
+      "line": "l6",
+      "en": "Hang in there.",
+      "ko": "'조금만 버텨, 힘내'",
+      "th": "‘อดทนไว้ สู้ ๆ’",
+      "alt": "Keep your chin up."
+    },
+    {
+      "line": "l8",
+      "en": "Anytime.",
+      "ko": "'언제든지' — 고맙다는 말에 따뜻하게 답할 때.",
+      "th": "‘ได้ทุกเมื่อ’ ตอบคำขอบคุณอย่างอบอุ่น",
+      "alt": "Of course."
+    }
+  ]
+}

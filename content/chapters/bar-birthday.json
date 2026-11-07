@@ -1,0 +1,183 @@
+{
+  "id": "bar-birthday",
+  "order": 85,
+  "title": {
+    "en": "Celebrating a Birthday",
+    "ko": "생일 손님 축하하기",
+    "th": "ฉลองวันเกิดให้แขก"
+  },
+  "description": {
+    "en": "Celebrate a guest's birthday with a special shot.",
+    "ko": "생일인 손님을 특별한 샷으로 축하해 주는 상황",
+    "th": "ฉลองวันเกิดแขกด้วยช็อตพิเศษ"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-birthday/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an American woman in her late 20s with long blonde hair, a sparkly party dress, and a birthday tiara",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Guess what? It's my birthday today!",
+        "ko": "있잖아요, 오늘 제 생일이에요!",
+        "th": "รู้อะไรไหม วันนี้วันเกิดฉันเอง",
+        "audio": "/audio/bar-birthday/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Happy birthday! How old are you turning?",
+        "ko": "생일 축하해요! 몇 살 되는 거예요?",
+        "th": "สุขสันต์วันเกิดค่ะ อายุเท่าไหร่แล้วคะ",
+        "audio": "/audio/bar-birthday/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Twenty-nine. Again!",
+        "ko": "스물아홉이요. 또!",
+        "th": "ยี่สิบเก้า อีกแล้ว!",
+        "audio": "/audio/bar-birthday/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Ha! Forever twenty-nine. Are you celebrating with friends?",
+        "ko": "하하! 영원한 스물아홉. 친구들이랑 축하하는 거예요?",
+        "th": "ฮ่า ๆ ยี่สิบเก้าตลอดกาล มาฉลองกับเพื่อนเหรอคะ",
+        "audio": "/audio/bar-birthday/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Yeah, they're on their way. Can you make something fun?",
+        "ko": "네, 오는 중이에요. 재미있는 거 만들어 줄 수 있어요?",
+        "th": "ใช่ กำลังมากัน ทำอะไรสนุก ๆ ให้หน่อยได้ไหม",
+        "audio": "/audio/bar-birthday/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Leave it to me! How about our birthday cake shot?",
+        "ko": "저한테 맡겨요! 저희 생일 케이크 샷 어때요?",
+        "th": "ไว้ใจหนูได้เลย ลองช็อตเค้กวันเกิดของร้านไหมคะ",
+        "audio": "/audio/bar-birthday/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "That sounds amazing. Let's do it!",
+        "ko": "완전 좋아요. 그걸로 해요!",
+        "th": "ฟังดูเลิศมาก จัดเลย!",
+        "audio": "/audio/bar-birthday/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Here's to you! Make a wish!",
+        "ko": "당신을 위해 건배! 소원 빌어요!",
+        "th": "แด่คุณค่ะ อธิษฐานเลย!",
+        "audio": "/audio/bar-birthday/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-birthday/s1.webp",
+        "prompt": "At a festive bar decorated with lights, a woman wearing a sparkly birthday tiara chats happily with Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-birthday/s2.webp",
+        "prompt": "Supansa claps her hands and laughs."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-birthday/s3.webp",
+        "prompt": "Supansa makes a colorful shot topped with whipped cream and sprinkles."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-birthday/s4.webp",
+        "prompt": "Supansa places the shot with a small sparkler candle in front of the delighted woman."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Guess what?",
+      "ko": "'있잖아, 그거 알아?' — 소식을 전하기 전에.",
+      "th": "‘รู้อะไรไหม’ ใช้ก่อนเล่าข่าว",
+      "alt": "You know what?"
+    },
+    {
+      "line": "l5",
+      "en": "on their way",
+      "ko": "'오는 중이에요'",
+      "th": "‘กำลังมา’",
+      "alt": "coming"
+    },
+    {
+      "line": "l6",
+      "en": "Leave it to me!",
+      "ko": "'저한테 맡겨요!'",
+      "th": "‘ไว้ใจฉัน ปล่อยให้ฉันจัดการ’",
+      "alt": "I got this!"
+    },
+    {
+      "line": "l8",
+      "en": "Here's to you!",
+      "ko": "'당신을 위해 건배!'",
+      "th": "‘แด่คุณ!’ ใช้ตอนชนแก้ว",
+      "alt": "Cheers to you!"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "fr-concert",
+  "order": 106,
+  "title": {
+    "en": "Getting Concert Tickets",
+    "ko": "콘서트 표 구하기",
+    "th": "จองตั๋วคอนเสิร์ต"
+  },
+  "description": {
+    "en": "Get excited about a concert and buy tickets together.",
+    "ko": "좋아하는 가수 콘서트 표를 같이 사는 상황",
+    "th": "ตื่นเต้นกับคอนเสิร์ตและซื้อตั๋วด้วยกัน"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-concert/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Did you hear? Your favorite band is coming to town!",
+        "ko": "들었어? 네가 제일 좋아하는 밴드가 여기 온대!",
+        "th": "ได้ยินยัง วงโปรดของเธอจะมาเล่นที่นี่!",
+        "audio": "/audio/fr-concert/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "What? No way! When?",
+        "ko": "뭐? 말도 안 돼! 언제?",
+        "th": "อะไรนะ ไม่จริงน่า! เมื่อไหร่",
+        "audio": "/audio/fr-concert/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Next month. Tickets go on sale tomorrow at ten.",
+        "ko": "다음 달. 표는 내일 10시에 오픈해.",
+        "th": "เดือนหน้า ตั๋วเปิดขายพรุ่งนี้สิบโมง",
+        "audio": "/audio/fr-concert/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "They're gonna sell out so fast. We have to be ready.",
+        "ko": "엄청 빨리 매진될 거야. 준비해야 돼.",
+        "th": "ต้องขายหมดเร็วมากแน่ ต้องเตรียมพร้อม",
+        "audio": "/audio/fr-concert/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "I'll set an alarm. Want me to get two?",
+        "ko": "알람 맞춰 둘게. 두 장 살까?",
+        "th": "เดี๋ยวตั้งนาฬิกาปลุก เอาสองใบไหม",
+        "audio": "/audio/fr-concert/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Yes, please! I'll pay you back right away.",
+        "ko": "응, 부탁해! 바로 갚을게.",
+        "th": "เอา! เดี๋ยวโอนคืนทันที",
+        "audio": "/audio/fr-concert/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Got them! We're going!",
+        "ko": "구했어! 우리 간다!",
+        "th": "ได้แล้ว! เราได้ไปแน่!",
+        "audio": "/audio/fr-concert/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Ahh! You're amazing! This is a dream come true.",
+        "ko": "꺄! 너 최고야! 꿈이 이뤄졌어.",
+        "th": "อ๊ากก! เธอสุดยอด! เหมือนฝันเป็นจริงเลย",
+        "audio": "/audio/fr-concert/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-concert/s1.webp",
+        "prompt": "In a living room, Ryan excitedly shows Supansa a concert poster on his phone."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-concert/s2.webp",
+        "prompt": "Supansa covers her mouth in shock and excitement."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-concert/s3.webp",
+        "prompt": "The next morning, Ryan clicks quickly on a laptop while Supansa watches anxiously."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-concert/s4.webp",
+        "prompt": "Supansa jumps with joy and hugs Ryan, who holds up his phone showing two tickets."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "coming to town",
+      "ko": "'(공연 등이) 이 도시에 온다'",
+      "th": "‘จะมาที่เมืองนี้’ เช่น มาเล่นคอนเสิร์ต",
+      "alt": "playing here"
+    },
+    {
+      "line": "l3",
+      "en": "go on sale",
+      "ko": "'판매를 시작하다'",
+      "th": "‘เปิดขาย’",
+      "alt": "be released"
+    },
+    {
+      "line": "l4",
+      "en": "sell out",
+      "ko": "'매진되다'",
+      "th": "‘ขายหมด’",
+      "alt": "be gone"
+    },
+    {
+      "line": "l8",
+      "en": "a dream come true",
+      "ko": "'꿈이 이뤄진 일'",
+      "th": "‘ฝันที่เป็นจริง’",
+      "alt": "unbelievable"
+    }
+  ]
+}

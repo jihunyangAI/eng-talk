@@ -1,0 +1,183 @@
+{
+  "id": "fr-trip-plan",
+  "order": 104,
+  "title": {
+    "en": "Planning a Trip Together",
+    "ko": "같이 여행 계획 세우기",
+    "th": "วางแผนเที่ยวด้วยกัน"
+  },
+  "description": {
+    "en": "Plan a short trip and split the costs.",
+    "ko": "짧은 여행을 계획하고 비용을 나누는 상황",
+    "th": "วางแผนทริปสั้น ๆ และหารค่าใช้จ่าย"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-trip-plan/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "We should take a trip before you start your new job.",
+        "ko": "너 새 일 시작하기 전에 여행 가자.",
+        "th": "เราควรไปเที่ยวกันก่อนเธอเริ่มงานใหม่นะ",
+        "audio": "/audio/fr-trip-plan/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Yes! I've been dying to go to Chiang Mai.",
+        "ko": "좋아! 치앙마이 진짜 가 보고 싶었어.",
+        "th": "เอาเลย! อยากไปเชียงใหม่มากกก",
+        "audio": "/audio/fr-trip-plan/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Chiang Mai sounds perfect. How about three days?",
+        "ko": "치앙마이 완벽하다. 3일 어때?",
+        "th": "เชียงใหม่ดีเลย ไปสามวันไหม",
+        "audio": "/audio/fr-trip-plan/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Works for me. Should we fly or take the night train?",
+        "ko": "좋아. 비행기 탈까, 야간 기차 탈까?",
+        "th": "โอเค บินไปหรือนั่งรถไฟกลางคืนดี",
+        "audio": "/audio/fr-trip-plan/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "The night train sounds like an adventure. Let's do that!",
+        "ko": "야간 기차가 모험 같아서 좋다. 그걸로 하자!",
+        "th": "รถไฟกลางคืนฟังดูผจญภัยดี เอาอันนั้น!",
+        "audio": "/audio/fr-trip-plan/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "I'll book the hotel if you book the tickets.",
+        "ko": "네가 표 예약하면 내가 호텔 예약할게.",
+        "th": "ถ้าเธอจองตั๋ว ฉันจองโรงแรมเอง",
+        "audio": "/audio/fr-trip-plan/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Deal. We can split everything fifty-fifty.",
+        "ko": "콜. 전부 반반 하자.",
+        "th": "ตกลง หารครึ่งทุกอย่างเลย",
+        "audio": "/audio/fr-trip-plan/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "I can't wait! This is going to be epic.",
+        "ko": "너무 기대돼! 완전 끝내줄 거야.",
+        "th": "รอไม่ไหวแล้ว! ต้องสุดยอดแน่",
+        "audio": "/audio/fr-trip-plan/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-trip-plan/s1.webp",
+        "prompt": "At a coffee shop, Ryan and Supansa look at a laptop showing travel photos of northern Thailand."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-trip-plan/s2.webp",
+        "prompt": "Supansa points at a picture of mountains and temples, excited."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-trip-plan/s3.webp",
+        "prompt": "Ryan checks train schedules on his phone while Supansa leans in to see."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-trip-plan/s4.webp",
+        "prompt": "Supansa and Ryan shake hands across the table like making a deal, laughing."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I've been dying to",
+      "ko": "'~하고 싶어 죽겠었어'",
+      "th": "‘อยาก…มากกก’",
+      "alt": "I've really wanted to"
+    },
+    {
+      "line": "l4",
+      "en": "Works for me.",
+      "ko": "'나는 좋아'",
+      "th": "‘โอเคสำหรับฉัน’",
+      "alt": "Fine by me."
+    },
+    {
+      "line": "l7",
+      "en": "fifty-fifty",
+      "ko": "'반반'",
+      "th": "‘หารครึ่ง’",
+      "alt": "split it evenly"
+    },
+    {
+      "line": "l8",
+      "en": "epic",
+      "ko": "'끝내주는, 전설적인' — 젊은 원어민이 자주 써요.",
+      "th": "‘สุดยอด ในตำนาน’ วัยรุ่นใช้บ่อย",
+      "alt": "amazing"
+    }
+  ]
+}

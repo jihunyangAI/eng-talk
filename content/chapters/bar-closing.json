@@ -1,0 +1,183 @@
+{
+  "id": "bar-closing",
+  "order": 88,
+  "title": {
+    "en": "Saying Goodbye at Closing",
+    "ko": "마감하며 손님 배웅하기",
+    "th": "บอกลาแขกตอนปิดร้าน"
+  },
+  "description": {
+    "en": "Thank guests, call a taxi, and say goodbye warmly.",
+    "ko": "손님에게 감사 인사를 하고 택시를 불러 배웅하는 상황",
+    "th": "ขอบคุณแขก เรียกแท็กซี่ และบอกลาอย่างอบอุ่น"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-closing/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a Swedish man in his 30s with a blond man bun and a beige trench coat",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Thanks for a great night. You're an awesome bartender.",
+        "ko": "멋진 밤 고마워요. 정말 최고의 바텐더예요.",
+        "th": "ขอบคุณสำหรับคืนที่ดีนะ คุณเป็นบาร์เทนเดอร์ที่เจ๋งมาก",
+        "audio": "/audio/bar-closing/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Thank you! I'm glad you had fun.",
+        "ko": "고마워요! 즐거우셨다니 기뻐요.",
+        "th": "ขอบคุณค่ะ ดีใจที่สนุกนะคะ",
+        "audio": "/audio/bar-closing/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Could you call us a taxi?",
+        "ko": "택시 좀 불러 줄래요?",
+        "th": "ช่วยเรียกแท็กซี่ให้หน่อยได้ไหม",
+        "audio": "/audio/bar-closing/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Sure. Where are you headed?",
+        "ko": "그럼요. 어디로 가세요?",
+        "th": "ได้ค่ะ จะไปไหนคะ",
+        "audio": "/audio/bar-closing/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "The Riverside Hotel.",
+        "ko": "리버사이드 호텔이요.",
+        "th": "โรงแรมริเวอร์ไซด์ครับ",
+        "audio": "/audio/bar-closing/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Got it. It'll be here in about five minutes.",
+        "ko": "알겠어요. 5분 정도면 올 거예요.",
+        "th": "ได้ค่ะ อีกประมาณห้านาทีมาถึงค่ะ",
+        "audio": "/audio/bar-closing/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Perfect. Have a good one!",
+        "ko": "좋아요. 좋은 하루 보내요!",
+        "th": "เยี่ยม ขอให้วันนี้ดีนะ",
+        "audio": "/audio/bar-closing/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "You too! Get home safe, and see you next time.",
+        "ko": "손님도요! 조심히 들어가시고 다음에 봬요.",
+        "th": "เช่นกันค่ะ กลับบ้านปลอดภัยนะคะ แล้วเจอกันใหม่",
+        "audio": "/audio/bar-closing/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-closing/s1.webp",
+        "prompt": "At a nearly empty bar at closing time, a guest in a trench coat thanks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-closing/s2.webp",
+        "prompt": "Supansa smiles while stacking clean glasses."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-closing/s3.webp",
+        "prompt": "Supansa uses a phone app to book a taxi."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-closing/s4.webp",
+        "prompt": "At the bar entrance at night, Supansa waves goodbye as the guest gets into a taxi."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I'm glad you had fun.",
+      "ko": "'즐거우셨다니 기뻐요'",
+      "th": "‘ดีใจที่สนุกนะ’",
+      "alt": "Glad you enjoyed it."
+    },
+    {
+      "line": "l4",
+      "en": "Where are you headed?",
+      "ko": "'어디로 가세요?' — Where are you going?보다 자연스러워요.",
+      "th": "‘จะไปไหนคะ’ ฟังเป็นธรรมชาติกว่า Where are you going?",
+      "alt": "Where to?"
+    },
+    {
+      "line": "l7",
+      "en": "Have a good one!",
+      "ko": "'좋은 하루(밤) 보내요!' — 시간대 상관없이 쓰는 작별 인사.",
+      "th": "‘ขอให้วันนี้ดีนะ’ คำลาที่ใช้ได้ทุกเวลา",
+      "alt": "Take care!"
+    },
+    {
+      "line": "l8",
+      "en": "Get home safe",
+      "ko": "'조심히 들어가세요'",
+      "th": "‘กลับบ้านปลอดภัยนะ’",
+      "alt": "Get home safely"
+    }
+  ]
+}

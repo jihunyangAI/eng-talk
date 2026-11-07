@@ -814,5 +814,485 @@
     "level": "beginner",
     "category": "cruise-work",
     "cover": "/images/cw-duty-free/s1.webp"
+  },
+  {
+    "id": "bar-hello",
+    "order": 69,
+    "title": {
+      "en": "Greeting a Guest at the Bar",
+      "ko": "바에 온 손님 맞이하기",
+      "th": "ทักทายแขกที่บาร์"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-hello/s1.webp"
+  },
+  {
+    "id": "bar-first-time",
+    "order": 70,
+    "title": {
+      "en": "Is This Your First Time Here?",
+      "ko": "처음 오셨어요? (스몰토크)",
+      "th": "มาที่นี่ครั้งแรกเหรอคะ"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-first-time/s1.webp"
+  },
+  {
+    "id": "bar-recommend",
+    "order": 71,
+    "title": {
+      "en": "Recommending a Cocktail",
+      "ko": "취향 듣고 칵테일 추천하기",
+      "th": "แนะนำค็อกเทลตามรสนิยม"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-recommend/s1.webp"
+  },
+  {
+    "id": "bar-beer",
+    "order": 72,
+    "title": {
+      "en": "Beer on Tap",
+      "ko": "생맥주 주문 받기",
+      "th": "เบียร์สด"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-beer/s1.webp"
+  },
+  {
+    "id": "bar-happy-hour",
+    "order": 73,
+    "title": {
+      "en": "Happy Hour Deals",
+      "ko": "해피아워 안내",
+      "th": "โปรแฮปปี้อาวร์"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-happy-hour/s1.webp"
+  },
+  {
+    "id": "bar-tab",
+    "order": 74,
+    "title": {
+      "en": "Opening and Closing a Tab",
+      "ko": "탭(외상) 열고 계산하기",
+      "th": "เปิดบิลและปิดบิล"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-tab/s1.webp"
+  },
+  {
+    "id": "bar-regular",
+    "order": 75,
+    "title": {
+      "en": "A Regular Customer",
+      "ko": "단골손님 맞이하기",
+      "th": "ลูกค้าประจำ"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-regular/s1.webp"
+  },
+  {
+    "id": "bar-mocktail",
+    "order": 76,
+    "title": {
+      "en": "Non-Alcoholic Drinks",
+      "ko": "논알코올 음료 추천",
+      "th": "เครื่องดื่มไร้แอลกอฮอล์"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-mocktail/s1.webp"
+  },
+  {
+    "id": "bar-sports",
+    "order": 77,
+    "title": {
+      "en": "Talking About the Game",
+      "ko": "TV 경기 보며 스몰토크",
+      "th": "คุยเรื่องเกมกีฬา"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-sports/s1.webp"
+  },
+  {
+    "id": "bar-local-tips",
+    "order": 78,
+    "title": {
+      "en": "Sharing Local Tips",
+      "ko": "현지 꿀팁 알려 주기",
+      "th": "แนะนำที่เที่ยวแบบคนท้องถิ่น"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-local-tips/s1.webp"
+  },
+  {
+    "id": "bar-how-strong",
+    "order": 79,
+    "title": {
+      "en": "Neat, On the Rocks, or Mixed?",
+      "ko": "위스키 마시는 방법 설명",
+      "th": "นีท ออนเดอะร็อก หรือผสม"
+    },
+    "level": "intermediate",
+    "category": "bar-work",
+    "cover": "/images/bar-how-strong/s1.webp"
+  },
+  {
+    "id": "bar-split-bill",
+    "order": 80,
+    "title": {
+      "en": "Splitting the Bill",
+      "ko": "더치페이 계산",
+      "th": "หารบิล"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-split-bill/s1.webp"
+  },
+  {
+    "id": "bar-wrong-drink",
+    "order": 81,
+    "title": {
+      "en": "Fixing a Wrong Order",
+      "ko": "잘못 나간 음료 바로잡기",
+      "th": "แก้ไขเครื่องดื่มที่ทำผิด"
+    },
+    "level": "intermediate",
+    "category": "bar-work",
+    "cover": "/images/bar-wrong-drink/s1.webp"
+  },
+  {
+    "id": "bar-cut-off",
+    "order": 82,
+    "title": {
+      "en": "When a Guest Has Had Too Much",
+      "ko": "취한 손님 정중하게 거절하기",
+      "th": "เมื่อแขกดื่มมากเกินไป"
+    },
+    "level": "intermediate",
+    "category": "bar-work",
+    "cover": "/images/bar-cut-off/s1.webp"
+  },
+  {
+    "id": "bar-last-call",
+    "order": 83,
+    "title": {
+      "en": "Last Call!",
+      "ko": "라스트 오더 안내",
+      "th": "ลาสต์คอล!"
+    },
+    "level": "intermediate",
+    "category": "bar-work",
+    "cover": "/images/bar-last-call/s1.webp"
+  },
+  {
+    "id": "bar-id-check",
+    "order": 84,
+    "title": {
+      "en": "Checking ID",
+      "ko": "신분증 확인하기",
+      "th": "ตรวจบัตรประชาชน"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-id-check/s1.webp"
+  },
+  {
+    "id": "bar-birthday",
+    "order": 85,
+    "title": {
+      "en": "Celebrating a Birthday",
+      "ko": "생일 손님 축하하기",
+      "th": "ฉลองวันเกิดให้แขก"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-birthday/s1.webp"
+  },
+  {
+    "id": "bar-compliment",
+    "order": 86,
+    "title": {
+      "en": "Taking Compliments and Tips",
+      "ko": "칭찬과 팁 받기",
+      "th": "รับคำชมและทิป"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-compliment/s1.webp"
+  },
+  {
+    "id": "bar-flirting",
+    "order": 87,
+    "title": {
+      "en": "Politely Turning Down a Flirt",
+      "ko": "작업 거는 손님 정중히 거절하기",
+      "th": "ปฏิเสธคนจีบอย่างสุภาพ"
+    },
+    "level": "intermediate",
+    "category": "bar-work",
+    "cover": "/images/bar-flirting/s1.webp"
+  },
+  {
+    "id": "bar-closing",
+    "order": 88,
+    "title": {
+      "en": "Saying Goodbye at Closing",
+      "ko": "마감하며 손님 배웅하기",
+      "th": "บอกลาแขกตอนปิดร้าน"
+    },
+    "level": "beginner",
+    "category": "bar-work",
+    "cover": "/images/bar-closing/s1.webp"
+  },
+  {
+    "id": "fr-catch-up",
+    "order": 89,
+    "title": {
+      "en": "Long Time No See!",
+      "ko": "오랜만에 만난 친구",
+      "th": "ไม่เจอกันนานเลย!"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-catch-up/s1.webp"
+  },
+  {
+    "id": "fr-weekend-plans",
+    "order": 90,
+    "title": {
+      "en": "Weekend Plans",
+      "ko": "주말 계획 세우기",
+      "th": "แพลนวันหยุด"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-weekend-plans/s1.webp"
+  },
+  {
+    "id": "fr-food-craving",
+    "order": 91,
+    "title": {
+      "en": "What Are You Craving?",
+      "ko": "뭐 먹을지 정하기",
+      "th": "อยากกินอะไรดี"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-food-craving/s1.webp"
+  },
+  {
+    "id": "fr-movie-night",
+    "order": 92,
+    "title": {
+      "en": "Movie Night",
+      "ko": "영화 뭐 볼까?",
+      "th": "คืนดูหนัง"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-movie-night/s1.webp"
+  },
+  {
+    "id": "fr-cancel-plans",
+    "order": 93,
+    "title": {
+      "en": "Canceling Plans",
+      "ko": "약속 취소하기",
+      "th": "ยกเลิกนัด"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-cancel-plans/s1.webp"
+  },
+  {
+    "id": "fr-running-late",
+    "order": 94,
+    "title": {
+      "en": "Running Late",
+      "ko": "약속에 늦을 때",
+      "th": "มาสาย"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-running-late/s1.webp"
+  },
+  {
+    "id": "fr-shopping",
+    "order": 95,
+    "title": {
+      "en": "Shopping With a Friend",
+      "ko": "친구랑 옷 쇼핑",
+      "th": "ช้อปปิ้งกับเพื่อน"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-shopping/s1.webp"
+  },
+  {
+    "id": "fr-rough-day",
+    "order": 96,
+    "title": {
+      "en": "Venting After a Rough Day",
+      "ko": "힘든 하루 하소연",
+      "th": "ระบายหลังวันแย่ ๆ"
+    },
+    "level": "intermediate",
+    "category": "friends",
+    "cover": "/images/fr-rough-day/s1.webp"
+  },
+  {
+    "id": "fr-crush",
+    "order": 97,
+    "title": {
+      "en": "Talking About a Crush",
+      "ko": "썸·연애 고민 상담",
+      "th": "คุยเรื่องคนที่แอบชอบ"
+    },
+    "level": "intermediate",
+    "category": "friends",
+    "cover": "/images/fr-crush/s1.webp"
+  },
+  {
+    "id": "fr-surprise-party",
+    "order": 98,
+    "title": {
+      "en": "Planning a Surprise Party",
+      "ko": "깜짝 생일 파티 계획",
+      "th": "วางแผนปาร์ตี้เซอร์ไพรส์"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-surprise-party/s1.webp"
+  },
+  {
+    "id": "fr-gym",
+    "order": 99,
+    "title": {
+      "en": "Working Out Together",
+      "ko": "같이 운동하기",
+      "th": "ออกกำลังกายด้วยกัน"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-gym/s1.webp"
+  },
+  {
+    "id": "fr-coffee-run",
+    "order": 100,
+    "title": {
+      "en": "A Coffee Run",
+      "ko": "카페에서 수다",
+      "th": "แวะร้านกาแฟ"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-coffee-run/s1.webp"
+  },
+  {
+    "id": "fr-borrow",
+    "order": 101,
+    "title": {
+      "en": "Can I Borrow…?",
+      "ko": "물건 빌리기",
+      "th": "ขอยืมหน่อยได้ไหม"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-borrow/s1.webp"
+  },
+  {
+    "id": "fr-good-news",
+    "order": 102,
+    "title": {
+      "en": "Sharing Big News",
+      "ko": "기쁜 소식 전하기",
+      "th": "บอกข่าวดี"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-good-news/s1.webp"
+  },
+  {
+    "id": "fr-apology",
+    "order": 103,
+    "title": {
+      "en": "Making Up After a Misunderstanding",
+      "ko": "오해 풀고 사과하기",
+      "th": "ขอโทษหลังเข้าใจผิด"
+    },
+    "level": "intermediate",
+    "category": "friends",
+    "cover": "/images/fr-apology/s1.webp"
+  },
+  {
+    "id": "fr-trip-plan",
+    "order": 104,
+    "title": {
+      "en": "Planning a Trip Together",
+      "ko": "같이 여행 계획 세우기",
+      "th": "วางแผนเที่ยวด้วยกัน"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-trip-plan/s1.webp"
+  },
+  {
+    "id": "fr-feeling-sick",
+    "order": 105,
+    "title": {
+      "en": "Checking on a Sick Friend",
+      "ko": "아픈 친구 챙기기",
+      "th": "ดูแลเพื่อนที่ไม่สบาย"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-feeling-sick/s1.webp"
+  },
+  {
+    "id": "fr-concert",
+    "order": 106,
+    "title": {
+      "en": "Getting Concert Tickets",
+      "ko": "콘서트 표 구하기",
+      "th": "จองตั๋วคอนเสิร์ต"
+    },
+    "level": "beginner",
+    "category": "friends",
+    "cover": "/images/fr-concert/s1.webp"
+  },
+  {
+    "id": "fr-dinner-party",
+    "order": 107,
+    "title": {
+      "en": "Hosting Dinner at Home",
+      "ko": "집에 친구 초대하기",
+      "th": "ชวนเพื่อนมากินข้าวที่บ้าน"
+    },
+    "level": "intermediate",
+    "category": "friends",
+    "cover": "/images/fr-dinner-party/s1.webp"
+  },
+  {
+    "id": "fr-goodbye",
+    "order": 108,
+    "title": {
+      "en": "Saying Goodbye Before a Big Move",
+      "ko": "떠나기 전 작별 인사",
+      "th": "บอกลาก่อนจากไปไกล"
+    },
+    "level": "intermediate",
+    "category": "friends",
+    "cover": "/images/fr-goodbye/s1.webp"
   }
 ]

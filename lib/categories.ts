@@ -2,6 +2,8 @@ import { CATEGORIES, type Category } from "@/content/types";
 
 /** 카테고리별 스티커 색 — soft: 배경/칩, strong: 아이콘·선택 상태 */
 export const CATEGORY_COLORS: Record<Category, { soft: string; strong: string }> = {
+  "bar-work": { soft: "#F4E1F7", strong: "#9233A3" },
+  friends: { soft: "#FFE6DC", strong: "#C9502E" },
   "hotel-work": { soft: "#D8F2F1", strong: "#0D7A75" },
   "cruise-work": { soft: "#E1E6FF", strong: "#3F4BC4" },
   travel: { soft: "#DDEFFF", strong: "#2C7BD0" },

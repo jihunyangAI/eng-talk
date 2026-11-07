@@ -1,0 +1,183 @@
+{
+  "id": "bar-regular",
+  "order": 75,
+  "title": {
+    "en": "A Regular Customer",
+    "ko": "단골손님 맞이하기",
+    "th": "ลูกค้าประจำ"
+  },
+  "description": {
+    "en": "Remember a regular's usual order and catch up.",
+    "ko": "단골의 '늘 마시던 걸'을 기억하고 근황을 묻는 상황",
+    "th": "จำเมนูประจำของลูกค้าและถามสารทุกข์"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-regular/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an Irish man in his 50s with gray hair, a friendly smile, and a tweed flat cap",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hey, Sean! Long time no see. The usual?",
+        "ko": "션 씨! 오랜만이에요. 늘 드시던 걸로?",
+        "th": "ฌอน ไม่เจอกันนานเลย เหมือนเดิมไหมคะ",
+        "audio": "/audio/bar-regular/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "You know me too well. Yes, please.",
+        "ko": "날 너무 잘 아네요. 네, 부탁해요.",
+        "th": "รู้ใจจริง ๆ เอาเหมือนเดิมครับ",
+        "audio": "/audio/bar-regular/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "So where have you been hiding?",
+        "ko": "그동안 어디 숨어 계셨어요?",
+        "th": "แล้วหายไปไหนมาคะ",
+        "audio": "/audio/bar-regular/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "I was visiting my daughter in Dublin for a month.",
+        "ko": "더블린에 사는 딸 집에 한 달 다녀왔어요.",
+        "th": "ไปเยี่ยมลูกสาวที่ดับลินมาเดือนนึงครับ",
+        "audio": "/audio/bar-regular/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "That's so sweet. How's she doing?",
+        "ko": "정말 좋네요. 따님은 잘 지내요?",
+        "th": "น่ารักจัง ลูกสาวสบายดีไหมคะ",
+        "audio": "/audio/bar-regular/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Great! She just had a baby boy, so I'm a grandpa now.",
+        "ko": "잘 지내요! 막 아들을 낳아서 나 이제 할아버지예요.",
+        "th": "ดีมากครับ เพิ่งคลอดลูกชาย ตอนนี้ผมเป็นคุณตาแล้ว",
+        "audio": "/audio/bar-regular/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Congratulations! This one's on the house, then.",
+        "ko": "축하드려요! 그럼 이 잔은 서비스예요.",
+        "th": "ยินดีด้วยค่ะ งั้นแก้วนี้ร้านเลี้ยงนะคะ",
+        "audio": "/audio/bar-regular/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Ha! You're a gem. Cheers to that!",
+        "ko": "하! 당신은 보물이에요. 건배!",
+        "th": "ฮ่า คุณนี่น่ารักจริง ๆ ชนแก้ว!",
+        "audio": "/audio/bar-regular/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-regular/s1.webp",
+        "prompt": "In a cozy pub-style bar, Supansa waves happily at an older regular customer sitting at the counter."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-regular/s2.webp",
+        "prompt": "Supansa pours a dark stout beer while chatting with the regular."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-regular/s3.webp",
+        "prompt": "The regular proudly shows a baby photo on his phone; Supansa looks delighted."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-regular/s4.webp",
+        "prompt": "Supansa and the regular raise glasses in a cheerful toast across the counter."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Long time no see.",
+      "ko": "'오랜만이에요' — 가장 흔한 인사.",
+      "th": "‘ไม่เจอกันนานเลย’ คำทักยอดฮิต",
+      "alt": "It's been a while!"
+    },
+    {
+      "line": "l1",
+      "en": "The usual?",
+      "ko": "'늘 드시던 걸로요?' — 단골에게만 쓰는 말.",
+      "th": "‘เหมือนเดิมไหม’ ใช้กับลูกค้าประจำ",
+      "alt": "Same as always?"
+    },
+    {
+      "line": "l3",
+      "en": "where have you been hiding?",
+      "ko": "'그동안 어디 숨어 있었어요?' — 오랜만에 본 사람에게 장난스럽게.",
+      "th": "‘หายไปไหนมา’ ถามแบบหยอก ๆ",
+      "alt": "Where have you been?"
+    },
+    {
+      "line": "l7",
+      "en": "on the house",
+      "ko": "'가게에서 쏘는(무료)'",
+      "th": "‘ร้านเลี้ยง ฟรี’",
+      "alt": "free of charge"
+    }
+  ]
+}

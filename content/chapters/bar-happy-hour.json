@@ -1,0 +1,183 @@
+{
+  "id": "bar-happy-hour",
+  "order": 73,
+  "title": {
+    "en": "Happy Hour Deals",
+    "ko": "해피아워 안내",
+    "th": "โปรแฮปปี้อาวร์"
+  },
+  "description": {
+    "en": "Explain happy hour times and two-for-one drinks.",
+    "ko": "해피아워 시간과 1+1 음료를 안내하는 상황",
+    "th": "แจ้งเวลาแฮปปี้อาวร์และโปรซื้อหนึ่งแถมหนึ่ง"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-happy-hour/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an Australian man in his 30s with sunglasses on his head and a white t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hey, is it still happy hour?",
+        "ko": "저기, 아직 해피아워예요?",
+        "th": "เฮ้ ยังเป็นแฮปปี้อาวร์อยู่ไหมครับ",
+        "audio": "/audio/bar-happy-hour/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "You made it just in time! Happy hour goes until seven.",
+        "ko": "딱 맞춰 오셨어요! 해피아워는 7시까지예요.",
+        "th": "มาทันพอดีเลยค่ะ แฮปปี้อาวร์ถึงหนึ่งทุ่มค่ะ",
+        "audio": "/audio/bar-happy-hour/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Awesome. What's the deal?",
+        "ko": "좋네요. 혜택이 뭐예요?",
+        "th": "เยี่ยม มีโปรอะไรครับ",
+        "audio": "/audio/bar-happy-hour/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "All house cocktails are two for one, and beers are half price.",
+        "ko": "하우스 칵테일은 전부 1+1이고, 맥주는 반값이에요.",
+        "th": "ค็อกเทลของร้านซื้อหนึ่งแถมหนึ่ง เบียร์ลดครึ่งราคาค่ะ",
+        "audio": "/audio/bar-happy-hour/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "No way! Then I'll get two margaritas.",
+        "ko": "말도 안 돼! 그럼 마르가리타 두 잔이요.",
+        "th": "ไม่จริงน่า งั้นขอมาร์การิต้าสองแก้วครับ",
+        "audio": "/audio/bar-happy-hour/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Nice! Do you want salt on the rim?",
+        "ko": "좋아요! 잔 테두리에 소금 묻혀 드릴까요?",
+        "th": "เยี่ยมค่ะ เอาเกลือที่ขอบแก้วไหมคะ",
+        "audio": "/audio/bar-happy-hour/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Yes, please. You're the best.",
+        "ko": "네, 부탁해요. 최고예요.",
+        "th": "เอาครับ คุณสุดยอดเลย",
+        "audio": "/audio/bar-happy-hour/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Ha, I try! Enjoy your drinks.",
+        "ko": "하하, 노력하죠! 맛있게 드세요.",
+        "th": "ฮ่า ๆ พยายามอยู่ค่ะ ดื่มให้อร่อยนะคะ",
+        "audio": "/audio/bar-happy-hour/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-happy-hour/s1.webp",
+        "prompt": "In an early-evening bar with sunset light through the windows, a cheerful guest walks up to Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-happy-hour/s2.webp",
+        "prompt": "Supansa points to a small happy hour sign on the counter."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-happy-hour/s3.webp",
+        "prompt": "Supansa rims two glasses with salt."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-happy-hour/s4.webp",
+        "prompt": "Supansa sets two margaritas on the bar; the guest grins and gives a thumbs up."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "just in time",
+      "ko": "'딱 맞춰서' — 마감 직전에 왔을 때.",
+      "th": "‘ทันเวลาพอดี’",
+      "alt": "right on time"
+    },
+    {
+      "line": "l3",
+      "en": "What's the deal?",
+      "ko": "'혜택(조건)이 뭐예요?'",
+      "th": "‘มีโปรอะไร’ หรือ ‘เรื่องเป็นยังไง’",
+      "alt": "What's the special?"
+    },
+    {
+      "line": "l4",
+      "en": "two for one",
+      "ko": "'1+1' — 하나 가격에 두 개.",
+      "th": "‘ซื้อหนึ่งแถมหนึ่ง’",
+      "alt": "buy one, get one free"
+    },
+    {
+      "line": "l8",
+      "en": "I try!",
+      "ko": "칭찬받았을 때 장난스럽게 '노력하죠!'",
+      "th": "ตอบคำชมแบบขำ ๆ ‘ก็พยายามอยู่’",
+      "alt": "Aw, thanks!"
+    }
+  ]
+}

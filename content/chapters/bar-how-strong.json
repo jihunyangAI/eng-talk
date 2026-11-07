@@ -1,0 +1,183 @@
+{
+  "id": "bar-how-strong",
+  "order": 79,
+  "title": {
+    "en": "Neat, On the Rocks, or Mixed?",
+    "ko": "위스키 마시는 방법 설명",
+    "th": "นีท ออนเดอะร็อก หรือผสม"
+  },
+  "description": {
+    "en": "Explain how to order whiskey and how strong drinks are.",
+    "ko": "위스키 주문 방법과 도수를 설명하는 상황",
+    "th": "อธิบายวิธีสั่งวิสกี้และความแรงของเครื่องดื่ม"
+  },
+  "level": "intermediate",
+  "category": "bar-work",
+  "cover": "/images/bar-how-strong/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a Japanese man in his 40s with neat black hair, glasses, and a dark suit with a loosened tie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "I'd like a whiskey, please.",
+        "ko": "위스키 한 잔 주세요.",
+        "th": "ขอวิสกี้หนึ่งแก้วครับ",
+        "audio": "/audio/bar-how-strong/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Sure. How would you like it? Neat, on the rocks, or with soda?",
+        "ko": "네. 어떻게 드릴까요? 스트레이트, 온더록, 아니면 소다랑요?",
+        "th": "ได้ค่ะ รับแบบไหนคะ เพียว ๆ ใส่น้ำแข็ง หรือผสมโซดาคะ",
+        "audio": "/audio/bar-how-strong/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "On the rocks. What would you recommend?",
+        "ko": "온더록으로요. 뭘 추천해요?",
+        "th": "ใส่น้ำแข็งครับ แนะนำตัวไหนดี",
+        "audio": "/audio/bar-how-strong/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "If you like it smooth, go with this one. It's aged for twelve years.",
+        "ko": "부드러운 걸 좋아하시면 이걸로 하세요. 12년 숙성이에요.",
+        "th": "ถ้าชอบนุ่ม ๆ ตัวนี้เลยค่ะ บ่มมาสิบสองปี",
+        "audio": "/audio/bar-how-strong/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Is it very strong?",
+        "ko": "많이 독해요?",
+        "th": "แรงมากไหมครับ",
+        "audio": "/audio/bar-how-strong/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "It's forty percent, but the ice softens it a bit. Take your time with it.",
+        "ko": "40도인데, 얼음이 조금 순하게 해 줘요. 천천히 드세요.",
+        "th": "สี่สิบดีกรีค่ะ แต่น้ำแข็งช่วยให้นุ่มขึ้น ค่อย ๆ จิบนะคะ",
+        "audio": "/audio/bar-how-strong/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Good advice. I have an early meeting tomorrow.",
+        "ko": "좋은 조언이네요. 내일 아침 일찍 회의가 있거든요.",
+        "th": "แนะนำดีครับ พรุ่งนี้มีประชุมแต่เช้า",
+        "audio": "/audio/bar-how-strong/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Then maybe just one tonight. I'll get you some water on the side.",
+        "ko": "그럼 오늘은 한 잔만 하세요. 물도 같이 드릴게요.",
+        "th": "งั้นคืนนี้แก้วเดียวพอนะคะ เดี๋ยวเสิร์ฟน้ำเปล่าข้าง ๆ ให้ค่ะ",
+        "audio": "/audio/bar-how-strong/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-how-strong/s1.webp",
+        "prompt": "In a dim, classy whiskey bar with bottles glowing on backlit shelves, a businessman sits at the counter."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-how-strong/s2.webp",
+        "prompt": "Supansa holds up a whiskey bottle and shows the label to the guest."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-how-strong/s3.webp",
+        "prompt": "Supansa pours whiskey over a large clear ice ball in a short glass."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-how-strong/s4.webp",
+        "prompt": "Supansa places the whiskey and a glass of water in front of the relaxed guest."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "How would you like it?",
+      "ko": "'어떻게 해 드릴까요?' — 조리·제조 방식을 물을 때.",
+      "th": "‘รับแบบไหนคะ’ ถามวิธีเสิร์ฟ",
+      "alt": "How do you take it?"
+    },
+    {
+      "line": "l2",
+      "en": "Neat, on the rocks",
+      "ko": "neat = 아무것도 안 섞고 / on the rocks = 얼음 넣어서",
+      "th": "neat = เพียว ๆ / on the rocks = ใส่น้ำแข็ง",
+      "alt": "straight / over ice"
+    },
+    {
+      "line": "l6",
+      "en": "Take your time",
+      "ko": "'천천히 하세요(드세요)'",
+      "th": "‘ค่อย ๆ ไม่ต้องรีบ’",
+      "alt": "No rush"
+    },
+    {
+      "line": "l8",
+      "en": "on the side",
+      "ko": "'따로 곁들여서'",
+      "th": "‘เสิร์ฟแยกข้าง ๆ’",
+      "alt": "separately"
+    }
+  ]
+}

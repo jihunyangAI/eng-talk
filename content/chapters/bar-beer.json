@@ -1,0 +1,183 @@
+{
+  "id": "bar-beer",
+  "order": 72,
+  "title": {
+    "en": "Beer on Tap",
+    "ko": "생맥주 주문 받기",
+    "th": "เบียร์สด"
+  },
+  "description": {
+    "en": "Explain draft beers, sizes, and offer a taste.",
+    "ko": "생맥주 종류와 사이즈를 설명하고 시음을 권하는 상황",
+    "th": "อธิบายเบียร์สด ขนาด และให้ชิม"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-beer/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a German man in his 40s with a short beard and a green polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "What do you have on tap?",
+        "ko": "생맥주 뭐 있어요?",
+        "th": "มีเบียร์สดอะไรบ้างครับ",
+        "audio": "/audio/bar-beer/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "We've got a local lager, an IPA, and a wheat beer.",
+        "ko": "로컬 라거, IPA, 밀맥주가 있어요.",
+        "th": "มีลาเกอร์ท้องถิ่น ไอพีเอ แล้วก็เบียร์ข้าวสาลีค่ะ",
+        "audio": "/audio/bar-beer/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Which one is the most popular?",
+        "ko": "어떤 게 제일 인기 있어요?",
+        "th": "อันไหนคนสั่งเยอะสุดครับ",
+        "audio": "/audio/bar-beer/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "The lager, for sure. Want to try a little sample first?",
+        "ko": "단연 라거예요. 먼저 조금 맛보실래요?",
+        "th": "ลาเกอร์แน่นอนค่ะ ลองชิมนิดนึงก่อนไหมคะ",
+        "audio": "/audio/bar-beer/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Sure, why not?",
+        "ko": "그럼요, 좋죠.",
+        "th": "ได้สิครับ",
+        "audio": "/audio/bar-beer/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Here you go. What do you think?",
+        "ko": "여기요. 어때요?",
+        "th": "นี่ค่ะ เป็นไงบ้างคะ",
+        "audio": "/audio/bar-beer/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "That's really smooth. I'll have a large one.",
+        "ko": "정말 부드럽네요. 큰 걸로 주세요.",
+        "th": "นุ่มมากเลยครับ ขอแก้วใหญ่ครับ",
+        "audio": "/audio/bar-beer/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "You got it. One large lager coming up.",
+        "ko": "알겠습니다. 라거 큰 거 하나 나갑니다.",
+        "th": "ได้เลยค่ะ ลาเกอร์แก้วใหญ่หนึ่งแก้วกำลังมาค่ะ",
+        "audio": "/audio/bar-beer/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-beer/s1.webp",
+        "prompt": "At a bar with shiny beer taps, a guest points at the tap handles while Supansa explains."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-beer/s2.webp",
+        "prompt": "Supansa pours a small sample of golden beer into a tiny glass."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-beer/s3.webp",
+        "prompt": "The guest tastes the sample and nods approvingly."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-beer/s4.webp",
+        "prompt": "Supansa pours a large glass of lager from the tap with a perfect foam head."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "on tap",
+      "ko": "'생맥주로(통에서 바로)' — What's on tap? = 생맥주 뭐 있어요?",
+      "th": "‘เบียร์สดจากถัง’ What's on tap? = มีเบียร์สดอะไรบ้าง",
+      "alt": "on draft"
+    },
+    {
+      "line": "l4",
+      "en": "for sure",
+      "ko": "'확실히, 당연히' — 아주 자주 쓰는 맞장구.",
+      "th": "‘แน่นอน ชัวร์’ ใช้บ่อยมาก",
+      "alt": "definitely"
+    },
+    {
+      "line": "l5",
+      "en": "Sure, why not?",
+      "ko": "'좋죠, 안 될 거 없죠' — 가볍게 수락할 때.",
+      "th": "‘ได้สิ ทำไมจะไม่ได้’ ตอบรับสบาย ๆ",
+      "alt": "Sounds good."
+    },
+    {
+      "line": "l8",
+      "en": "You got it.",
+      "ko": "'알겠어요, 바로 할게요' — 서비스할 때 아주 자연스러운 대답.",
+      "th": "‘ได้เลย จัดให้’ คำตอบรับที่เป็นธรรมชาติมาก",
+      "alt": "Sure thing."
+    }
+  ]
+}

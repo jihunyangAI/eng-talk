@@ -1,0 +1,183 @@
+{
+  "id": "bar-flirting",
+  "order": 87,
+  "title": {
+    "en": "Politely Turning Down a Flirt",
+    "ko": "작업 거는 손님 정중히 거절하기",
+    "th": "ปฏิเสธคนจีบอย่างสุภาพ"
+  },
+  "description": {
+    "en": "Stay friendly but set a clear boundary.",
+    "ko": "친절하지만 분명하게 선을 긋는 상황",
+    "th": "เป็นมิตรแต่ขีดเส้นชัดเจน"
+  },
+  "level": "intermediate",
+  "category": "bar-work",
+  "cover": "/images/bar-flirting/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an Italian man in his late 20s with slicked-back dark hair and an open-collar black shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "So, what time do you get off work?",
+        "ko": "그래서, 몇 시에 퇴근해요?",
+        "th": "แล้วเลิกงานกี่โมงล่ะ",
+        "audio": "/audio/bar-flirting/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Pretty late, actually. Why do you ask?",
+        "ko": "사실 꽤 늦어요. 왜요?",
+        "th": "ดึกเลยค่ะ ถามทำไมคะ",
+        "audio": "/audio/bar-flirting/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "I was hoping I could take you out for a drink.",
+        "ko": "한잔 사 주고 싶어서요.",
+        "th": "ว่าจะชวนไปดื่มด้วยกัน",
+        "audio": "/audio/bar-flirting/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "That's sweet of you, but I don't date customers.",
+        "ko": "마음은 고맙지만, 저는 손님이랑은 안 만나요.",
+        "th": "น่ารักนะคะ แต่หนูไม่ออกเดตกับลูกค้าค่ะ",
+        "audio": "/audio/bar-flirting/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Can I at least get your number?",
+        "ko": "그럼 번호라도 줄래요?",
+        "th": "งั้นขอเบอร์ได้ไหม",
+        "audio": "/audio/bar-flirting/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Sorry, I'd rather keep things professional.",
+        "ko": "죄송해요, 일적인 관계로 지내고 싶어요.",
+        "th": "ขอโทษนะคะ ขอเป็นแค่ลูกค้ากับพนักงานดีกว่า",
+        "audio": "/audio/bar-flirting/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Fair enough. No hard feelings.",
+        "ko": "알겠어요. 기분 나쁘지 않아요.",
+        "th": "ก็ได้ ไม่โกรธกันนะ",
+        "audio": "/audio/bar-flirting/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "None at all! Now, can I get you another drink?",
+        "ko": "전혀요! 자, 한 잔 더 드릴까요?",
+        "th": "ไม่เลยค่ะ ว่าแต่รับเครื่องดื่มเพิ่มไหมคะ",
+        "audio": "/audio/bar-flirting/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-flirting/s1.webp",
+        "prompt": "At a chic bar, a confident guest leans on the counter smiling at Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-flirting/s2.webp",
+        "prompt": "Supansa smiles politely while wiping the counter."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-flirting/s3.webp",
+        "prompt": "Supansa shakes her head kindly with a friendly but firm expression."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-flirting/s4.webp",
+        "prompt": "The guest laughs and raises his hands in a friendly way; Supansa holds up a cocktail menu."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "get off work",
+      "ko": "'퇴근하다'",
+      "th": "‘เลิกงาน’",
+      "alt": "finish work"
+    },
+    {
+      "line": "l4",
+      "en": "That's sweet of you, but",
+      "ko": "'마음은 고맙지만…' — 부드럽게 거절을 시작하는 말.",
+      "th": "‘น่ารักนะ แต่…’ เปิดการปฏิเสธอย่างนุ่มนวล",
+      "alt": "Thanks, but"
+    },
+    {
+      "line": "l6",
+      "en": "I'd rather",
+      "ko": "'차라리 ~하는 게 좋겠어요'",
+      "th": "‘ขอ…ดีกว่า’",
+      "alt": "I prefer to"
+    },
+    {
+      "line": "l7",
+      "en": "No hard feelings.",
+      "ko": "'기분 나쁘게 생각하지 않아요(서운해하지 말아요)'",
+      "th": "‘ไม่โกรธกันนะ’",
+      "alt": "No offense taken."
+    }
+  ]
+}

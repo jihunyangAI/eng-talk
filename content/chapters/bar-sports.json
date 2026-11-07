@@ -1,0 +1,183 @@
+{
+  "id": "bar-sports",
+  "order": 77,
+  "title": {
+    "en": "Talking About the Game",
+    "ko": "TV 경기 보며 스몰토크",
+    "th": "คุยเรื่องเกมกีฬา"
+  },
+  "description": {
+    "en": "Make small talk about a football match on TV.",
+    "ko": "TV 축구 경기를 보며 손님과 수다 떠는 상황",
+    "th": "ชวนคุยเรื่องฟุตบอลที่ฉายในทีวี"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-sports/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an English man in his 30s with short red hair, wearing a red football jersey",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Who are you rooting for tonight?",
+        "ko": "오늘 밤 어느 팀 응원하세요?",
+        "th": "คืนนี้เชียร์ทีมไหนคะ",
+        "audio": "/audio/bar-sports/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Liverpool, all the way! Are you a football fan?",
+        "ko": "무조건 리버풀이죠! 축구 좋아해요?",
+        "th": "ลิเวอร์พูลสิครับ ชอบดูบอลไหม",
+        "audio": "/audio/bar-sports/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Kind of. I only watch the big games.",
+        "ko": "조금요. 큰 경기만 봐요.",
+        "th": "ก็นิดหน่อยค่ะ ดูแค่นัดใหญ่ ๆ",
+        "audio": "/audio/bar-sports/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Well, this is a big one. They need to win to stay on top.",
+        "ko": "음, 이게 큰 경기예요. 1위 지키려면 이겨야 해요.",
+        "th": "นัดนี้แหละนัดใหญ่ ต้องชนะถึงจะอยู่ที่หนึ่งได้",
+        "audio": "/audio/bar-sports/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Oh! Did they just score?",
+        "ko": "어! 방금 골 넣었어요?",
+        "th": "โอ้ เพิ่งยิงได้เหรอคะ",
+        "audio": "/audio/bar-sports/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Yes! What a goal! Did you see that?",
+        "ko": "네! 엄청난 골이에요! 봤어요?",
+        "th": "ใช่! ประตูสวยมาก เห็นไหม",
+        "audio": "/audio/bar-sports/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "That was insane! Want another beer to celebrate?",
+        "ko": "말도 안 되게 멋졌어요! 축하주 한 잔 더 하실래요?",
+        "th": "สุดยอดไปเลย เอาเบียร์อีกแก้วฉลองไหมคะ",
+        "audio": "/audio/bar-sports/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Absolutely. Make it two, one for my buddy here.",
+        "ko": "당연하죠. 두 잔이요, 하나는 여기 제 친구 거.",
+        "th": "แน่นอน ขอสองแก้ว อีกแก้วให้เพื่อนผมครับ",
+        "audio": "/audio/bar-sports/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-sports/s1.webp",
+        "prompt": "In a sports bar with a big TV showing a football match, Supansa chats with a fan in a red jersey."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-sports/s2.webp",
+        "prompt": "The fan points at the TV screen excitedly."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-sports/s3.webp",
+        "prompt": "The fan jumps up cheering with both arms raised; Supansa laughs."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-sports/s4.webp",
+        "prompt": "Supansa pours two beers from the tap while the fan claps."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "rooting for",
+      "ko": "'~를 응원하다'",
+      "th": "‘เชียร์…’",
+      "alt": "cheering for"
+    },
+    {
+      "line": "l2",
+      "en": "all the way",
+      "ko": "'무조건, 끝까지'",
+      "th": "‘สุดใจ แน่นอน’",
+      "alt": "for sure"
+    },
+    {
+      "line": "l7",
+      "en": "That was insane!",
+      "ko": "'미쳤다! (대박이다)' — 놀랍도록 좋을 때.",
+      "th": "‘สุดยอด บ้าไปแล้ว’ ใช้ชมสิ่งที่ว้าวมาก",
+      "alt": "That was amazing!"
+    },
+    {
+      "line": "l8",
+      "en": "Make it two",
+      "ko": "'두 개로 해 주세요' — 주문 수량을 바꿀 때.",
+      "th": "‘ขอเป็นสอง’ ใช้เปลี่ยนจำนวนที่สั่ง",
+      "alt": "Two, please"
+    }
+  ]
+}

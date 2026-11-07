@@ -8,7 +8,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const skipImages = process.argv.includes("--skip-images");
 const LANGS = ["en", "ko", "th"];
 const LEVELS = ["beginner", "intermediate", "advanced"];
-const CATEGORIES = ["hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"];
+const CATEGORIES = ["bar-work", "friends", "hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"];
 const IMAGE_RE = /^\/images\/.+\.(webp|png|jpg|jpeg)$/;
 
 const errors = [];
@@ -78,6 +78,20 @@ function validateChapter(ch, file) {
     if (!Array.isArray(s.lines) || s.lines.length < 1 || s.lines.length > 2) errors.push(at(`: scene ${s.id} must have 1-2 lines`));
     if (!nonEmpty(s.prompt)) errors.push(at(`: scene ${s.id} prompt empty`));
     checkImage(s.image, at(`: scene ${s.id}.image`));
+  }
+
+  // 핵심 표현: 연결된 대사가 있어야 하고, 표현이 대사 안에 실제로 등장해야 함
+  if (ch.expressions !== undefined) {
+    if (!Array.isArray(ch.expressions)) errors.push(at(".expressions: must be an array"));
+    else
+      ch.expressions.forEach((x, i) => {
+        const line = lines.find((l) => l.id === x.line);
+        if (!line) return errors.push(at(`.expressions[${i}]: unknown line "${x.line}"`));
+        for (const k of LANGS) if (!nonEmpty(x[k])) errors.push(at(`.expressions[${i}].${k}: empty`));
+        const norm = (s) => s.toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]/g, " ").replace(/\s+/g, " ").trim();
+        if (nonEmpty(x.en) && !norm(line.en).includes(norm(x.en)))
+          warnings.push(at(`.expressions[${i}]: "${x.en}" not found in ${x.line}`));
+      });
   }
   return { lines: lines.length, scenes: scenes.length };
 }

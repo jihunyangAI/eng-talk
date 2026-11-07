@@ -1,0 +1,183 @@
+{
+  "id": "fr-apology",
+  "order": 103,
+  "title": {
+    "en": "Making Up After a Misunderstanding",
+    "ko": "오해 풀고 사과하기",
+    "th": "ขอโทษหลังเข้าใจผิด"
+  },
+  "description": {
+    "en": "Apologize sincerely and clear up a misunderstanding.",
+    "ko": "진심으로 사과하고 오해를 푸는 상황",
+    "th": "ขอโทษอย่างจริงใจและเคลียร์ความเข้าใจผิด"
+  },
+  "level": "intermediate",
+  "category": "friends",
+  "cover": "/images/fr-apology/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Jess",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Jess, an American woman in her mid 20s with shoulder-length wavy light-brown hair, freckles, and a mustard-yellow cardigan",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Jess, can we talk? I feel like you're upset with me.",
+        "ko": "제스, 얘기 좀 할 수 있어? 너 나한테 화난 것 같아서.",
+        "th": "เจส คุยกันหน่อยได้ไหม รู้สึกว่าเธอโกรธฉันอยู่",
+        "audio": "/audio/fr-apology/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Honestly, I was a little hurt. You didn't reply to my messages all week.",
+        "ko": "솔직히 좀 서운했어. 일주일 내내 내 메시지에 답 안 했잖아.",
+        "th": "พูดตรง ๆ ก็น้อยใจนิดนึง ไม่ตอบข้อความทั้งอาทิตย์เลย",
+        "audio": "/audio/fr-apology/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "I'm really sorry. My phone broke, and I just got a new one.",
+        "ko": "정말 미안해. 폰이 고장 나서 이제 막 새로 샀어.",
+        "th": "ขอโทษจริง ๆ นะ โทรศัพท์พัง เพิ่งได้เครื่องใหม่",
+        "audio": "/audio/fr-apology/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Oh! I had no idea. I thought you were ignoring me.",
+        "ko": "어! 전혀 몰랐어. 나 무시하는 줄 알았어.",
+        "th": "อ้าว ไม่รู้เลย นึกว่าเธอเมินฉัน",
+        "audio": "/audio/fr-apology/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Never! I should have told you some other way.",
+        "ko": "절대 아니야! 다른 방법으로라도 알려 줬어야 했는데.",
+        "th": "ไม่มีทาง! ฉันน่าจะบอกเธอทางอื่นนะ",
+        "audio": "/audio/fr-apology/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "It's okay. I'm glad we talked about it.",
+        "ko": "괜찮아. 얘기해서 다행이다.",
+        "th": "ไม่เป็นไร ดีใจที่ได้คุยกัน",
+        "audio": "/audio/fr-apology/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Me too. Are we good?",
+        "ko": "나도. 우리 괜찮은 거지?",
+        "th": "ฉันก็เหมือนกัน เราโอเคกันนะ",
+        "audio": "/audio/fr-apology/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Of course we're good. Come here, give me a hug!",
+        "ko": "당연히 괜찮지. 이리 와, 안아 줘!",
+        "th": "โอเคอยู่แล้ว มานี่ กอดหน่อย!",
+        "audio": "/audio/fr-apology/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-apology/s1.webp",
+        "prompt": "In a quiet park, Supansa approaches Jess, who sits on a bench looking a little sad."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-apology/s2.webp",
+        "prompt": "Jess looks away with folded arms while Supansa speaks gently."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-apology/s3.webp",
+        "prompt": "Supansa shows Jess a brand-new phone; Jess's expression softens."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-apology/s4.webp",
+        "prompt": "Supansa and Jess hug warmly on the park bench."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "upset with me",
+      "ko": "'나한테 화나다/속상하다'",
+      "th": "‘โกรธฉัน ไม่พอใจฉัน’",
+      "alt": "mad at me"
+    },
+    {
+      "line": "l2",
+      "en": "I was a little hurt.",
+      "ko": "'좀 서운했어(상처받았어)'",
+      "th": "‘น้อยใจนิดนึง’",
+      "alt": "It hurt my feelings."
+    },
+    {
+      "line": "l4",
+      "en": "I had no idea.",
+      "ko": "'전혀 몰랐어'",
+      "th": "‘ไม่รู้เลยจริง ๆ’",
+      "alt": "I didn't know."
+    },
+    {
+      "line": "l7",
+      "en": "Are we good?",
+      "ko": "'우리 괜찮은 거지?(화 풀린 거지?)'",
+      "th": "‘เราโอเคกันนะ’ ถามว่าหายโกรธแล้วใช่ไหม",
+      "alt": "Are we okay?"
+    }
+  ]
+}

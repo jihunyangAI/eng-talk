@@ -1,0 +1,183 @@
+{
+  "id": "bar-mocktail",
+  "order": 76,
+  "title": {
+    "en": "Non-Alcoholic Drinks",
+    "ko": "논알코올 음료 추천",
+    "th": "เครื่องดื่มไร้แอลกอฮอล์"
+  },
+  "description": {
+    "en": "Help a guest who doesn't drink alcohol pick a mocktail.",
+    "ko": "술을 안 마시는 손님에게 목테일을 추천하는 상황",
+    "th": "แนะนำม็อกเทลให้แขกที่ไม่ดื่มแอลกอฮอล์"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-mocktail/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an Indian woman in her 20s with long black hair in a braid and a red top",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi! Do you have anything without alcohol?",
+        "ko": "안녕하세요! 술 안 들어간 것도 있어요?",
+        "th": "สวัสดีค่ะ มีอะไรที่ไม่มีแอลกอฮอล์ไหมคะ",
+        "audio": "/audio/bar-mocktail/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Totally! We have a whole mocktail menu.",
+        "ko": "그럼요! 목테일 메뉴가 따로 있어요.",
+        "th": "มีแน่นอนค่ะ มีเมนูม็อกเทลทั้งหน้าเลย",
+        "audio": "/audio/bar-mocktail/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Oh, great. I'm the designated driver tonight.",
+        "ko": "오, 다행이다. 오늘 제가 운전 담당이라서요.",
+        "th": "ดีจัง คืนนี้ฉันเป็นคนขับรถค่ะ",
+        "audio": "/audio/bar-mocktail/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Good for you! How about a virgin piña colada?",
+        "ko": "멋져요! 무알코올 피냐콜라다 어때요?",
+        "th": "ดีมากเลยค่ะ ลองพีนาโคลาดาแบบไม่มีแอลกอฮอล์ไหมคะ",
+        "audio": "/audio/bar-mocktail/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Hmm, I'm not a big fan of coconut.",
+        "ko": "음, 코코넛은 별로 안 좋아해서요.",
+        "th": "อืม ไม่ค่อยชอบมะพร้าวค่ะ",
+        "audio": "/audio/bar-mocktail/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "No worries. Then try the berry fizz. It's fresh and not too sweet.",
+        "ko": "괜찮아요. 그럼 베리 피즈 드셔 보세요. 상큼하고 너무 달지 않아요.",
+        "th": "ไม่เป็นไรค่ะ งั้นลองเบอร์รี่ฟิซ สดชื่นและไม่หวานเกินไปค่ะ",
+        "audio": "/audio/bar-mocktail/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Perfect, I'll take that.",
+        "ko": "완벽해요, 그걸로 할게요.",
+        "th": "เพอร์เฟกต์ เอาอันนั้นค่ะ",
+        "audio": "/audio/bar-mocktail/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Coming up! It looks just like a real cocktail, too.",
+        "ko": "나갑니다! 보기엔 진짜 칵테일 같아요.",
+        "th": "ได้เลยค่ะ หน้าตาเหมือนค็อกเทลจริงเลยนะคะ",
+        "audio": "/audio/bar-mocktail/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-mocktail/s1.webp",
+        "prompt": "At a modern bar, a young woman asks Supansa a question across the counter."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-mocktail/s2.webp",
+        "prompt": "Supansa hands the guest a small mocktail menu card."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-mocktail/s3.webp",
+        "prompt": "Supansa muddles fresh berries in a glass."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-mocktail/s4.webp",
+        "prompt": "Supansa serves a pretty pink fizzy drink with berries and mint; the guest takes a photo with her phone."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Totally!",
+      "ko": "'당연하죠!' — Yes보다 훨씬 생기 있는 대답.",
+      "th": "‘แน่นอน!’ ฟังสดใสกว่า Yes",
+      "alt": "Absolutely!"
+    },
+    {
+      "line": "l3",
+      "en": "designated driver",
+      "ko": "'(오늘) 운전 담당' — 술 안 마시고 친구들을 태워 줄 사람.",
+      "th": "‘คนที่รับหน้าที่ขับรถ’ เลยไม่ดื่ม",
+      "alt": "I'm driving tonight"
+    },
+    {
+      "line": "l5",
+      "en": "not a big fan of",
+      "ko": "'~를 별로 안 좋아해요' — I don't like보다 부드러워요.",
+      "th": "‘ไม่ค่อยชอบ…’ นุ่มนวลกว่า I don't like",
+      "alt": "not really into"
+    },
+    {
+      "line": "l6",
+      "en": "No worries.",
+      "ko": "'괜찮아요, 걱정 마세요'",
+      "th": "‘ไม่เป็นไร’",
+      "alt": "No problem."
+    }
+  ]
+}

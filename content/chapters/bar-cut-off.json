@@ -1,0 +1,183 @@
+{
+  "id": "bar-cut-off",
+  "order": 82,
+  "title": {
+    "en": "When a Guest Has Had Too Much",
+    "ko": "취한 손님 정중하게 거절하기",
+    "th": "เมื่อแขกดื่มมากเกินไป"
+  },
+  "description": {
+    "en": "Politely stop serving alcohol and offer water and a taxi.",
+    "ko": "술을 더 줄 수 없다고 정중히 말하고 물과 택시를 권하는 상황",
+    "th": "ปฏิเสธการเสิร์ฟเหล้าอย่างสุภาพ เสนอน้ำและแท็กซี่"
+  },
+  "level": "intermediate",
+  "category": "bar-work",
+  "cover": "/images/bar-cut-off/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an American man in his 30s with messy blond hair, a loosened collar, and flushed cheeks",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hey, can I get another shot?",
+        "ko": "저기, 샷 한 잔 더 줄래요?",
+        "th": "เฮ้ ขอช็อตอีกแก้วได้ไหม",
+        "audio": "/audio/bar-cut-off/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I think you've had enough for tonight, my friend.",
+        "ko": "오늘 밤은 충분히 드신 것 같아요, 손님.",
+        "th": "คิดว่าคืนนี้พอแล้วนะคะ",
+        "audio": "/audio/bar-cut-off/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Come on, just one more. I'm fine!",
+        "ko": "에이, 딱 한 잔만요. 나 괜찮아요!",
+        "th": "น่า อีกแก้วเดียว ผมไม่เป็นไร",
+        "audio": "/audio/bar-cut-off/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Sorry, I can't serve you any more alcohol. But I can get you some water.",
+        "ko": "죄송해요, 술은 더 드릴 수 없어요. 대신 물 드릴게요.",
+        "th": "ขอโทษนะคะ เสิร์ฟเหล้าเพิ่มไม่ได้แล้ว แต่ให้น้ำเปล่าได้ค่ะ",
+        "audio": "/audio/bar-cut-off/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Ugh, fine. Water's okay, I guess.",
+        "ko": "에휴, 알았어요. 물도 괜찮겠죠.",
+        "th": "เฮ้อ ก็ได้ น้ำก็ได้มั้ง",
+        "audio": "/audio/bar-cut-off/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Thanks for understanding. How are you getting home?",
+        "ko": "이해해 줘서 고마워요. 집에 어떻게 가세요?",
+        "th": "ขอบคุณที่เข้าใจนะคะ จะกลับบ้านยังไงคะ",
+        "audio": "/audio/bar-cut-off/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "I was going to walk, but it's kind of far.",
+        "ko": "걸어가려고 했는데 좀 멀어요.",
+        "th": "ว่าจะเดินแต่ก็ไกลอยู่",
+        "audio": "/audio/bar-cut-off/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Let me call you a cab. I want you to get home safe.",
+        "ko": "택시 불러 드릴게요. 안전하게 들어가셨으면 해요.",
+        "th": "เดี๋ยวเรียกแท็กซี่ให้นะคะ อยากให้กลับถึงบ้านปลอดภัย",
+        "audio": "/audio/bar-cut-off/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-cut-off/s1.webp",
+        "prompt": "Late at night at a bar, a slightly tipsy guest raises a finger asking for another shot; Supansa looks calm and kind."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-cut-off/s2.webp",
+        "prompt": "Supansa shakes her head gently and slides a tall glass of water across the bar."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-cut-off/s3.webp",
+        "prompt": "The guest drinks water, resting his chin on his hand."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-cut-off/s4.webp",
+        "prompt": "Supansa holds her phone to her ear calling a taxi while the guest nods gratefully."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "you've had enough",
+      "ko": "'충분히 드셨어요' — 더 못 드린다는 걸 부드럽게.",
+      "th": "‘ดื่มพอแล้ว’ บอกอย่างนุ่มนวลว่าไม่เสิร์ฟเพิ่ม",
+      "alt": "I think that's enough for tonight"
+    },
+    {
+      "line": "l5",
+      "en": "I guess",
+      "ko": "'~인 것 같네요(마지못해)' — 마지못해 동의할 때.",
+      "th": "‘มั้ง ก็คงงั้น’ ยอมรับแบบไม่ค่อยเต็มใจ",
+      "alt": "I suppose"
+    },
+    {
+      "line": "l6",
+      "en": "Thanks for understanding.",
+      "ko": "'이해해 주셔서 감사해요' — 거절 후 분위기를 풀어 줘요.",
+      "th": "‘ขอบคุณที่เข้าใจ’ ช่วยคลายบรรยากาศ",
+      "alt": "I appreciate it."
+    },
+    {
+      "line": "l8",
+      "en": "get home safe",
+      "ko": "'조심히 들어가세요'",
+      "th": "‘กลับบ้านปลอดภัยนะ’",
+      "alt": "Get home safely"
+    }
+  ]
+}

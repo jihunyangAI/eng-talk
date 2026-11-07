@@ -1,0 +1,183 @@
+{
+  "id": "bar-compliment",
+  "order": 86,
+  "title": {
+    "en": "Taking Compliments and Tips",
+    "ko": "칭찬과 팁 받기",
+    "th": "รับคำชมและทิป"
+  },
+  "description": {
+    "en": "Respond naturally to compliments and tips.",
+    "ko": "칭찬과 팁을 받았을 때 자연스럽게 반응하는 상황",
+    "th": "ตอบรับคำชมและทิปอย่างเป็นธรรมชาติ"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-compliment/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a Brazilian man in his 40s with tanned skin, a short gray beard, and a linen shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Wow, this is the best caipirinha I've had outside Brazil.",
+        "ko": "와, 이거 브라질 밖에서 마신 카이피리냐 중에 최고예요.",
+        "th": "ว้าว นี่ไคพิรินญาที่อร่อยที่สุดที่เคยกินนอกบราซิลเลย",
+        "audio": "/audio/bar-compliment/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Really? That's a huge compliment coming from you!",
+        "ko": "정말요? 브라질 분이 그렇게 말해 주시니 엄청난 칭찬이네요!",
+        "th": "จริงเหรอคะ คนบราซิลชมแบบนี้ปลื้มมากเลยค่ะ",
+        "audio": "/audio/bar-compliment/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "I mean it. Where did you learn to make it?",
+        "ko": "진심이에요. 어디서 배웠어요?",
+        "th": "พูดจริงนะ ไปเรียนทำมาจากไหน",
+        "audio": "/audio/bar-compliment/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "A Brazilian coworker taught me. I practiced a lot.",
+        "ko": "브라질 동료가 가르쳐 줬어요. 연습 많이 했어요.",
+        "th": "เพื่อนร่วมงานคนบราซิลสอนค่ะ ฝึกเยอะมาก",
+        "audio": "/audio/bar-compliment/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Well, it shows. Here, this is for you.",
+        "ko": "티가 나요. 자, 이건 당신 거예요.",
+        "th": "เห็นผลเลย นี่ ให้คุณนะ",
+        "audio": "/audio/bar-compliment/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Oh, you didn't have to do that! Thank you so much.",
+        "ko": "어머, 안 그러셔도 되는데! 정말 감사해요.",
+        "th": "โอ้ ไม่ต้องก็ได้ค่ะ ขอบคุณมากเลยนะคะ",
+        "audio": "/audio/bar-compliment/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "You earned it. You made my night.",
+        "ko": "받을 자격 있어요. 덕분에 즐거운 밤이었어요.",
+        "th": "สมควรได้ครับ คุณทำให้คืนนี้ของผมดีมาก",
+        "audio": "/audio/bar-compliment/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "You just made mine too! Come back anytime.",
+        "ko": "손님 덕분에 저도요! 언제든 또 오세요.",
+        "th": "คุณก็ทำให้คืนนี้ของหนูดีเหมือนกันค่ะ แวะมาได้ทุกเมื่อนะคะ",
+        "audio": "/audio/bar-compliment/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-compliment/s1.webp",
+        "prompt": "At a tropical-style bar, a guest takes a sip of a lime cocktail and looks impressed."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-compliment/s2.webp",
+        "prompt": "Supansa puts her hand on her heart, smiling shyly."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-compliment/s3.webp",
+        "prompt": "The guest slides a folded bill across the counter toward Supansa."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-compliment/s4.webp",
+        "prompt": "Supansa smiles warmly and waves as the guest leaves."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "That's a huge compliment",
+      "ko": "'엄청난 칭찬이에요' — 칭찬에 감사하는 자연스러운 반응.",
+      "th": "‘เป็นคำชมที่ยิ่งใหญ่มาก’",
+      "alt": "That means a lot"
+    },
+    {
+      "line": "l3",
+      "en": "I mean it.",
+      "ko": "'진심이에요'",
+      "th": "‘พูดจริงนะ’",
+      "alt": "I'm serious."
+    },
+    {
+      "line": "l6",
+      "en": "you didn't have to",
+      "ko": "'안 그러셔도 되는데요' — 선물·팁을 받을 때 예의 있는 말.",
+      "th": "‘ไม่ต้องก็ได้’ พูดตอนรับของหรือทิป",
+      "alt": "you shouldn't have"
+    },
+    {
+      "line": "l7",
+      "en": "You made my night.",
+      "ko": "'덕분에 오늘 밤이 즐거웠어요'",
+      "th": "‘คุณทำให้คืนนี้ของฉันดีมาก’",
+      "alt": "You made my day."
+    }
+  ]
+}

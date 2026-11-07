@@ -1,0 +1,183 @@
+{
+  "id": "fr-good-news",
+  "order": 102,
+  "title": {
+    "en": "Sharing Big News",
+    "ko": "기쁜 소식 전하기",
+    "th": "บอกข่าวดี"
+  },
+  "description": {
+    "en": "Tell a friend you got a job on a cruise ship.",
+    "ko": "크루즈 일자리에 합격한 소식을 친구에게 전하는 상황",
+    "th": "บอกเพื่อนว่าได้งานบนเรือสำราญ"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-good-news/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Jess",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Jess, an American woman in her mid 20s with shoulder-length wavy light-brown hair, freckles, and a mustard-yellow cardigan",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Jess, guess what? I got the job on the cruise ship!",
+        "ko": "제스, 있잖아! 나 크루즈 일 합격했어!",
+        "th": "เจส รู้อะไรไหม ได้งานบนเรือสำราญแล้ว!",
+        "audio": "/audio/fr-good-news/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Shut up! Are you serious? Congratulations!",
+        "ko": "말도 안 돼! 진짜야? 축하해!",
+        "th": "ไม่จริงน่า! จริงเหรอ ยินดีด้วย!",
+        "audio": "/audio/fr-good-news/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "I'm so excited, I can't even sleep.",
+        "ko": "너무 신나서 잠도 안 와.",
+        "th": "ตื่นเต้นจนนอนไม่หลับเลย",
+        "audio": "/audio/fr-good-news/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "You totally deserve it. You worked so hard for this.",
+        "ko": "넌 완전 그럴 자격 있어. 이걸 위해 정말 열심히 했잖아.",
+        "th": "เธอสมควรได้สุด ๆ ทุ่มเทมาตลอด",
+        "audio": "/audio/fr-good-news/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Thanks. I'm a little nervous, though.",
+        "ko": "고마워. 근데 조금 긴장돼.",
+        "th": "ขอบคุณนะ แต่ก็ตื่นเต้นนิด ๆ",
+        "audio": "/audio/fr-good-news/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "That's normal. You're going to do amazing.",
+        "ko": "그거 당연해. 너 엄청 잘할 거야.",
+        "th": "เป็นเรื่องปกติ เธอต้องทำได้ดีแน่",
+        "audio": "/audio/fr-good-news/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "When I start, I'll send you pictures from every port!",
+        "ko": "일 시작하면 항구마다 사진 보내 줄게!",
+        "th": "พอเริ่มงานแล้วจะส่งรูปจากทุกท่าเรือให้ดูเลย!",
+        "audio": "/audio/fr-good-news/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "You better! We have to celebrate tonight.",
+        "ko": "꼭 보내야 해! 오늘 밤 축하해야지.",
+        "th": "ต้องส่งนะ! คืนนี้ต้องฉลองกัน",
+        "audio": "/audio/fr-good-news/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-good-news/s1.webp",
+        "prompt": "On a sunny street, Supansa runs to Jess waving her phone with a job offer email."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-good-news/s2.webp",
+        "prompt": "Jess screams with joy and hugs Supansa tightly."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-good-news/s3.webp",
+        "prompt": "Supansa sits on a bench looking happy but a little nervous; Jess holds her hand."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-good-news/s4.webp",
+        "prompt": "Supansa and Jess clink glasses of sparkling drinks at a lively restaurant at night."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Shut up!",
+      "ko": "'말도 안 돼!(진짜?)' — 친한 사이에서 놀랄 때. 화내는 뜻 아니에요!",
+      "th": "‘ไม่จริงน่า!’ ใช้ตอนตกใจระหว่างเพื่อนสนิท ไม่ได้แปลว่าหุบปาก",
+      "alt": "No way!"
+    },
+    {
+      "line": "l4",
+      "en": "You totally deserve it.",
+      "ko": "'넌 완전 그럴 자격 있어'",
+      "th": "‘เธอสมควรได้มาก ๆ’",
+      "alt": "You earned it."
+    },
+    {
+      "line": "l6",
+      "en": "You're going to do amazing.",
+      "ko": "'넌 엄청 잘할 거야'",
+      "th": "‘เธอต้องทำได้ดีแน่’",
+      "alt": "You'll be great."
+    },
+    {
+      "line": "l8",
+      "en": "You better!",
+      "ko": "'꼭 그래야 해!(약속해!)'",
+      "th": "‘ต้องทำนะ!’",
+      "alt": "You'd better!"
+    }
+  ]
+}

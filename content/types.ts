@@ -3,7 +3,7 @@
 export type Lang = "en" | "ko" | "th";
 export type TranslationLang = Exclude<Lang, "en">;
 export type Level = "beginner" | "intermediate" | "advanced";
-export const CATEGORIES = ["hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"] as const;
+export const CATEGORIES = ["bar-work", "friends", "hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"] as const;
 export type Category = (typeof CATEGORIES)[number];
 
 /** 언어별 텍스트 */
@@ -50,6 +50,19 @@ export interface Dialogue {
   scenes: Scene[];
 }
 
+/** 핵심 표현 — 대사 1줄에 연결되어 그 장면 아래에 표시 */
+export interface Expression {
+  /** 이 표현이 나오는 대사 id */
+  line: string;
+  /** 영어 표현 (대사 속 그대로) */
+  en: string;
+  /** 뜻과 쓰임 설명 */
+  ko: string;
+  th: string;
+  /** 같은 뜻의 다른 영어 표현 */
+  alt?: string;
+}
+
 export interface Chapter {
   id: string;
   order: number;
@@ -59,6 +72,7 @@ export interface Chapter {
   category: Category;
   cover: string;
   dialogue: Dialogue;
+  expressions?: Expression[];
 }
 
 /** content/index.json 의 항목 — 챕터 목록 화면용 */

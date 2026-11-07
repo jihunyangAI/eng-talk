@@ -1,0 +1,183 @@
+{
+  "id": "fr-gym",
+  "order": 99,
+  "title": {
+    "en": "Working Out Together",
+    "ko": "같이 운동하기",
+    "th": "ออกกำลังกายด้วยกัน"
+  },
+  "description": {
+    "en": "Chat and motivate each other at the gym.",
+    "ko": "헬스장에서 서로 응원하며 대화하는 상황",
+    "th": "คุยและให้กำลังใจกันที่ยิม"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-gym/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Ryan",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Ryan, an American man in his mid 20s with short dark-brown hair, light stubble, and a navy hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Ready for leg day?",
+        "ko": "하체 운동 날, 준비됐어?",
+        "th": "พร้อมสำหรับวันเล่นขาไหม",
+        "audio": "/audio/fr-gym/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Ugh, not really. My legs are still sore from last time.",
+        "ko": "아, 별로. 지난번 거 때문에 아직 다리가 뻐근해.",
+        "th": "ไม่ค่อยเลย ขายังปวดจากครั้งที่แล้วอยู่",
+        "audio": "/audio/fr-gym/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Come on, you got this! Let's start with some squats.",
+        "ko": "에이, 할 수 있어! 스쿼트부터 하자.",
+        "th": "มาเถอะ ทำได้แน่! เริ่มจากสควอตก่อน",
+        "audio": "/audio/fr-gym/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Okay, okay. But go easy on me.",
+        "ko": "알았어, 알았어. 근데 살살 해.",
+        "th": "โอเค ๆ แต่อย่าโหดนะ",
+        "audio": "/audio/fr-gym/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Just ten more! Keep going!",
+        "ko": "딱 10개만 더! 계속해!",
+        "th": "อีกสิบครั้ง! ไปต่อ!",
+        "audio": "/audio/fr-gym/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "I can't feel my legs anymore!",
+        "ko": "이제 다리에 감각이 없어!",
+        "th": "ไม่รู้สึกถึงขาตัวเองแล้ว!",
+        "audio": "/audio/fr-gym/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "You crushed it! I'm proud of you.",
+        "ko": "완전 잘했어! 자랑스럽다.",
+        "th": "เก่งมาก! ภูมิใจในตัวเธอนะ",
+        "audio": "/audio/fr-gym/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Thanks. Now I deserve a smoothie.",
+        "ko": "고마워. 이제 나 스무디 먹을 자격 있어.",
+        "th": "ขอบคุณนะ ตอนนี้สมควรได้สมูทตี้แล้ว",
+        "audio": "/audio/fr-gym/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-gym/s1.webp",
+        "prompt": "In a bright modern gym, Ryan in workout clothes cheers Supansa, who wears a pink sports top and black leggings."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-gym/s2.webp",
+        "prompt": "Supansa stretches her legs with a tired face while Ryan laughs."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-gym/s3.webp",
+        "prompt": "Supansa does squats with determination while Ryan counts on his fingers."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-gym/s4.webp",
+        "prompt": "Supansa and Ryan high-five, both sweaty and smiling, holding water bottles."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "sore",
+      "ko": "'(근육이) 뻐근한, 쑤시는'",
+      "th": "‘ปวดเมื่อย’",
+      "alt": "achy"
+    },
+    {
+      "line": "l3",
+      "en": "you got this",
+      "ko": "'넌 할 수 있어!' — 응원할 때.",
+      "th": "‘ทำได้แน่!’ ใช้ให้กำลังใจ",
+      "alt": "you can do it"
+    },
+    {
+      "line": "l4",
+      "en": "go easy on me",
+      "ko": "'살살 해 줘'",
+      "th": "‘เบา ๆ หน่อยนะ อย่าโหด’",
+      "alt": "don't be too hard on me"
+    },
+    {
+      "line": "l7",
+      "en": "You crushed it!",
+      "ko": "'완전 잘했어!(해냈다!)'",
+      "th": "‘เก่งมาก ทำได้เยี่ยม’",
+      "alt": "You nailed it!"
+    }
+  ]
+}

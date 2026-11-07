@@ -1,0 +1,183 @@
+{
+  "id": "bar-recommend",
+  "order": 71,
+  "title": {
+    "en": "Recommending a Cocktail",
+    "ko": "취향 듣고 칵테일 추천하기",
+    "th": "แนะนำค็อกเทลตามรสนิยม"
+  },
+  "description": {
+    "en": "Ask about taste and suggest the right drink.",
+    "ko": "손님 취향을 묻고 알맞은 음료를 추천하는 상황",
+    "th": "ถามรสที่ชอบแล้วแนะนำเครื่องดื่ม"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-recommend/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a British woman in her late 20s with a sleek dark bob haircut and a black dress",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "I can't decide. Everything on the menu looks amazing.",
+        "ko": "못 고르겠어요. 메뉴가 다 맛있어 보여요.",
+        "th": "เลือกไม่ถูกเลยค่ะ เมนูน่ากินไปหมด",
+        "audio": "/audio/bar-recommend/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I can help! Do you like something sweet or something more sour?",
+        "ko": "제가 도와드릴게요! 단 거 좋아하세요, 아니면 새콤한 거요?",
+        "th": "ช่วยเลือกได้นะคะ ชอบแบบหวานหรือเปรี้ยวคะ",
+        "audio": "/audio/bar-recommend/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Sweet, but not too sweet. And kind of fruity.",
+        "ko": "달긴 한데 너무 달지 않게요. 그리고 과일 맛이요.",
+        "th": "หวานแต่ไม่หวานมากค่ะ แล้วก็ออกรสผลไม้หน่อย",
+        "audio": "/audio/bar-recommend/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Then you should try our passion fruit martini. It's my personal favorite.",
+        "ko": "그럼 패션프루트 마티니 드셔 보세요. 제 최애예요.",
+        "th": "งั้นลองเสาวรสมาร์ตินีดูค่ะ เป็นเมนูโปรดของหนูเลย",
+        "audio": "/audio/bar-recommend/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Ooh, that sounds dangerous. How strong is it?",
+        "ko": "오, 위험한데요. 얼마나 독해요?",
+        "th": "โห ฟังดูอันตรายนะ แรงไหมคะ",
+        "audio": "/audio/bar-recommend/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "It's pretty light, actually. You can barely taste the alcohol.",
+        "ko": "사실 꽤 약해요. 술맛이 거의 안 나요.",
+        "th": "จริง ๆ เบามากค่ะ แทบไม่รู้สึกถึงแอลกอฮอล์เลย",
+        "audio": "/audio/bar-recommend/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Okay, you've convinced me. One passion fruit martini, please.",
+        "ko": "좋아요, 넘어갔어요. 패션프루트 마티니 하나요.",
+        "th": "โอเค โดนป้ายยาแล้ว ขอเสาวรสมาร์ตินีหนึ่งแก้วค่ะ",
+        "audio": "/audio/bar-recommend/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Great choice! Let me know what you think.",
+        "ko": "좋은 선택이에요! 드셔 보시고 어떤지 알려 주세요.",
+        "th": "เลือกได้ดีมากค่ะ ชิมแล้วบอกด้วยนะคะว่าเป็นไง",
+        "audio": "/audio/bar-recommend/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-recommend/s1.webp",
+        "prompt": "At a stylish bar, a woman studies a cocktail menu while Supansa waits behind the counter with a smile."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-recommend/s2.webp",
+        "prompt": "Supansa gestures with her hands as if comparing two options."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-recommend/s3.webp",
+        "prompt": "Supansa shakes a cocktail shaker energetically."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-recommend/s4.webp",
+        "prompt": "Supansa slides a bright yellow martini across the bar to the smiling guest."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "something sweet or something more sour",
+      "ko": "'단 거? 새콤한 거?' — 취향을 물을 때 something + 형용사.",
+      "th": "ถามรสชาติด้วย something + คำคุณศัพท์",
+      "alt": "sweet or sour?"
+    },
+    {
+      "line": "l4",
+      "en": "my personal favorite",
+      "ko": "'제 최애예요' — 추천에 진심을 더해요.",
+      "th": "‘เมนูโปรดของฉันเอง’ ทำให้คำแนะนำดูจริงใจ",
+      "alt": "my go-to"
+    },
+    {
+      "line": "l6",
+      "en": "You can barely taste",
+      "ko": "'거의 ~가 안 느껴져요'",
+      "th": "‘แทบไม่รู้สึกถึงรส…’",
+      "alt": "You can hardly taste"
+    },
+    {
+      "line": "l7",
+      "en": "you've convinced me",
+      "ko": "'설득당했어요 / 넘어갔어요'",
+      "th": "‘โน้มน้าวสำเร็จแล้ว’ แปลว่าเอาตามที่แนะนำ",
+      "alt": "You talked me into it"
+    }
+  ]
+}

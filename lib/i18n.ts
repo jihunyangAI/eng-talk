@@ -27,6 +27,8 @@ type Messages = {
   mode: Record<TranslationMode, string>;
   tapToReveal: string;
   listen: string;
+  keyExpressions: string;
+  alsoSay: string;
   sceneOf: (i: number, n: number) => string;
   finish: string;
   practice: Practice;
@@ -76,6 +78,8 @@ export const messages: Record<TranslationLang, Messages> = {
       all: "전체",
       allLevels: "모든 난이도",
       category: {
+        "bar-work": "바 근무",
+        friends: "친구와 수다",
         "hotel-work": "호텔 근무",
         "cruise-work": "크루즈 근무",
         travel: "여행",
@@ -99,6 +103,8 @@ export const messages: Record<TranslationLang, Messages> = {
     mode: { show: "보기", hide: "숨기기", tap: "탭해서 보기" },
     tapToReveal: "탭해서 번역 보기",
     listen: "발음 듣기",
+    keyExpressions: "핵심 표현",
+    alsoSay: "이렇게도 말해요",
     sceneOf: (i, n) => `장면 ${i} / ${n}`,
     finish: "완료! 목록으로",
     practice: {
@@ -148,6 +154,8 @@ export const messages: Record<TranslationLang, Messages> = {
       all: "ทั้งหมด",
       allLevels: "ทุกระดับ",
       category: {
+        "bar-work": "งานบาร์",
+        friends: "คุยกับเพื่อน",
         "hotel-work": "งานโรงแรม",
         "cruise-work": "งานเรือสำราญ",
         travel: "ท่องเที่ยว",
@@ -171,6 +179,8 @@ export const messages: Record<TranslationLang, Messages> = {
     mode: { show: "แสดง", hide: "ซ่อน", tap: "แตะเพื่อดู" },
     tapToReveal: "แตะเพื่อดูคำแปล",
     listen: "ฟังการออกเสียง",
+    keyExpressions: "สำนวนเด็ด",
+    alsoSay: "พูดแบบนี้ก็ได้",
     sceneOf: (i, n) => `ฉาก ${i} / ${n}`,
     finish: "เสร็จแล้ว! กลับไปที่รายการ",
     practice: {

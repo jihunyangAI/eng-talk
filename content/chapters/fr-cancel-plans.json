@@ -1,0 +1,183 @@
+{
+  "id": "fr-cancel-plans",
+  "order": 93,
+  "title": {
+    "en": "Canceling Plans",
+    "ko": "약속 취소하기",
+    "th": "ยกเลิกนัด"
+  },
+  "description": {
+    "en": "Cancel plans politely and suggest another day.",
+    "ko": "약속을 미안하게 취소하고 다른 날을 정하는 상황",
+    "th": "ยกเลิกนัดอย่างสุภาพและนัดวันใหม่"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-cancel-plans/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Jess",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Jess, an American woman in her mid 20s with shoulder-length wavy light-brown hair, freckles, and a mustard-yellow cardigan",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hey Jess, I'm so sorry, but I have to cancel tonight.",
+        "ko": "제스, 정말 미안한데 오늘 밤 약속 취소해야 할 것 같아.",
+        "th": "เจส ขอโทษจริง ๆ นะ คืนนี้ต้องยกเลิกนัดอ่ะ",
+        "audio": "/audio/fr-cancel-plans/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Oh no! Is everything okay?",
+        "ko": "어머! 별일 없어?",
+        "th": "อ้าว เป็นอะไรรึเปล่า",
+        "audio": "/audio/fr-cancel-plans/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Yeah, I just got called in to work. Someone called in sick.",
+        "ko": "응, 갑자기 출근하래. 누가 아파서 못 나왔대.",
+        "th": "ไม่เป็นไรหรอก แค่โดนเรียกไปทำงาน มีคนลาป่วย",
+        "audio": "/audio/fr-cancel-plans/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Ugh, that's the worst. No worries, though.",
+        "ko": "아, 최악이다. 그래도 괜찮아.",
+        "th": "แย่สุด ๆ แต่ไม่เป็นไรนะ",
+        "audio": "/audio/fr-cancel-plans/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Can I take a rain check? Maybe Thursday?",
+        "ko": "다음으로 미뤄도 될까? 목요일 어때?",
+        "th": "ขอเลื่อนไปก่อนได้ไหม วันพฤหัสดีไหม",
+        "audio": "/audio/fr-cancel-plans/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Thursday works for me!",
+        "ko": "목요일 좋아!",
+        "th": "วันพฤหัสโอเคเลย",
+        "audio": "/audio/fr-cancel-plans/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "You're the best. Dinner's on me to make up for it.",
+        "ko": "역시 최고야. 미안하니까 저녁은 내가 쏠게.",
+        "th": "เธอดีที่สุด มื้อเย็นฉันเลี้ยงเองเป็นการไถ่โทษ",
+        "audio": "/audio/fr-cancel-plans/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Deal! Good luck at work tonight.",
+        "ko": "콜! 오늘 일 잘해.",
+        "th": "ตกลง! ขอให้คืนนี้ทำงานราบรื่นนะ",
+        "audio": "/audio/fr-cancel-plans/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-cancel-plans/s1.webp",
+        "prompt": "Supansa, in her bartender vest, talks on her phone with an apologetic face in a staff room."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-cancel-plans/s2.webp",
+        "prompt": "Jess, at home on her sofa, talks on the phone with a concerned face."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-cancel-plans/s3.webp",
+        "prompt": "Supansa holds the phone and smiles with relief."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-cancel-plans/s4.webp",
+        "prompt": "Jess gives a thumbs up while on the phone, smiling."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l3",
+      "en": "called in sick",
+      "ko": "'아프다고 연락하고 결근하다'",
+      "th": "‘โทรลาป่วย’",
+      "alt": "took a sick day"
+    },
+    {
+      "line": "l4",
+      "en": "that's the worst",
+      "ko": "'최악이다' — 공감할 때 아주 흔히 써요.",
+      "th": "‘แย่ที่สุด’ ใช้แสดงความเห็นใจ",
+      "alt": "that sucks"
+    },
+    {
+      "line": "l5",
+      "en": "take a rain check",
+      "ko": "'다음으로 미루다(나중에 꼭 하자)'",
+      "th": "‘ขอเลื่อนไปก่อน ไว้คราวหน้า’",
+      "alt": "do it another time"
+    },
+    {
+      "line": "l6",
+      "en": "works for me",
+      "ko": "'나는 좋아(시간 돼)'",
+      "th": "‘โอเคสำหรับฉัน สะดวก’",
+      "alt": "is good for me"
+    }
+  ]
+}

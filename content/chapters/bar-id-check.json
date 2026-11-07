@@ -1,0 +1,183 @@
+{
+  "id": "bar-id-check",
+  "order": 84,
+  "title": {
+    "en": "Checking ID",
+    "ko": "신분증 확인하기",
+    "th": "ตรวจบัตรประชาชน"
+  },
+  "description": {
+    "en": "Politely ask for ID before serving.",
+    "ko": "주문 전 정중하게 신분증을 확인하는 상황",
+    "th": "ขอดูบัตรอย่างสุภาพก่อนเสิร์ฟ"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-id-check/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a young American man around 21 with a baby face, a backwards baseball cap, and a hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Can I get a beer, please?",
+        "ko": "맥주 한 잔 주실래요?",
+        "th": "ขอเบียร์แก้วนึงครับ",
+        "audio": "/audio/bar-id-check/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Sure! Can I see your ID first?",
+        "ko": "그럼요! 먼저 신분증 좀 볼 수 있을까요?",
+        "th": "ได้ค่ะ ขอดูบัตรก่อนนะคะ",
+        "audio": "/audio/bar-id-check/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Oh, seriously? I'm twenty-one.",
+        "ko": "어, 진짜요? 저 스물한 살이에요.",
+        "th": "อ้าว จริงเหรอ ผมยี่สิบเอ็ดแล้วนะ",
+        "audio": "/audio/bar-id-check/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Sorry, it's our policy. We have to check everyone.",
+        "ko": "죄송해요, 저희 규정이에요. 모든 분 다 확인해야 해요.",
+        "th": "ขอโทษนะคะ เป็นกฎของร้าน ต้องเช็กทุกคนค่ะ",
+        "audio": "/audio/bar-id-check/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Fair enough. Here's my passport.",
+        "ko": "그렇네요. 여기 여권이요.",
+        "th": "ก็สมเหตุสมผล นี่พาสปอร์ตครับ",
+        "audio": "/audio/bar-id-check/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Thanks. Happy belated birthday, by the way! You just turned twenty-one.",
+        "ko": "고마워요. 그나저나 늦었지만 생일 축하해요! 막 스물한 살 됐네요.",
+        "th": "ขอบคุณค่ะ สุขสันต์วันเกิดย้อนหลังนะคะ เพิ่งยี่สิบเอ็ดเองนี่",
+        "audio": "/audio/bar-id-check/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Ha, yeah. Last week! This is my first legal beer.",
+        "ko": "하하, 네. 지난주에요! 이게 제 첫 합법 맥주예요.",
+        "th": "ฮ่า ใช่ อาทิตย์ที่แล้ว นี่เบียร์แรกแบบถูกกฎหมายเลย",
+        "audio": "/audio/bar-id-check/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "No way! Then this one is extra special. Enjoy!",
+        "ko": "말도 안 돼! 그럼 이건 더 특별하네요. 맛있게 드세요!",
+        "th": "ไม่จริงน่า งั้นแก้วนี้พิเศษสุด ๆ ดื่มให้อร่อยนะคะ",
+        "audio": "/audio/bar-id-check/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-id-check/s1.webp",
+        "prompt": "At a bar counter, a young guest in a backwards cap orders while Supansa smiles and holds out her hand."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-id-check/s2.webp",
+        "prompt": "The guest looks surprised and laughs."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-id-check/s3.webp",
+        "prompt": "Supansa checks a passport carefully under the bar light."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-id-check/s4.webp",
+        "prompt": "Supansa hands the guest a beer; he grins proudly."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l3",
+      "en": "seriously?",
+      "ko": "'진짜요?' — 놀라거나 살짝 불만일 때.",
+      "th": "‘จริงดิ?’ ตกใจหรือไม่ค่อยพอใจนิด ๆ",
+      "alt": "Really?"
+    },
+    {
+      "line": "l5",
+      "en": "Fair enough.",
+      "ko": "'그 말도 맞네요(인정)'",
+      "th": "‘ก็มีเหตุผล ยอมรับ’",
+      "alt": "That makes sense."
+    },
+    {
+      "line": "l6",
+      "en": "by the way",
+      "ko": "'그나저나, 그건 그렇고' — 화제를 살짝 바꿀 때.",
+      "th": "‘ว่าแต่’ ใช้เปลี่ยนเรื่องเล็กน้อย",
+      "alt": "oh, and"
+    },
+    {
+      "line": "l6",
+      "en": "Happy belated birthday",
+      "ko": "'늦었지만 생일 축하해요'",
+      "th": "‘สุขสันต์วันเกิดย้อนหลัง’",
+      "alt": "Happy late birthday"
+    }
+  ]
+}

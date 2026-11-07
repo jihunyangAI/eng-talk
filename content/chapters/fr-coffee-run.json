@@ -1,0 +1,183 @@
+{
+  "id": "fr-coffee-run",
+  "order": 100,
+  "title": {
+    "en": "A Coffee Run",
+    "ko": "카페에서 수다",
+    "th": "แวะร้านกาแฟ"
+  },
+  "description": {
+    "en": "Grab coffee and chat about being tired.",
+    "ko": "피곤한 아침 친구와 커피를 사며 수다 떠는 상황",
+    "th": "แวะซื้อกาแฟและบ่นเรื่องง่วงกับเพื่อน"
+  },
+  "level": "beginner",
+  "category": "friends",
+  "cover": "/images/fr-coffee-run/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Me",
+          "ko": "나",
+          "th": "ฉัน"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair worn down and a warm smile, wearing a white t-shirt and a long A-line denim skirt",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Jess",
+        "role": {
+          "en": "Friend",
+          "ko": "친구",
+          "th": "เพื่อน"
+        },
+        "look": "Jess, an American woman in her mid 20s with shoulder-length wavy light-brown hair, freckles, and a mustard-yellow cardigan",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "You look exhausted. Rough night?",
+        "ko": "너 완전 지쳐 보여. 어젯밤 힘들었어?",
+        "th": "ดูเหนื่อยมากเลย เมื่อคืนหนักเหรอ",
+        "audio": "/audio/fr-coffee-run/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Yeah, I worked until two a.m. I'm running on three hours of sleep.",
+        "ko": "응, 새벽 2시까지 일했어. 3시간 자고 버티는 중이야.",
+        "th": "ใช่ ทำงานถึงตีสอง นอนไปแค่สามชั่วโมงเอง",
+        "audio": "/audio/fr-coffee-run/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Oh no. You need a big coffee.",
+        "ko": "어떡해. 커피 큰 거 마셔야겠다.",
+        "th": "แย่แล้ว ต้องกินกาแฟแก้วใหญ่แล้ว",
+        "audio": "/audio/fr-coffee-run/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "The biggest one they have. Maybe two.",
+        "ko": "제일 큰 걸로. 어쩌면 두 잔.",
+        "th": "แก้วใหญ่สุดเลย อาจจะสองแก้ว",
+        "audio": "/audio/fr-coffee-run/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "My treat today. What do you usually get?",
+        "ko": "오늘은 내가 살게. 보통 뭐 마셔?",
+        "th": "วันนี้ฉันเลี้ยง ปกติกินอะไร",
+        "audio": "/audio/fr-coffee-run/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "An iced latte with oat milk. You're a lifesaver!",
+        "ko": "오트밀크 아이스 라테. 너 진짜 생명의 은인이야!",
+        "th": "ลาเต้เย็นนมโอ๊ต เธอช่วยชีวิตฉันไว้เลย!",
+        "audio": "/audio/fr-coffee-run/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Ha, no problem. Maybe take a nap later.",
+        "ko": "하, 별거 아냐. 이따 낮잠도 좀 자.",
+        "th": "ฮ่า ไม่เป็นไร เดี๋ยวงีบหน่อยนะ",
+        "audio": "/audio/fr-coffee-run/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "That's the plan. Right after this coffee kicks in.",
+        "ko": "그럴 계획이야. 이 커피가 효과 오면 바로.",
+        "th": "ว่าจะงั้นแหละ หลังกาแฟออกฤทธิ์เลย",
+        "audio": "/audio/fr-coffee-run/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/fr-coffee-run/s1.webp",
+        "prompt": "In a cozy morning café, Jess looks at a sleepy Supansa with a worried smile."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/fr-coffee-run/s2.webp",
+        "prompt": "Supansa yawns dramatically at the counter while Jess laughs."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/fr-coffee-run/s3.webp",
+        "prompt": "Jess pays at the counter with her phone while Supansa says thank you."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/fr-coffee-run/s4.webp",
+        "prompt": "Supansa and Jess sit by the window holding iced lattes, Supansa looking more awake."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "exhausted",
+      "ko": "'완전 지친' — tired보다 훨씬 강해요.",
+      "th": "‘หมดแรง เหนื่อยสุด ๆ’ แรงกว่า tired",
+      "alt": "worn out"
+    },
+    {
+      "line": "l2",
+      "en": "running on",
+      "ko": "'~으로 겨우 버티는 중'",
+      "th": "‘ฝืนไปด้วย…’ เช่น นอนน้อย",
+      "alt": "getting by on"
+    },
+    {
+      "line": "l5",
+      "en": "My treat",
+      "ko": "'내가 살게'",
+      "th": "‘ฉันเลี้ยงเอง’",
+      "alt": "It's on me"
+    },
+    {
+      "line": "l8",
+      "en": "kicks in",
+      "ko": "'(약·커피가) 효과가 나타나다'",
+      "th": "‘เริ่มออกฤทธิ์’",
+      "alt": "starts working"
+    }
+  ]
+}

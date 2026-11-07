@@ -1,0 +1,183 @@
+{
+  "id": "bar-split-bill",
+  "order": 80,
+  "title": {
+    "en": "Splitting the Bill",
+    "ko": "더치페이 계산",
+    "th": "หารบิล"
+  },
+  "description": {
+    "en": "Help a group split the bill and pay by card.",
+    "ko": "일행이 각자 계산하려는 상황",
+    "th": "ช่วยแขกหารบิลแล้วจ่ายด้วยบัตร"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-split-bill/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "a Spanish woman in her 30s with long dark curly hair and a white blouse, with two friends behind her",
+        "voice": {
+          "name": "Nora",
+          "voiceId": "d081b915-6623-4a44-bacf-80d0f1c90a03"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi! Could we get the check, please?",
+        "ko": "저기요! 계산서 주실래요?",
+        "th": "ขอเช็กบิลหน่อยค่ะ",
+        "audio": "/audio/bar-split-bill/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Sure thing. Is it all together or separate?",
+        "ko": "그럼요. 같이 하세요, 따로 하세요?",
+        "th": "ได้ค่ะ จ่ายรวมหรือแยกคะ",
+        "audio": "/audio/bar-split-bill/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Can we split it three ways?",
+        "ko": "셋이 나눠서 낼 수 있어요?",
+        "th": "หารสามได้ไหมคะ",
+        "audio": "/audio/bar-split-bill/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Of course. That's twenty dollars each.",
+        "ko": "물론이죠. 한 분당 20달러예요.",
+        "th": "ได้ค่ะ คนละยี่สิบดอลลาร์ค่ะ",
+        "audio": "/audio/bar-split-bill/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Perfect. Do you take cards?",
+        "ko": "좋아요. 카드 돼요?",
+        "th": "ดีเลย รับบัตรไหมคะ",
+        "audio": "/audio/bar-split-bill/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Yep, just tap it here. Would you like a receipt?",
+        "ko": "네, 여기 대기만 하세요. 영수증 드릴까요?",
+        "th": "รับค่ะ แตะตรงนี้ได้เลย รับใบเสร็จไหมคะ",
+        "audio": "/audio/bar-split-bill/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "No, I'm good. Thanks for everything tonight!",
+        "ko": "아뇨, 괜찮아요. 오늘 밤 다 고마웠어요!",
+        "th": "ไม่เป็นไรค่ะ ขอบคุณสำหรับทุกอย่างคืนนี้นะคะ",
+        "audio": "/audio/bar-split-bill/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "My pleasure! Come back soon, ladies.",
+        "ko": "제가 즐거웠어요! 또 오세요, 여러분.",
+        "th": "ยินดีค่ะ แวะมาอีกนะคะสาว ๆ",
+        "audio": "/audio/bar-split-bill/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-split-bill/s1.webp",
+        "prompt": "At a lively bar at night, a woman with two friends behind her waves to Supansa for the check."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-split-bill/s2.webp",
+        "prompt": "Supansa shows the bill on a small tray and points at the total."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-split-bill/s3.webp",
+        "prompt": "The woman taps her card on a payment terminal that Supansa holds."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-split-bill/s4.webp",
+        "prompt": "The three women wave goodbye happily; Supansa smiles and waves back."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "get the check",
+      "ko": "'계산서 받다' — 미국에서는 bill보다 check을 많이 써요.",
+      "th": "‘ขอบิล’ คนอเมริกันใช้ check มากกว่า bill",
+      "alt": "Can I have the bill?"
+    },
+    {
+      "line": "l2",
+      "en": "all together or separate",
+      "ko": "'같이 계산? 따로 계산?'",
+      "th": "‘จ่ายรวมหรือแยก’",
+      "alt": "one check or separate checks"
+    },
+    {
+      "line": "l3",
+      "en": "split it three ways",
+      "ko": "'셋으로 나누다'",
+      "th": "‘หารสาม’",
+      "alt": "divide it by three"
+    },
+    {
+      "line": "l8",
+      "en": "My pleasure!",
+      "ko": "'제가 더 즐거웠어요' — Thank you에 대한 정중하고 따뜻한 답.",
+      "th": "‘ด้วยความยินดี’ ตอบคำขอบคุณอย่างอบอุ่น",
+      "alt": "Anytime!"
+    }
+  ]
+}

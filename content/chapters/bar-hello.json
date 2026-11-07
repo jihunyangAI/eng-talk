@@ -1,0 +1,183 @@
+{
+  "id": "bar-hello",
+  "order": 69,
+  "title": {
+    "en": "Greeting a Guest at the Bar",
+    "ko": "바에 온 손님 맞이하기",
+    "th": "ทักทายแขกที่บาร์"
+  },
+  "description": {
+    "en": "Say hi, offer a seat, and take the first order.",
+    "ko": "인사하고 자리를 안내한 뒤 첫 주문을 받는 상황",
+    "th": "ทักทาย ชวนนั่ง และรับออร์เดอร์แรก"
+  },
+  "level": "beginner",
+  "category": "bar-work",
+  "cover": "/images/bar-hello/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Bartender",
+          "ko": "바텐더",
+          "th": "บาร์เทนเดอร์"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, working as a bartender in a black vest over a white shirt with rolled-up sleeves and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "손님",
+          "th": "แขก"
+        },
+        "look": "an American man in his 30s with short brown hair and a denim jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hey there! Grab a seat anywhere you like.",
+        "ko": "안녕하세요! 편한 자리에 앉으세요.",
+        "th": "สวัสดีค่ะ นั่งตรงไหนก็ได้เลยนะคะ",
+        "audio": "/audio/bar-hello/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Thanks. It's pretty busy tonight, huh?",
+        "ko": "고마워요. 오늘 밤 꽤 붐비네요?",
+        "th": "ขอบคุณครับ คืนนี้คนเยอะเหมือนกันนะ",
+        "audio": "/audio/bar-hello/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Yeah, Fridays are always crazy. What can I get you?",
+        "ko": "네, 금요일은 항상 정신없어요. 뭐 드릴까요?",
+        "th": "ใช่ค่ะ วันศุกร์วุ่นตลอดเลย รับอะไรดีคะ",
+        "audio": "/audio/bar-hello/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "I'm not sure yet. What's good here?",
+        "ko": "아직 잘 모르겠어요. 여기 뭐가 맛있어요?",
+        "th": "ยังไม่แน่ใจเลยครับ ที่นี่อะไรอร่อยครับ",
+        "audio": "/audio/bar-hello/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Our mojito is a crowd favorite. It's super refreshing.",
+        "ko": "저희 모히토가 제일 인기예요. 정말 상큼해요.",
+        "th": "โมฮิโตของเราคนชอบมากค่ะ สดชื่นสุด ๆ เลย",
+        "audio": "/audio/bar-hello/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Sounds good. I'll go with that.",
+        "ko": "좋네요. 그걸로 할게요.",
+        "th": "ฟังดูดีครับ เอาอันนั้นครับ",
+        "audio": "/audio/bar-hello/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Coming right up! Can I get you some water too?",
+        "ko": "바로 나갑니다! 물도 드릴까요?",
+        "th": "ได้เลยค่ะ รับน้ำเปล่าด้วยไหมคะ",
+        "audio": "/audio/bar-hello/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Yes, please. Thanks a lot.",
+        "ko": "네, 주세요. 정말 고마워요.",
+        "th": "ครับ ขอบคุณมากครับ",
+        "audio": "/audio/bar-hello/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bar-hello/s1.webp",
+        "prompt": "In a cozy, warmly lit cocktail bar, Supansa smiles at a guest walking up to the bar counter."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bar-hello/s2.webp",
+        "prompt": "The guest sits on a bar stool and looks around at the crowded bar."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bar-hello/s3.webp",
+        "prompt": "Supansa leans on the counter and points to a menu while chatting."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bar-hello/s4.webp",
+        "prompt": "Supansa places a mojito and a glass of water in front of the guest."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Grab a seat",
+      "ko": "'편하게 앉으세요' — sit down보다 훨씬 친근한 표현이에요.",
+      "th": "‘เชิญนั่ง’ แบบเป็นกันเอง ฟังเป็นธรรมชาติกว่า sit down",
+      "alt": "Have a seat"
+    },
+    {
+      "line": "l3",
+      "en": "What can I get you?",
+      "ko": "바텐더가 주문받을 때 가장 많이 쓰는 말 — '뭐 드릴까요?'",
+      "th": "ประโยคยอดฮิตของบาร์เทนเดอร์ ‘รับอะไรดี’",
+      "alt": "What are you having?"
+    },
+    {
+      "line": "l5",
+      "en": "a crowd favorite",
+      "ko": "'모두가 좋아하는 인기 메뉴' — 추천할 때 쓰기 좋아요.",
+      "th": "‘เมนูที่ใคร ๆ ก็ชอบ’ ใช้ตอนแนะนำ",
+      "alt": "our best seller"
+    },
+    {
+      "line": "l7",
+      "en": "Coming right up!",
+      "ko": "'곧 나갑니다!' — 주문을 받고 밝게 대답할 때.",
+      "th": "‘ได้เลย เดี๋ยวมา!’ ตอบรับออร์เดอร์อย่างสดใส",
+      "alt": "You got it!"
+    }
+  ]
+}
