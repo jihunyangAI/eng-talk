@@ -1,0 +1,153 @@
+{
+  "id": "cw-food-allergy",
+  "order": 54,
+  "title": {
+    "en": "Food Allergies and Special Diets",
+    "ko": "음식 알레르기·특별 식단",
+    "th": "แพ้อาหารและอาหารพิเศษ"
+  },
+  "description": {
+    "en": "Check a dish for peanuts and suggest a safe meal.",
+    "ko": "땅콩이 들어갔는지 확인하고 안전한 메뉴를 추천하는 상황",
+    "th": "ตรวจสอบว่าอาหารมีถั่วลิสงไหมและแนะนำเมนูที่ปลอดภัย"
+  },
+  "level": "intermediate",
+  "category": "cruise-work",
+  "cover": "/images/cw-food-allergy/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Israeli man in his 30s, dark curly hair, short beard, light button-up shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. I'm allergic to peanuts. Is this dish safe for me?",
+        "ko": "실례합니다. 땅콩 알레르기가 있는데요. 이 요리 먹어도 괜찮나요?",
+        "th": "ขอโทษครับ ผมแพ้ถั่วลิสง จานนี้ทานได้ไหมครับ",
+        "audio": "/audio/cw-food-allergy/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Thank you for telling me. Let me check with the chef.",
+        "ko": "말씀해 주셔서 감사합니다. 셰프에게 확인해 볼게요.",
+        "th": "ขอบคุณที่แจ้งค่ะ ขอตรวจสอบกับเชฟก่อนนะคะ",
+        "audio": "/audio/cw-food-allergy/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Thank you. I also don't eat pork.",
+        "ko": "고마워요. 저는 돼지고기도 안 먹어요.",
+        "th": "ขอบคุณครับ ผมไม่ทานหมูด้วยครับ",
+        "audio": "/audio/cw-food-allergy/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "I've noted that. The chef says this curry has peanut sauce.",
+        "ko": "기록해 두었어요. 셰프 말로는 이 커리에 땅콩 소스가 들어 있대요.",
+        "th": "บันทึกไว้แล้วค่ะ เชฟบอกว่าแกงนี้มีซอสถั่วลิสงค่ะ",
+        "audio": "/audio/cw-food-allergy/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Oh, I'm glad I asked. What do you recommend instead?",
+        "ko": "오, 물어보길 잘했네요. 대신 뭘 추천하세요?",
+        "th": "โอ้ ดีที่ถามไว้ครับ แนะนำอะไรแทนดีครับ",
+        "audio": "/audio/cw-food-allergy/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "The grilled fish with vegetables has no peanuts and no pork.",
+        "ko": "채소를 곁들인 생선구이는 땅콩도 돼지고기도 없어요.",
+        "th": "ปลาย่างกับผักไม่มีถั่วลิสงและไม่มีหมูค่ะ",
+        "audio": "/audio/cw-food-allergy/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "That sounds great. I'll have that.",
+        "ko": "좋네요. 그걸로 할게요.",
+        "th": "ฟังดูดีครับ เอาจานนั้นครับ",
+        "audio": "/audio/cw-food-allergy/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "I'll tell the kitchen about your allergy for the rest of the cruise.",
+        "ko": "남은 크루즈 기간 동안 알레르기를 주방에 알려 둘게요.",
+        "th": "จะแจ้งห้องครัวเรื่องอาการแพ้ไว้ตลอดการเดินทางเลยนะคะ",
+        "audio": "/audio/cw-food-allergy/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-food-allergy/s1.webp",
+        "prompt": "At a table in a cruise ship dining room, the passenger points at the menu and asks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-food-allergy/s2.webp",
+        "prompt": "Supansa writes notes on a small notepad, listening carefully."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-food-allergy/s3.webp",
+        "prompt": "Supansa returns and explains, gesturing toward the kitchen."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-food-allergy/s4.webp",
+        "prompt": "Supansa serves a plate of grilled fish with vegetables to the passenger."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "cw-shore-excursion",
+  "order": 55,
+  "title": {
+    "en": "Booking a Shore Excursion",
+    "ko": "기항지 투어 예약",
+    "th": "จองทัวร์บนฝั่ง"
+  },
+  "description": {
+    "en": "Introduce tours at the next port and book one.",
+    "ko": "다음 기항지의 투어를 소개하고 예약해 주는 상황",
+    "th": "แนะนำทัวร์ที่ท่าเรือถัดไปและจองให้"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-shore-excursion/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "German man in his 30s, tall, short blond hair, light outdoor jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi. What tours do you have in Phuket tomorrow?",
+        "ko": "안녕하세요. 내일 푸껫에서 어떤 투어가 있나요?",
+        "th": "สวัสดีครับ พรุ่งนี้ที่ภูเก็ตมีทัวร์อะไรบ้างครับ",
+        "audio": "/audio/cw-shore-excursion/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "We have an island hopping tour, a city tour, and an elephant sanctuary visit.",
+        "ko": "섬 투어, 시티 투어, 코끼리 보호구역 방문이 있어요.",
+        "th": "มีทัวร์เที่ยวเกาะ ทัวร์ในเมือง และไปเยี่ยมศูนย์อนุรักษ์ช้างค่ะ",
+        "audio": "/audio/cw-shore-excursion/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "The island tour sounds fun. How long is it?",
+        "ko": "섬 투어가 재밌겠네요. 얼마나 걸려요?",
+        "th": "ทัวร์เกาะน่าสนุกดีครับ ใช้เวลานานเท่าไรครับ",
+        "audio": "/audio/cw-shore-excursion/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "It's about six hours, and lunch is included.",
+        "ko": "6시간 정도이고 점심이 포함돼요.",
+        "th": "ประมาณหกชั่วโมงค่ะ รวมอาหารกลางวันด้วยค่ะ",
+        "audio": "/audio/cw-shore-excursion/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "How much does it cost?",
+        "ko": "얼마예요?",
+        "th": "ราคาเท่าไรครับ",
+        "audio": "/audio/cw-shore-excursion/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "It's eighty-nine dollars per person. Shall I book it for you?",
+        "ko": "1인당 89달러예요. 예약해 드릴까요?",
+        "th": "คนละแปดสิบเก้าดอลลาร์ค่ะ ให้จองให้เลยไหมคะ",
+        "audio": "/audio/cw-shore-excursion/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Yes, please. One person.",
+        "ko": "네, 한 명이요.",
+        "th": "ครับ หนึ่งคนครับ",
+        "audio": "/audio/cw-shore-excursion/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Done. Please meet in the theater at eight a.m. Don't forget sunscreen!",
+        "ko": "됐습니다. 오전 8시에 극장으로 오세요. 선크림 잊지 마세요!",
+        "th": "เรียบร้อยค่ะ เจอกันที่โรงละครแปดโมงเช้านะคะ อย่าลืมครีมกันแดดนะคะ",
+        "audio": "/audio/cw-shore-excursion/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-shore-excursion/s1.webp",
+        "prompt": "At the shore excursion desk inside a cruise ship, with travel brochures on the counter, the passenger asks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-shore-excursion/s2.webp",
+        "prompt": "Supansa shows tropical island photos on a tablet."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-shore-excursion/s3.webp",
+        "prompt": "The passenger looks at the tablet with an excited face."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-shore-excursion/s4.webp",
+        "prompt": "Supansa hands the passenger a printed tour ticket with a smile."
+      }
+    ]
+  }
+}

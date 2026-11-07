@@ -1,0 +1,153 @@
+{
+  "id": "hw-room-service",
+  "order": 37,
+  "title": {
+    "en": "Taking a Room Service Order",
+    "ko": "룸서비스 주문 받기",
+    "th": "รับออร์เดอร์รูมเซอร์วิส"
+  },
+  "description": {
+    "en": "Take a dinner order by phone and deliver it to the room.",
+    "ko": "전화로 저녁 주문을 받고 객실로 가져다주는 상황",
+    "th": "รับออร์เดอร์อาหารเย็นทางโทรศัพท์และนำไปส่งที่ห้อง"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-room-service/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Canadian man in his 40s, short brown hair, white hotel bathrobe",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good evening, room service. How may I help you?",
+        "ko": "안녕하세요, 룸서비스입니다. 무엇을 도와드릴까요?",
+        "th": "สวัสดีค่ะ รูมเซอร์วิสค่ะ มีอะไรให้ช่วยไหมคะ",
+        "audio": "/audio/hw-room-service/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Hi. I'd like to order dinner to my room, please.",
+        "ko": "안녕하세요. 객실로 저녁을 주문하고 싶어요.",
+        "th": "สวัสดีครับ อยากสั่งอาหารเย็นมาที่ห้องครับ",
+        "audio": "/audio/hw-room-service/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Certainly. What would you like?",
+        "ko": "물론이죠. 무엇으로 드릴까요?",
+        "th": "ได้ค่ะ ต้องการสั่งอะไรคะ",
+        "audio": "/audio/hw-room-service/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "One club sandwich and a bottle of sparkling water.",
+        "ko": "클럽 샌드위치 하나랑 탄산수 한 병이요.",
+        "th": "ขอคลับแซนด์วิชหนึ่งที่ กับน้ำแร่โซดาหนึ่งขวดครับ",
+        "audio": "/audio/hw-room-service/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Would you like fries with your sandwich?",
+        "ko": "샌드위치에 감자튀김도 곁들이시겠어요?",
+        "th": "รับเฟรนช์ฟรายส์คู่กับแซนด์วิชด้วยไหมคะ",
+        "audio": "/audio/hw-room-service/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Yes, please. How long will it take?",
+        "ko": "네, 주세요. 얼마나 걸리나요?",
+        "th": "ครับ ใช้เวลานานไหมครับ",
+        "audio": "/audio/hw-room-service/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "About twenty-five minutes. It will be charged to your room.",
+        "ko": "25분 정도요. 요금은 객실로 청구됩니다.",
+        "th": "ประมาณยี่สิบห้านาทีค่ะ ค่าอาหารจะเรียกเก็บรวมกับค่าห้องนะคะ",
+        "audio": "/audio/hw-room-service/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Perfect. Thank you.",
+        "ko": "좋아요. 고마워요.",
+        "th": "ดีครับ ขอบคุณครับ",
+        "audio": "/audio/hw-room-service/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-room-service/s1.webp",
+        "prompt": "Supansa answers the phone at the hotel room service desk with a notepad in front of her."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-room-service/s2.webp",
+        "prompt": "The guest in a white bathrobe talks on the bedside phone in his hotel room."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-room-service/s3.webp",
+        "prompt": "Supansa writes down the order on her notepad while on the phone."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-room-service/s4.webp",
+        "prompt": "Supansa delivers a room service tray with a sandwich at the guest's door; he opens the door smiling."
+      }
+    ]
+  }
+}

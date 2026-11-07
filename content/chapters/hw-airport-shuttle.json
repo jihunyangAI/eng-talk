@@ -1,0 +1,153 @@
+{
+  "id": "hw-airport-shuttle",
+  "order": 44,
+  "title": {
+    "en": "Arranging the Airport Shuttle",
+    "ko": "공항 셔틀 안내",
+    "th": "จัดรถรับส่งสนามบิน"
+  },
+  "description": {
+    "en": "Explain the shuttle schedule and reserve a seat.",
+    "ko": "공항 셔틀 시간표를 안내하고 좌석을 예약하는 상황",
+    "th": "แจ้งตารางรถรับส่งสนามบินและจองที่นั่งให้"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-airport-shuttle/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Filipino man in his 30s, short black hair, gray hoodie, backpack",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Does the hotel have a shuttle to the airport?",
+        "ko": "호텔에 공항 셔틀이 있나요?",
+        "th": "โรงแรมมีรถรับส่งไปสนามบินไหมครับ",
+        "audio": "/audio/hw-airport-shuttle/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Yes, we do. It leaves every hour from six a.m.",
+        "ko": "네, 있어요. 오전 6시부터 매시간 출발해요.",
+        "th": "มีค่ะ ออกทุกชั่วโมงตั้งแต่หกโมงเช้าค่ะ",
+        "audio": "/audio/hw-airport-shuttle/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "How much does it cost?",
+        "ko": "얼마예요?",
+        "th": "ราคาเท่าไรครับ",
+        "audio": "/audio/hw-airport-shuttle/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "It's ten dollars per person.",
+        "ko": "1인당 10달러예요.",
+        "th": "คนละสิบดอลลาร์ค่ะ",
+        "audio": "/audio/hw-airport-shuttle/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "My flight is at noon tomorrow. Which shuttle should I take?",
+        "ko": "비행기가 내일 정오예요. 어느 셔틀을 타야 할까요?",
+        "th": "เที่ยวบินผมพรุ่งนี้เที่ยงครับ ควรขึ้นรถรอบไหนครับ",
+        "audio": "/audio/hw-airport-shuttle/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "I recommend the nine o'clock shuttle. Shall I reserve a seat?",
+        "ko": "9시 셔틀을 추천드려요. 자리를 예약해 드릴까요?",
+        "th": "แนะนำรอบเก้าโมงค่ะ ให้จองที่นั่งไว้ไหมคะ",
+        "audio": "/audio/hw-airport-shuttle/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Yes, please. One seat.",
+        "ko": "네, 부탁해요. 한 자리요.",
+        "th": "ครับ ขอหนึ่งที่ครับ",
+        "audio": "/audio/hw-airport-shuttle/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Done. Please be in the lobby ten minutes early.",
+        "ko": "됐습니다. 10분 일찍 로비로 와 주세요.",
+        "th": "เรียบร้อยค่ะ กรุณามารอที่ล็อบบี้ก่อนสิบนาทีนะคะ",
+        "audio": "/audio/hw-airport-shuttle/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-airport-shuttle/s1.webp",
+        "prompt": "At the hotel front desk, the guest asks Supansa a question."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-airport-shuttle/s2.webp",
+        "prompt": "Supansa shows the guest a small shuttle schedule card."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-airport-shuttle/s3.webp",
+        "prompt": "Supansa types on the computer to reserve a seat."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-airport-shuttle/s4.webp",
+        "prompt": "Supansa points toward the hotel entrance where a white shuttle van is parked outside."
+      }
+    ]
+  }
+}

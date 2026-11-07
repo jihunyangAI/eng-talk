@@ -1,0 +1,153 @@
+{
+  "id": "cw-find-cabin",
+  "order": 50,
+  "title": {
+    "en": "Finding the Cabin",
+    "ko": "선실 찾기",
+    "th": "หาห้องพักบนเรือ"
+  },
+  "description": {
+    "en": "Help a passenger find his cabin and explain 'forward' and 'aft'.",
+    "ko": "선실을 찾아 주고 forward와 aft를 설명하는 상황",
+    "th": "ช่วยผู้โดยสารหาห้องและอธิบายคำว่า forward กับ aft"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-find-cabin/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Mexican man in his 40s, thick mustache, straw hat, small backpack",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. I can't find my cabin. It's on deck eight.",
+        "ko": "실례합니다. 선실을 못 찾겠어요. 8층 데크에 있어요.",
+        "th": "ขอโทษครับ ผมหาห้องไม่เจอ อยู่ชั้นแปดครับ",
+        "audio": "/audio/cw-find-cabin/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "No problem. Let me see your cruise card.",
+        "ko": "괜찮아요. 크루즈 카드를 보여 주세요.",
+        "th": "ไม่เป็นไรค่ะ ขอดูบัตรครูซหน่อยค่ะ",
+        "audio": "/audio/cw-find-cabin/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Here it is.",
+        "ko": "여기요.",
+        "th": "นี่ครับ",
+        "audio": "/audio/cw-find-cabin/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Your cabin is at the back of the ship. Take the aft elevator to deck eight.",
+        "ko": "선실은 배 뒤쪽에 있어요. 뒤쪽 엘리베이터를 타고 8층 데크로 가세요.",
+        "th": "ห้องของคุณอยู่ท้ายเรือค่ะ ขึ้นลิฟต์ฝั่งท้ายเรือไปชั้นแปดนะคะ",
+        "audio": "/audio/cw-find-cabin/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Aft means the back, right?",
+        "ko": "'aft'는 뒤쪽이라는 뜻이죠?",
+        "th": "aft แปลว่าท้ายเรือใช่ไหมครับ",
+        "audio": "/audio/cw-find-cabin/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "That's right. Forward is the front, and aft is the back.",
+        "ko": "맞아요. forward는 앞쪽, aft는 뒤쪽이에요.",
+        "th": "ถูกต้องค่ะ forward คือหัวเรือ aft คือท้ายเรือค่ะ",
+        "audio": "/audio/cw-find-cabin/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Got it. Is there a map I can use?",
+        "ko": "알겠어요. 쓸 수 있는 지도가 있나요?",
+        "th": "เข้าใจแล้วครับ มีแผนที่ให้ดูไหมครับ",
+        "audio": "/audio/cw-find-cabin/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Yes, here's a deck plan. You can also check the ship's app.",
+        "ko": "네, 여기 데크 안내도예요. 선박 앱에서도 확인하실 수 있어요.",
+        "th": "มีค่ะ นี่แผนผังชั้นต่าง ๆ ค่ะ ดูในแอปของเรือได้ด้วยนะคะ",
+        "audio": "/audio/cw-find-cabin/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-find-cabin/s1.webp",
+        "prompt": "In a long cruise ship corridor lined with cabin doors, the confused passenger asks Supansa for help."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-find-cabin/s2.webp",
+        "prompt": "Supansa looks at the passenger's cruise card."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-find-cabin/s3.webp",
+        "prompt": "Supansa points down the corridor toward the back of the ship."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-find-cabin/s4.webp",
+        "prompt": "Supansa hands the passenger a folded deck plan map."
+      }
+    ]
+  }
+}

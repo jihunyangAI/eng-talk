@@ -1,0 +1,153 @@
+{
+  "id": "cw-shows",
+  "order": 62,
+  "title": {
+    "en": "Shows and Events Tonight",
+    "ko": "공연·이벤트 안내",
+    "th": "การแสดงและกิจกรรมคืนนี้"
+  },
+  "description": {
+    "en": "Tell a passenger about tonight's show and party.",
+    "ko": "오늘 밤 공연과 파티를 안내하는 상황",
+    "th": "แนะนำการแสดงและปาร์ตี้คืนนี้ให้ผู้โดยสาร"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-shows/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Italian man in his 60s, white hair, elegant navy blazer",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Good evening. What shows are on tonight?",
+        "ko": "안녕하세요. 오늘 밤 어떤 공연이 있나요?",
+        "th": "สวัสดีครับ คืนนี้มีการแสดงอะไรบ้างครับ",
+        "audio": "/audio/cw-shows/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Tonight we have a Broadway-style musical in the main theater.",
+        "ko": "오늘 밤 메인 극장에서 브로드웨이 스타일 뮤지컬이 있어요.",
+        "th": "คืนนี้มีละครเพลงสไตล์บรอดเวย์ที่โรงละครหลักค่ะ",
+        "audio": "/audio/cw-shows/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "What time does it start?",
+        "ko": "몇 시에 시작해요?",
+        "th": "เริ่มกี่โมงครับ",
+        "audio": "/audio/cw-shows/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "There are two shows, at seven and at nine.",
+        "ko": "7시와 9시, 두 번 공연해요.",
+        "th": "มีสองรอบค่ะ หนึ่งทุ่มกับสามทุ่มค่ะ",
+        "audio": "/audio/cw-shows/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Do I need a ticket?",
+        "ko": "티켓이 필요한가요?",
+        "th": "ต้องมีตั๋วไหมครับ",
+        "audio": "/audio/cw-shows/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "No, it's free, but please arrive early to get a good seat.",
+        "ko": "아니요, 무료지만 좋은 자리를 잡으려면 일찍 오세요.",
+        "th": "ไม่ต้องค่ะ ฟรีค่ะ แต่ควรมาก่อนเพื่อได้ที่นั่งดี ๆ นะคะ",
+        "audio": "/audio/cw-shows/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Is there anything after the show?",
+        "ko": "공연 후에는 뭐가 있나요?",
+        "th": "หลังการแสดงมีอะไรอีกไหมครับ",
+        "audio": "/audio/cw-shows/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Yes, there's a dance party on the pool deck at ten-thirty.",
+        "ko": "네, 10시 30분에 수영장 데크에서 댄스 파티가 있어요.",
+        "th": "มีค่ะ มีปาร์ตี้เต้นรำที่ดาดฟ้าสระว่ายน้ำตอนสี่ทุ่มครึ่งค่ะ",
+        "audio": "/audio/cw-shows/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-shows/s1.webp",
+        "prompt": "In a glamorous cruise ship atrium with sparkling lights in the evening, the passenger asks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-shows/s2.webp",
+        "prompt": "Supansa points toward the entrance of a grand theater."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-shows/s3.webp",
+        "prompt": "Supansa shows the passenger a printed daily program leaflet."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-shows/s4.webp",
+        "prompt": "On the pool deck at night with colorful lights, Supansa and the passenger smile."
+      }
+    ]
+  }
+}

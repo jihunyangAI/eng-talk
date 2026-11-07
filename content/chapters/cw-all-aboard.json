@@ -1,0 +1,153 @@
+{
+  "id": "cw-all-aboard",
+  "order": 56,
+  "title": {
+    "en": "All-Aboard Time",
+    "ko": "재승선 시간 안내",
+    "th": "เวลากลับขึ้นเรือ"
+  },
+  "description": {
+    "en": "Tell a passenger when to come back and what to bring.",
+    "ko": "배로 돌아올 시간과 챙길 것을 안내하는 상황",
+    "th": "แจ้งเวลากลับขึ้นเรือและสิ่งที่ต้องนำไป"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-all-aboard/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Chinese man in his 50s, short gray hair, camera around his neck",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. What time do we need to be back on the ship?",
+        "ko": "실례합니다. 몇 시까지 배로 돌아와야 하나요?",
+        "th": "ขอโทษครับ ต้องกลับขึ้นเรือกี่โมงครับ",
+        "audio": "/audio/cw-all-aboard/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "All-aboard time is four-thirty p.m. The ship leaves at five.",
+        "ko": "재승선 시간은 오후 4시 30분이에요. 배는 5시에 출항해요.",
+        "th": "เวลากลับขึ้นเรือคือสี่โมงครึ่งค่ะ เรือออกห้าโมงเย็นค่ะ",
+        "audio": "/audio/cw-all-aboard/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "What happens if I'm late?",
+        "ko": "늦으면 어떻게 되나요?",
+        "th": "ถ้ามาสายจะเป็นอย่างไรครับ",
+        "audio": "/audio/cw-all-aboard/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "I'm afraid the ship can't wait. Please come back on time.",
+        "ko": "죄송하지만 배는 기다릴 수 없어요. 꼭 제시간에 돌아오세요.",
+        "th": "เสียใจด้วยค่ะ เรือรอไม่ได้ กรุณากลับมาให้ทันเวลานะคะ",
+        "audio": "/audio/cw-all-aboard/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Do I need my passport to get off?",
+        "ko": "내릴 때 여권이 필요한가요?",
+        "th": "ลงเรือต้องใช้พาสปอร์ตไหมครับ",
+        "audio": "/audio/cw-all-aboard/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Just bring your cruise card and a photo ID.",
+        "ko": "크루즈 카드와 사진이 있는 신분증만 가져오세요.",
+        "th": "แค่นำบัตรครูซและบัตรที่มีรูปถ่ายมาด้วยค่ะ",
+        "audio": "/audio/cw-all-aboard/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Is the ship's time the same as local time?",
+        "ko": "배 시간이 현지 시간과 같나요?",
+        "th": "เวลาบนเรือตรงกับเวลาท้องถิ่นไหมครับ",
+        "audio": "/audio/cw-all-aboard/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Good question. Today it's the same, but always check the daily schedule.",
+        "ko": "좋은 질문이에요. 오늘은 같지만 항상 일일 일정표를 확인하세요.",
+        "th": "ถามได้ดีค่ะ วันนี้ตรงกัน แต่ควรเช็กตารางประจำวันทุกครั้งนะคะ",
+        "audio": "/audio/cw-all-aboard/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-all-aboard/s1.webp",
+        "prompt": "At the gangway exit of a cruise ship, with a colorful port town visible outside, the passenger asks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-all-aboard/s2.webp",
+        "prompt": "Supansa points to her wristwatch while explaining."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-all-aboard/s3.webp",
+        "prompt": "The passenger shows his cruise card and an ID card."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-all-aboard/s4.webp",
+        "prompt": "Supansa hands the passenger a printed daily schedule sheet."
+      }
+    ]
+  }
+}

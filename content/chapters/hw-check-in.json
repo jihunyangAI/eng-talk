@@ -1,0 +1,153 @@
+{
+  "id": "hw-check-in",
+  "order": 29,
+  "title": {
+    "en": "Checking In a Guest",
+    "ko": "체크인 응대",
+    "th": "เช็กอินให้แขก"
+  },
+  "description": {
+    "en": "Welcome a guest, check the passport, and take a deposit.",
+    "ko": "손님을 맞이하고 여권을 확인한 뒤 보증금을 받는 상황",
+    "th": "ต้อนรับแขก ตรวจพาสปอร์ต และรับเงินมัดจำ"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-check-in/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "German man in his 40s, short blond hair, glasses, gray polo shirt, black suitcase",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good afternoon. Welcome to our hotel. Do you have a reservation?",
+        "ko": "안녕하세요. 저희 호텔에 오신 것을 환영합니다. 예약하셨나요?",
+        "th": "สวัสดีค่ะ ยินดีต้อนรับสู่โรงแรมค่ะ ได้จองห้องไว้ไหมคะ",
+        "audio": "/audio/hw-check-in/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Yes, under the name Weber.",
+        "ko": "네, 웨버라는 이름으로요.",
+        "th": "ครับ จองไว้ในชื่อเวเบอร์ครับ",
+        "audio": "/audio/hw-check-in/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Thank you. May I see your passport, please?",
+        "ko": "감사합니다. 여권 좀 보여 주시겠어요?",
+        "th": "ขอบคุณค่ะ ขอดูพาสปอร์ตหน่อยได้ไหมคะ",
+        "audio": "/audio/hw-check-in/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Here you are.",
+        "ko": "여기 있습니다.",
+        "th": "นี่ครับ",
+        "audio": "/audio/hw-check-in/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "You're staying three nights in a deluxe room. We need a deposit of fifty dollars.",
+        "ko": "디럭스룸에서 3박 하시네요. 보증금 50달러가 필요합니다.",
+        "th": "คุณพักห้องดีลักซ์สามคืนนะคะ ต้องวางมัดจำห้าสิบดอลลาร์ค่ะ",
+        "audio": "/audio/hw-check-in/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Sure, you can use this card.",
+        "ko": "네, 이 카드로 해 주세요.",
+        "th": "ได้ครับ ใช้บัตรนี้ได้เลยครับ",
+        "audio": "/audio/hw-check-in/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Here is your key. Your room is on the eighth floor, and the elevator is on your right.",
+        "ko": "키 여기 있습니다. 객실은 8층이고 엘리베이터는 오른쪽에 있어요.",
+        "th": "นี่คีย์การ์ดค่ะ ห้องอยู่ชั้นแปด ลิฟต์อยู่ทางขวามือค่ะ",
+        "audio": "/audio/hw-check-in/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Great, thank you so much.",
+        "ko": "좋아요, 정말 고마워요.",
+        "th": "ดีเลยครับ ขอบคุณมากครับ",
+        "audio": "/audio/hw-check-in/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-check-in/s1.webp",
+        "prompt": "At the elegant front desk of a hotel lobby, Supansa greets the guest, who arrives with his suitcase."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-check-in/s2.webp",
+        "prompt": "The guest hands his passport across the counter; Supansa takes it with both hands."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-check-in/s3.webp",
+        "prompt": "The guest taps his card on the payment terminal while Supansa smiles."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-check-in/s4.webp",
+        "prompt": "Supansa hands the guest a key card and gestures to the right toward the elevators."
+      }
+    ]
+  }
+}

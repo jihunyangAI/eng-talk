@@ -1,0 +1,153 @@
+{
+  "id": "cw-cabin-service",
+  "order": 64,
+  "title": {
+    "en": "Cabin Service Requests",
+    "ko": "선실 서비스 요청",
+    "th": "คำขอบริการห้องพักบนเรือ"
+  },
+  "description": {
+    "en": "Handle requests for towels, pillows, and a broken remote.",
+    "ko": "수건·베개 요청과 고장 난 리모컨을 처리하는 상황",
+    "th": "จัดการคำขอผ้าเช็ดตัว หมอน และรีโมตที่เสีย"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-cabin-service/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Swiss man in his 40s, bald, round glasses, light polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good morning. Would you like me to clean your cabin now?",
+        "ko": "안녕하세요. 지금 선실 청소해 드릴까요?",
+        "th": "อรุณสวัสดิ์ค่ะ ให้ทำความสะอาดห้องตอนนี้เลยไหมคะ",
+        "audio": "/audio/cw-cabin-service/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Could you come back in an hour? I'm getting ready.",
+        "ko": "한 시간 후에 다시 와 주실래요? 준비 중이라서요.",
+        "th": "ช่วยกลับมาอีกชั่วโมงได้ไหมครับ ผมกำลังแต่งตัวอยู่ครับ",
+        "audio": "/audio/cw-cabin-service/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Of course. Is there anything else you need?",
+        "ko": "물론이죠. 더 필요하신 거 있으세요?",
+        "th": "ได้ค่ะ ต้องการอะไรเพิ่มเติมไหมคะ",
+        "audio": "/audio/cw-cabin-service/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Yes, could I have two more towels and an extra pillow?",
+        "ko": "네, 수건 두 장이랑 베개 하나 더 주실 수 있나요?",
+        "th": "ครับ ขอผ้าเช็ดตัวเพิ่มสองผืนกับหมอนอีกใบได้ไหมครับ",
+        "audio": "/audio/cw-cabin-service/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Sure. Would you like a soft pillow or a firm pillow?",
+        "ko": "그럼요. 부드러운 베개와 단단한 베개 중 어느 걸로 드릴까요?",
+        "th": "ได้ค่ะ ต้องการหมอนนุ่มหรือหมอนแข็งคะ",
+        "audio": "/audio/cw-cabin-service/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "A firm one, please. Also, the TV remote isn't working.",
+        "ko": "단단한 걸로 주세요. 그리고 TV 리모컨이 안 돼요.",
+        "th": "หมอนแข็งครับ แล้วรีโมตทีวีใช้ไม่ได้ครับ",
+        "audio": "/audio/cw-cabin-service/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "I'll bring new batteries with your towels.",
+        "ko": "수건 가져올 때 새 건전지도 가져다 드릴게요.",
+        "th": "จะนำถ่านใหม่มาพร้อมผ้าเช็ดตัวนะคะ",
+        "audio": "/audio/cw-cabin-service/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you. You're very helpful.",
+        "ko": "고마워요. 정말 도움이 돼요.",
+        "th": "ขอบคุณครับ ช่วยได้มากเลยครับ",
+        "audio": "/audio/cw-cabin-service/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-cabin-service/s1.webp",
+        "prompt": "In a cruise ship cabin corridor, Supansa stands with a housekeeping cart at the passenger's open cabin door."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-cabin-service/s2.webp",
+        "prompt": "The passenger politely gestures 'later' while holding a towel."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-cabin-service/s3.webp",
+        "prompt": "Supansa hands the passenger two folded white towels and a pillow."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-cabin-service/s4.webp",
+        "prompt": "Supansa hands the passenger new batteries for the TV remote; he smiles."
+      }
+    ]
+  }
+}

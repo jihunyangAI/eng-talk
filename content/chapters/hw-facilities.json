@@ -1,0 +1,153 @@
+{
+  "id": "hw-facilities",
+  "order": 35,
+  "title": {
+    "en": "Explaining Hotel Facilities",
+    "ko": "호텔 시설 안내",
+    "th": "แนะนำสิ่งอำนวยความสะดวกของโรงแรม"
+  },
+  "description": {
+    "en": "Tell a guest about breakfast, the pool, Wi-Fi, and the gym.",
+    "ko": "조식·수영장·와이파이·헬스장을 안내하는 상황",
+    "th": "แนะนำอาหารเช้า สระว่ายน้ำ ไวไฟ และฟิตเนสให้แขก"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-facilities/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Indian man in his 30s, short black hair, mustache, light blue shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me, what time is breakfast?",
+        "ko": "실례합니다, 조식은 몇 시예요?",
+        "th": "ขอโทษครับ อาหารเช้ากี่โมงครับ",
+        "audio": "/audio/hw-facilities/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Breakfast is from six-thirty to ten in the restaurant on the second floor.",
+        "ko": "조식은 2층 레스토랑에서 6시 30분부터 10시까지예요.",
+        "th": "อาหารเช้าเสิร์ฟตั้งแต่หกโมงครึ่งถึงสิบโมงที่ห้องอาหารชั้นสองค่ะ",
+        "audio": "/audio/hw-facilities/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Is there a swimming pool?",
+        "ko": "수영장이 있나요?",
+        "th": "มีสระว่ายน้ำไหมครับ",
+        "audio": "/audio/hw-facilities/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Yes, the pool is on the rooftop. It's open until nine p.m.",
+        "ko": "네, 수영장은 옥상에 있어요. 밤 9시까지 열어요.",
+        "th": "มีค่ะ สระว่ายน้ำอยู่บนดาดฟ้า เปิดถึงสามทุ่มค่ะ",
+        "audio": "/audio/hw-facilities/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "And how do I connect to the Wi-Fi?",
+        "ko": "와이파이는 어떻게 연결하나요?",
+        "th": "แล้วต่อไวไฟยังไงครับ",
+        "audio": "/audio/hw-facilities/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Choose the hotel network and enter your room number and last name.",
+        "ko": "호텔 네트워크를 선택하고 객실 번호와 성을 입력하세요.",
+        "th": "เลือกเครือข่ายของโรงแรม แล้วใส่หมายเลขห้องและนามสกุลค่ะ",
+        "audio": "/audio/hw-facilities/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Great. Is there a gym too?",
+        "ko": "좋네요. 헬스장도 있나요?",
+        "th": "ดีครับ มีฟิตเนสด้วยไหมครับ",
+        "audio": "/audio/hw-facilities/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Yes, the gym is next to the pool, and it's open twenty-four hours.",
+        "ko": "네, 헬스장은 수영장 옆에 있고 24시간 열어요.",
+        "th": "มีค่ะ ฟิตเนสอยู่ข้างสระว่ายน้ำ เปิดยี่สิบสี่ชั่วโมงค่ะ",
+        "audio": "/audio/hw-facilities/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-facilities/s1.webp",
+        "prompt": "At the hotel front desk, the guest asks Supansa a question."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-facilities/s2.webp",
+        "prompt": "Supansa points to a hotel information brochure on the counter."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-facilities/s3.webp",
+        "prompt": "Supansa points upward toward the rooftop; the guest holds his smartphone."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-facilities/s4.webp",
+        "prompt": "The guest gives a thumbs up and Supansa smiles."
+      }
+    ]
+  }
+}

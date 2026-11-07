@@ -1,0 +1,153 @@
+{
+  "id": "cw-boarding",
+  "order": 49,
+  "title": {
+    "en": "Boarding the Cruise Ship",
+    "ko": "승선 체크인",
+    "th": "การเช็กอินขึ้นเรือ"
+  },
+  "description": {
+    "en": "Check in a passenger, take a photo, and give the cruise card.",
+    "ko": "승객을 체크인하고 사진을 찍은 뒤 크루즈 카드를 주는 상황",
+    "th": "เช็กอินผู้โดยสาร ถ่ายรูป และมอบบัตรครูซ"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-boarding/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "American man in his 50s, colorful Hawaiian shirt, straw sun hat",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Welcome aboard! May I see your boarding pass and passport?",
+        "ko": "승선을 환영합니다! 탑승권과 여권을 보여 주시겠어요?",
+        "th": "ยินดีต้อนรับขึ้นเรือค่ะ ขอดูบัตรขึ้นเรือและพาสปอร์ตด้วยค่ะ",
+        "audio": "/audio/cw-boarding/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Here you go. This is my first cruise.",
+        "ko": "여기요. 크루즈는 처음이에요.",
+        "th": "นี่ครับ นี่เป็นครั้งแรกที่ผมล่องเรือสำราญครับ",
+        "audio": "/audio/cw-boarding/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "How exciting! Please look at the camera for your photo.",
+        "ko": "설레시겠어요! 사진 촬영을 위해 카메라를 봐 주세요.",
+        "th": "ตื่นเต้นจังเลยค่ะ กรุณามองกล้องเพื่อถ่ายรูปด้วยนะคะ",
+        "audio": "/audio/cw-boarding/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Like this?",
+        "ko": "이렇게요?",
+        "th": "แบบนี้ใช่ไหมครับ",
+        "audio": "/audio/cw-boarding/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Perfect. Here is your cruise card. It's your room key and ID on the ship.",
+        "ko": "좋아요. 크루즈 카드 여기 있습니다. 배 안에서 객실 키이자 신분증이에요.",
+        "th": "เรียบร้อยค่ะ นี่บัตรครูซของคุณค่ะ ใช้เป็นคีย์ห้องและบัตรประจำตัวบนเรือค่ะ",
+        "audio": "/audio/cw-boarding/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Great. What should I do next?",
+        "ko": "좋네요. 다음엔 뭘 하면 되나요?",
+        "th": "ดีครับ ต่อไปต้องทำอะไรครับ",
+        "audio": "/audio/cw-boarding/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Please go through security over there. Your bags will be delivered to your cabin.",
+        "ko": "저쪽에서 보안 검색을 받으세요. 짐은 선실로 배달됩니다.",
+        "th": "กรุณาผ่านจุดตรวจความปลอดภัยทางโน้นค่ะ กระเป๋าจะส่งไปที่ห้องพักให้ค่ะ",
+        "audio": "/audio/cw-boarding/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you! See you on board.",
+        "ko": "고마워요! 배에서 봐요.",
+        "th": "ขอบคุณครับ แล้วเจอกันบนเรือนะครับ",
+        "audio": "/audio/cw-boarding/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-boarding/s1.webp",
+        "prompt": "At a check-in counter in a bright cruise terminal, with a huge white cruise ship visible through the windows, Supansa greets the passenger."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-boarding/s2.webp",
+        "prompt": "The passenger smiles at a small camera on the counter while Supansa takes his photo."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-boarding/s3.webp",
+        "prompt": "Supansa hands the passenger a plastic cruise card."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-boarding/s4.webp",
+        "prompt": "Supansa points toward a security checkpoint area; the passenger nods."
+      }
+    ]
+  }
+}

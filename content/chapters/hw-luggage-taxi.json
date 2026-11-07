@@ -1,0 +1,153 @@
+{
+  "id": "hw-luggage-taxi",
+  "order": 34,
+  "title": {
+    "en": "Storing Luggage and Calling a Taxi",
+    "ko": "짐 보관과 택시 호출",
+    "th": "ฝากกระเป๋าและเรียกแท็กซี่"
+  },
+  "description": {
+    "en": "Keep a guest's bags and book a taxi to the airport.",
+    "ko": "손님의 짐을 맡아 주고 공항 택시를 예약하는 상황",
+    "th": "รับฝากกระเป๋าและจองแท็กซี่ไปสนามบินให้แขก"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-luggage-taxi/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Korean man in his 20s, short black hair, white hoodie, two large suitcases",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi. I already checked out. Can you keep my bags for a few hours?",
+        "ko": "안녕하세요. 체크아웃은 했는데, 몇 시간 동안 짐을 맡아 주실 수 있나요?",
+        "th": "สวัสดีครับ ผมเช็กเอาต์แล้ว ช่วยฝากกระเป๋าไว้สักสองสามชั่วโมงได้ไหมครับ",
+        "audio": "/audio/hw-luggage-taxi/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Certainly. How many bags do you have?",
+        "ko": "물론이죠. 짐이 몇 개인가요?",
+        "th": "ได้แน่นอนค่ะ มีกระเป๋ากี่ใบคะ",
+        "audio": "/audio/hw-luggage-taxi/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Just these two suitcases.",
+        "ko": "이 캐리어 두 개요.",
+        "th": "แค่กระเป๋าเดินทางสองใบนี้ครับ",
+        "audio": "/audio/hw-luggage-taxi/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Here is your claim ticket. Please show it when you come back.",
+        "ko": "여기 보관증이에요. 돌아오시면 보여 주세요.",
+        "th": "นี่บัตรรับฝากค่ะ กลับมาแล้วกรุณาแสดงบัตรนี้ด้วยนะคะ",
+        "audio": "/audio/hw-luggage-taxi/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Thanks. Could you also call a taxi for me at five?",
+        "ko": "고마워요. 5시에 택시도 불러 주실 수 있나요?",
+        "th": "ขอบคุณครับ ช่วยเรียกแท็กซี่ให้ตอนห้าโมงเย็นด้วยได้ไหมครับ",
+        "audio": "/audio/hw-luggage-taxi/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Sure. Where are you going?",
+        "ko": "그럼요. 어디로 가세요?",
+        "th": "ได้ค่ะ จะไปที่ไหนคะ",
+        "audio": "/audio/hw-luggage-taxi/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "To the airport, please.",
+        "ko": "공항으로 가요.",
+        "th": "ไปสนามบินครับ",
+        "audio": "/audio/hw-luggage-taxi/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "I'll book it for five. The taxi will wait at the front entrance.",
+        "ko": "5시로 예약할게요. 택시는 정문에서 기다릴 거예요.",
+        "th": "จะจองให้ห้าโมงเย็นนะคะ แท็กซี่จะรอที่ทางเข้าหน้าโรงแรมค่ะ",
+        "audio": "/audio/hw-luggage-taxi/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-luggage-taxi/s1.webp",
+        "prompt": "The guest stands at the hotel front desk with two large suitcases."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-luggage-taxi/s2.webp",
+        "prompt": "Supansa attaches luggage tags to the two suitcases."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-luggage-taxi/s3.webp",
+        "prompt": "Supansa hands the guest a small claim ticket."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-luggage-taxi/s4.webp",
+        "prompt": "Supansa talks on the desk phone booking a taxi; the guest nods."
+      }
+    ]
+  }
+}

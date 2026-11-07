@@ -1,0 +1,153 @@
+{
+  "id": "cw-kids-club",
+  "order": 61,
+  "title": {
+    "en": "Explaining the Kids Club",
+    "ko": "키즈클럽 안내",
+    "th": "แนะนำคิดส์คลับ"
+  },
+  "description": {
+    "en": "Tell a father about the kids club and sign up his daughter.",
+    "ko": "아빠에게 키즈클럽을 안내하고 딸을 등록해 주는 상황",
+    "th": "แนะนำคิดส์คลับให้คุณพ่อและสมัครให้ลูกสาว"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-kids-club/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "American father in his 30s, baseball cap, blue t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi. Do you have activities for kids? My daughter is six.",
+        "ko": "안녕하세요. 아이들을 위한 활동이 있나요? 딸이 여섯 살이에요.",
+        "th": "สวัสดีครับ มีกิจกรรมสำหรับเด็กไหมครับ ลูกสาวผมอายุหกขวบครับ",
+        "audio": "/audio/cw-kids-club/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Yes! Our kids club is for children from three to twelve.",
+        "ko": "네! 키즈클럽은 3살부터 12살까지 이용할 수 있어요.",
+        "th": "มีค่ะ คิดส์คลับสำหรับเด็กอายุสามถึงสิบสองขวบค่ะ",
+        "audio": "/audio/cw-kids-club/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "What do they do there?",
+        "ko": "거기서 뭘 하나요?",
+        "th": "ที่นั่นเด็ก ๆ ทำอะไรบ้างครับ",
+        "audio": "/audio/cw-kids-club/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "They play games, do arts and crafts, and watch movies.",
+        "ko": "게임도 하고, 만들기도 하고, 영화도 봐요.",
+        "th": "เล่นเกม ทำงานประดิษฐ์ และดูหนังค่ะ",
+        "audio": "/audio/cw-kids-club/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Is it free?",
+        "ko": "무료인가요?",
+        "th": "ฟรีไหมครับ",
+        "audio": "/audio/cw-kids-club/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Yes, it's free during the day. Evening babysitting costs a small fee.",
+        "ko": "네, 낮에는 무료예요. 저녁 돌봄은 약간의 요금이 있어요.",
+        "th": "ฟรีค่ะในเวลากลางวัน ส่วนบริการดูแลเด็กตอนกลางคืนมีค่าบริการเล็กน้อยค่ะ",
+        "audio": "/audio/cw-kids-club/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Great. How do I sign her up?",
+        "ko": "좋네요. 어떻게 등록하나요?",
+        "th": "ดีเลยครับ ต้องสมัครยังไงครับ",
+        "audio": "/audio/cw-kids-club/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Just fill out this form. She'll get a wristband with her name.",
+        "ko": "이 양식만 작성하시면 돼요. 아이 이름이 적힌 팔찌를 드려요.",
+        "th": "กรอกแบบฟอร์มนี้ได้เลยค่ะ ลูกสาวจะได้สายรัดข้อมือที่มีชื่อค่ะ",
+        "audio": "/audio/cw-kids-club/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-kids-club/s1.webp",
+        "prompt": "At the colorful entrance of a kids club on a cruise ship, the father asks Supansa a question."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-kids-club/s2.webp",
+        "prompt": "Supansa gestures toward a bright play area with toys and craft tables."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-kids-club/s3.webp",
+        "prompt": "Supansa explains with a cheerful smile while the father listens."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-kids-club/s4.webp",
+        "prompt": "The father fills out a form on a clipboard while Supansa holds up a colorful wristband."
+      }
+    ]
+  }
+}

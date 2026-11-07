@@ -21,6 +21,24 @@ const PATHS: Record<Category | "all", React.ReactNode> = {
       <rect x="13.5" y="13.5" width="7" height="7" rx="2" />
     </>
   ),
+  "hotel-work": (
+    <>
+      {/* 호텔 프런트 벨 */}
+      <path d="M3.5 18h17" />
+      <path d="M5 18a7 7 0 0 1 14 0" />
+      <path d="M12 11V8.5" />
+      <path d="M10 8.5h4" />
+    </>
+  ),
+  "cruise-work": (
+    <>
+      {/* 크루즈선 */}
+      <path d="M3 15h18l-2.2 4.2a1.5 1.5 0 0 1-1.3.8H6.5a1.5 1.5 0 0 1-1.3-.8z" />
+      <path d="M6 15v-4h12v4" />
+      <path d="M9 11V7.5h6V11" />
+      <path d="M12 7.5V4" />
+    </>
+  ),
   travel: <path d="M10.5 3.5a1.5 1.5 0 0 1 3 0V9l7 4v2l-7-2v4.5l2 1.5v1.5l-3.5-1-3.5 1V19l2-1.5V13l-7 2v-2l7-4z" />,
   stay: (
     <>

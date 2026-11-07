@@ -1,0 +1,153 @@
+{
+  "id": "cw-wifi",
+  "order": 59,
+  "title": {
+    "en": "Selling a Wi-Fi Package",
+    "ko": "선내 와이파이 안내",
+    "th": "แพ็กเกจไวไฟบนเรือ"
+  },
+  "description": {
+    "en": "Explain internet packages to a passenger who can't connect.",
+    "ko": "인터넷이 안 되는 승객에게 와이파이 패키지를 안내하는 상황",
+    "th": "แนะนำแพ็กเกจอินเทอร์เน็ตให้ผู้โดยสารที่ต่อเน็ตไม่ได้"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-wifi/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Korean man in his 20s, round glasses, gaming headphones around his neck, black t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. Why can't I connect to the internet?",
+        "ko": "실례합니다. 왜 인터넷이 연결이 안 되죠?",
+        "th": "ขอโทษครับ ทำไมต่ออินเทอร์เน็ตไม่ได้ครับ",
+        "audio": "/audio/cw-wifi/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Internet on the ship needs a Wi-Fi package. Would you like to buy one?",
+        "ko": "배에서 인터넷을 쓰려면 와이파이 패키지가 필요해요. 구매하시겠어요?",
+        "th": "อินเทอร์เน็ตบนเรือต้องซื้อแพ็กเกจไวไฟค่ะ สนใจซื้อไหมคะ",
+        "audio": "/audio/cw-wifi/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "What packages do you have?",
+        "ko": "어떤 패키지가 있나요?",
+        "th": "มีแพ็กเกจอะไรบ้างครับ",
+        "audio": "/audio/cw-wifi/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "The basic package is for messages, and the premium package is for video calls.",
+        "ko": "기본 패키지는 메시지용이고, 프리미엄 패키지는 영상 통화도 돼요.",
+        "th": "แพ็กเกจพื้นฐานใช้ส่งข้อความได้ ส่วนแพ็กเกจพรีเมียมวิดีโอคอลได้ค่ะ",
+        "audio": "/audio/cw-wifi/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "I want to play online games. Which one is better?",
+        "ko": "온라인 게임을 하고 싶은데요. 어느 게 나아요?",
+        "th": "ผมอยากเล่นเกมออนไลน์ แบบไหนดีกว่าครับ",
+        "audio": "/audio/cw-wifi/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "The premium package is faster, but games may still be a little slow at sea.",
+        "ko": "프리미엄이 더 빠르지만, 바다 위에서는 게임이 조금 느릴 수 있어요.",
+        "th": "แพ็กเกจพรีเมียมเร็วกว่าค่ะ แต่กลางทะเลเกมอาจยังช้านิดหน่อยนะคะ",
+        "audio": "/audio/cw-wifi/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Okay, I'll take the premium package.",
+        "ko": "알겠어요, 프리미엄으로 할게요.",
+        "th": "โอเคครับ เอาแพ็กเกจพรีเมียมครับ",
+        "audio": "/audio/cw-wifi/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Great. I'll add it to your cruise card. Here's your login code.",
+        "ko": "좋습니다. 크루즈 카드에 추가해 드릴게요. 여기 로그인 코드예요.",
+        "th": "ได้เลยค่ะ จะเพิ่มเข้าบัตรครูซให้นะคะ นี่รหัสเข้าสู่ระบบค่ะ",
+        "audio": "/audio/cw-wifi/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-wifi/s1.webp",
+        "prompt": "At the guest services desk on a cruise ship, the frustrated passenger shows his smartphone to Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-wifi/s2.webp",
+        "prompt": "Supansa shows a small brochure with two package options."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-wifi/s3.webp",
+        "prompt": "The passenger points at his phone screen while asking."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-wifi/s4.webp",
+        "prompt": "Supansa hands the passenger a small paper slip with a code."
+      }
+    ]
+  }
+}

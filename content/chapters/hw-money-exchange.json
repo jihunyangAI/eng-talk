@@ -1,0 +1,153 @@
+{
+  "id": "hw-money-exchange",
+  "order": 47,
+  "title": {
+    "en": "Money Exchange and ATMs",
+    "ko": "환전·ATM 안내",
+    "th": "แลกเงินและตู้เอทีเอ็ม"
+  },
+  "description": {
+    "en": "Explain the exchange rate and where to find an ATM.",
+    "ko": "환율과 ATM 위치를 안내하는 상황",
+    "th": "แจ้งอัตราแลกเปลี่ยนและตำแหน่งตู้เอทีเอ็ม"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-money-exchange/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Kenyan man in his 30s, short black hair, bright green polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Can I exchange money here?",
+        "ko": "여기서 환전할 수 있나요?",
+        "th": "ที่นี่แลกเงินได้ไหมครับ",
+        "audio": "/audio/hw-money-exchange/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Yes, we can exchange US dollars and euros at the front desk.",
+        "ko": "네, 프런트에서 미국 달러와 유로를 환전할 수 있어요.",
+        "th": "ได้ค่ะ แลกเงินดอลลาร์สหรัฐและยูโรได้ที่แผนกต้อนรับค่ะ",
+        "audio": "/audio/hw-money-exchange/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "What's the exchange rate today?",
+        "ko": "오늘 환율이 어떻게 되나요?",
+        "th": "วันนี้อัตราแลกเปลี่ยนเท่าไรครับ",
+        "audio": "/audio/hw-money-exchange/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Today it's thirty-four baht for one dollar.",
+        "ko": "오늘은 1달러에 34바트예요.",
+        "th": "วันนี้หนึ่งดอลลาร์ได้สามสิบสี่บาทค่ะ",
+        "audio": "/audio/hw-money-exchange/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Is there a better rate somewhere nearby?",
+        "ko": "근처에 환율이 더 좋은 곳이 있나요?",
+        "th": "แถวนี้มีที่ไหนเรทดีกว่านี้ไหมครับ",
+        "audio": "/audio/hw-money-exchange/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "The exchange shop in the shopping mall usually has a better rate.",
+        "ko": "쇼핑몰에 있는 환전소가 보통 환율이 더 좋아요.",
+        "th": "ร้านแลกเงินในห้างสรรพสินค้ามักจะได้เรทดีกว่าค่ะ",
+        "audio": "/audio/hw-money-exchange/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Great. And where is the nearest ATM?",
+        "ko": "좋네요. 가장 가까운 ATM은 어디 있나요?",
+        "th": "ดีครับ แล้วตู้เอทีเอ็มที่ใกล้ที่สุดอยู่ที่ไหนครับ",
+        "audio": "/audio/hw-money-exchange/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "There's one in the lobby, right next to the gift shop.",
+        "ko": "로비에 하나 있어요. 기념품 가게 바로 옆이에요.",
+        "th": "มีตู้หนึ่งอยู่ในล็อบบี้ ติดกับร้านขายของที่ระลึกค่ะ",
+        "audio": "/audio/hw-money-exchange/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-money-exchange/s1.webp",
+        "prompt": "At the hotel front desk, the guest holds some US dollar bills and asks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-money-exchange/s2.webp",
+        "prompt": "Supansa explains with a friendly smile."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-money-exchange/s3.webp",
+        "prompt": "Supansa writes the exchange rate on a small notepad."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-money-exchange/s4.webp",
+        "prompt": "Supansa points across the lobby toward an ATM next to a gift shop."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "cw-spa",
+  "order": 60,
+  "title": {
+    "en": "Booking a Spa Treatment",
+    "ko": "스파 예약",
+    "th": "จองสปา"
+  },
+  "description": {
+    "en": "Book a Thai massage for a passenger at the ship's spa.",
+    "ko": "선내 스파에서 타이 마사지를 예약해 주는 상황",
+    "th": "จองนวดแผนไทยให้ผู้โดยสารที่สปาบนเรือ"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-spa/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Japanese man in his 40s, slim, glasses, white polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi. I'd like to book a massage.",
+        "ko": "안녕하세요. 마사지를 예약하고 싶어요.",
+        "th": "สวัสดีครับ อยากจองนวดครับ",
+        "audio": "/audio/cw-spa/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Welcome to the spa. Would you like a Thai massage or an oil massage?",
+        "ko": "스파에 오신 것을 환영합니다. 타이 마사지와 오일 마사지 중 어느 것으로 하시겠어요?",
+        "th": "ยินดีต้อนรับสู่สปาค่ะ ต้องการนวดแผนไทยหรือนวดน้ำมันคะ",
+        "audio": "/audio/cw-spa/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "A Thai massage, please. I've never tried it.",
+        "ko": "타이 마사지로 할게요. 한 번도 안 받아 봤어요.",
+        "th": "นวดแผนไทยครับ ผมยังไม่เคยลองเลยครับ",
+        "audio": "/audio/cw-spa/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "You'll love it. We have sixty or ninety minutes.",
+        "ko": "좋아하실 거예요. 60분과 90분이 있어요.",
+        "th": "ต้องชอบแน่นอนค่ะ มีหกสิบนาทีกับเก้าสิบนาทีค่ะ",
+        "audio": "/audio/cw-spa/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Sixty minutes, please. Is there a time this afternoon?",
+        "ko": "60분으로 해 주세요. 오늘 오후에 시간 있나요?",
+        "th": "หกสิบนาทีครับ บ่ายนี้มีคิวว่างไหมครับ",
+        "audio": "/audio/cw-spa/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "We have three o'clock or four-thirty.",
+        "ko": "3시나 4시 30분이 있어요.",
+        "th": "มีบ่ายสามโมงหรือสี่โมงครึ่งค่ะ",
+        "audio": "/audio/cw-spa/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Three o'clock is perfect.",
+        "ko": "3시가 딱 좋아요.",
+        "th": "บ่ายสามโมงดีเลยครับ",
+        "audio": "/audio/cw-spa/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Great. Please arrive ten minutes early and wear comfortable clothes.",
+        "ko": "좋습니다. 10분 일찍 오시고 편한 옷을 입어 주세요.",
+        "th": "ได้เลยค่ะ กรุณามาก่อนสิบนาทีและใส่เสื้อผ้าสบาย ๆ นะคะ",
+        "audio": "/audio/cw-spa/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-spa/s1.webp",
+        "prompt": "At a calm, elegant spa reception on a cruise ship decorated with orchids, Supansa greets the passenger."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-spa/s2.webp",
+        "prompt": "Supansa shows the passenger a spa treatment menu."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-spa/s3.webp",
+        "prompt": "Supansa checks the booking schedule on a computer screen."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-spa/s4.webp",
+        "prompt": "Supansa gestures toward a softly lit treatment room; the passenger smiles."
+      }
+    ]
+  }
+}

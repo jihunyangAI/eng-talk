@@ -1,0 +1,153 @@
+{
+  "id": "cw-itinerary-change",
+  "order": 66,
+  "title": {
+    "en": "A Change of Itinerary",
+    "ko": "기상 악화로 일정 변경",
+    "th": "เปลี่ยนแผนการเดินทางเพราะสภาพอากาศ"
+  },
+  "description": {
+    "en": "Explain a skipped port, refunds, and new plans to an upset passenger.",
+    "ko": "기항지 취소와 환불, 대체 일정을 화난 승객에게 설명하는 상황",
+    "th": "อธิบายการยกเลิกท่าเรือ การคืนเงิน และแผนใหม่ให้ผู้โดยสารที่ไม่พอใจ"
+  },
+  "level": "intermediate",
+  "category": "cruise-work",
+  "cover": "/images/cw-itinerary-change/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "American man in his 40s, annoyed expression, gray t-shirt, sunglasses on his head",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. Is it true that we're not stopping in Singapore tomorrow?",
+        "ko": "실례합니다. 내일 싱가포르에 안 들른다는 게 사실인가요?",
+        "th": "ขอโทษครับ จริงไหมครับที่พรุ่งนี้เรือจะไม่จอดที่สิงคโปร์",
+        "audio": "/audio/cw-itinerary-change/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I'm afraid so. There's a storm, so the captain changed our route for safety.",
+        "ko": "안타깝지만 그래요. 폭풍 때문에 선장님이 안전을 위해 항로를 바꿨어요.",
+        "th": "เสียใจด้วยค่ะ มีพายุ กัปตันจึงเปลี่ยนเส้นทางเพื่อความปลอดภัยค่ะ",
+        "audio": "/audio/cw-itinerary-change/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "But I booked a tour there. What happens to my money?",
+        "ko": "그런데 거기 투어를 예약했어요. 제 돈은 어떻게 되나요?",
+        "th": "แต่ผมจองทัวร์ไว้ที่นั่น เงินของผมจะเป็นยังไงครับ",
+        "audio": "/audio/cw-itinerary-change/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "All tours booked through the ship will be fully refunded to your cruise card.",
+        "ko": "배를 통해 예약한 투어는 크루즈 카드로 전액 환불돼요.",
+        "th": "ทัวร์ที่จองผ่านเรือจะคืนเงินเต็มจำนวนเข้าบัตรครูซค่ะ",
+        "audio": "/audio/cw-itinerary-change/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Okay. So what will we do instead?",
+        "ko": "알겠어요. 그럼 대신 뭘 하나요?",
+        "th": "โอเคครับ แล้วจะทำอะไรแทนครับ",
+        "audio": "/audio/cw-itinerary-change/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "We'll have a sea day with extra activities and a special dinner.",
+        "ko": "다양한 활동과 특별한 저녁 식사가 있는 해상일이 될 거예요.",
+        "th": "จะเป็นวันล่องทะเลที่มีกิจกรรมเพิ่มเติมและดินเนอร์พิเศษค่ะ",
+        "audio": "/audio/cw-itinerary-change/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "I see. Will we still arrive home on time?",
+        "ko": "그렇군요. 그래도 제시간에 돌아갈 수 있나요?",
+        "th": "เข้าใจแล้วครับ แล้วจะยังกลับถึงตามเวลาไหมครับ",
+        "audio": "/audio/cw-itinerary-change/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Yes, the final day of the cruise will not change. Thank you for understanding.",
+        "ko": "네, 크루즈 마지막 날은 바뀌지 않아요. 이해해 주셔서 감사합니다.",
+        "th": "ได้ค่ะ วันสุดท้ายของการล่องเรือไม่เปลี่ยนแปลงค่ะ ขอบคุณที่เข้าใจนะคะ",
+        "audio": "/audio/cw-itinerary-change/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-itinerary-change/s1.webp",
+        "prompt": "At the guest services desk, with a dark stormy sea visible through the windows, the annoyed passenger speaks to Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-itinerary-change/s2.webp",
+        "prompt": "Supansa explains calmly and sincerely."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-itinerary-change/s3.webp",
+        "prompt": "Supansa shows a refund on a computer screen to the passenger."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-itinerary-change/s4.webp",
+        "prompt": "Supansa hands the passenger a printed activity schedule; he looks calmer."
+      }
+    ]
+  }
+}

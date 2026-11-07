@@ -3,7 +3,7 @@
 export type Lang = "en" | "ko" | "th";
 export type TranslationLang = Exclude<Lang, "en">;
 export type Level = "beginner" | "intermediate" | "advanced";
-export const CATEGORIES = ["travel", "stay", "food", "shopping", "daily", "people"] as const;
+export const CATEGORIES = ["hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"] as const;
 export type Category = (typeof CATEGORIES)[number];
 
 /** 언어별 텍스트 */

@@ -1,0 +1,153 @@
+{
+  "id": "cw-disembark",
+  "order": 67,
+  "title": {
+    "en": "Getting Off the Ship",
+    "ko": "하선 절차 안내",
+    "th": "ขั้นตอนการลงเรือ"
+  },
+  "description": {
+    "en": "Explain luggage tags and disembarkation times.",
+    "ko": "짐 태그와 하선 시간을 안내하는 상황",
+    "th": "อธิบายป้ายกระเป๋าและเวลาลงเรือ"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-disembark/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Malaysian man in his 30s, short black hair, navy polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi. How does disembarkation work tomorrow?",
+        "ko": "안녕하세요. 내일 하선은 어떻게 하나요?",
+        "th": "สวัสดีครับ พรุ่งนี้ลงเรือต้องทำยังไงครับ",
+        "audio": "/audio/cw-disembark/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Please put these luggage tags on your bags tonight.",
+        "ko": "오늘 밤 이 짐 태그를 가방에 달아 주세요.",
+        "th": "คืนนี้กรุณาติดป้ายกระเป๋าเหล่านี้ไว้ที่กระเป๋าด้วยค่ะ",
+        "audio": "/audio/cw-disembark/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Then what do I do with my bags?",
+        "ko": "그다음에 가방은 어떻게 해요?",
+        "th": "แล้วกระเป๋าต้องทำยังไงต่อครับ",
+        "audio": "/audio/cw-disembark/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Leave them outside your cabin door before eleven p.m. We'll take them off the ship.",
+        "ko": "밤 11시 전에 선실 문 밖에 두세요. 저희가 배에서 내려 드릴게요.",
+        "th": "วางไว้หน้าประตูห้องก่อนห้าทุ่มค่ะ เราจะนำลงเรือให้ค่ะ",
+        "audio": "/audio/cw-disembark/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "What time can I get off?",
+        "ko": "몇 시에 내릴 수 있나요?",
+        "th": "ลงเรือได้กี่โมงครับ",
+        "audio": "/audio/cw-disembark/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Your tag color is green, so you'll leave at eight-thirty.",
+        "ko": "태그 색이 초록색이라서 8시 30분에 내리시게 돼요.",
+        "th": "ป้ายของคุณสีเขียว จะได้ลงเรือตอนแปดโมงครึ่งค่ะ",
+        "audio": "/audio/cw-disembark/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Where do I pick up my bags?",
+        "ko": "가방은 어디서 찾나요?",
+        "th": "รับกระเป๋าได้ที่ไหนครับ",
+        "audio": "/audio/cw-disembark/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "In the terminal, in the area with the green sign. Thank you for sailing with us!",
+        "ko": "터미널에서 초록색 표지판이 있는 구역이에요. 저희와 함께해 주셔서 감사합니다!",
+        "th": "ที่อาคารผู้โดยสาร ตรงโซนที่มีป้ายสีเขียวค่ะ ขอบคุณที่ล่องเรือกับเรานะคะ",
+        "audio": "/audio/cw-disembark/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-disembark/s1.webp",
+        "prompt": "At the guest services desk on a cruise ship, the passenger asks Supansa about leaving the ship."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-disembark/s2.webp",
+        "prompt": "Supansa hands the passenger a set of green luggage tags."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-disembark/s3.webp",
+        "prompt": "In a cabin corridor, suitcases with green tags stand outside cabin doors at night; Supansa and the passenger look at them."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-disembark/s4.webp",
+        "prompt": "At the ship's exit gangway with the port terminal outside, Supansa waves goodbye to the passenger."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "hw-walk-in",
+  "order": 30,
+  "title": {
+    "en": "A Guest Without a Reservation",
+    "ko": "예약 없이 온 손님",
+    "th": "แขกที่ไม่ได้จองห้อง"
+  },
+  "description": {
+    "en": "Help a walk-in guest choose a room and explain the prices.",
+    "ko": "예약 없이 온 손님에게 빈방과 요금을 안내하는 상황",
+    "th": "ช่วยแขกที่ไม่ได้จองเลือกห้องและแจ้งราคา"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-walk-in/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Australian man in his 30s, curly red hair, light beard, gray t-shirt, large hiking backpack",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good evening. How can I help you?",
+        "ko": "안녕하세요. 무엇을 도와드릴까요?",
+        "th": "สวัสดีค่ะ มีอะไรให้ช่วยไหมคะ",
+        "audio": "/audio/hw-walk-in/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Hi. I don't have a reservation. Do you have a room for tonight?",
+        "ko": "안녕하세요. 예약을 안 했는데요. 오늘 밤 묵을 방 있나요?",
+        "th": "สวัสดีครับ ผมไม่ได้จองไว้ คืนนี้มีห้องว่างไหมครับ",
+        "audio": "/audio/hw-walk-in/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Let me check. We have a standard room and a sea-view room.",
+        "ko": "확인해 볼게요. 스탠더드룸과 바다 전망 객실이 있어요.",
+        "th": "ขอตรวจสอบสักครู่นะคะ มีห้องสแตนดาร์ดกับห้องวิวทะเลค่ะ",
+        "audio": "/audio/hw-walk-in/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "How much is each room?",
+        "ko": "각각 얼마예요?",
+        "th": "ห้องละเท่าไรครับ",
+        "audio": "/audio/hw-walk-in/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "The standard room is seventy dollars, and the sea-view room is ninety-five dollars.",
+        "ko": "스탠더드룸은 70달러, 바다 전망 객실은 95달러예요.",
+        "th": "ห้องสแตนดาร์ดเจ็ดสิบดอลลาร์ ห้องวิวทะเลเก้าสิบห้าดอลลาร์ค่ะ",
+        "audio": "/audio/hw-walk-in/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "I'll take the sea-view room, please. Is breakfast included?",
+        "ko": "바다 전망 객실로 할게요. 조식 포함인가요?",
+        "th": "ขอห้องวิวทะเลครับ รวมอาหารเช้าไหมครับ",
+        "audio": "/audio/hw-walk-in/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Yes, breakfast is included. Could you fill out this form, please?",
+        "ko": "네, 조식 포함이에요. 이 양식을 작성해 주시겠어요?",
+        "th": "รวมค่ะ รบกวนกรอกแบบฟอร์มนี้ด้วยนะคะ",
+        "audio": "/audio/hw-walk-in/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Sure. Thanks a lot.",
+        "ko": "네. 정말 고마워요.",
+        "th": "ได้ครับ ขอบคุณมากครับ",
+        "audio": "/audio/hw-walk-in/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-walk-in/s1.webp",
+        "prompt": "In the evening at the hotel front desk, a backpacker with a large hiking backpack asks Supansa for a room."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-walk-in/s2.webp",
+        "prompt": "Supansa checks the computer screen and shows the guest room photos on a tablet."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-walk-in/s3.webp",
+        "prompt": "Supansa points to a sea-view room photo on the tablet; the guest looks pleased."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-walk-in/s4.webp",
+        "prompt": "The guest fills out a paper registration form on the counter while Supansa waits with a smile."
+      }
+    ]
+  }
+}

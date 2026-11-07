@@ -1,0 +1,153 @@
+{
+  "id": "hw-double-booking",
+  "order": 42,
+  "title": {
+    "en": "A Double-Booking Problem",
+    "ko": "더블 부킹 해결",
+    "th": "ปัญหาการจองซ้ำ"
+  },
+  "description": {
+    "en": "Apologize for a double booking and arrange another hotel.",
+    "ko": "더블 부킹을 사과하고 다른 호텔을 마련해 주는 상황",
+    "th": "ขอโทษเรื่องการจองซ้ำและจัดหาโรงแรมอื่นให้"
+  },
+  "level": "intermediate",
+  "category": "hotel-work",
+  "cover": "/images/hw-double-booking/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Spanish man in his 40s, salt-and-pepper beard, white linen shirt, rolling suitcase",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "I'm very sorry, sir. There seems to be a problem with your booking.",
+        "ko": "정말 죄송합니다, 손님. 예약에 문제가 있는 것 같아요.",
+        "th": "ขออภัยเป็นอย่างมากค่ะ ดูเหมือนการจองของคุณจะมีปัญหาค่ะ",
+        "audio": "/audio/hw-double-booking/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "What kind of problem? I booked three months ago.",
+        "ko": "무슨 문제요? 3개월 전에 예약했는데요.",
+        "th": "ปัญหาอะไรครับ ผมจองไว้ตั้งสามเดือนแล้วนะครับ",
+        "audio": "/audio/hw-double-booking/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Your room was booked twice by mistake, and tonight we are fully booked.",
+        "ko": "실수로 객실이 이중으로 예약되었고, 오늘 밤은 만실이에요.",
+        "th": "ห้องของคุณถูกจองซ้ำโดยผิดพลาด และคืนนี้ห้องเต็มแล้วค่ะ",
+        "audio": "/audio/hw-double-booking/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "That's terrible. Where am I supposed to stay?",
+        "ko": "말도 안 돼요. 그럼 어디서 묵으라는 거죠?",
+        "th": "แย่มากเลยครับ แล้วผมจะพักที่ไหนครับ",
+        "audio": "/audio/hw-double-booking/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "We have booked you a room at our partner hotel nearby, at no cost to you.",
+        "ko": "근처 제휴 호텔에 무료로 객실을 예약해 드렸어요.",
+        "th": "เราจองห้องที่โรงแรมพันธมิตรใกล้ ๆ ให้แล้วค่ะ ไม่มีค่าใช้จ่ายค่ะ",
+        "audio": "/audio/hw-double-booking/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Is it a good hotel? How do I get there?",
+        "ko": "좋은 호텔인가요? 거기까지 어떻게 가죠?",
+        "th": "เป็นโรงแรมที่ดีไหมครับ แล้วจะไปยังไงครับ",
+        "audio": "/audio/hw-double-booking/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "It's a five-star hotel, and our driver will take you there now.",
+        "ko": "5성급 호텔이고, 저희 기사가 지금 모셔다 드릴 거예요.",
+        "th": "เป็นโรงแรมห้าดาวค่ะ และคนขับรถของเราจะพาไปส่งเดี๋ยวนี้เลยค่ะ",
+        "audio": "/audio/hw-double-booking/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Okay. Thank you for handling it so quickly.",
+        "ko": "알겠어요. 빨리 처리해 줘서 고마워요.",
+        "th": "โอเคครับ ขอบคุณที่จัดการให้อย่างรวดเร็วครับ",
+        "audio": "/audio/hw-double-booking/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-double-booking/s1.webp",
+        "prompt": "At the hotel front desk, Supansa apologizes sincerely to the guest with a rolling suitcase."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-double-booking/s2.webp",
+        "prompt": "The guest looks upset and gestures with both hands."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-double-booking/s3.webp",
+        "prompt": "Supansa shows the guest information about another hotel on a tablet."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-double-booking/s4.webp",
+        "prompt": "Supansa walks the guest to the hotel entrance where a black car is waiting."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "hw-card-declined",
+  "order": 43,
+  "title": {
+    "en": "When a Card Is Declined",
+    "ko": "결제 카드가 거절됐을 때",
+    "th": "เมื่อบัตรชำระเงินถูกปฏิเสธ"
+  },
+  "description": {
+    "en": "Politely tell a guest their card was declined and take cash.",
+    "ko": "카드 결제 거절을 정중하게 알리고 현금으로 받는 상황",
+    "th": "แจ้งแขกอย่างสุภาพว่าบัตรถูกปฏิเสธและรับเงินสดแทน"
+  },
+  "level": "intermediate",
+  "category": "hotel-work",
+  "cover": "/images/hw-card-declined/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Russian man in his 30s, buzz cut, black leather jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "I'm sorry, but your card was declined.",
+        "ko": "죄송하지만 카드가 승인되지 않았어요.",
+        "th": "ขออภัยค่ะ บัตรของคุณถูกปฏิเสธค่ะ",
+        "audio": "/audio/hw-card-declined/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Really? Can you try it again?",
+        "ko": "정말요? 다시 한번 해 주시겠어요?",
+        "th": "จริงเหรอครับ ลองอีกครั้งได้ไหมครับ",
+        "audio": "/audio/hw-card-declined/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Of course. Please insert your card again.",
+        "ko": "물론이죠. 카드를 다시 넣어 주세요.",
+        "th": "ได้ค่ะ กรุณาเสียบบัตรอีกครั้งค่ะ",
+        "audio": "/audio/hw-card-declined/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Did it work this time?",
+        "ko": "이번엔 됐나요?",
+        "th": "ครั้งนี้ผ่านไหมครับ",
+        "audio": "/audio/hw-card-declined/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "I'm afraid not. Do you have another card?",
+        "ko": "안타깝지만 안 됐어요. 다른 카드 있으세요?",
+        "th": "เสียใจด้วยค่ะ ยังไม่ผ่าน มีบัตรอื่นไหมคะ",
+        "audio": "/audio/hw-card-declined/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "I only have cash. Can I pay in cash?",
+        "ko": "현금밖에 없어요. 현금으로 내도 되나요?",
+        "th": "มีแต่เงินสดครับ จ่ายเงินสดได้ไหมครับ",
+        "audio": "/audio/hw-card-declined/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Yes, you can pay in cash. The total is ninety dollars.",
+        "ko": "네, 현금으로 결제하셔도 돼요. 총 90달러입니다.",
+        "th": "ได้ค่ะ ชำระเป็นเงินสดได้ค่ะ ทั้งหมดเก้าสิบดอลลาร์ค่ะ",
+        "audio": "/audio/hw-card-declined/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Here you go. Sorry about the trouble.",
+        "ko": "여기요. 번거롭게 해서 미안해요.",
+        "th": "นี่ครับ ขอโทษที่ทำให้ยุ่งยากนะครับ",
+        "audio": "/audio/hw-card-declined/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-card-declined/s1.webp",
+        "prompt": "At the hotel front desk, Supansa looks at the card terminal and speaks politely to the guest."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-card-declined/s2.webp",
+        "prompt": "The guest inserts his card into the payment terminal again."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-card-declined/s3.webp",
+        "prompt": "The guest looks through his wallet with a slightly embarrassed face."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-card-declined/s4.webp",
+        "prompt": "The guest hands cash to Supansa, who accepts it with a kind smile."
+      }
+    ]
+  }
+}

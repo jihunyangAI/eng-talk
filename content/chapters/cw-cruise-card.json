@@ -1,0 +1,153 @@
+{
+  "id": "cw-cruise-card",
+  "order": 58,
+  "title": {
+    "en": "Paying with the Cruise Card",
+    "ko": "크루즈 카드 결제 안내",
+    "th": "การชำระเงินด้วยบัตรครูซ"
+  },
+  "description": {
+    "en": "Explain how cashless payment works on the ship.",
+    "ko": "배 안의 현금 없는 결제 방식을 설명하는 상황",
+    "th": "อธิบายการชำระเงินแบบไม่ใช้เงินสดบนเรือ"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-cruise-card/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Nigerian man in his 30s, short black hair, colorful patterned shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi. How do I pay for things on the ship?",
+        "ko": "안녕하세요. 배에서는 어떻게 결제하나요?",
+        "th": "สวัสดีครับ บนเรือจ่ายเงินยังไงครับ",
+        "audio": "/audio/cw-cruise-card/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "You use your cruise card. Everything is charged to your account.",
+        "ko": "크루즈 카드를 쓰시면 돼요. 모든 요금이 계정으로 청구돼요.",
+        "th": "ใช้บัตรครูซค่ะ ค่าใช้จ่ายทั้งหมดจะรวมเข้าบัญชีของคุณค่ะ",
+        "audio": "/audio/cw-cruise-card/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Can I pay with cash?",
+        "ko": "현금으로 낼 수 있나요?",
+        "th": "จ่ายเป็นเงินสดได้ไหมครับ",
+        "audio": "/audio/cw-cruise-card/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "The ship is cashless, but you can add cash to your account here.",
+        "ko": "배에서는 현금을 안 쓰지만, 여기서 계정에 현금을 충전하실 수 있어요.",
+        "th": "บนเรือไม่ใช้เงินสดค่ะ แต่เติมเงินสดเข้าบัญชีได้ที่นี่ค่ะ",
+        "audio": "/audio/cw-cruise-card/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "How can I check my spending?",
+        "ko": "사용 내역은 어떻게 확인하나요?",
+        "th": "จะเช็กยอดใช้จ่ายได้ยังไงครับ",
+        "audio": "/audio/cw-cruise-card/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "You can check it on the TV in your cabin or in the ship's app.",
+        "ko": "선실 TV나 선박 앱에서 확인하실 수 있어요.",
+        "th": "ดูได้ที่ทีวีในห้องพักหรือในแอปของเรือค่ะ",
+        "audio": "/audio/cw-cruise-card/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "And when do I pay the final bill?",
+        "ko": "최종 정산은 언제 하나요?",
+        "th": "แล้วชำระยอดสุดท้ายเมื่อไรครับ",
+        "audio": "/audio/cw-cruise-card/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "The total is charged on the last morning. You'll get a statement under your door.",
+        "ko": "마지막 날 아침에 총액이 청구돼요. 명세서는 문 아래로 넣어 드려요.",
+        "th": "ยอดรวมจะเรียกเก็บเช้าวันสุดท้ายค่ะ ใบแจ้งยอดจะสอดไว้ใต้ประตูห้องค่ะ",
+        "audio": "/audio/cw-cruise-card/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-cruise-card/s1.webp",
+        "prompt": "At the guest services desk in a bright cruise ship atrium, the passenger asks Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-cruise-card/s2.webp",
+        "prompt": "Supansa holds up a plastic cruise card while explaining."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-cruise-card/s3.webp",
+        "prompt": "Supansa shows the ship's app on a tablet."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-cruise-card/s4.webp",
+        "prompt": "The passenger nods with understanding; Supansa smiles."
+      }
+    ]
+  }
+}

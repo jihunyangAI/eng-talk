@@ -1,0 +1,153 @@
+{
+  "id": "cw-seasick",
+  "order": 57,
+  "title": {
+    "en": "Helping a Seasick Guest",
+    "ko": "뱃멀미 손님 돕기",
+    "th": "ช่วยผู้โดยสารที่เมาเรือ"
+  },
+  "description": {
+    "en": "Help a seasick passenger feel better.",
+    "ko": "뱃멀미하는 승객을 돕는 상황",
+    "th": "ช่วยผู้โดยสารที่เมาเรือให้รู้สึกดีขึ้น"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-seasick/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Danish man in his 20s, blond hair, pale face, gray hoodie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me, sir. Are you okay? You look pale.",
+        "ko": "실례합니다, 손님. 괜찮으세요? 안색이 안 좋아 보여요.",
+        "th": "ขอโทษค่ะ เป็นอะไรไหมคะ หน้าซีดเลยค่ะ",
+        "audio": "/audio/cw-seasick/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I feel seasick. The ship is moving a lot.",
+        "ko": "뱃멀미가 나요. 배가 많이 흔들려요.",
+        "th": "ผมเมาเรือครับ เรือโคลงมากเลยครับ",
+        "audio": "/audio/cw-seasick/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Try to look at the horizon and get some fresh air.",
+        "ko": "수평선을 바라보고 신선한 공기를 쐬어 보세요.",
+        "th": "ลองมองไปที่เส้นขอบฟ้าและสูดอากาศบริสุทธิ์ดูนะคะ",
+        "audio": "/audio/cw-seasick/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Is there any medicine for seasickness?",
+        "ko": "뱃멀미 약이 있나요?",
+        "th": "มียาแก้เมาเรือไหมครับ",
+        "audio": "/audio/cw-seasick/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Yes, the guest services desk has free seasickness tablets.",
+        "ko": "네, 게스트 서비스 데스크에서 뱃멀미 약을 무료로 드려요.",
+        "th": "มีค่ะ ที่เคาน์เตอร์บริการลูกค้ามียาแก้เมาเรือแจกฟรีค่ะ",
+        "audio": "/audio/cw-seasick/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Where is the best place to sit?",
+        "ko": "어디에 앉는 게 제일 좋을까요?",
+        "th": "นั่งตรงไหนดีที่สุดครับ",
+        "audio": "/audio/cw-seasick/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "The middle of the ship on a lower deck moves the least.",
+        "ko": "아래층 데크의 배 가운데가 가장 덜 흔들려요.",
+        "th": "ตรงกลางเรือชั้นล่าง ๆ จะโคลงน้อยที่สุดค่ะ",
+        "audio": "/audio/cw-seasick/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you. I'll try that.",
+        "ko": "고마워요. 그렇게 해 볼게요.",
+        "th": "ขอบคุณครับ จะลองดูครับ",
+        "audio": "/audio/cw-seasick/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-seasick/s1.webp",
+        "prompt": "On an outdoor deck at sea, the pale passenger holds the railing; Supansa approaches him with concern."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-seasick/s2.webp",
+        "prompt": "Supansa points toward the horizon over the ocean."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-seasick/s3.webp",
+        "prompt": "Supansa hands the passenger a small packet of tablets and a bottle of water."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-seasick/s4.webp",
+        "prompt": "The passenger sits on a bench while Supansa kneels beside him kindly."
+      }
+    ]
+  }
+}

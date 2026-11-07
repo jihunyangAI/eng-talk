@@ -1,0 +1,153 @@
+{
+  "id": "hw-change-room",
+  "order": 41,
+  "title": {
+    "en": "A Guest Who Wants a Different Room",
+    "ko": "객실 변경 요청",
+    "th": "แขกขอเปลี่ยนห้อง"
+  },
+  "description": {
+    "en": "Move a guest out of a smoky room into a better one.",
+    "ko": "담배 냄새 나는 방에서 더 좋은 방으로 옮겨 주는 상황",
+    "th": "ย้ายแขกจากห้องที่มีกลิ่นบุหรี่ไปห้องที่ดีกว่า"
+  },
+  "level": "intermediate",
+  "category": "hotel-work",
+  "cover": "/images/hw-change-room/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Chinese man in his 30s, glasses, short black hair, black jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. I'm not happy with my room.",
+        "ko": "실례합니다. 방이 마음에 들지 않아요.",
+        "th": "ขอโทษครับ ผมไม่ค่อยพอใจกับห้องครับ",
+        "audio": "/audio/hw-change-room/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I'm sorry to hear that. What seems to be the problem?",
+        "ko": "죄송합니다. 어떤 점이 문제인가요?",
+        "th": "ขออภัยค่ะ มีปัญหาอะไรคะ",
+        "audio": "/audio/hw-change-room/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "It smells like smoke, and I booked a non-smoking room.",
+        "ko": "담배 냄새가 나요. 저는 금연실을 예약했거든요.",
+        "th": "มีกลิ่นบุหรี่ครับ แต่ผมจองห้องปลอดบุหรี่ไว้ครับ",
+        "audio": "/audio/hw-change-room/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "I apologize. That shouldn't happen. Let me find you another room.",
+        "ko": "사과드립니다. 그런 일이 있어선 안 되는데요. 다른 방을 찾아 드릴게요.",
+        "th": "ขออภัยด้วยค่ะ ไม่ควรเกิดขึ้นเลย ขอหาห้องใหม่ให้นะคะ",
+        "audio": "/audio/hw-change-room/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Thank you. Is there one with a better view?",
+        "ko": "고마워요. 전망이 더 좋은 방도 있나요?",
+        "th": "ขอบคุณครับ มีห้องที่วิวดีกว่านี้ไหมครับ",
+        "audio": "/audio/hw-change-room/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Yes, I have a non-smoking room with a river view, at no extra cost.",
+        "ko": "네, 추가 요금 없이 강 전망 금연실이 있어요.",
+        "th": "มีค่ะ ห้องปลอดบุหรี่วิวแม่น้ำ ไม่มีค่าใช้จ่ายเพิ่มค่ะ",
+        "audio": "/audio/hw-change-room/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Wonderful. Can someone help with my bags?",
+        "ko": "좋아요. 짐 옮기는 걸 도와줄 사람이 있나요?",
+        "th": "ดีมากครับ มีคนช่วยขนกระเป๋าได้ไหมครับ",
+        "audio": "/audio/hw-change-room/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Of course. A bellboy will help you in five minutes.",
+        "ko": "물론이죠. 5분 후에 벨보이가 도와드릴 거예요.",
+        "th": "ได้แน่นอนค่ะ อีกห้านาทีพนักงานยกกระเป๋าจะไปช่วยนะคะ",
+        "audio": "/audio/hw-change-room/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-change-room/s1.webp",
+        "prompt": "The unhappy guest speaks to Supansa at the hotel front desk."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-change-room/s2.webp",
+        "prompt": "The guest waves his hand in front of his nose; Supansa looks concerned."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-change-room/s3.webp",
+        "prompt": "Supansa searches for available rooms on the computer."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-change-room/s4.webp",
+        "prompt": "Supansa hands the guest a new key card with a smile."
+      }
+    ]
+  }
+}

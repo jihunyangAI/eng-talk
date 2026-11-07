@@ -11,7 +11,7 @@
     "title": { "$ref": "#/$defs/localized" },
     "description": { "$ref": "#/$defs/localized" },
     "level": { "enum": ["beginner", "intermediate", "advanced"] },
-    "category": { "enum": ["travel", "stay", "food", "shopping", "daily", "people"] },
+    "category": { "enum": ["hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"] },
     "cover": { "$ref": "#/$defs/imagePath" },
     "dialogue": {
       "type": "object",

@@ -1,0 +1,153 @@
+{
+  "id": "hw-sick-guest",
+  "order": 46,
+  "title": {
+    "en": "Helping a Sick Guest",
+    "ko": "아픈 손님 돕기",
+    "th": "ช่วยเหลือแขกที่ไม่สบาย"
+  },
+  "description": {
+    "en": "Help a guest with a stomachache find a pharmacy.",
+    "ko": "배가 아픈 손님에게 약국을 안내하고 돕는 상황",
+    "th": "ช่วยแขกที่ปวดท้องหาร้านขายยา"
+  },
+  "level": "intermediate",
+  "category": "hotel-work",
+  "cover": "/images/hw-sick-guest/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Irish man in his 20s, red hair, pale face, green sweater, hand on his stomach",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. I feel sick. I think I ate something bad.",
+        "ko": "실례합니다. 몸이 안 좋아요. 뭘 잘못 먹은 것 같아요.",
+        "th": "ขอโทษครับ ผมรู้สึกไม่สบาย น่าจะกินอะไรที่ไม่ดีเข้าไปครับ",
+        "audio": "/audio/hw-sick-guest/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I'm sorry to hear that. Do you have a fever or a stomachache?",
+        "ko": "저런. 열이 있거나 배가 아프세요?",
+        "th": "เสียใจด้วยค่ะ มีไข้หรือปวดท้องไหมคะ",
+        "audio": "/audio/hw-sick-guest/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "I have a stomachache, but no fever.",
+        "ko": "배는 아픈데 열은 없어요.",
+        "th": "ปวดท้องครับ แต่ไม่มีไข้ครับ",
+        "audio": "/audio/hw-sick-guest/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "There's a pharmacy across the street. Or would you like me to call a doctor?",
+        "ko": "길 건너에 약국이 있어요. 아니면 의사를 불러 드릴까요?",
+        "th": "ฝั่งตรงข้ามมีร้านขายยาค่ะ หรือจะให้เรียกหมอให้ไหมคะ",
+        "audio": "/audio/hw-sick-guest/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "I think the pharmacy is enough for now.",
+        "ko": "지금은 약국이면 충분할 것 같아요.",
+        "th": "ตอนนี้ไปร้านขายยาก็น่าจะพอครับ",
+        "audio": "/audio/hw-sick-guest/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Okay. Please drink plenty of water. I'll send some to your room.",
+        "ko": "알겠어요. 물을 충분히 드세요. 객실로 물을 보내 드릴게요.",
+        "th": "ได้ค่ะ ดื่มน้ำเยอะ ๆ นะคะ เดี๋ยวจะส่งน้ำไปที่ห้องให้ค่ะ",
+        "audio": "/audio/hw-sick-guest/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Thank you. You're very kind.",
+        "ko": "고마워요. 정말 친절하시네요.",
+        "th": "ขอบคุณครับ ใจดีมากเลยครับ",
+        "audio": "/audio/hw-sick-guest/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Please call the front desk if you feel worse.",
+        "ko": "더 안 좋아지시면 프런트로 전화 주세요.",
+        "th": "ถ้ารู้สึกแย่ลงโทรหาแผนกต้อนรับได้เลยนะคะ",
+        "audio": "/audio/hw-sick-guest/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-sick-guest/s1.webp",
+        "prompt": "The pale guest holds his stomach at the hotel front desk."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-sick-guest/s2.webp",
+        "prompt": "Supansa leans forward with a caring, concerned expression."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-sick-guest/s3.webp",
+        "prompt": "Supansa points out the lobby window toward a pharmacy across the street."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-sick-guest/s4.webp",
+        "prompt": "Supansa hands the guest two bottles of water with a kind smile."
+      }
+    ]
+  }
+}

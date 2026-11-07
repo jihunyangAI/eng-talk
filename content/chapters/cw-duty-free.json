@@ -1,0 +1,153 @@
+{
+  "id": "cw-duty-free",
+  "order": 68,
+  "title": {
+    "en": "Selling at the Duty-Free Shop",
+    "ko": "면세점 판매",
+    "th": "ขายสินค้าที่ร้านปลอดภาษี"
+  },
+  "description": {
+    "en": "Help a passenger choose perfume and gift-wrap it.",
+    "ko": "향수를 골라 주고 선물 포장을 해 주는 상황",
+    "th": "ช่วยผู้โดยสารเลือกน้ำหอมและห่อของขวัญ"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-duty-free/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Chinese man in his 40s, short black hair, black polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Welcome! Are you looking for a gift?",
+        "ko": "어서 오세요! 선물을 찾으시나요?",
+        "th": "ยินดีต้อนรับค่ะ กำลังหาของขวัญอยู่ไหมคะ",
+        "audio": "/audio/cw-duty-free/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Yes, something for my wife. Maybe perfume.",
+        "ko": "네, 아내에게 줄 거요. 향수가 좋을 것 같아요.",
+        "th": "ครับ ของขวัญให้ภรรยา อาจจะเป็นน้ำหอมครับ",
+        "audio": "/audio/cw-duty-free/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "This floral perfume is our best seller. Would you like to smell it?",
+        "ko": "이 플로럴 향수가 제일 잘 팔려요. 향을 맡아 보시겠어요?",
+        "th": "น้ำหอมกลิ่นดอกไม้ตัวนี้ขายดีที่สุดค่ะ ลองดมกลิ่นดูไหมคะ",
+        "audio": "/audio/cw-duty-free/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "It smells lovely. How much is it?",
+        "ko": "향이 좋네요. 얼마예요?",
+        "th": "กลิ่นหอมมากครับ ราคาเท่าไรครับ",
+        "audio": "/audio/cw-duty-free/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "It's sixty dollars. Today you get twenty percent off.",
+        "ko": "60달러예요. 오늘은 20% 할인돼요.",
+        "th": "หกสิบดอลลาร์ค่ะ วันนี้ลดยี่สิบเปอร์เซ็นต์ค่ะ",
+        "audio": "/audio/cw-duty-free/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Great. Can you gift-wrap it?",
+        "ko": "좋네요. 선물 포장해 주실 수 있나요?",
+        "th": "ดีครับ ช่วยห่อของขวัญให้ได้ไหมครับ",
+        "audio": "/audio/cw-duty-free/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Of course. It's free. Would you like a pink or a gold ribbon?",
+        "ko": "물론이죠. 무료예요. 분홍 리본과 금색 리본 중 어느 걸로 하시겠어요?",
+        "th": "ได้แน่นอนค่ะ ห่อฟรีค่ะ ต้องการริบบิ้นสีชมพูหรือสีทองคะ",
+        "audio": "/audio/cw-duty-free/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Gold, please. I'll pay with my cruise card.",
+        "ko": "금색으로요. 크루즈 카드로 결제할게요.",
+        "th": "สีทองครับ จ่ายด้วยบัตรครูซครับ",
+        "audio": "/audio/cw-duty-free/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-duty-free/s1.webp",
+        "prompt": "In an elegant duty-free shop on a cruise ship with glass shelves of perfume, Supansa welcomes the passenger."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-duty-free/s2.webp",
+        "prompt": "Supansa sprays perfume onto a paper tester strip and offers it to the passenger."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-duty-free/s3.webp",
+        "prompt": "The passenger smells the tester strip and smiles while Supansa explains."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-duty-free/s4.webp",
+        "prompt": "Supansa ties a gold ribbon around a wrapped gift box at the counter."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "cw-safety-drill",
+  "order": 51,
+  "title": {
+    "en": "The Safety Drill",
+    "ko": "비상 대피 훈련 안내",
+    "th": "การซ้อมความปลอดภัย"
+  },
+  "description": {
+    "en": "Explain the muster station and emergency signal.",
+    "ko": "집결 장소와 비상 신호를 안내하는 상황",
+    "th": "อธิบายจุดรวมพลและสัญญาณฉุกเฉิน"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-safety-drill/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Canadian man in his 60s, gray hair, glasses, beige cardigan",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good afternoon. Everyone must attend the safety drill before we sail.",
+        "ko": "안녕하세요. 출항 전에 모든 분이 안전 훈련에 참석하셔야 해요.",
+        "th": "สวัสดีค่ะ ทุกคนต้องเข้าร่วมการซ้อมความปลอดภัยก่อนเรือออกค่ะ",
+        "audio": "/audio/cw-safety-drill/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Where do I need to go?",
+        "ko": "어디로 가야 하나요?",
+        "th": "ต้องไปที่ไหนครับ",
+        "audio": "/audio/cw-safety-drill/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Your muster station is on your cruise card. Yours is station C.",
+        "ko": "집결 장소는 크루즈 카드에 적혀 있어요. 손님은 C 구역이에요.",
+        "th": "จุดรวมพลระบุไว้บนบัตรครูซค่ะ ของคุณคือจุด C ค่ะ",
+        "audio": "/audio/cw-safety-drill/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Do I need to bring my life jacket?",
+        "ko": "구명조끼를 가져가야 하나요?",
+        "th": "ต้องเอาเสื้อชูชีพไปด้วยไหมครับ",
+        "audio": "/audio/cw-safety-drill/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "No, life jackets are kept at the station. Just bring your cruise card.",
+        "ko": "아니요, 구명조끼는 집결 장소에 있어요. 크루즈 카드만 가져오세요.",
+        "th": "ไม่ต้องค่ะ เสื้อชูชีพอยู่ที่จุดรวมพลแล้ว เอาแค่บัตรครูซมาค่ะ",
+        "audio": "/audio/cw-safety-drill/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "What happens if there's an emergency?",
+        "ko": "비상 상황이 생기면 어떻게 되나요?",
+        "th": "ถ้าเกิดเหตุฉุกเฉินจะเป็นอย่างไรครับ",
+        "audio": "/audio/cw-safety-drill/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "You'll hear seven short blasts and one long blast. Then come to your station.",
+        "ko": "짧은 신호 일곱 번과 긴 신호 한 번이 울려요. 그러면 집결 장소로 오세요.",
+        "th": "จะมีเสียงสัญญาณสั้นเจ็ดครั้งและยาวหนึ่งครั้งค่ะ แล้วให้มาที่จุดรวมพลค่ะ",
+        "audio": "/audio/cw-safety-drill/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you. That's very clear.",
+        "ko": "고마워요. 아주 명확하네요.",
+        "th": "ขอบคุณครับ เข้าใจชัดเจนเลยครับ",
+        "audio": "/audio/cw-safety-drill/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-safety-drill/s1.webp",
+        "prompt": "On an outdoor deck of a cruise ship with orange lifeboats hanging above, Supansa speaks to the passenger."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-safety-drill/s2.webp",
+        "prompt": "Supansa points to the letter on the passenger's cruise card."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-safety-drill/s3.webp",
+        "prompt": "Supansa holds up an orange life jacket to demonstrate."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-safety-drill/s4.webp",
+        "prompt": "The passenger nods with understanding; Supansa smiles reassuringly."
+      }
+    ]
+  }
+}

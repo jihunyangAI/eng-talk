@@ -334,5 +334,485 @@
     "level": "intermediate",
     "category": "travel",
     "cover": "/images/lost-luggage/s1.webp"
+  },
+  {
+    "id": "hw-check-in",
+    "order": 29,
+    "title": {
+      "en": "Checking In a Guest",
+      "ko": "체크인 응대",
+      "th": "เช็กอินให้แขก"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-check-in/s1.webp"
+  },
+  {
+    "id": "hw-walk-in",
+    "order": 30,
+    "title": {
+      "en": "A Guest Without a Reservation",
+      "ko": "예약 없이 온 손님",
+      "th": "แขกที่ไม่ได้จองห้อง"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-walk-in/s1.webp"
+  },
+  {
+    "id": "hw-check-out-bill",
+    "order": 31,
+    "title": {
+      "en": "Explaining the Bill at Check-out",
+      "ko": "체크아웃 청구서 설명",
+      "th": "อธิบายบิลตอนเช็กเอาต์"
+    },
+    "level": "intermediate",
+    "category": "hotel-work",
+    "cover": "/images/hw-check-out-bill/s1.webp"
+  },
+  {
+    "id": "hw-upgrade",
+    "order": 32,
+    "title": {
+      "en": "Offering a Room Upgrade",
+      "ko": "객실 업그레이드 제안",
+      "th": "เสนออัปเกรดห้อง"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-upgrade/s1.webp"
+  },
+  {
+    "id": "hw-late-check-out",
+    "order": 33,
+    "title": {
+      "en": "A Late Check-out Request",
+      "ko": "늦은 체크아웃 요청",
+      "th": "ขอเช็กเอาต์ช้า"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-late-check-out/s1.webp"
+  },
+  {
+    "id": "hw-luggage-taxi",
+    "order": 34,
+    "title": {
+      "en": "Storing Luggage and Calling a Taxi",
+      "ko": "짐 보관과 택시 호출",
+      "th": "ฝากกระเป๋าและเรียกแท็กซี่"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-luggage-taxi/s1.webp"
+  },
+  {
+    "id": "hw-facilities",
+    "order": 35,
+    "title": {
+      "en": "Explaining Hotel Facilities",
+      "ko": "호텔 시설 안내",
+      "th": "แนะนำสิ่งอำนวยความสะดวกของโรงแรม"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-facilities/s1.webp"
+  },
+  {
+    "id": "hw-recommend",
+    "order": 36,
+    "title": {
+      "en": "Recommending Places Nearby",
+      "ko": "관광지·식당 추천",
+      "th": "แนะนำสถานที่ใกล้เคียง"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-recommend/s1.webp"
+  },
+  {
+    "id": "hw-room-service",
+    "order": 37,
+    "title": {
+      "en": "Taking a Room Service Order",
+      "ko": "룸서비스 주문 받기",
+      "th": "รับออร์เดอร์รูมเซอร์วิส"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-room-service/s1.webp"
+  },
+  {
+    "id": "hw-lost-item",
+    "order": 38,
+    "title": {
+      "en": "A Guest Lost Something",
+      "ko": "분실물 문의",
+      "th": "แขกทำของหาย"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-lost-item/s1.webp"
+  },
+  {
+    "id": "hw-noise-complaint",
+    "order": 39,
+    "title": {
+      "en": "Handling a Noise Complaint",
+      "ko": "소음 불만 처리",
+      "th": "จัดการเรื่องร้องเรียนเสียงดัง"
+    },
+    "level": "intermediate",
+    "category": "hotel-work",
+    "cover": "/images/hw-noise-complaint/s1.webp"
+  },
+  {
+    "id": "hw-broken-ac",
+    "order": 40,
+    "title": {
+      "en": "Something in the Room Is Broken",
+      "ko": "객실 고장 신고 응대",
+      "th": "แจ้งของในห้องเสีย"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-broken-ac/s1.webp"
+  },
+  {
+    "id": "hw-change-room",
+    "order": 41,
+    "title": {
+      "en": "A Guest Who Wants a Different Room",
+      "ko": "객실 변경 요청",
+      "th": "แขกขอเปลี่ยนห้อง"
+    },
+    "level": "intermediate",
+    "category": "hotel-work",
+    "cover": "/images/hw-change-room/s1.webp"
+  },
+  {
+    "id": "hw-double-booking",
+    "order": 42,
+    "title": {
+      "en": "A Double-Booking Problem",
+      "ko": "더블 부킹 해결",
+      "th": "ปัญหาการจองซ้ำ"
+    },
+    "level": "intermediate",
+    "category": "hotel-work",
+    "cover": "/images/hw-double-booking/s1.webp"
+  },
+  {
+    "id": "hw-card-declined",
+    "order": 43,
+    "title": {
+      "en": "When a Card Is Declined",
+      "ko": "결제 카드가 거절됐을 때",
+      "th": "เมื่อบัตรชำระเงินถูกปฏิเสธ"
+    },
+    "level": "intermediate",
+    "category": "hotel-work",
+    "cover": "/images/hw-card-declined/s1.webp"
+  },
+  {
+    "id": "hw-airport-shuttle",
+    "order": 44,
+    "title": {
+      "en": "Arranging the Airport Shuttle",
+      "ko": "공항 셔틀 안내",
+      "th": "จัดรถรับส่งสนามบิน"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-airport-shuttle/s1.webp"
+  },
+  {
+    "id": "hw-anniversary",
+    "order": 45,
+    "title": {
+      "en": "A Special Birthday Request",
+      "ko": "생일 서프라이즈 요청",
+      "th": "คำขอพิเศษวันเกิด"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-anniversary/s1.webp"
+  },
+  {
+    "id": "hw-sick-guest",
+    "order": 46,
+    "title": {
+      "en": "Helping a Sick Guest",
+      "ko": "아픈 손님 돕기",
+      "th": "ช่วยเหลือแขกที่ไม่สบาย"
+    },
+    "level": "intermediate",
+    "category": "hotel-work",
+    "cover": "/images/hw-sick-guest/s1.webp"
+  },
+  {
+    "id": "hw-money-exchange",
+    "order": 47,
+    "title": {
+      "en": "Money Exchange and ATMs",
+      "ko": "환전·ATM 안내",
+      "th": "แลกเงินและตู้เอทีเอ็ม"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-money-exchange/s1.webp"
+  },
+  {
+    "id": "hw-early-arrival",
+    "order": 48,
+    "title": {
+      "en": "A Guest Who Arrives Early",
+      "ko": "일찍 도착한 손님",
+      "th": "แขกที่มาถึงก่อนเวลา"
+    },
+    "level": "beginner",
+    "category": "hotel-work",
+    "cover": "/images/hw-early-arrival/s1.webp"
+  },
+  {
+    "id": "cw-boarding",
+    "order": 49,
+    "title": {
+      "en": "Boarding the Cruise Ship",
+      "ko": "승선 체크인",
+      "th": "การเช็กอินขึ้นเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-boarding/s1.webp"
+  },
+  {
+    "id": "cw-find-cabin",
+    "order": 50,
+    "title": {
+      "en": "Finding the Cabin",
+      "ko": "선실 찾기",
+      "th": "หาห้องพักบนเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-find-cabin/s1.webp"
+  },
+  {
+    "id": "cw-safety-drill",
+    "order": 51,
+    "title": {
+      "en": "The Safety Drill",
+      "ko": "비상 대피 훈련 안내",
+      "th": "การซ้อมความปลอดภัย"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-safety-drill/s1.webp"
+  },
+  {
+    "id": "cw-ship-facilities",
+    "order": 52,
+    "title": {
+      "en": "Showing Guests Around the Ship",
+      "ko": "선내 시설 안내",
+      "th": "แนะนำสิ่งอำนวยความสะดวกบนเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-ship-facilities/s1.webp"
+  },
+  {
+    "id": "cw-dining-room",
+    "order": 53,
+    "title": {
+      "en": "Seating at the Main Restaurant",
+      "ko": "식당 좌석 배정",
+      "th": "จัดที่นั่งในห้องอาหารหลัก"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-dining-room/s1.webp"
+  },
+  {
+    "id": "cw-food-allergy",
+    "order": 54,
+    "title": {
+      "en": "Food Allergies and Special Diets",
+      "ko": "음식 알레르기·특별 식단",
+      "th": "แพ้อาหารและอาหารพิเศษ"
+    },
+    "level": "intermediate",
+    "category": "cruise-work",
+    "cover": "/images/cw-food-allergy/s1.webp"
+  },
+  {
+    "id": "cw-shore-excursion",
+    "order": 55,
+    "title": {
+      "en": "Booking a Shore Excursion",
+      "ko": "기항지 투어 예약",
+      "th": "จองทัวร์บนฝั่ง"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-shore-excursion/s1.webp"
+  },
+  {
+    "id": "cw-all-aboard",
+    "order": 56,
+    "title": {
+      "en": "All-Aboard Time",
+      "ko": "재승선 시간 안내",
+      "th": "เวลากลับขึ้นเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-all-aboard/s1.webp"
+  },
+  {
+    "id": "cw-seasick",
+    "order": 57,
+    "title": {
+      "en": "Helping a Seasick Guest",
+      "ko": "뱃멀미 손님 돕기",
+      "th": "ช่วยผู้โดยสารที่เมาเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-seasick/s1.webp"
+  },
+  {
+    "id": "cw-cruise-card",
+    "order": 58,
+    "title": {
+      "en": "Paying with the Cruise Card",
+      "ko": "크루즈 카드 결제 안내",
+      "th": "การชำระเงินด้วยบัตรครูซ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-cruise-card/s1.webp"
+  },
+  {
+    "id": "cw-wifi",
+    "order": 59,
+    "title": {
+      "en": "Selling a Wi-Fi Package",
+      "ko": "선내 와이파이 안내",
+      "th": "แพ็กเกจไวไฟบนเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-wifi/s1.webp"
+  },
+  {
+    "id": "cw-spa",
+    "order": 60,
+    "title": {
+      "en": "Booking a Spa Treatment",
+      "ko": "스파 예약",
+      "th": "จองสปา"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-spa/s1.webp"
+  },
+  {
+    "id": "cw-kids-club",
+    "order": 61,
+    "title": {
+      "en": "Explaining the Kids Club",
+      "ko": "키즈클럽 안내",
+      "th": "แนะนำคิดส์คลับ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-kids-club/s1.webp"
+  },
+  {
+    "id": "cw-shows",
+    "order": 62,
+    "title": {
+      "en": "Shows and Events Tonight",
+      "ko": "공연·이벤트 안내",
+      "th": "การแสดงและกิจกรรมคืนนี้"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-shows/s1.webp"
+  },
+  {
+    "id": "cw-lost-child",
+    "order": 63,
+    "title": {
+      "en": "Helping a Parent Find a Lost Child",
+      "ko": "길 잃은 아이의 부모 돕기",
+      "th": "ช่วยพ่อแม่ตามหาลูกที่พลัดหลง"
+    },
+    "level": "intermediate",
+    "category": "cruise-work",
+    "cover": "/images/cw-lost-child/s1.webp"
+  },
+  {
+    "id": "cw-cabin-service",
+    "order": 64,
+    "title": {
+      "en": "Cabin Service Requests",
+      "ko": "선실 서비스 요청",
+      "th": "คำขอบริการห้องพักบนเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-cabin-service/s1.webp"
+  },
+  {
+    "id": "cw-bar-order",
+    "order": 65,
+    "title": {
+      "en": "Taking a Drink Order at the Bar",
+      "ko": "바에서 음료 주문 받기",
+      "th": "รับออร์เดอร์เครื่องดื่มที่บาร์"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-bar-order/s1.webp"
+  },
+  {
+    "id": "cw-itinerary-change",
+    "order": 66,
+    "title": {
+      "en": "A Change of Itinerary",
+      "ko": "기상 악화로 일정 변경",
+      "th": "เปลี่ยนแผนการเดินทางเพราะสภาพอากาศ"
+    },
+    "level": "intermediate",
+    "category": "cruise-work",
+    "cover": "/images/cw-itinerary-change/s1.webp"
+  },
+  {
+    "id": "cw-disembark",
+    "order": 67,
+    "title": {
+      "en": "Getting Off the Ship",
+      "ko": "하선 절차 안내",
+      "th": "ขั้นตอนการลงเรือ"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-disembark/s1.webp"
+  },
+  {
+    "id": "cw-duty-free",
+    "order": 68,
+    "title": {
+      "en": "Selling at the Duty-Free Shop",
+      "ko": "면세점 판매",
+      "th": "ขายสินค้าที่ร้านปลอดภาษี"
+    },
+    "level": "beginner",
+    "category": "cruise-work",
+    "cover": "/images/cw-duty-free/s1.webp"
   }
 ]

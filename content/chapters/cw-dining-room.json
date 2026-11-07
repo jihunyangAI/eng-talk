@@ -1,0 +1,153 @@
+{
+  "id": "cw-dining-room",
+  "order": 53,
+  "title": {
+    "en": "Seating at the Main Restaurant",
+    "ko": "식당 좌석 배정",
+    "th": "จัดที่นั่งในห้องอาหารหลัก"
+  },
+  "description": {
+    "en": "Seat a passenger and explain the dress code.",
+    "ko": "승객을 자리로 안내하고 드레스 코드를 설명하는 상황",
+    "th": "พาผู้โดยสารไปที่นั่งและอธิบายการแต่งกาย"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-dining-room/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "British man in his 40s, neat brown hair, dark suit and tie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good evening. Welcome to the main dining room. May I see your cruise card?",
+        "ko": "안녕하세요. 메인 다이닝룸에 오신 것을 환영합니다. 크루즈 카드를 보여 주시겠어요?",
+        "th": "สวัสดีค่ะ ยินดีต้อนรับสู่ห้องอาหารหลักค่ะ ขอดูบัตรครูซด้วยค่ะ",
+        "audio": "/audio/cw-dining-room/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Here you are. We have a table for two at eight.",
+        "ko": "여기요. 8시에 2인석을 예약했어요.",
+        "th": "นี่ครับ เราจองโต๊ะสองที่ไว้ตอนสองทุ่มครับ",
+        "audio": "/audio/cw-dining-room/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Yes, your table is by the window. Please follow me.",
+        "ko": "네, 창가 자리예요. 저를 따라오세요.",
+        "th": "ใช่ค่ะ โต๊ะของคุณอยู่ริมหน้าต่าง เชิญทางนี้ค่ะ",
+        "audio": "/audio/cw-dining-room/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Is tonight a formal night?",
+        "ko": "오늘 밤이 포멀 나이트인가요?",
+        "th": "คืนนี้เป็นคืนแต่งกายเป็นทางการไหมครับ",
+        "audio": "/audio/cw-dining-room/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Yes, it is. You look very nice in your suit.",
+        "ko": "네, 맞아요. 정장이 정말 잘 어울리세요.",
+        "th": "ใช่ค่ะ ใส่สูทแล้วดูดีมากเลยค่ะ",
+        "audio": "/audio/cw-dining-room/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Thank you. What's the dress code for tomorrow?",
+        "ko": "고마워요. 내일 드레스 코드는 뭐예요?",
+        "th": "ขอบคุณครับ พรุ่งนี้การแต่งกายแบบไหนครับ",
+        "audio": "/audio/cw-dining-room/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Tomorrow is smart casual. No shorts or flip-flops, please.",
+        "ko": "내일은 스마트 캐주얼이에요. 반바지나 슬리퍼는 안 돼요.",
+        "th": "พรุ่งนี้แต่งกายแบบสุภาพลำลองค่ะ งดกางเกงขาสั้นและรองเท้าแตะนะคะ",
+        "audio": "/audio/cw-dining-room/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Good to know. Thanks for your help.",
+        "ko": "알아 둘게요. 도와줘서 고마워요.",
+        "th": "ดีที่รู้ไว้ครับ ขอบคุณที่ช่วยครับ",
+        "audio": "/audio/cw-dining-room/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-dining-room/s1.webp",
+        "prompt": "At the entrance of an elegant cruise ship dining room with chandeliers, Supansa greets the passenger in a suit."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-dining-room/s2.webp",
+        "prompt": "Supansa leads the passenger to a table by a large window with an ocean sunset view."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-dining-room/s3.webp",
+        "prompt": "The passenger adjusts his tie and smiles; Supansa compliments him."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-dining-room/s4.webp",
+        "prompt": "The passenger sits at the table while Supansa explains politely, standing beside him."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "hw-early-arrival",
+  "order": 48,
+  "title": {
+    "en": "A Guest Who Arrives Early",
+    "ko": "일찍 도착한 손님",
+    "th": "แขกที่มาถึงก่อนเวลา"
+  },
+  "description": {
+    "en": "Help a tired guest who arrives before check-in time.",
+    "ko": "체크인 시간 전에 도착한 피곤한 손님을 돕는 상황",
+    "th": "ช่วยแขกที่เหนื่อยและมาถึงก่อนเวลาเช็กอิน"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-early-arrival/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Vietnamese man in his 20s, slim, black hair, denim jacket, tired face, small suitcase",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Good morning. I know it's early, but can I check in now?",
+        "ko": "안녕하세요. 이른 건 아는데, 지금 체크인할 수 있을까요?",
+        "th": "อรุณสวัสดิ์ครับ รู้ว่ายังเช้าอยู่ แต่ขอเช็กอินตอนนี้ได้ไหมครับ",
+        "audio": "/audio/hw-early-arrival/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Good morning. Check-in time is two p.m., but let me see if a room is ready.",
+        "ko": "안녕하세요. 체크인은 오후 2시지만, 준비된 방이 있는지 볼게요.",
+        "th": "อรุณสวัสดิ์ค่ะ เวลาเช็กอินคือบ่ายสองโมง แต่ขอดูก่อนนะคะว่ามีห้องพร้อมไหม",
+        "audio": "/audio/hw-early-arrival/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Thank you. I just had a long overnight flight.",
+        "ko": "고마워요. 밤새 긴 비행을 해서요.",
+        "th": "ขอบคุณครับ ผมเพิ่งนั่งเครื่องข้ามคืนมาครับ",
+        "audio": "/audio/hw-early-arrival/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "I'm sorry, your room isn't ready yet. It will be ready around eleven.",
+        "ko": "죄송하지만 아직 방이 준비되지 않았어요. 11시쯤 준비될 거예요.",
+        "th": "ขออภัยค่ะ ห้องยังไม่พร้อม น่าจะพร้อมประมาณสิบเอ็ดโมงค่ะ",
+        "audio": "/audio/hw-early-arrival/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Is there somewhere I can rest or take a shower?",
+        "ko": "쉬거나 샤워할 수 있는 곳이 있나요?",
+        "th": "มีที่ให้พักหรืออาบน้ำได้ไหมครับ",
+        "audio": "/audio/hw-early-arrival/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Yes, you can use the shower at the gym, and our lounge has comfortable sofas.",
+        "ko": "네, 헬스장 샤워실을 쓰실 수 있고 라운지에 편한 소파가 있어요.",
+        "th": "ได้ค่ะ ใช้ห้องอาบน้ำที่ฟิตเนสได้ และที่เลานจ์มีโซฟานั่งสบายค่ะ",
+        "audio": "/audio/hw-early-arrival/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Perfect. Can you keep my suitcase until then?",
+        "ko": "좋아요. 그때까지 캐리어를 맡아 주실 수 있나요?",
+        "th": "ดีมากครับ ช่วยฝากกระเป๋าไว้จนถึงตอนนั้นได้ไหมครับ",
+        "audio": "/audio/hw-early-arrival/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Sure. I'll call you as soon as your room is ready.",
+        "ko": "그럼요. 방이 준비되는 대로 연락드릴게요.",
+        "th": "ได้ค่ะ ห้องพร้อมเมื่อไรจะโทรแจ้งทันทีเลยนะคะ",
+        "audio": "/audio/hw-early-arrival/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-early-arrival/s1.webp",
+        "prompt": "Early in the morning, the tired guest yawns at the hotel front desk."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-early-arrival/s2.webp",
+        "prompt": "Supansa checks the computer for available rooms."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-early-arrival/s3.webp",
+        "prompt": "Supansa points toward a lounge area with comfortable sofas."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-early-arrival/s4.webp",
+        "prompt": "Supansa takes the guest's small suitcase behind the front desk."
+      }
+    ]
+  }
+}

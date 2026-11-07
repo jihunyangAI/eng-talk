@@ -8,7 +8,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const skipImages = process.argv.includes("--skip-images");
 const LANGS = ["en", "ko", "th"];
 const LEVELS = ["beginner", "intermediate", "advanced"];
-const CATEGORIES = ["travel", "stay", "food", "shopping", "daily", "people"];
+const CATEGORIES = ["hotel-work", "cruise-work", "travel", "stay", "food", "shopping", "daily", "people"];
 const IMAGE_RE = /^\/images\/.+\.(webp|png|jpg|jpeg)$/;
 
 const errors = [];

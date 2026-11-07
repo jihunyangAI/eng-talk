@@ -1,0 +1,153 @@
+{
+  "id": "hw-late-check-out",
+  "order": 33,
+  "title": {
+    "en": "A Late Check-out Request",
+    "ko": "늦은 체크아웃 요청",
+    "th": "ขอเช็กเอาต์ช้า"
+  },
+  "description": {
+    "en": "Explain late check-out times and fees.",
+    "ko": "늦은 체크아웃 시간과 요금을 안내하는 상황",
+    "th": "อธิบายเวลาและค่าบริการเช็กเอาต์ช้า"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-late-check-out/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "French man in his 30s, dark curly hair, short beard, navy and white striped t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. Can I check out late tomorrow?",
+        "ko": "실례합니다. 내일 체크아웃을 늦게 할 수 있을까요?",
+        "th": "ขอโทษครับ พรุ่งนี้ขอเช็กเอาต์ช้าได้ไหมครับ",
+        "audio": "/audio/hw-late-check-out/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Of course. What time would you like to check out?",
+        "ko": "물론이죠. 몇 시에 체크아웃하고 싶으세요?",
+        "th": "ได้ค่ะ ต้องการเช็กเอาต์กี่โมงคะ",
+        "audio": "/audio/hw-late-check-out/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "My flight is at night. Is four o'clock possible?",
+        "ko": "비행기가 밤이에요. 4시도 가능한가요?",
+        "th": "เที่ยวบินผมตอนกลางคืน บ่ายสี่โมงได้ไหมครับ",
+        "audio": "/audio/hw-late-check-out/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Check-out until two is free. After that, there is a fee of thirty dollars.",
+        "ko": "2시까지는 무료예요. 그 이후에는 30달러의 요금이 있어요.",
+        "th": "เช็กเอาต์ถึงบ่ายสองโมงไม่มีค่าใช้จ่ายค่ะ หลังจากนั้นมีค่าบริการสามสิบดอลลาร์ค่ะ",
+        "audio": "/audio/hw-late-check-out/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "That's fine. I'll pay for four o'clock.",
+        "ko": "괜찮아요. 4시까지로 할게요.",
+        "th": "ไม่เป็นไรครับ ขอถึงบ่ายสี่โมงครับ",
+        "audio": "/audio/hw-late-check-out/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "No problem. I've noted it on your booking.",
+        "ko": "알겠습니다. 예약에 기록해 두었어요.",
+        "th": "ได้เลยค่ะ บันทึกไว้ในการจองแล้วค่ะ",
+        "audio": "/audio/hw-late-check-out/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Can I also leave my bags here after that?",
+        "ko": "그 후에 짐도 여기 맡길 수 있나요?",
+        "th": "หลังจากนั้นฝากกระเป๋าไว้ที่นี่ได้ไหมครับ",
+        "audio": "/audio/hw-late-check-out/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Yes, we can keep your bags until your taxi arrives.",
+        "ko": "네, 택시가 올 때까지 짐을 보관해 드릴 수 있어요.",
+        "th": "ได้ค่ะ ฝากกระเป๋าไว้ได้จนกว่าแท็กซี่จะมาค่ะ",
+        "audio": "/audio/hw-late-check-out/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-late-check-out/s1.webp",
+        "prompt": "The guest walks up to the hotel front desk where Supansa is working."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-late-check-out/s2.webp",
+        "prompt": "Supansa explains, holding up two fingers; the guest listens."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-late-check-out/s3.webp",
+        "prompt": "Supansa types the request into the computer."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-late-check-out/s4.webp",
+        "prompt": "Supansa points to a luggage storage room behind the front desk."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "cw-bar-order",
+  "order": 65,
+  "title": {
+    "en": "Taking a Drink Order at the Bar",
+    "ko": "바에서 음료 주문 받기",
+    "th": "รับออร์เดอร์เครื่องดื่มที่บาร์"
+  },
+  "description": {
+    "en": "Recommend a drink and explain the drink package.",
+    "ko": "음료를 추천하고 음료 패키지를 설명하는 상황",
+    "th": "แนะนำเครื่องดื่มและอธิบายแพ็กเกจเครื่องดื่ม"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-bar-order/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Irish man in his 30s, red beard, white linen shirt, sunglasses",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi there! What can I get you?",
+        "ko": "안녕하세요! 뭘 드릴까요?",
+        "th": "สวัสดีค่ะ รับอะไรดีคะ",
+        "audio": "/audio/cw-bar-order/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "What do you recommend? Something fruity, please.",
+        "ko": "뭘 추천하세요? 과일 맛 나는 걸로요.",
+        "th": "แนะนำอะไรดีครับ ขอแบบรสผลไม้ครับ",
+        "audio": "/audio/cw-bar-order/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Our mango smoothie is very popular. Would you like it with or without alcohol?",
+        "ko": "망고 스무디가 아주 인기 있어요. 알코올을 넣을까요, 뺄까요?",
+        "th": "สมูทตี้มะม่วงขายดีมากค่ะ ต้องการแบบมีแอลกอฮอล์หรือไม่มีคะ",
+        "audio": "/audio/cw-bar-order/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Without alcohol, please. Is it included in my drink package?",
+        "ko": "알코올 없이요. 음료 패키지에 포함인가요?",
+        "th": "ไม่มีแอลกอฮอล์ครับ รวมอยู่ในแพ็กเกจเครื่องดื่มของผมไหมครับ",
+        "audio": "/audio/cw-bar-order/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Let me check your cruise card. Yes, it's included.",
+        "ko": "크루즈 카드를 확인해 볼게요. 네, 포함이에요.",
+        "th": "ขอเช็กบัตรครูซก่อนนะคะ รวมอยู่ในแพ็กเกจค่ะ",
+        "audio": "/audio/cw-bar-order/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Great! Can I get two? One is for my friend.",
+        "ko": "좋아요! 두 잔 받을 수 있나요? 하나는 친구 거예요.",
+        "th": "เยี่ยมเลยครับ ขอสองแก้วได้ไหมครับ อีกแก้วเป็นของเพื่อนครับ",
+        "audio": "/audio/cw-bar-order/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "I'm sorry, the package covers one drink at a time. I can charge the second one.",
+        "ko": "죄송하지만 패키지는 한 번에 한 잔만 돼요. 두 번째 잔은 따로 청구해 드릴게요.",
+        "th": "ขออภัยค่ะ แพ็กเกจใช้ได้ครั้งละหนึ่งแก้ว แก้วที่สองจะเรียกเก็บเพิ่มนะคะ",
+        "audio": "/audio/cw-bar-order/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "No problem. Please charge it to my card.",
+        "ko": "괜찮아요. 제 카드로 청구해 주세요.",
+        "th": "ไม่เป็นไรครับ เรียกเก็บกับบัตรผมได้เลยครับ",
+        "audio": "/audio/cw-bar-order/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-bar-order/s1.webp",
+        "prompt": "At a sunny pool bar on a cruise ship deck, Supansa greets the passenger from behind the bar."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-bar-order/s2.webp",
+        "prompt": "Supansa holds up a bright orange mango smoothie."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-bar-order/s3.webp",
+        "prompt": "Supansa scans the passenger's cruise card with a handheld device."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-bar-order/s4.webp",
+        "prompt": "Supansa places two mango smoothies on the bar counter; the passenger smiles."
+      }
+    ]
+  }
+}

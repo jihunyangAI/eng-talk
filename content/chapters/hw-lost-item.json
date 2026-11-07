@@ -1,0 +1,153 @@
+{
+  "id": "hw-lost-item",
+  "order": 38,
+  "title": {
+    "en": "A Guest Lost Something",
+    "ko": "분실물 문의",
+    "th": "แขกทำของหาย"
+  },
+  "description": {
+    "en": "Help a guest find sunglasses left in the restaurant.",
+    "ko": "레스토랑에 두고 간 선글라스를 찾아 주는 상황",
+    "th": "ช่วยแขกหาแว่นกันแดดที่ลืมไว้ในห้องอาหาร"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-lost-item/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "British man in his 60s, white hair, tweed jacket",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Excuse me. I think I left my sunglasses in the restaurant.",
+        "ko": "실례합니다. 레스토랑에 선글라스를 두고 온 것 같아요.",
+        "th": "ขอโทษครับ ผมคิดว่าลืมแว่นกันแดดไว้ที่ห้องอาหารครับ",
+        "audio": "/audio/hw-lost-item/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "I'm sorry to hear that. What do they look like?",
+        "ko": "저런. 어떻게 생긴 건가요?",
+        "th": "เสียใจด้วยนะคะ แว่นหน้าตาแบบไหนคะ",
+        "audio": "/audio/hw-lost-item/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "They're black, in a brown case.",
+        "ko": "검은색이고 갈색 케이스에 들어 있어요.",
+        "th": "สีดำ อยู่ในซองสีน้ำตาลครับ",
+        "audio": "/audio/hw-lost-item/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "When were you in the restaurant?",
+        "ko": "레스토랑에는 언제 계셨어요?",
+        "th": "อยู่ที่ห้องอาหารเมื่อไรคะ",
+        "audio": "/audio/hw-lost-item/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "At breakfast this morning, around eight.",
+        "ko": "오늘 아침 식사 때요, 8시쯤이요.",
+        "th": "ตอนอาหารเช้าวันนี้ประมาณแปดโมงครับ",
+        "audio": "/audio/hw-lost-item/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Good news! A waiter found these this morning. Are they yours?",
+        "ko": "다행이에요! 오늘 아침 웨이터가 이걸 찾았어요. 손님 것인가요?",
+        "th": "ข่าวดีค่ะ พนักงานเสิร์ฟเจออันนี้เมื่อเช้า ใช่ของคุณไหมคะ",
+        "audio": "/audio/hw-lost-item/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Yes, those are mine! Thank you so much.",
+        "ko": "네, 제 거예요! 정말 고마워요.",
+        "th": "ใช่ครับ ของผมเอง ขอบคุณมากครับ",
+        "audio": "/audio/hw-lost-item/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "You're welcome. Please sign here to confirm.",
+        "ko": "천만에요. 확인을 위해 여기에 서명해 주세요.",
+        "th": "ยินดีค่ะ กรุณาเซ็นชื่อตรงนี้เพื่อยืนยันด้วยนะคะ",
+        "audio": "/audio/hw-lost-item/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-lost-item/s1.webp",
+        "prompt": "The worried elderly guest speaks to Supansa at the hotel front desk."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-lost-item/s2.webp",
+        "prompt": "Supansa listens carefully and takes notes."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-lost-item/s3.webp",
+        "prompt": "Supansa happily holds up black sunglasses with a brown case."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-lost-item/s4.webp",
+        "prompt": "The guest signs a form on the counter; Supansa smiles."
+      }
+    ]
+  }
+}

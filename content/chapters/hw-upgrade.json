@@ -1,0 +1,153 @@
+{
+  "id": "hw-upgrade",
+  "order": 32,
+  "title": {
+    "en": "Offering a Room Upgrade",
+    "ko": "객실 업그레이드 제안",
+    "th": "เสนออัปเกรดห้อง"
+  },
+  "description": {
+    "en": "Suggest a suite upgrade to a business guest.",
+    "ko": "출장 온 손님에게 스위트룸 업그레이드를 제안하는 상황",
+    "th": "เสนออัปเกรดเป็นห้องสวีทให้แขกที่มาทำงาน"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-upgrade/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Japanese man in his 30s, neat black hair, navy business suit, laptop bag",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Welcome! I see this is your first stay with us.",
+        "ko": "환영합니다! 저희 호텔은 처음 묵으시는군요.",
+        "th": "ยินดีต้อนรับค่ะ เห็นว่าเป็นการเข้าพักครั้งแรกนะคะ",
+        "audio": "/audio/hw-upgrade/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Yes, it is. I'm here on business.",
+        "ko": "네, 맞아요. 출장으로 왔어요.",
+        "th": "ครับ มาทำงานครับ",
+        "audio": "/audio/hw-upgrade/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Would you like to upgrade to a suite for just twenty dollars more per night?",
+        "ko": "하룻밤에 20달러만 추가하시면 스위트룸으로 업그레이드하시겠어요?",
+        "th": "สนใจอัปเกรดเป็นห้องสวีทไหมคะ เพิ่มแค่คืนละยี่สิบดอลลาร์ค่ะ",
+        "audio": "/audio/hw-upgrade/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "What's the difference?",
+        "ko": "뭐가 다른가요?",
+        "th": "ต่างกันยังไงครับ",
+        "audio": "/audio/hw-upgrade/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "The suite has a separate desk, a bathtub, and a great city view.",
+        "ko": "스위트룸에는 별도의 책상과 욕조가 있고 도시 전망이 아주 좋아요.",
+        "th": "ห้องสวีทมีโต๊ะทำงานแยก มีอ่างอาบน้ำ และวิวเมืองสวยมากค่ะ",
+        "audio": "/audio/hw-upgrade/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "That sounds good for work. I'll take it.",
+        "ko": "일하기 좋겠네요. 그걸로 할게요.",
+        "th": "น่าจะเหมาะกับการทำงานครับ เอาห้องนั้นครับ",
+        "audio": "/audio/hw-upgrade/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Wonderful. I'll update your booking now.",
+        "ko": "좋습니다. 지금 예약을 변경해 드릴게요.",
+        "th": "ยอดเยี่ยมค่ะ จะเปลี่ยนการจองให้เดี๋ยวนี้เลยค่ะ",
+        "audio": "/audio/hw-upgrade/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you for the suggestion.",
+        "ko": "제안해 주셔서 고마워요.",
+        "th": "ขอบคุณที่แนะนำครับ",
+        "audio": "/audio/hw-upgrade/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-upgrade/s1.webp",
+        "prompt": "At the hotel front desk, Supansa warmly welcomes the businessman."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-upgrade/s2.webp",
+        "prompt": "Supansa shows the guest a photo of an elegant suite on a tablet."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-upgrade/s3.webp",
+        "prompt": "The guest looks at the tablet with interest and nods."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-upgrade/s4.webp",
+        "prompt": "Supansa types on the computer while the guest smiles."
+      }
+    ]
+  }
+}

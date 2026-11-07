@@ -1,0 +1,153 @@
+{
+  "id": "cw-ship-facilities",
+  "order": 52,
+  "title": {
+    "en": "Showing Guests Around the Ship",
+    "ko": "선내 시설 안내",
+    "th": "แนะนำสิ่งอำนวยความสะดวกบนเรือ"
+  },
+  "description": {
+    "en": "Tell a passenger where the pool, slides, towels, and gym are.",
+    "ko": "수영장·워터슬라이드·수건·헬스장 위치를 안내하는 상황",
+    "th": "บอกตำแหน่งสระว่ายน้ำ สไลเดอร์ ผ้าเช็ดตัว และฟิตเนส"
+  },
+  "level": "beginner",
+  "category": "cruise-work",
+  "cover": "/images/cw-ship-facilities/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Australian man in his 20s, sun-bleached blond hair, tank top, board shorts",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi! Where's the swimming pool?",
+        "ko": "안녕하세요! 수영장이 어디예요?",
+        "th": "สวัสดีครับ สระว่ายน้ำอยู่ที่ไหนครับ",
+        "audio": "/audio/cw-ship-facilities/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "The main pool is on deck eleven, in the middle of the ship.",
+        "ko": "메인 수영장은 11층 데크, 배 가운데에 있어요.",
+        "th": "สระหลักอยู่ชั้นสิบเอ็ดตรงกลางเรือค่ะ",
+        "audio": "/audio/cw-ship-facilities/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "Is there a water slide too?",
+        "ko": "워터 슬라이드도 있나요?",
+        "th": "มีสไลเดอร์น้ำด้วยไหมครับ",
+        "audio": "/audio/cw-ship-facilities/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Yes, the water slides are on deck twelve, near the back.",
+        "ko": "네, 워터 슬라이드는 12층 데크 뒤쪽에 있어요.",
+        "th": "มีค่ะ สไลเดอร์น้ำอยู่ชั้นสิบสองใกล้ท้ายเรือค่ะ",
+        "audio": "/audio/cw-ship-facilities/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Cool. Where can I get towels?",
+        "ko": "좋네요. 수건은 어디서 받을 수 있어요?",
+        "th": "เจ๋งเลย รับผ้าเช็ดตัวได้ที่ไหนครับ",
+        "audio": "/audio/cw-ship-facilities/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "Pool towels are free at the towel station. Just show your cruise card.",
+        "ko": "수영장 수건은 수건 스테이션에서 무료로 받으실 수 있어요. 크루즈 카드만 보여 주세요.",
+        "th": "ผ้าเช็ดตัวสระว่ายน้ำรับฟรีที่จุดบริการผ้าเช็ดตัวค่ะ แค่แสดงบัตรครูซค่ะ",
+        "audio": "/audio/cw-ship-facilities/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "And is there a gym on board?",
+        "ko": "배에 헬스장도 있나요?",
+        "th": "บนเรือมีฟิตเนสไหมครับ",
+        "audio": "/audio/cw-ship-facilities/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Yes, it's on deck fourteen at the front, with an ocean view.",
+        "ko": "네, 14층 데크 앞쪽에 있고 바다가 보여요.",
+        "th": "มีค่ะ อยู่ชั้นสิบสี่ด้านหัวเรือ มองเห็นวิวทะเลค่ะ",
+        "audio": "/audio/cw-ship-facilities/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-ship-facilities/s1.webp",
+        "prompt": "On a sunny cruise ship pool deck, the passenger asks Supansa a question."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-ship-facilities/s2.webp",
+        "prompt": "Supansa points toward colorful water slides at the back of the ship."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-ship-facilities/s3.webp",
+        "prompt": "Supansa stands at a towel station with neatly rolled blue towels."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-ship-facilities/s4.webp",
+        "prompt": "Supansa points toward the front of the ship; the passenger gives a thumbs up."
+      }
+    ]
+  }
+}

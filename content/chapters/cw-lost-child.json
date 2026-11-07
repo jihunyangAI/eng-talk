@@ -1,0 +1,153 @@
+{
+  "id": "cw-lost-child",
+  "order": 63,
+  "title": {
+    "en": "Helping a Parent Find a Lost Child",
+    "ko": "길 잃은 아이의 부모 돕기",
+    "th": "ช่วยพ่อแม่ตามหาลูกที่พลัดหลง"
+  },
+  "description": {
+    "en": "Stay calm, get details, and call security to find a child.",
+    "ko": "침착하게 정보를 묻고 보안팀에 연락해 아이를 찾는 상황",
+    "th": "ใจเย็น สอบถามรายละเอียด และแจ้งฝ่ายรักษาความปลอดภัยเพื่อตามหาเด็ก"
+  },
+  "level": "intermediate",
+  "category": "cruise-work",
+  "cover": "/images/cw-lost-child/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Cruise crew",
+          "ko": "크루즈 승무원",
+          "th": "พนักงานเรือสำราญ"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a crisp white cruise ship crew uniform with navy epaulettes and a small name badge",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "Spanish father in his 30s, dark hair, short beard, worried face, white t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Please help me! I can't find my son.",
+        "ko": "도와주세요! 아들을 못 찾겠어요.",
+        "th": "ช่วยด้วยครับ ผมหาลูกชายไม่เจอครับ",
+        "audio": "/audio/cw-lost-child/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Please stay calm. How old is he and what is he wearing?",
+        "ko": "진정하세요. 아이가 몇 살이고 뭘 입고 있나요?",
+        "th": "ใจเย็น ๆ นะคะ ลูกอายุเท่าไรและใส่เสื้อผ้าอะไรคะ",
+        "audio": "/audio/cw-lost-child/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "He's five. He's wearing a red T-shirt and blue shorts.",
+        "ko": "다섯 살이에요. 빨간 티셔츠에 파란 반바지를 입었어요.",
+        "th": "ห้าขวบครับ ใส่เสื้อยืดสีแดงกับกางเกงขาสั้นสีน้ำเงินครับ",
+        "audio": "/audio/cw-lost-child/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Where did you last see him?",
+        "ko": "마지막으로 어디서 봤어요?",
+        "th": "เห็นลูกครั้งสุดท้ายที่ไหนคะ",
+        "audio": "/audio/cw-lost-child/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Near the ice cream bar on the pool deck, about ten minutes ago.",
+        "ko": "10분쯤 전에 수영장 데크 아이스크림 바 근처에서요.",
+        "th": "ใกล้ร้านไอศกรีมที่ดาดฟ้าสระว่ายน้ำ ประมาณสิบนาทีก่อนครับ",
+        "audio": "/audio/cw-lost-child/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "I'm calling security now. All crew members will look for him.",
+        "ko": "지금 보안팀에 연락할게요. 모든 승무원이 찾을 거예요.",
+        "th": "กำลังโทรแจ้งฝ่ายรักษาความปลอดภัยค่ะ พนักงานทุกคนจะช่วยกันตามหาค่ะ",
+        "audio": "/audio/cw-lost-child/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Thank you. Please hurry.",
+        "ko": "고마워요. 서둘러 주세요.",
+        "th": "ขอบคุณครับ ช่วยรีบหน่อยนะครับ",
+        "audio": "/audio/cw-lost-child/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Good news. Security found him at the kids club. He's safe.",
+        "ko": "좋은 소식이에요. 보안팀이 키즈클럽에서 아이를 찾았어요. 안전해요.",
+        "th": "ข่าวดีค่ะ ฝ่ายรักษาความปลอดภัยเจอลูกที่คิดส์คลับแล้ว ปลอดภัยดีค่ะ",
+        "audio": "/audio/cw-lost-child/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/cw-lost-child/s1.webp",
+        "prompt": "On a busy cruise ship pool deck, the worried father rushes up to Supansa."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/cw-lost-child/s2.webp",
+        "prompt": "Supansa listens calmly and writes notes on a small notepad."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/cw-lost-child/s3.webp",
+        "prompt": "Supansa speaks into a handheld radio with a serious expression."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/cw-lost-child/s4.webp",
+        "prompt": "Supansa smiles with good news; the father puts his hand on his chest in relief."
+      }
+    ]
+  }
+}

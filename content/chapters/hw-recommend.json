@@ -1,0 +1,153 @@
+{
+  "id": "hw-recommend",
+  "order": 36,
+  "title": {
+    "en": "Recommending Places Nearby",
+    "ko": "관광지·식당 추천",
+    "th": "แนะนำสถานที่ใกล้เคียง"
+  },
+  "description": {
+    "en": "Recommend a night market and a temple, and mark them on a map.",
+    "ko": "야시장과 사원을 추천하고 지도에 표시해 주는 상황",
+    "th": "แนะนำตลาดกลางคืนและวัด แล้ววงไว้บนแผนที่"
+  },
+  "level": "beginner",
+  "category": "hotel-work",
+  "cover": "/images/hw-recommend/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Hotel staff",
+          "ko": "호텔 직원",
+          "th": "พนักงานโรงแรม"
+        },
+        "look": "Supansa, a young Thai woman in her early 20s with long straight black hair in a neat low ponytail and a warm smile, wearing a navy hotel uniform blazer with a small gold name badge over a white blouse",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Brazilian man in his 20s, tanned skin, curly dark hair, sleeveless tank top, sunglasses on his head",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "B",
+        "en": "Hi! Can you recommend a good place for dinner?",
+        "ko": "안녕하세요! 저녁 먹기 좋은 곳 추천해 주실 수 있나요?",
+        "th": "สวัสดีครับ แนะนำร้านอาหารเย็นดี ๆ ให้หน่อยได้ไหมครับ",
+        "audio": "/audio/hw-recommend/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "A",
+        "en": "Sure! Do you like Thai food?",
+        "ko": "그럼요! 태국 음식 좋아하세요?",
+        "th": "ได้เลยค่ะ ชอบอาหารไทยไหมคะ",
+        "audio": "/audio/hw-recommend/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "B",
+        "en": "I love it, but not too spicy.",
+        "ko": "정말 좋아해요, 그런데 너무 맵지 않게요.",
+        "th": "ชอบมากครับ แต่ไม่เผ็ดมากนะครับ",
+        "audio": "/audio/hw-recommend/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "A",
+        "en": "Try the night market. It's a ten-minute walk from here.",
+        "ko": "야시장에 가 보세요. 여기서 걸어서 10분이에요.",
+        "th": "ลองไปตลาดกลางคืนดูค่ะ เดินจากที่นี่สิบนาทีค่ะ",
+        "audio": "/audio/hw-recommend/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "B",
+        "en": "Sounds great. What else should I see in town?",
+        "ko": "좋네요. 시내에서 또 뭘 보면 좋을까요?",
+        "th": "น่าสนใจครับ ในเมืองมีที่ไหนน่าไปอีกไหมครับ",
+        "audio": "/audio/hw-recommend/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "A",
+        "en": "The old temple is beautiful. It's best to go early in the morning.",
+        "ko": "옛 사원이 정말 아름다워요. 이른 아침에 가는 게 제일 좋아요.",
+        "th": "วัดเก่าสวยมากค่ะ ไปตอนเช้าตรู่ดีที่สุดค่ะ",
+        "audio": "/audio/hw-recommend/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "B",
+        "en": "Can you show me on the map?",
+        "ko": "지도에서 보여 주실 수 있나요?",
+        "th": "ช่วยชี้บนแผนที่ให้ดูได้ไหมครับ",
+        "audio": "/audio/hw-recommend/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "A",
+        "en": "Of course. Here's a map. I'll mark both places for you.",
+        "ko": "물론이죠. 여기 지도예요. 두 곳 모두 표시해 드릴게요.",
+        "th": "ได้แน่นอนค่ะ นี่แผนที่ค่ะ จะวงไว้ให้ทั้งสองที่เลยนะคะ",
+        "audio": "/audio/hw-recommend/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hw-recommend/s1.webp",
+        "prompt": "At the hotel front desk, the cheerful guest asks Supansa for a recommendation."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hw-recommend/s2.webp",
+        "prompt": "Supansa smiles and gestures enthusiastically while talking."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hw-recommend/s3.webp",
+        "prompt": "The guest listens with interest, leaning on the counter."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hw-recommend/s4.webp",
+        "prompt": "Supansa circles two places on a paper city map with a pen."
+      }
+    ]
+  }
+}
