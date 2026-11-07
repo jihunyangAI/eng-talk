@@ -208,7 +208,8 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
               <li key={ch.id}>
                 <Link
                   href={`/chapters/${ch.id}`}
-                  className="group flex items-center gap-3 rounded-[1.25rem] bg-[var(--surface)] p-2.5 pr-3 ring-1 ring-[var(--line)] transition hover:ring-[var(--line-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+                  style={{ "--c-strong": col.strong } as React.CSSProperties}
+                  className="chapter-card group flex items-center gap-3 rounded-[1.25rem] bg-[var(--surface)] p-2.5 pr-3 ring-1 ring-[var(--line)] transition-[background-color,box-shadow] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
                 >
                   <div className="relative h-[76px] w-[100px] shrink-0 overflow-hidden rounded-2xl bg-[var(--chip)]">
                     <Image

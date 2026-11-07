@@ -236,3 +236,19 @@ html:lang(ko) body {
     animation: none !important;
   }
 }
+
+/* 챕터 카드 호버: 카테고리 색이 살짝 스며듦 (마우스가 있는 기기만) */
+@media (hover: hover) {
+  .chapter-card:hover {
+    --tw-ring-color: color-mix(in srgb, var(--c-strong) 35%, var(--line));
+    background-color: color-mix(in srgb, var(--c-strong) 8%, var(--surface));
+  }
+  :root[data-theme="dark"] .chapter-card:hover {
+    background-color: color-mix(in srgb, var(--c-strong) 18%, var(--surface));
+  }
+}
+@media (hover: hover) and (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chapter-card:hover {
+    background-color: color-mix(in srgb, var(--c-strong) 18%, var(--surface));
+  }
+}
