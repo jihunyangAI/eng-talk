@@ -148,6 +148,11 @@ html:lang(ko) body {
   transform-box: fill-box;
   transform-origin: 50% 0;
 }
+.walker .w-leg-f,
+.walker .w-leg-b {
+  transform-box: fill-box;
+  transform-origin: 50% 0;
+}
 .walker .w-head {
   transform-box: fill-box;
   transform-origin: 50% 100%;
@@ -193,19 +198,19 @@ html:lang(ko) body {
     transform: translateY(-1.1px);
   }
 }
-/* 발: 뒤에서 들어 올려 앞으로 → 내딛고 → 몸이 나아가며 뒤로 밀림 */
+/* 다리: 엉덩이를 축으로 — 뒤 → 들어 올리며 앞으로 → 내딛고 → 몸이 나아가며 뒤로 (오른쪽 진행 기준, 음수 각도 = 발이 앞) */
 @keyframes w-step {
   0% {
-    transform: translate(-1.8px, 0);
+    transform: rotate(13deg);
   }
-  20% {
-    transform: translate(-0.4px, -1.8px);
+  22% {
+    transform: rotate(0deg) translateY(-1.3px);
   }
-  40% {
-    transform: translate(1.8px, 0);
+  42% {
+    transform: rotate(-13deg);
   }
   100% {
-    transform: translate(-1.8px, 0);
+    transform: rotate(13deg);
   }
 }
 @keyframes w-sway {

@@ -98,19 +98,26 @@ function WalkerSvg() {
     <svg viewBox="0 0 40 56" className="block h-14 w-10" role="img" aria-label="Supansa">
       {/* 발밑 그림자 */}
       <ellipse className="w-shadow" cx="20" cy="53.6" rx="8" ry="1.3" fill="var(--line-strong)" opacity=".7" />
-      {/* 신발 (걸을 때 번갈아 앞뒤로) */}
+      {/* 다리 + 분홍 운동화 — 치마 뒤에서 엉덩이를 축으로 앞뒤로 흔들림 (뒷다리 → 앞다리 순) */}
       <g className="w-leg-b">
-        <ellipse cx="17.6" cy="51.6" rx="2.6" ry="1.4" fill="#2e2440" />
+        <path d="M18.4 36v14.2" stroke="#ecc4a9" strokeWidth="2.3" strokeLinecap="round" />
+        <path d="M16.799999999999997 50.4h4.6a1.6 1.6 0 0 1 0 2.4h-4.6a1.2 1.2 0 0 1 0-2.4z" fill="#ff5c8a" />
+        <path d="M16.2 52.6h5.8" stroke="#ffffff" strokeWidth=".8" strokeLinecap="round" />
+      </g>
+      <g className="w-leg-f">
+        <path d="M21.6 36v14.2" stroke="#f7d6bf" strokeWidth="2.3" strokeLinecap="round" />
+        <path d="M20 50.4h4.6a1.6 1.6 0 0 1 0 2.4h-4.6a1.2 1.2 0 0 1 0-2.4z" fill="#ff5c8a" />
+        <path d="M19.400000000000002 52.6h5.8" stroke="#ffffff" strokeWidth=".8" strokeLinecap="round" />
       </g>
       <g className="w-body">
         {/* 뒷머리 */}
         <path d="M11.5 12.5c0-6 3.8-9.5 8.5-9.5s8.5 3.5 8.5 9.5v11.5c0 1.6-1.3 2.6-2.8 2.2L20 25l-5.7 1.2c-1.5.4-2.8-.6-2.8-2.2z" fill="#3b2a2c" />
         {/* 긴 청치마 (걸을 때 살랑) */}
         <g className="w-skirt">
-          <path d="M14.8 30.6h10.4l4.6 19.6H10.2z" fill="#5b8dc9" />
+          <path d="M14.8 30.6h10.4l3.8 15H11z" fill="#5b8dc9" />
           <path d="M14.8 30.6h10.4v1.8H14.8z" fill="#4a79b3" />
-          <path d="M20 32.4v17.8" stroke="#8db3e2" strokeWidth=".7" strokeDasharray="1.4 1" />
-          <path d="M10.8 48.6h18.4" stroke="#8db3e2" strokeWidth=".7" strokeDasharray="1.4 1" />
+          <path d="M20 32.4v13.2" stroke="#8db3e2" strokeWidth=".7" strokeDasharray="1.4 1" />
+          <path d="M11.6 44.2h16.8" stroke="#8db3e2" strokeWidth=".7" strokeDasharray="1.4 1" />
         </g>
         {/* 목 */}
         <rect x="18.6" y="19" width="2.8" height="2.6" fill="#f7d6bf" />
@@ -141,9 +148,6 @@ function WalkerSvg() {
           </g>
           <path d="M19.8 16.7c1 .8 2.2.8 3.2 0" stroke="#d93a6e" strokeWidth=".9" fill="none" strokeLinecap="round" />
         </g>
-      </g>
-      <g className="w-leg-f">
-        <ellipse cx="22.6" cy="51.8" rx="2.6" ry="1.4" fill="#2e2440" />
       </g>
     </svg>
   );
