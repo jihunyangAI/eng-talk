@@ -51,56 +51,64 @@
         "speaker": "A",
         "en": "Hi. I'd like to join the gym.",
         "ko": "안녕하세요. 헬스장에 등록하고 싶어요.",
-        "th": "สวัสดีค่ะ อยากสมัครสมาชิกฟิตเนสค่ะ"
+        "th": "สวัสดีค่ะ อยากสมัครสมาชิกฟิตเนสค่ะ",
+        "audio": "/audio/joining-gym/l1.mp3"
       },
       {
         "id": "l2",
         "speaker": "B",
         "en": "Great! Do you want a monthly or yearly membership?",
         "ko": "좋아요! 월 회원권과 연 회원권 중 어느 걸로 하시겠어요?",
-        "th": "ยินดีครับ จะสมัครแบบรายเดือนหรือรายปีครับ"
+        "th": "ยินดีครับ จะสมัครแบบรายเดือนหรือรายปีครับ",
+        "audio": "/audio/joining-gym/l2.mp3"
       },
       {
         "id": "l3",
         "speaker": "A",
         "en": "Monthly, please. How much is it?",
         "ko": "월 회원권이요. 얼마예요?",
-        "th": "รายเดือนค่ะ ราคาเท่าไรคะ"
+        "th": "รายเดือนค่ะ ราคาเท่าไรคะ",
+        "audio": "/audio/joining-gym/l3.mp3"
       },
       {
         "id": "l4",
         "speaker": "B",
         "en": "It's thirty dollars a month. Classes are included.",
         "ko": "한 달에 30달러예요. 수업도 포함이에요.",
-        "th": "เดือนละสามสิบดอลลาร์ครับ รวมคลาสออกกำลังกายด้วยครับ"
+        "th": "เดือนละสามสิบดอลลาร์ครับ รวมคลาสออกกำลังกายด้วยครับ",
+        "audio": "/audio/joining-gym/l4.mp3"
       },
       {
         "id": "l5",
         "speaker": "A",
         "en": "What kind of classes do you have?",
         "ko": "어떤 수업이 있어요?",
-        "th": "มีคลาสอะไรบ้างคะ"
+        "th": "มีคลาสอะไรบ้างคะ",
+        "audio": "/audio/joining-gym/l5.mp3"
       },
       {
         "id": "l6",
         "speaker": "B",
         "en": "We have yoga, dance, and boxing.",
         "ko": "요가, 댄스, 복싱이 있어요.",
-        "th": "มีโยคะ เต้น และมวยครับ"
+        "th": "มีโยคะ เต้น และมวยครับ",
+        "audio": "/audio/joining-gym/l6.mp3"
       },
       {
         "id": "l7",
         "speaker": "A",
         "en": "I'd love to try yoga. Can I start today?",
         "ko": "요가를 해 보고 싶어요. 오늘부터 시작할 수 있나요?",
-        "th": "อยากลองโยคะค่ะ เริ่มวันนี้เลยได้ไหมคะ"
+        "th": "อยากลองโยคะค่ะ เริ่มวันนี้เลยได้ไหมคะ",
+        "audio": "/audio/joining-gym/l7.mp3"
       },
       {
         "id": "l8",
         "speaker": "B",
         "en": "Yes! The next class starts at seven.",
         "ko": "네! 다음 수업은 7시에 시작해요.",
-        "th": "ได้ครับ คลาสต่อไปเริ่มหนึ่งทุ่มครับ"
+        "th": "ได้ครับ คลาสต่อไปเริ่มหนึ่งทุ่มครับ",
+        "audio": "/audio/joining-gym/l8.mp3"
       }
     ],
     "scenes": [

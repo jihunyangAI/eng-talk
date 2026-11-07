@@ -51,56 +51,64 @@
         "speaker": "A",
         "en": "Excuse me. My suitcase didn't come out.",
         "ko": "실례합니다. 제 캐리어가 안 나왔어요.",
-        "th": "ขอโทษค่ะ กระเป๋าเดินทางของฉันไม่ออกมาค่ะ"
+        "th": "ขอโทษค่ะ กระเป๋าเดินทางของฉันไม่ออกมาค่ะ",
+        "audio": "/audio/lost-luggage/l1.mp3"
       },
       {
         "id": "l2",
         "speaker": "B",
         "en": "I'm sorry. May I see your baggage claim tag?",
         "ko": "죄송합니다. 수하물표를 보여 주시겠어요?",
-        "th": "ขออภัยครับ ขอดูป้ายรับกระเป๋าหน่อยครับ"
+        "th": "ขออภัยครับ ขอดูป้ายรับกระเป๋าหน่อยครับ",
+        "audio": "/audio/lost-luggage/l2.mp3"
       },
       {
         "id": "l3",
         "speaker": "A",
         "en": "Here it is. It's a large pink suitcase.",
         "ko": "여기요. 큰 분홍색 캐리어예요.",
-        "th": "นี่ค่ะ เป็นกระเป๋าใบใหญ่สีชมพูค่ะ"
+        "th": "นี่ค่ะ เป็นกระเป๋าใบใหญ่สีชมพูค่ะ",
+        "audio": "/audio/lost-luggage/l3.mp3"
       },
       {
         "id": "l4",
         "speaker": "B",
         "en": "Let me check. It's still in Bangkok.",
         "ko": "확인해 볼게요. 아직 방콕에 있네요.",
-        "th": "ขอตรวจสอบสักครู่ครับ กระเป๋ายังอยู่ที่กรุงเทพฯ ครับ"
+        "th": "ขอตรวจสอบสักครู่ครับ กระเป๋ายังอยู่ที่กรุงเทพฯ ครับ",
+        "audio": "/audio/lost-luggage/l4.mp3"
       },
       {
         "id": "l5",
         "speaker": "A",
         "en": "Oh no. When will it arrive?",
         "ko": "이런. 언제 도착하나요?",
-        "th": "แย่จัง จะมาถึงเมื่อไรคะ"
+        "th": "แย่จัง จะมาถึงเมื่อไรคะ",
+        "audio": "/audio/lost-luggage/l5.mp3"
       },
       {
         "id": "l6",
         "speaker": "B",
         "en": "It'll come on the next flight tomorrow morning.",
         "ko": "내일 아침 다음 비행기로 올 거예요.",
-        "th": "จะมากับเที่ยวบินถัดไปพรุ่งนี้เช้าครับ"
+        "th": "จะมากับเที่ยวบินถัดไปพรุ่งนี้เช้าครับ",
+        "audio": "/audio/lost-luggage/l6.mp3"
       },
       {
         "id": "l7",
         "speaker": "A",
         "en": "Can you deliver it to my hotel?",
         "ko": "호텔로 배달해 주실 수 있나요?",
-        "th": "ช่วยส่งไปที่โรงแรมได้ไหมคะ"
+        "th": "ช่วยส่งไปที่โรงแรมได้ไหมคะ",
+        "audio": "/audio/lost-luggage/l7.mp3"
       },
       {
         "id": "l8",
         "speaker": "B",
         "en": "Yes. Please write your hotel address here.",
         "ko": "네. 여기에 호텔 주소를 적어 주세요.",
-        "th": "ได้ครับ กรุณาเขียนที่อยู่โรงแรมตรงนี้ครับ"
+        "th": "ได้ครับ กรุณาเขียนที่อยู่โรงแรมตรงนี้ครับ",
+        "audio": "/audio/lost-luggage/l8.mp3"
       }
     ],
     "scenes": [

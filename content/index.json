@@ -298,5 +298,41 @@
     "level": "beginner",
     "category": "people",
     "cover": "/images/weekend-talk/s1.webp"
+  },
+  {
+    "id": "cosmetics-store",
+    "order": 26,
+    "title": {
+      "en": "At the Cosmetics Store",
+      "ko": "화장품 가게에서",
+      "th": "ที่ร้านเครื่องสำอาง"
+    },
+    "level": "beginner",
+    "category": "shopping",
+    "cover": "/images/cosmetics-store/s1.webp"
+  },
+  {
+    "id": "joining-gym",
+    "order": 27,
+    "title": {
+      "en": "Joining a Gym",
+      "ko": "헬스장 등록하기",
+      "th": "สมัครสมาชิกฟิตเนส"
+    },
+    "level": "beginner",
+    "category": "daily",
+    "cover": "/images/joining-gym/s1.webp"
+  },
+  {
+    "id": "lost-luggage",
+    "order": 28,
+    "title": {
+      "en": "Lost Luggage",
+      "ko": "짐을 잃어버렸을 때",
+      "th": "กระเป๋าเดินทางหาย"
+    },
+    "level": "intermediate",
+    "category": "travel",
+    "cover": "/images/lost-luggage/s1.webp"
   }
 ]

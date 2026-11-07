@@ -51,56 +51,64 @@
         "speaker": "A",
         "en": "Hi! Are you looking for anything special today?",
         "ko": "안녕하세요! 오늘 특별히 찾으시는 거 있으세요?",
-        "th": "สวัสดีครับ วันนี้กำลังหาอะไรเป็นพิเศษไหมครับ"
+        "th": "สวัสดีครับ วันนี้กำลังหาอะไรเป็นพิเศษไหมครับ",
+        "audio": "/audio/cosmetics-store/l1.mp3"
       },
       {
         "id": "l2",
         "speaker": "B",
         "en": "Yes. I'm looking for sunscreen for oily skin.",
         "ko": "네. 지성 피부용 선크림을 찾고 있어요.",
-        "th": "ค่ะ กำลังหาครีมกันแดดสำหรับผิวมันค่ะ"
+        "th": "ค่ะ กำลังหาครีมกันแดดสำหรับผิวมันค่ะ",
+        "audio": "/audio/cosmetics-store/l2.mp3"
       },
       {
         "id": "l3",
         "speaker": "A",
         "en": "This one is light and not sticky. Would you like to try it?",
         "ko": "이건 가볍고 끈적이지 않아요. 발라 보시겠어요?",
-        "th": "ตัวนี้เนื้อบางเบาไม่เหนียวเหนอะหนะครับ ลองทาดูไหมครับ"
+        "th": "ตัวนี้เนื้อบางเบาไม่เหนียวเหนอะหนะครับ ลองทาดูไหมครับ",
+        "audio": "/audio/cosmetics-store/l3.mp3"
       },
       {
         "id": "l4",
         "speaker": "B",
         "en": "Sure. Oh, it feels really nice.",
         "ko": "네. 와, 느낌이 정말 좋네요.",
-        "th": "ได้ค่ะ โอ้ ทาแล้วรู้สึกดีมากเลยค่ะ"
+        "th": "ได้ค่ะ โอ้ ทาแล้วรู้สึกดีมากเลยค่ะ",
+        "audio": "/audio/cosmetics-store/l4.mp3"
       },
       {
         "id": "l5",
         "speaker": "A",
         "en": "It's also on sale. Buy one, get one free.",
         "ko": "지금 세일 중이에요. 하나 사면 하나 더 드려요.",
-        "th": "ตอนนี้ลดราคาด้วยครับ ซื้อหนึ่งแถมหนึ่งครับ"
+        "th": "ตอนนี้ลดราคาด้วยครับ ซื้อหนึ่งแถมหนึ่งครับ",
+        "audio": "/audio/cosmetics-store/l5.mp3"
       },
       {
         "id": "l6",
         "speaker": "B",
         "en": "Great! Do you have any lip tint samples?",
         "ko": "좋아요! 립틴트 샘플도 있나요?",
-        "th": "ดีเลยค่ะ มีตัวอย่างลิปทินต์ไหมคะ"
+        "th": "ดีเลยค่ะ มีตัวอย่างลิปทินต์ไหมคะ",
+        "audio": "/audio/cosmetics-store/l6.mp3"
       },
       {
         "id": "l7",
         "speaker": "A",
         "en": "Yes, I'll put some in your bag.",
         "ko": "네, 봉투에 몇 개 넣어 드릴게요.",
-        "th": "มีครับ เดี๋ยวใส่ถุงให้นะครับ"
+        "th": "มีครับ เดี๋ยวใส่ถุงให้นะครับ",
+        "audio": "/audio/cosmetics-store/l7.mp3"
       },
       {
         "id": "l8",
         "speaker": "B",
         "en": "Thank you so much!",
         "ko": "정말 고마워요!",
-        "th": "ขอบคุณมากเลยค่ะ"
+        "th": "ขอบคุณมากเลยค่ะ",
+        "audio": "/audio/cosmetics-store/l8.mp3"
       }
     ],
     "scenes": [
