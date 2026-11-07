@@ -1,0 +1,153 @@
+{
+  "id": "restaurant-waitlist",
+  "order": 20,
+  "title": {
+    "en": "Waiting for a Table",
+    "ko": "식당 자리 기다리기",
+    "th": "รอโต๊ะที่ร้านอาหาร"
+  },
+  "description": {
+    "en": "Put your name on the waiting list at a busy restaurant.",
+    "ko": "붐비는 식당에서 대기 명단에 이름을 올리는 상황",
+    "th": "ลงชื่อรอคิวที่ร้านอาหารที่คนเยอะ"
+  },
+  "level": "beginner",
+  "category": "food",
+  "cover": "/images/restaurant-waitlist/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Host",
+        "role": {
+          "en": "Host",
+          "ko": "안내 직원",
+          "th": "พนักงานต้อนรับ"
+        },
+        "look": "Black woman in her 30s, curly hair tied up, white blouse and black vest, holding a tablet",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "Korean man in his 30s, short black hair, beige trench coat",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good evening. How many people?",
+        "ko": "안녕하세요. 몇 분이세요?",
+        "th": "สวัสดีค่ะ กี่ท่านคะ",
+        "audio": "/audio/restaurant-waitlist/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Two people. Do you have a table now?",
+        "ko": "두 명이요. 지금 자리 있나요?",
+        "th": "สองคนครับ ตอนนี้มีโต๊ะว่างไหมครับ",
+        "audio": "/audio/restaurant-waitlist/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "I'm sorry, it's about a fifteen-minute wait.",
+        "ko": "죄송하지만 15분 정도 기다리셔야 해요.",
+        "th": "ขอโทษค่ะ ต้องรอประมาณสิบห้านาทีค่ะ",
+        "audio": "/audio/restaurant-waitlist/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "That's fine. Can we sit by the window?",
+        "ko": "괜찮아요. 창가 자리에 앉을 수 있을까요?",
+        "th": "ไม่เป็นไรครับ ขอนั่งริมหน้าต่างได้ไหมครับ",
+        "audio": "/audio/restaurant-waitlist/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Sure. Can I have your name, please?",
+        "ko": "그럼요. 성함을 알려 주시겠어요?",
+        "th": "ได้ค่ะ ขอชื่อด้วยค่ะ",
+        "audio": "/audio/restaurant-waitlist/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "It's Min. Can you text me when it's ready?",
+        "ko": "민이에요. 자리가 나면 문자 주실 수 있나요?",
+        "th": "ชื่อมินครับ พอโต๊ะว่างแล้วช่วยส่งข้อความบอกได้ไหมครับ",
+        "audio": "/audio/restaurant-waitlist/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Of course. We'll send you a message.",
+        "ko": "물론이죠. 문자 보내 드릴게요.",
+        "th": "ได้แน่นอนค่ะ เดี๋ยวจะส่งข้อความไปนะคะ",
+        "audio": "/audio/restaurant-waitlist/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Great. We'll wait outside.",
+        "ko": "좋아요. 밖에서 기다릴게요.",
+        "th": "ดีเลยครับ เดี๋ยวรออยู่ข้างนอกนะครับ",
+        "audio": "/audio/restaurant-waitlist/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/restaurant-waitlist/s1.webp",
+        "prompt": "At the host stand by the entrance of a busy, warmly lit restaurant, the host greets the customer while holding a tablet."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/restaurant-waitlist/s2.webp",
+        "prompt": "The host gestures apologetically toward the full dining room; the customer points toward tables by the window."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/restaurant-waitlist/s3.webp",
+        "prompt": "The host types on her tablet while the customer speaks and holds up his smartphone."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/restaurant-waitlist/s4.webp",
+        "prompt": "The customer nods and turns toward the door to wait outside; the host smiles at him."
+      }
+    ]
+  }
+}

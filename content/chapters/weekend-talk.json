@@ -1,0 +1,153 @@
+{
+  "id": "weekend-talk",
+  "order": 25,
+  "title": {
+    "en": "Talking About the Weekend",
+    "ko": "주말 이야기하기",
+    "th": "คุยเรื่องวันหยุดสุดสัปดาห์"
+  },
+  "description": {
+    "en": "Chat with a coworker about what you did on the weekend.",
+    "ko": "직장 동료와 주말에 뭘 했는지 이야기하는 상황",
+    "th": "คุยกับเพื่อนร่วมงานว่าทำอะไรช่วงวันหยุด"
+  },
+  "level": "beginner",
+  "category": "people",
+  "cover": "/images/weekend-talk/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Raj",
+        "role": {
+          "en": "Coworker",
+          "ko": "직장 동료",
+          "th": "เพื่อนร่วมงาน"
+        },
+        "look": "Indian man in his 30s, short black hair, light blue button-down shirt, holding a coffee mug",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Nok",
+        "role": {
+          "en": "Coworker",
+          "ko": "직장 동료",
+          "th": "เพื่อนร่วมงาน"
+        },
+        "look": "Thai woman in her 20s, black bob haircut, cream blouse, ID badge on a lanyard",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good morning! How was your weekend?",
+        "ko": "좋은 아침이에요! 주말 어땠어요?",
+        "th": "อรุณสวัสดิ์ครับ วันหยุดเป็นยังไงบ้างครับ",
+        "audio": "/audio/weekend-talk/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "It was great. I went to the beach with my family.",
+        "ko": "좋았어요. 가족이랑 바닷가에 갔어요.",
+        "th": "ดีมากเลยค่ะ ไปทะเลกับครอบครัวมาค่ะ",
+        "audio": "/audio/weekend-talk/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "That sounds nice. Which beach did you go to?",
+        "ko": "좋았겠네요. 어느 바닷가에 갔어요?",
+        "th": "ฟังดูดีจัง ไปทะเลที่ไหนมาครับ",
+        "audio": "/audio/weekend-talk/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "We went to Hua Hin. The weather was perfect.",
+        "ko": "후아힌에 갔어요. 날씨가 완벽했어요.",
+        "th": "ไปหัวหินมาค่ะ อากาศดีมากเลยค่ะ",
+        "audio": "/audio/weekend-talk/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Lucky you! I just stayed home and watched movies.",
+        "ko": "좋았겠다! 저는 그냥 집에서 영화 봤어요.",
+        "th": "โชคดีจัง ผมแค่อยู่บ้านดูหนังครับ",
+        "audio": "/audio/weekend-talk/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "That sounds relaxing. Did you watch anything good?",
+        "ko": "푹 쉬었겠네요. 재밌는 거 봤어요?",
+        "th": "ฟังดูได้พักผ่อนดีนะคะ ได้ดูเรื่องอะไรสนุก ๆ ไหมคะ",
+        "audio": "/audio/weekend-talk/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Yes, a great comedy. I'll send you the title.",
+        "ko": "네, 정말 재밌는 코미디요. 제목 보내 줄게요.",
+        "th": "ครับ หนังตลกเรื่องหนึ่งสนุกมาก เดี๋ยวส่งชื่อเรื่องไปให้นะครับ",
+        "audio": "/audio/weekend-talk/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thanks! Let's grab lunch later.",
+        "ko": "고마워요! 이따 점심 같이 먹어요.",
+        "th": "ขอบคุณค่ะ เดี๋ยวไปกินข้าวเที่ยงด้วยกันนะคะ",
+        "audio": "/audio/weekend-talk/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/weekend-talk/s1.webp",
+        "prompt": "In a bright modern office kitchen, Raj holds a coffee mug and greets Nok with a friendly smile."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/weekend-talk/s2.webp",
+        "prompt": "Nok shows Raj a beach photo on her smartphone, smiling happily."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/weekend-talk/s3.webp",
+        "prompt": "Raj laughs and gestures while talking; Nok listens and laughs too."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/weekend-talk/s4.webp",
+        "prompt": "Raj and Nok walk out of the office kitchen together, chatting cheerfully."
+      }
+    ]
+  }
+}

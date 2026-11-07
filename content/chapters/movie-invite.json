@@ -1,0 +1,153 @@
+{
+  "id": "movie-invite",
+  "order": 24,
+  "title": {
+    "en": "Inviting a Friend to a Movie",
+    "ko": "친구에게 영화 보자고 하기",
+    "th": "ชวนเพื่อนไปดูหนัง"
+  },
+  "description": {
+    "en": "Invite a friend to see a movie and decide when to meet.",
+    "ko": "친구에게 영화를 보자고 하고 만날 시간을 정하는 상황",
+    "th": "ชวนเพื่อนไปดูหนังและนัดเวลาเจอกัน"
+  },
+  "level": "beginner",
+  "category": "people",
+  "cover": "/images/movie-invite/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Supansa",
+        "role": {
+          "en": "Supansa",
+          "ko": "수판사",
+          "th": "สุพรรษา"
+        },
+        "look": "young Thai woman in her early 20s, long straight black hair, white t-shirt, long blue denim skirt, small backpack",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Kenji",
+        "role": {
+          "en": "Kenji",
+          "ko": "켄지",
+          "th": "เคนจิ"
+        },
+        "look": "Japanese man in his 20s, short black hair, round glasses, green sweatshirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Are you free this Saturday?",
+        "ko": "이번 토요일에 시간 있어?",
+        "th": "เสาร์นี้ว่างไหม",
+        "audio": "/audio/movie-invite/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I think so. Why?",
+        "ko": "아마 그럴 거야. 왜?",
+        "th": "น่าจะว่างนะ ทำไมเหรอ",
+        "audio": "/audio/movie-invite/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Do you want to see a movie with me?",
+        "ko": "나랑 영화 볼래?",
+        "th": "ไปดูหนังด้วยกันไหม",
+        "audio": "/audio/movie-invite/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Sure! What do you want to see?",
+        "ko": "좋아! 뭐 보고 싶어?",
+        "th": "ได้สิ อยากดูเรื่องอะไรล่ะ",
+        "audio": "/audio/movie-invite/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "How about the new animated movie?",
+        "ko": "새로 나온 애니메이션 영화 어때?",
+        "th": "หนังการ์ตูนเรื่องใหม่ดีไหม",
+        "audio": "/audio/movie-invite/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Sounds fun. What time should we meet?",
+        "ko": "재밌겠다. 몇 시에 만날까?",
+        "th": "น่าสนุกดี จะเจอกันกี่โมงดี",
+        "audio": "/audio/movie-invite/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Let's meet at the theater at six.",
+        "ko": "6시에 극장에서 만나자.",
+        "th": "เจอกันที่โรงหนังตอนหกโมงเย็นนะ",
+        "audio": "/audio/movie-invite/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Perfect. See you then!",
+        "ko": "좋아. 그때 봐!",
+        "th": "โอเค แล้วเจอกันนะ",
+        "audio": "/audio/movie-invite/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/movie-invite/s1.webp",
+        "prompt": "On a sunny university campus, Supansa walks up to her friend Kenji, who is sitting on a bench reading a book."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/movie-invite/s2.webp",
+        "prompt": "Kenji looks up and smiles; Supansa shows him a colorful movie poster image on her smartphone."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/movie-invite/s3.webp",
+        "prompt": "Supansa and Kenji look at her phone screen together, both smiling and excited."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/movie-invite/s4.webp",
+        "prompt": "Supansa and Kenji wave goodbye to each other on the campus path."
+      }
+    ]
+  }
+}

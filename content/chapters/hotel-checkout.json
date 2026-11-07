@@ -1,0 +1,153 @@
+{
+  "id": "hotel-checkout",
+  "order": 22,
+  "title": {
+    "en": "Hotel Check-out",
+    "ko": "호텔 체크아웃",
+    "th": "เช็กเอาต์โรงแรม"
+  },
+  "description": {
+    "en": "Check out, ask about extra charges, and leave your luggage.",
+    "ko": "체크아웃하면서 추가 요금을 확인하고 짐을 맡기는 상황",
+    "th": "เช็กเอาต์ ถามค่าใช้จ่ายเพิ่มเติม และฝากกระเป๋า"
+  },
+  "level": "beginner",
+  "category": "stay",
+  "cover": "/images/hotel-checkout/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "Thai woman in her 20s, long black hair in a high ponytail, light denim jacket, pink rolling suitcase",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Front desk clerk",
+        "role": {
+          "en": "Front desk clerk",
+          "ko": "프런트 직원",
+          "th": "พนักงานต้อนรับ"
+        },
+        "look": "man in his 30s, short curly dark hair, navy hotel uniform blazer with a name tag",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Good morning. I'd like to check out, please.",
+        "ko": "안녕하세요. 체크아웃하려고요.",
+        "th": "สวัสดีค่ะ ขอเช็กเอาต์ค่ะ",
+        "audio": "/audio/hotel-checkout/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Sure. May I have your room key?",
+        "ko": "네. 객실 키 주시겠어요?",
+        "th": "ได้ครับ ขอคีย์การ์ดห้องด้วยครับ",
+        "audio": "/audio/hotel-checkout/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Here it is. Are there any extra charges?",
+        "ko": "여기요. 추가 요금이 있나요?",
+        "th": "นี่ค่ะ มีค่าใช้จ่ายเพิ่มเติมไหมคะ",
+        "audio": "/audio/hotel-checkout/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Just one drink from the minibar. That's four dollars.",
+        "ko": "미니바 음료 하나요. 4달러입니다.",
+        "th": "มีเครื่องดื่มจากมินิบาร์หนึ่งขวดครับ สี่ดอลลาร์ครับ",
+        "audio": "/audio/hotel-checkout/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Okay. Can I leave my luggage here until three?",
+        "ko": "알겠어요. 3시까지 짐을 여기 맡길 수 있나요?",
+        "th": "โอเคค่ะ ฝากกระเป๋าไว้ที่นี่ถึงบ่ายสามโมงได้ไหมคะ",
+        "audio": "/audio/hotel-checkout/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Of course. Here's your luggage tag.",
+        "ko": "물론이죠. 수하물 표 여기 있습니다.",
+        "th": "ได้แน่นอนครับ นี่ป้ายรับกระเป๋าครับ",
+        "audio": "/audio/hotel-checkout/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Thank you. I really enjoyed my stay.",
+        "ko": "고마워요. 정말 잘 지내다 가요.",
+        "th": "ขอบคุณค่ะ พักที่นี่ประทับใจมากเลยค่ะ",
+        "audio": "/audio/hotel-checkout/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "We're glad to hear that. Have a safe trip!",
+        "ko": "그렇게 말씀해 주셔서 기뻐요. 안전한 여행 되세요!",
+        "th": "ดีใจที่ได้ยินอย่างนั้นครับ ขอให้เดินทางปลอดภัยนะครับ",
+        "audio": "/audio/hotel-checkout/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hotel-checkout/s1.webp",
+        "prompt": "In a bright hotel lobby in the morning, the guest stands at the front desk with her pink rolling suitcase; the clerk greets her."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hotel-checkout/s2.webp",
+        "prompt": "The guest hands over her key card and asks a question; the clerk checks his computer screen."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hotel-checkout/s3.webp",
+        "prompt": "The clerk attaches a paper luggage tag to the guest's pink suitcase."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hotel-checkout/s4.webp",
+        "prompt": "The guest waves goodbye happily; the clerk smiles and waves back from the front desk."
+      }
+    ]
+  }
+}

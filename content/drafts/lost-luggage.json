@@ -1,0 +1,145 @@
+{
+  "id": "lost-luggage",
+  "order": 28,
+  "title": {
+    "en": "Lost Luggage",
+    "ko": "짐을 잃어버렸을 때",
+    "th": "กระเป๋าเดินทางหาย"
+  },
+  "description": {
+    "en": "Report a missing suitcase at the airport and arrange delivery.",
+    "ko": "공항에서 짐이 안 나왔을 때 신고하고 배송을 요청하는 상황",
+    "th": "แจ้งกระเป๋าหายที่สนามบินและขอให้จัดส่งให้"
+  },
+  "level": "intermediate",
+  "category": "travel",
+  "cover": "/images/lost-luggage/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Traveler",
+        "role": {
+          "en": "Traveler",
+          "ko": "여행객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "young Thai woman in her early 20s, long straight black hair, white t-shirt, long blue denim skirt, crossbody bag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Airline agent",
+        "role": {
+          "en": "Airline agent",
+          "ko": "항공사 직원",
+          "th": "เจ้าหน้าที่สายการบิน"
+        },
+        "look": "man in his 40s, gray hair, navy airline uniform with a tie",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. My suitcase didn't come out.",
+        "ko": "실례합니다. 제 캐리어가 안 나왔어요.",
+        "th": "ขอโทษค่ะ กระเป๋าเดินทางของฉันไม่ออกมาค่ะ"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I'm sorry. May I see your baggage claim tag?",
+        "ko": "죄송합니다. 수하물표를 보여 주시겠어요?",
+        "th": "ขออภัยครับ ขอดูป้ายรับกระเป๋าหน่อยครับ"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Here it is. It's a large pink suitcase.",
+        "ko": "여기요. 큰 분홍색 캐리어예요.",
+        "th": "นี่ค่ะ เป็นกระเป๋าใบใหญ่สีชมพูค่ะ"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Let me check. It's still in Bangkok.",
+        "ko": "확인해 볼게요. 아직 방콕에 있네요.",
+        "th": "ขอตรวจสอบสักครู่ครับ กระเป๋ายังอยู่ที่กรุงเทพฯ ครับ"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Oh no. When will it arrive?",
+        "ko": "이런. 언제 도착하나요?",
+        "th": "แย่จัง จะมาถึงเมื่อไรคะ"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "It'll come on the next flight tomorrow morning.",
+        "ko": "내일 아침 다음 비행기로 올 거예요.",
+        "th": "จะมากับเที่ยวบินถัดไปพรุ่งนี้เช้าครับ"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Can you deliver it to my hotel?",
+        "ko": "호텔로 배달해 주실 수 있나요?",
+        "th": "ช่วยส่งไปที่โรงแรมได้ไหมคะ"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Yes. Please write your hotel address here.",
+        "ko": "네. 여기에 호텔 주소를 적어 주세요.",
+        "th": "ได้ครับ กรุณาเขียนที่อยู่โรงแรมตรงนี้ครับ"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/lost-luggage/s1.webp",
+        "prompt": "In an airport baggage claim hall with an empty conveyor belt, the worried traveler approaches the lost baggage counter; the airline agent looks up."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/lost-luggage/s2.webp",
+        "prompt": "The airline agent examines the traveler's small baggage claim tag; she describes her suitcase with her hands."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/lost-luggage/s3.webp",
+        "prompt": "The airline agent looks at his computer screen; the traveler looks disappointed."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/lost-luggage/s4.webp",
+        "prompt": "The traveler writes on a paper form on the counter; the agent points to where she should write."
+      }
+    ]
+  }
+}

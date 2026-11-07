@@ -1,0 +1,145 @@
+{
+  "id": "joining-gym",
+  "order": 27,
+  "title": {
+    "en": "Joining a Gym",
+    "ko": "헬스장 등록하기",
+    "th": "สมัครสมาชิกฟิตเนส"
+  },
+  "description": {
+    "en": "Sign up for a gym membership and ask about classes.",
+    "ko": "헬스장 회원권을 등록하고 수업을 묻는 상황",
+    "th": "สมัครสมาชิกฟิตเนสและถามเรื่องคลาสออกกำลังกาย"
+  },
+  "level": "beginner",
+  "category": "daily",
+  "cover": "/images/joining-gym/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "Hispanic woman in her 20s, curly hair in a high ponytail, purple sports jacket",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Staff",
+        "role": {
+          "en": "Gym staff",
+          "ko": "헬스장 직원",
+          "th": "พนักงานฟิตเนส"
+        },
+        "look": "muscular Black man in his 30s, shaved head, red gym staff polo shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi. I'd like to join the gym.",
+        "ko": "안녕하세요. 헬스장에 등록하고 싶어요.",
+        "th": "สวัสดีค่ะ อยากสมัครสมาชิกฟิตเนสค่ะ"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Great! Do you want a monthly or yearly membership?",
+        "ko": "좋아요! 월 회원권과 연 회원권 중 어느 걸로 하시겠어요?",
+        "th": "ยินดีครับ จะสมัครแบบรายเดือนหรือรายปีครับ"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Monthly, please. How much is it?",
+        "ko": "월 회원권이요. 얼마예요?",
+        "th": "รายเดือนค่ะ ราคาเท่าไรคะ"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "It's thirty dollars a month. Classes are included.",
+        "ko": "한 달에 30달러예요. 수업도 포함이에요.",
+        "th": "เดือนละสามสิบดอลลาร์ครับ รวมคลาสออกกำลังกายด้วยครับ"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "What kind of classes do you have?",
+        "ko": "어떤 수업이 있어요?",
+        "th": "มีคลาสอะไรบ้างคะ"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "We have yoga, dance, and boxing.",
+        "ko": "요가, 댄스, 복싱이 있어요.",
+        "th": "มีโยคะ เต้น และมวยครับ"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "I'd love to try yoga. Can I start today?",
+        "ko": "요가를 해 보고 싶어요. 오늘부터 시작할 수 있나요?",
+        "th": "อยากลองโยคะค่ะ เริ่มวันนี้เลยได้ไหมคะ"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Yes! The next class starts at seven.",
+        "ko": "네! 다음 수업은 7시에 시작해요.",
+        "th": "ได้ครับ คลาสต่อไปเริ่มหนึ่งทุ่มครับ"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/joining-gym/s1.webp",
+        "prompt": "At the reception desk of a modern gym with exercise machines in the background, the staff greets the customer."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/joining-gym/s2.webp",
+        "prompt": "The staff shows the customer a membership brochure on the desk; she leans in to look."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/joining-gym/s3.webp",
+        "prompt": "The staff points through a glass wall toward a bright studio; the customer looks interested."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/joining-gym/s4.webp",
+        "prompt": "The customer and the staff stand at the doorway of a sunny yoga studio with mats on the floor, both smiling."
+      }
+    ]
+  }
+}

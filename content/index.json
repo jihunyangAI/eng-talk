@@ -214,5 +214,89 @@
     "level": "beginner",
     "category": "people",
     "cover": "/images/making-friends/s1.webp"
+  },
+  {
+    "id": "bubble-tea",
+    "order": 19,
+    "title": {
+      "en": "Ordering Bubble Tea",
+      "ko": "버블티 주문하기",
+      "th": "สั่งชานมไข่มุก"
+    },
+    "level": "beginner",
+    "category": "food",
+    "cover": "/images/bubble-tea/s1.webp"
+  },
+  {
+    "id": "restaurant-waitlist",
+    "order": 20,
+    "title": {
+      "en": "Waiting for a Table",
+      "ko": "식당 자리 기다리기",
+      "th": "รอโต๊ะที่ร้านอาหาร"
+    },
+    "level": "beginner",
+    "category": "food",
+    "cover": "/images/restaurant-waitlist/s1.webp"
+  },
+  {
+    "id": "paying-the-bill",
+    "order": 21,
+    "title": {
+      "en": "Paying the Bill",
+      "ko": "계산하기",
+      "th": "จ่ายค่าอาหาร"
+    },
+    "level": "intermediate",
+    "category": "food",
+    "cover": "/images/paying-the-bill/s1.webp"
+  },
+  {
+    "id": "hotel-checkout",
+    "order": 22,
+    "title": {
+      "en": "Hotel Check-out",
+      "ko": "호텔 체크아웃",
+      "th": "เช็กเอาต์โรงแรม"
+    },
+    "level": "beginner",
+    "category": "stay",
+    "cover": "/images/hotel-checkout/s1.webp"
+  },
+  {
+    "id": "housekeeping",
+    "order": 23,
+    "title": {
+      "en": "Asking Housekeeping for Help",
+      "ko": "객실 직원에게 부탁하기",
+      "th": "ขอความช่วยเหลือจากแม่บ้าน"
+    },
+    "level": "beginner",
+    "category": "stay",
+    "cover": "/images/housekeeping/s1.webp"
+  },
+  {
+    "id": "movie-invite",
+    "order": 24,
+    "title": {
+      "en": "Inviting a Friend to a Movie",
+      "ko": "친구에게 영화 보자고 하기",
+      "th": "ชวนเพื่อนไปดูหนัง"
+    },
+    "level": "beginner",
+    "category": "people",
+    "cover": "/images/movie-invite/s1.webp"
+  },
+  {
+    "id": "weekend-talk",
+    "order": 25,
+    "title": {
+      "en": "Talking About the Weekend",
+      "ko": "주말 이야기하기",
+      "th": "คุยเรื่องวันหยุดสุดสัปดาห์"
+    },
+    "level": "beginner",
+    "category": "people",
+    "cover": "/images/weekend-talk/s1.webp"
   }
 ]

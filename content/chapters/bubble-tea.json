@@ -1,0 +1,153 @@
+{
+  "id": "bubble-tea",
+  "order": 19,
+  "title": {
+    "en": "Ordering Bubble Tea",
+    "ko": "버블티 주문하기",
+    "th": "สั่งชานมไข่มุก"
+  },
+  "description": {
+    "en": "Choose your sweetness, ice and toppings at a bubble tea shop.",
+    "ko": "버블티 가게에서 당도·얼음·토핑을 골라 주문하는 상황",
+    "th": "เลือกระดับความหวาน น้ำแข็ง และท็อปปิ้งที่ร้านชานมไข่มุก"
+  },
+  "level": "beginner",
+  "category": "food",
+  "cover": "/images/bubble-tea/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Staff",
+        "role": {
+          "en": "Shop staff",
+          "ko": "점원",
+          "th": "พนักงานร้าน"
+        },
+        "look": "man in his 20s, short dyed brown hair, black cap and black apron",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "young Thai woman in her early 20s, long straight black hair, white t-shirt, long blue denim skirt, small canvas tote bag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi! What would you like?",
+        "ko": "안녕하세요! 뭐 드릴까요?",
+        "th": "สวัสดีครับ รับอะไรดีครับ",
+        "audio": "/audio/bubble-tea/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "One brown sugar milk tea, please.",
+        "ko": "흑당 밀크티 하나 주세요.",
+        "th": "ขอชานมบราวน์ชูการ์หนึ่งแก้วค่ะ",
+        "audio": "/audio/bubble-tea/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "What sweetness level would you like?",
+        "ko": "당도는 어느 정도로 해 드릴까요?",
+        "th": "รับความหวานระดับไหนดีครับ",
+        "audio": "/audio/bubble-tea/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Fifty percent, please. And less ice.",
+        "ko": "50%로 해 주세요. 얼음은 조금만요.",
+        "th": "หวานห้าสิบเปอร์เซ็นต์ค่ะ แล้วก็น้ำแข็งน้อยค่ะ",
+        "audio": "/audio/bubble-tea/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Would you like to add pearls?",
+        "ko": "펄을 추가하시겠어요?",
+        "th": "จะเพิ่มไข่มุกไหมครับ",
+        "audio": "/audio/bubble-tea/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Yes, please. How much is it?",
+        "ko": "네, 넣어 주세요. 얼마예요?",
+        "th": "ค่ะ ใส่ด้วยค่ะ ราคาเท่าไรคะ",
+        "audio": "/audio/bubble-tea/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "That's five dollars. Your number is twenty-one.",
+        "ko": "5달러입니다. 주문 번호는 21번이에요.",
+        "th": "ห้าดอลลาร์ครับ คิวของคุณเบอร์ยี่สิบเอ็ดครับ",
+        "audio": "/audio/bubble-tea/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you! I'll wait over there.",
+        "ko": "고마워요! 저쪽에서 기다릴게요.",
+        "th": "ขอบคุณค่ะ จะรออยู่ตรงนั้นนะคะ",
+        "audio": "/audio/bubble-tea/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/bubble-tea/s1.webp",
+        "prompt": "At the counter of a bright, cute bubble tea shop with pastel decor, the staff greets the customer, who looks at the drink menu boards."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/bubble-tea/s2.webp",
+        "prompt": "The staff holds up an empty plastic cup and asks; the customer makes a 'half' gesture with her fingers."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/bubble-tea/s3.webp",
+        "prompt": "The staff shows a jar of black tapioca pearls; the customer nods and smiles, holding her smartphone."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/bubble-tea/s4.webp",
+        "prompt": "The customer holds a small order receipt and points toward a waiting area with stools; the staff smiles."
+      }
+    ]
+  }
+}

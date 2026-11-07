@@ -1,0 +1,153 @@
+{
+  "id": "paying-the-bill",
+  "order": 21,
+  "title": {
+    "en": "Paying the Bill",
+    "ko": "계산하기",
+    "th": "จ่ายค่าอาหาร"
+  },
+  "description": {
+    "en": "Ask for the check, pay separately, and add a tip.",
+    "ko": "계산서를 요청하고, 따로 계산하고, 팁을 더하는 상황",
+    "th": "ขอเช็กบิล แยกจ่าย และเพิ่มทิป"
+  },
+  "level": "intermediate",
+  "category": "food",
+  "cover": "/images/paying-the-bill/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "Thai woman in her 20s, shoulder-length wavy brown hair, light pink cardigan",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Server",
+        "role": {
+          "en": "Server",
+          "ko": "종업원",
+          "th": "พนักงานเสิร์ฟ"
+        },
+        "look": "man in his 40s, bald, neat black beard, white shirt and black apron",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. Could we get the check, please?",
+        "ko": "실례합니다. 계산서 좀 주시겠어요?",
+        "th": "ขอโทษค่ะ ขอเช็กบิลด้วยค่ะ",
+        "audio": "/audio/paying-the-bill/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Sure. Would you like to pay together or separately?",
+        "ko": "네. 같이 계산하시겠어요, 따로 하시겠어요?",
+        "th": "ได้ครับ จะจ่ายรวมหรือแยกจ่ายครับ",
+        "audio": "/audio/paying-the-bill/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Separately, please. I had the pasta and a lemonade.",
+        "ko": "따로요. 저는 파스타랑 레모네이드를 먹었어요.",
+        "th": "แยกจ่ายค่ะ ฉันทานพาสต้ากับน้ำมะนาวค่ะ",
+        "audio": "/audio/paying-the-bill/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "That comes to eighteen dollars.",
+        "ko": "18달러입니다.",
+        "th": "ทั้งหมดสิบแปดดอลลาร์ครับ",
+        "audio": "/audio/paying-the-bill/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Is the tip included?",
+        "ko": "팁이 포함되어 있나요?",
+        "th": "รวมทิปแล้วหรือยังคะ",
+        "audio": "/audio/paying-the-bill/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "No, it's not. Tips are optional.",
+        "ko": "아니요, 포함되어 있지 않아요. 팁은 선택이에요.",
+        "th": "ยังไม่รวมครับ จะให้ทิปหรือไม่ก็ได้ครับ",
+        "audio": "/audio/paying-the-bill/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Okay. Please add three dollars for the tip.",
+        "ko": "알겠어요. 팁으로 3달러 추가해 주세요.",
+        "th": "โอเคค่ะ ช่วยเพิ่มทิปสามดอลลาร์ด้วยค่ะ",
+        "audio": "/audio/paying-the-bill/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Thank you very much. Have a great night!",
+        "ko": "정말 감사합니다. 좋은 저녁 되세요!",
+        "th": "ขอบคุณมากครับ ขอให้มีค่ำคืนที่ดีนะครับ",
+        "audio": "/audio/paying-the-bill/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/paying-the-bill/s1.webp",
+        "prompt": "At a restaurant table with finished plates, the customer raises her hand politely; the server walks over."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/paying-the-bill/s2.webp",
+        "prompt": "The server holds a black check folder and asks a question; the customer points at her empty pasta plate."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/paying-the-bill/s3.webp",
+        "prompt": "The server shows the bill on a small tray; the customer asks a question with a curious look."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/paying-the-bill/s4.webp",
+        "prompt": "The customer taps her card on a handheld card reader held by the server; both are smiling."
+      }
+    ]
+  }
+}

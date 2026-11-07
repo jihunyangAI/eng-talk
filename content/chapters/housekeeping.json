@@ -1,0 +1,153 @@
+{
+  "id": "housekeeping",
+  "order": 23,
+  "title": {
+    "en": "Asking Housekeeping for Help",
+    "ko": "객실 직원에게 부탁하기",
+    "th": "ขอความช่วยเหลือจากแม่บ้าน"
+  },
+  "description": {
+    "en": "Ask for extra towels, a later cleaning time, and a new hair dryer.",
+    "ko": "수건을 더 받고, 청소 시간을 미루고, 헤어드라이어 교체를 부탁하는 상황",
+    "th": "ขอผ้าเช็ดตัวเพิ่ม เลื่อนเวลาทำความสะอาด และขอไดร์เป่าผมใหม่"
+  },
+  "level": "beginner",
+  "category": "stay",
+  "cover": "/images/housekeeping/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "man in his 20s, messy blond hair, gray t-shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Housekeeper",
+        "role": {
+          "en": "Housekeeper",
+          "ko": "객실 청소 직원",
+          "th": "แม่บ้าน"
+        },
+        "look": "Filipino woman in her 40s, black hair in a neat bun, light gray housekeeping uniform",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. Could I get some extra towels?",
+        "ko": "실례합니다. 수건을 좀 더 받을 수 있을까요?",
+        "th": "ขอโทษครับ ขอผ้าเช็ดตัวเพิ่มได้ไหมครับ",
+        "audio": "/audio/housekeeping/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Of course. How many do you need?",
+        "ko": "물론이죠. 몇 장 필요하세요?",
+        "th": "ได้ค่ะ ต้องการกี่ผืนคะ",
+        "audio": "/audio/housekeeping/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Two, please. And some shampoo too.",
+        "ko": "두 장이요. 샴푸도 좀 주세요.",
+        "th": "สองผืนครับ แล้วขอแชมพูด้วยครับ",
+        "audio": "/audio/housekeeping/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Here you are. Would you like me to clean your room now?",
+        "ko": "여기 있어요. 지금 방 청소해 드릴까요?",
+        "th": "นี่ค่ะ ให้ทำความสะอาดห้องตอนนี้เลยไหมคะ",
+        "audio": "/audio/housekeeping/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Could you come back after lunch?",
+        "ko": "점심 이후에 다시 와 주실 수 있나요?",
+        "th": "ช่วยกลับมาหลังมื้อเที่ยงได้ไหมครับ",
+        "audio": "/audio/housekeeping/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Sure. I'll come back at two o'clock.",
+        "ko": "그럼요. 2시에 다시 올게요.",
+        "th": "ได้ค่ะ จะกลับมาตอนบ่ายสองโมงนะคะ",
+        "audio": "/audio/housekeeping/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Thank you. Also, the hair dryer isn't working.",
+        "ko": "고마워요. 그리고 헤어드라이어가 작동을 안 해요.",
+        "th": "ขอบคุณครับ แล้วก็ไดร์เป่าผมเสียครับ",
+        "audio": "/audio/housekeeping/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "I'm sorry. I'll bring you a new one.",
+        "ko": "죄송해요. 새 걸로 가져다 드릴게요.",
+        "th": "ขอโทษค่ะ เดี๋ยวจะนำอันใหม่มาให้นะคะ",
+        "audio": "/audio/housekeeping/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/housekeeping/s1.webp",
+        "prompt": "In a hotel hallway, the guest stands at his open room door and talks to the housekeeper, who is next to her cleaning cart."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/housekeeping/s2.webp",
+        "prompt": "The housekeeper hands the guest folded white towels and small toiletry bottles."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/housekeeping/s3.webp",
+        "prompt": "The guest gestures politely; the housekeeper nods and points to her wristwatch."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/housekeeping/s4.webp",
+        "prompt": "The guest holds up a hair dryer with a frown; the housekeeper looks apologetic."
+      }
+    ]
+  }
+}
