@@ -12,6 +12,7 @@
     "th": "ซื้อตั๋วและถามว่าต้องขึ้นรถไฟสายไหน"
   },
   "level": "beginner",
+  "category": "travel",
   "cover": "/images/subway-ride/s1.webp",
   "dialogue": {
     "speakers": [

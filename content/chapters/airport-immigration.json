@@ -12,6 +12,7 @@
     "th": "ตอบคำถามเจ้าหน้าที่ตรวจคนเข้าเมืองเมื่อเดินทางถึง"
   },
   "level": "beginner",
+  "category": "travel",
   "cover": "/images/airport-immigration/s1.webp",
   "dialogue": {
     "speakers": [

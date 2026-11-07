@@ -12,6 +12,7 @@
     "th": "แจ้งแอร์เสียและขอเปลี่ยนห้อง"
   },
   "level": "intermediate",
+  "category": "stay",
   "cover": "/images/hotel-room-problem/s1.webp",
   "dialogue": {
     "speakers": [

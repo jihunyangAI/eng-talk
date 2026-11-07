@@ -1,0 +1,14 @@
+import { CATEGORIES, type Category } from "@/content/types";
+
+/** 카테고리별 스티커 색 — soft: 배경/칩, strong: 아이콘·선택 상태 */
+export const CATEGORY_COLORS: Record<Category, { soft: string; strong: string }> = {
+  travel: { soft: "#DDEFFF", strong: "#2C7BD0" },
+  stay: { soft: "#ECE6FF", strong: "#6B52D6" },
+  food: { soft: "#FFE8D6", strong: "#D9601F" },
+  shopping: { soft: "#FFE0EC", strong: "#D63A76" },
+  daily: { soft: "#D9F5E8", strong: "#178F63" },
+  people: { soft: "#FFF1BF", strong: "#A87600" },
+};
+
+export { CATEGORIES };
+export type { Category };

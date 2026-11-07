@@ -3,6 +3,8 @@
 export type Lang = "en" | "ko" | "th";
 export type TranslationLang = Exclude<Lang, "en">;
 export type Level = "beginner" | "intermediate" | "advanced";
+export const CATEGORIES = ["travel", "stay", "food", "shopping", "daily", "people"] as const;
+export type Category = (typeof CATEGORIES)[number];
 
 /** 언어별 텍스트 */
 export type LocalizedText = Record<Lang, string>;
@@ -54,9 +56,10 @@ export interface Chapter {
   title: LocalizedText;
   description: LocalizedText;
   level: Level;
+  category: Category;
   cover: string;
   dialogue: Dialogue;
 }
 
 /** content/index.json 의 항목 — 챕터 목록 화면용 */
-export type ChapterSummary = Pick<Chapter, "id" | "order" | "title" | "level" | "cover">;
+export type ChapterSummary = Pick<Chapter, "id" | "order" | "title" | "level" | "category" | "cover">;

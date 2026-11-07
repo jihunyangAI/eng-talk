@@ -8,6 +8,7 @@
       "th": "เช็คอินที่สนามบิน"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/airport-checkin/s1.webp"
   },
   {
@@ -19,6 +20,7 @@
       "th": "สั่งเครื่องดื่มที่คาเฟ่"
     },
     "level": "beginner",
+    "category": "food",
     "cover": "/images/cafe-order/s1.webp"
   },
   {
@@ -30,6 +32,7 @@
       "th": "ยืมหนังสือที่ห้องสมุด"
     },
     "level": "beginner",
+    "category": "daily",
     "cover": "/images/library-card/s1.webp"
   },
   {
@@ -41,6 +44,7 @@
       "th": "ตรวจคนเข้าเมือง"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/airport-immigration/s1.webp"
   },
   {
@@ -52,6 +56,7 @@
       "th": "นั่งแท็กซี่"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/taxi-ride/s1.webp"
   },
   {
@@ -63,6 +68,7 @@
       "th": "เช็กอินโรงแรม"
     },
     "level": "beginner",
+    "category": "stay",
     "cover": "/images/hotel-checkin/s1.webp"
   },
   {
@@ -74,6 +80,7 @@
       "th": "สั่งอาหารที่ร้านอาหาร"
     },
     "level": "beginner",
+    "category": "food",
     "cover": "/images/restaurant-order/s1.webp"
   },
   {
@@ -85,6 +92,7 @@
       "th": "ถามทาง"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/asking-directions/s1.webp"
   },
   {
@@ -96,6 +104,7 @@
       "th": "บนเครื่องบิน"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/in-flight/s1.webp"
   },
   {
@@ -107,6 +116,7 @@
       "th": "นั่งรถไฟใต้ดิน"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/subway-ride/s1.webp"
   },
   {
@@ -118,6 +128,7 @@
       "th": "ปัญหาห้องพักในโรงแรม"
     },
     "level": "intermediate",
+    "category": "stay",
     "cover": "/images/hotel-room-problem/s1.webp"
   },
   {
@@ -129,6 +140,7 @@
       "th": "ขอให้ช่วยถ่ายรูป"
     },
     "level": "beginner",
+    "category": "travel",
     "cover": "/images/asking-photo/s1.webp"
   },
   {
@@ -140,6 +152,7 @@
       "th": "ซื้อเสื้อผ้า"
     },
     "level": "beginner",
+    "category": "shopping",
     "cover": "/images/clothing-store/s1.webp"
   },
   {
@@ -151,6 +164,7 @@
       "th": "ที่ร้านสะดวกซื้อ"
     },
     "level": "beginner",
+    "category": "shopping",
     "cover": "/images/convenience-store/s1.webp"
   },
   {
@@ -162,6 +176,7 @@
       "th": "ซื้อซิมการ์ด"
     },
     "level": "beginner",
+    "category": "shopping",
     "cover": "/images/sim-card/s1.webp"
   },
   {
@@ -173,6 +188,7 @@
       "th": "ที่ร้านขายยา"
     },
     "level": "beginner",
+    "category": "daily",
     "cover": "/images/pharmacy/s1.webp"
   },
   {
@@ -184,6 +200,7 @@
       "th": "แผนกต้อนรับคลินิก"
     },
     "level": "intermediate",
+    "category": "daily",
     "cover": "/images/clinic-reception/s1.webp"
   },
   {
@@ -195,6 +212,7 @@
       "th": "หาเพื่อนใหม่"
     },
     "level": "beginner",
+    "category": "people",
     "cover": "/images/making-friends/s1.webp"
   }
 ]

@@ -12,6 +12,7 @@
     "th": "ทำบัตรห้องสมุดและสอบถามกฎการยืมหนังสือ"
   },
   "level": "beginner",
+  "category": "daily",
   "cover": "/images/library-card/s1.webp",
   "dialogue": {
     "speakers": [

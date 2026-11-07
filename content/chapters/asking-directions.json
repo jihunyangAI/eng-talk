@@ -12,6 +12,7 @@
     "th": "ถามคนในพื้นที่ว่าจะไปสถานีรถไฟใต้ดินอย่างไร"
   },
   "level": "beginner",
+  "category": "travel",
   "cover": "/images/asking-directions/s1.webp",
   "dialogue": {
     "speakers": [

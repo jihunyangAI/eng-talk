@@ -12,6 +12,7 @@
     "th": "บอกจุดหมายกับคนขับและจ่ายค่าโดยสารเมื่อถึงที่หมาย"
   },
   "level": "beginner",
+  "category": "travel",
   "cover": "/images/taxi-ride/s1.webp",
   "dialogue": {
     "speakers": [

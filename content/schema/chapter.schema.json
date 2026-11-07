@@ -3,7 +3,7 @@
   "$id": "chapter.schema.json",
   "title": "Chapter",
   "type": "object",
-  "required": ["id", "order", "title", "description", "level", "cover", "dialogue"],
+  "required": ["id", "order", "title", "description", "level", "category", "cover", "dialogue"],
   "additionalProperties": false,
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
@@ -11,6 +11,7 @@
     "title": { "$ref": "#/$defs/localized" },
     "description": { "$ref": "#/$defs/localized" },
     "level": { "enum": ["beginner", "intermediate", "advanced"] },
+    "category": { "enum": ["travel", "stay", "food", "shopping", "daily", "people"] },
     "cover": { "$ref": "#/$defs/imagePath" },
     "dialogue": {
       "type": "object",

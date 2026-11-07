@@ -1,11 +1,22 @@
 // 화면 문구 — 선택한 번역 언어(ko/th)를 따라감
-import type { Level, TranslationLang } from "@/content/types";
+import type { Category, Level, TranslationLang } from "@/content/types";
 
 export type TranslationMode = "show" | "hide" | "tap";
 
 type Messages = {
   appTitle: string;
   appSubtitle: string;
+  home: {
+    greeting: string;
+    search: string;
+    clearSearch: string;
+    all: string;
+    allLevels: string;
+    category: Record<Category, string>;
+    results: (n: number) => string;
+    empty: string;
+    reset: string;
+  };
   level: Record<Level, string>;
   lineCount: (n: number) => string;
   sceneCount: (n: number) => string;
@@ -58,6 +69,17 @@ export const messages: Record<TranslationLang, Messages> = {
   ko: {
     appTitle: "상황별 영어회화",
     appSubtitle: "장면을 보며 실전 대화를 익혀요",
+    home: {
+      greeting: "오늘은 어떤 상황을 연습할까요?",
+      search: "상황 검색 (예: 호텔, cafe)",
+      clearSearch: "검색어 지우기",
+      all: "전체",
+      allLevels: "모든 난이도",
+      category: { travel: "여행", stay: "숙소", food: "음식", shopping: "쇼핑", daily: "생활", people: "사람" },
+      results: (n) => `${n}개 상황`,
+      empty: "조건에 맞는 상황이 없어요. 다른 탭이나 검색어를 골라 보세요.",
+      reset: "필터 초기화",
+    },
     level: { beginner: "초급", intermediate: "중급", advanced: "고급" },
     lineCount: (n) => `${n}문장`,
     sceneCount: (n) => `장면 ${n}개`,
@@ -110,6 +132,17 @@ export const messages: Record<TranslationLang, Messages> = {
   th: {
     appTitle: "บทสนทนาภาษาอังกฤษตามสถานการณ์",
     appSubtitle: "เรียนบทสนทนาจริงผ่านภาพแต่ละฉาก",
+    home: {
+      greeting: "วันนี้อยากฝึกสถานการณ์ไหนดี?",
+      search: "ค้นหาสถานการณ์ (เช่น โรงแรม, cafe)",
+      clearSearch: "ล้างคำค้นหา",
+      all: "ทั้งหมด",
+      allLevels: "ทุกระดับ",
+      category: { travel: "ท่องเที่ยว", stay: "ที่พัก", food: "อาหาร", shopping: "ช้อปปิ้ง", daily: "ชีวิตประจำวัน", people: "ผู้คน" },
+      results: (n) => `${n} สถานการณ์`,
+      empty: "ไม่พบสถานการณ์ที่ตรงกัน ลองเลือกแท็บหรือคำค้นหาอื่น",
+      reset: "ล้างตัวกรอง",
+    },
     level: { beginner: "ระดับต้น", intermediate: "ระดับกลาง", advanced: "ระดับสูง" },
     lineCount: (n) => `${n} ประโยค`,
     sceneCount: (n) => `${n} ฉาก`,

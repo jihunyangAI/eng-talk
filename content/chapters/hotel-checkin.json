@@ -12,6 +12,7 @@
     "th": "เช็กอินโรงแรมและสอบถามเรื่องอาหารเช้า ไวไฟ และเวลาเช็กเอาต์"
   },
   "level": "beginner",
+  "category": "stay",
   "cover": "/images/hotel-checkin/s1.webp",
   "dialogue": {
     "speakers": [

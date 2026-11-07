@@ -8,6 +8,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const skipImages = process.argv.includes("--skip-images");
 const LANGS = ["en", "ko", "th"];
 const LEVELS = ["beginner", "intermediate", "advanced"];
+const CATEGORIES = ["travel", "stay", "food", "shopping", "daily", "people"];
 const IMAGE_RE = /^\/images\/.+\.(webp|png|jpg|jpeg)$/;
 
 const errors = [];
@@ -28,6 +29,7 @@ function validateChapter(ch, file) {
   if (`${ch.id}.json` !== file) errors.push(at(`: id "${ch.id}" does not match file name`));
   if (!Number.isInteger(ch.order) || ch.order < 1) errors.push(at(".order: must be integer >= 1"));
   if (!LEVELS.includes(ch.level)) errors.push(at(`.level: invalid "${ch.level}"`));
+  if (!CATEGORIES.includes(ch.category)) errors.push(at(`.category: invalid "${ch.category}"`));
   checkLocalized(ch.title, at(".title"));
   checkLocalized(ch.description, at(".description"));
   checkImage(ch.cover, at(".cover"));
@@ -102,7 +104,7 @@ const indexIds = new Set(index.map((e) => e.id));
 for (const e of index) {
   const ch = chapters.get(e.id);
   if (!ch) { errors.push(`index.json: "${e.id}" has no chapter file`); continue; }
-  for (const k of ["order", "level", "cover"]) if (e[k] !== ch[k]) errors.push(`index.json: "${e.id}".${k} differs from chapter`);
+  for (const k of ["order", "level", "category", "cover"]) if (e[k] !== ch[k]) errors.push(`index.json: "${e.id}".${k} differs from chapter`);
   if (JSON.stringify(e.title) !== JSON.stringify(ch.title)) errors.push(`index.json: "${e.id}".title differs from chapter`);
 }
 for (const id of chapters.keys()) if (!indexIds.has(id)) errors.push(`index.json: missing chapter "${id}"`);

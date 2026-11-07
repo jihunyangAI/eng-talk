@@ -12,6 +12,7 @@
     "th": "ถามเมนูแนะนำ สั่งอาหาร และขอเช็กบิล"
   },
   "level": "beginner",
+  "category": "food",
   "cover": "/images/restaurant-order/s1.webp",
   "dialogue": {
     "speakers": [

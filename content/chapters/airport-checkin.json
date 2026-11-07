@@ -12,6 +12,7 @@
     "th": "เช็คอินเที่ยวบิน โหลดกระเป๋า และเลือกที่นั่ง"
   },
   "level": "beginner",
+  "category": "travel",
   "cover": "/images/airport-checkin/s1.webp",
   "dialogue": {
     "speakers": [

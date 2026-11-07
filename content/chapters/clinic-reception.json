@@ -12,6 +12,7 @@
     "th": "ลงทะเบียนที่คลินิกครั้งแรกและถามเวลารอ"
   },
   "level": "intermediate",
+  "category": "daily",
   "cover": "/images/clinic-reception/s1.webp",
   "dialogue": {
     "speakers": [

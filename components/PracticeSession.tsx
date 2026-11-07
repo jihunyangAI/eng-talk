@@ -184,18 +184,30 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
           <p className="mt-1 text-[var(--muted)]">{p.chooseRoleDesc}</p>
           {support !== "ok" && <Notice>{p.errors[support]}</Notice>}
           <div className="mt-5 grid gap-3 sm:grid-cols-2">
-            {speakers.map((s) => {
+            {speakers.map((s, si) => {
               const count = lines.filter((l) => l.speaker === s.id).length;
+              const tone = si === 0 ? { bg: "var(--accent-soft)", fg: "var(--accent-ink)" } : { bg: "#ECE6FF", fg: "#5B43C4" };
               return (
                 <button
                   key={s.id}
                   onClick={() => start(s.id)}
-                  className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 text-left transition-shadow hover:shadow-md focus-visible:outline-2 focus-visible:outline-[var(--accent)]"
+                  className="rounded-[1.25rem] bg-[var(--surface)] p-5 text-left ring-1 ring-[var(--line)] transition hover:ring-[var(--line-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
                 >
-                  <p className="text-lg font-semibold text-[var(--ink)]">{s.role[lang]}</p>
-                  <p className="text-sm text-[var(--muted)]">
-                    {s.name} · {t.lineCount(count)}
-                  </p>
+                  <div className="flex items-center gap-3">
+                    <span
+                      aria-hidden
+                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-lg font-semibold"
+                      style={{ background: tone.bg, color: tone.fg }}
+                    >
+                      {s.name.charAt(0)}
+                    </span>
+                    <div>
+                      <p className="text-lg font-semibold text-[var(--ink)]">{s.role[lang]}</p>
+                      <p className="text-sm text-[var(--muted)]">
+                        {s.name} · {t.lineCount(count)}
+                      </p>
+                    </div>
+                  </div>
                   <p className="mt-3 line-clamp-2 text-sm text-[var(--ink)]" lang="en">
                     “{lines.find((l) => l.speaker === s.id)?.en}”
                   </p>

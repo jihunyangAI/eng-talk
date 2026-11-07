@@ -12,6 +12,7 @@
     "th": "หาเสื้อแจ็กเก็ตไซซ์ที่ใช่ ลองใส่ และถามเรื่องการคืนสินค้า"
   },
   "level": "beginner",
+  "category": "shopping",
   "cover": "/images/clothing-store/s1.webp",
   "dialogue": {
     "speakers": [

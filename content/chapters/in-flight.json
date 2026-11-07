@@ -12,6 +12,7 @@
     "th": "สั่งอาหารและเครื่องดื่ม และขอผ้าห่มระหว่างเที่ยวบิน"
   },
   "level": "beginner",
+  "category": "travel",
   "cover": "/images/in-flight/s1.webp",
   "dialogue": {
     "speakers": [

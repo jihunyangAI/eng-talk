@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const chapter = getChapter((await params).id);
-  return chapter ? { title: `Practice: ${chapter.title.en} — Eng Talk` } : {};
+  return chapter ? { title: `Practice: ${chapter.title.en} — Supansa's English App` } : {};
 }
 
 export default async function PracticePage({ params }: Props) {

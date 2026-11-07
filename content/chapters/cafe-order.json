@@ -12,6 +12,7 @@
     "th": "สั่งเครื่องดื่ม เลือกตัวเลือก และจ่ายเงินที่คาเฟ่"
   },
   "level": "beginner",
+  "category": "food",
   "cover": "/images/cafe-order/s1.webp",
   "dialogue": {
     "speakers": [

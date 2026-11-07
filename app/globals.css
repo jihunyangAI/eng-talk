@@ -1,16 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #faf8f4;
+  /* 블러시 핑크 바탕 + 자두색 글자 + 딸기 핑크 포인트 */
+  --bg: #fff7fa;
   --surface: #ffffff;
-  --ink: #1d2125;
-  --muted: #5f6670;
-  --line: #e7e2d9;
-  --line-strong: #cfc8bb;
-  --chip: #efebe4;
-  --accent: #0f766e;
-  --accent-soft: #ddf1ee;
-  --bubble-right: #d9efe9;
+  --ink: #2e2440;
+  --muted: #74688a;
+  --line: #f1e2ea;
+  --line-strong: #e2cad8;
+  --chip: #f8edf3;
+  --accent: #d93a6e; /* 흰 글자 대비 4.5:1 이상 */
+  --accent-soft: #ffe3ec;
+  --accent-ink: #b8255a;
+  --bubble-right: #ffe8ef;
+  --lilac: #8b7cf6;
   --ok: #15803d;
   --close: #b45309;
   --miss: #b91c1c;
@@ -25,7 +28,35 @@ body {
 
 body {
   font-family:
-    system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Noto Sans Thai",
-    "Leelawadee UI", Tahoma, sans-serif;
+    var(--font-prompt), system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR",
+    "Noto Sans Thai", sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+/* 한국어는 단어 중간에서 줄바꿈하지 않음 (태국어는 띄어쓰기가 없어 적용하면 안 됨) */
+html:lang(ko) body {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+/* 가로 스크롤 탭의 스크롤바 숨김 */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+:focus-visible {
+  outline-color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

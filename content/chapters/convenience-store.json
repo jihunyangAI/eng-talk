@@ -12,6 +12,7 @@
     "th": "ซื้อร่ม ขอให้อุ่นอาหาร และจ่ายเงินที่เคาน์เตอร์"
   },
   "level": "beginner",
+  "category": "shopping",
   "cover": "/images/convenience-store/s1.webp",
   "dialogue": {
     "speakers": [
