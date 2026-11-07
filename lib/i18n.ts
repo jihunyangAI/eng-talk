@@ -78,7 +78,7 @@ export const messages: Record<TranslationLang, Messages> = {
       all: "전체",
       allLevels: "모든 난이도",
       category: {
-        "bar-work": "바 근무",
+        "bar-work": "바텐더",
         friends: "친구와 수다",
         "hotel-work": "호텔 근무",
         "cruise-work": "크루즈 근무",
