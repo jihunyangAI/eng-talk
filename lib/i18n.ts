@@ -30,7 +30,8 @@ type Practice = {
   me: string;
   partnerSpeaking: string;
   yourTurn: string;
-  listening: string;
+  preparing: string;
+  speakNow: string;
   speak: string;
   stop: string;
   youSaid: string;
@@ -42,7 +43,15 @@ type Practice = {
   replay: string;
   skip: string;
   feedback: (score: number) => string;
-  errors: { "no-speech": string; "mic-denied": string; failed: string; unsupported: string; insecure: string };
+  errors: {
+    "no-speech": string;
+    "mic-denied": string;
+    network: string;
+    "audio-capture": string;
+    failed: string;
+    unsupported: string;
+    insecure: string;
+  };
   resultTitle: string;
   average: string;
   notTried: string;
@@ -79,7 +88,8 @@ export const messages: Record<TranslationLang, Messages> = {
       me: "나",
       partnerSpeaking: "상대방이 말하는 중…",
       yourTurn: "내 차례예요. '말하기'를 누르고 영어로 말해 보세요",
-      listening: "듣고 있어요… 말을 마치면 자동으로 끝나요",
+      preparing: "마이크 준비 중… 잠시만요",
+      speakNow: "지금 말하세요 · 말을 마치면 자동으로 끝나요",
       speak: "말하기",
       stop: "그만",
       youSaid: "내가 말한 문장",
@@ -92,7 +102,9 @@ export const messages: Record<TranslationLang, Messages> = {
       skip: "건너뛰기",
       feedback: (s) => (s >= 90 ? "완벽해요!" : s >= 70 ? "잘했어요!" : s >= 50 ? "조금만 더!" : "다시 해 볼까요?"),
       errors: {
-        "no-speech": "소리가 들리지 않았어요. 다시 해 보세요.",
+        "no-speech": "소리가 들리지 않았어요. '지금 말하세요'가 보인 뒤에 또박또박 말해 보세요.",
+        network: "인터넷 연결이 불안정해서 인식하지 못했어요. 다시 해 보세요.",
+        "audio-capture": "마이크를 쓸 수 없어요. 다른 앱이 마이크를 쓰고 있는지 확인해 주세요.",
         "mic-denied": "마이크 권한이 필요해요. 주소창의 마이크 아이콘에서 허용해 주세요.",
         failed: "음성인식에 실패했어요. 잠시 후 다시 해 보세요.",
         unsupported: "이 브라우저는 음성인식을 지원하지 않아요. Chrome, Edge, Safari에서 열어 주세요.",
@@ -131,7 +143,8 @@ export const messages: Record<TranslationLang, Messages> = {
       me: "ฉัน",
       partnerSpeaking: "อีกฝ่ายกำลังพูด…",
       yourTurn: "ถึงตาคุณแล้ว กด 'พูด' แล้วพูดเป็นภาษาอังกฤษ",
-      listening: "กำลังฟัง… พูดจบแล้วจะหยุดเอง",
+      preparing: "กำลังเตรียมไมโครโฟน… รอสักครู่",
+      speakNow: "พูดได้เลย · พูดจบแล้วจะหยุดเอง",
       speak: "พูด",
       stop: "หยุด",
       youSaid: "สิ่งที่คุณพูด",
@@ -144,7 +157,9 @@ export const messages: Record<TranslationLang, Messages> = {
       skip: "ข้าม",
       feedback: (s) => (s >= 90 ? "ยอดเยี่ยม!" : s >= 70 ? "ดีมาก!" : s >= 50 ? "อีกนิดเดียว!" : "ลองอีกครั้งนะ"),
       errors: {
-        "no-speech": "ไม่ได้ยินเสียง ลองอีกครั้ง",
+        "no-speech": "ไม่ได้ยินเสียง ลองพูดชัด ๆ หลังจากขึ้นข้อความ 'พูดได้เลย'",
+        network: "การเชื่อมต่ออินเทอร์เน็ตไม่เสถียร ลองอีกครั้ง",
+        "audio-capture": "ใช้ไมโครโฟนไม่ได้ ตรวจสอบว่ามีแอปอื่นใช้ไมโครโฟนอยู่หรือไม่",
         "mic-denied": "ต้องอนุญาตให้ใช้ไมโครโฟน กรุณากดอนุญาตที่ไอคอนไมโครโฟนบนแถบที่อยู่",
         failed: "การรู้จำเสียงล้มเหลว กรุณาลองใหม่อีกครั้ง",
         unsupported: "เบราว์เซอร์นี้ไม่รองรับการรู้จำเสียง กรุณาเปิดด้วย Chrome, Edge หรือ Safari",

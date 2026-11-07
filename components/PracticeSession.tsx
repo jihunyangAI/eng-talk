@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Chapter, Line } from "@/content/types";
 import { scoreBest, type ScoreResult, type WordStatus } from "@/lib/scoring";
 import { getSpeechSupport, listenOnce, type SpeechErrorCode, type SpeechSupport } from "@/lib/speech";
+import { playExclusive, stopAllAudio } from "@/lib/audio";
 import { AudioButton } from "./AudioButton";
 import { LangSwitcher } from "./LangSwitcher";
 import { useSettings } from "./SettingsProvider";
@@ -35,6 +36,8 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
   const [listening, setListening] = useState(false);
   const [interim, setInterim] = useState("");
   const [error, setError] = useState<SpeechErrorCode | null>(null);
+  const [errorRaw, setErrorRaw] = useState("");
+  const [ready, setReady] = useState(false);
   const [support, setSupport] = useState<SpeechSupport>("ok");
   const [showHint, setShowHint] = useState(true);
   const [revealed, setRevealed] = useState(false);
@@ -72,9 +75,11 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
     });
   };
 
+  /** 상대방 음성과 '정답 발음 듣기' 등 모든 재생을 멈춤. 재생 중이던 소리가 있었으면 true */
   const stopAudio = () => {
     audioRef.current?.pause();
     audioRef.current = null;
+    return stopAllAudio();
   };
 
   const advance = useCallback(() => {
@@ -101,7 +106,7 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
         if (audioRef.current === a) advance();
       }, 600);
     });
-    a.play().then(
+    playExclusive(a).then(
       () => setPartnerBlocked(false),
       () => setPartnerBlocked(true),
     );
@@ -132,24 +137,36 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
   }, []);
 
   const startListening = () => {
-    stopAudio();
+    if (recRef.current) return; // 이전 인식이 끝나기 전 중복 시작 방지
+    // 재생 중이던 소리가 있으면 오디오 전환 시간을 잠깐 줌 (iOS에서 마이크 시작 실패 방지)
+    const wasPlaying = stopAudio();
     setError(null);
+    setErrorRaw("");
     setInterim("");
     setLast(null);
+    setReady(false);
     setListening(true);
-    recRef.current = listenOnce({
-      onInterim: setInterim,
-      onFinal: (candidates) => {
-        const result = scoreBest(line.en, candidates);
-        setLast(result);
-        setBest((b) => (!b[line.id] || result.score > b[line.id].score ? { ...b, [line.id]: result } : b));
+    recRef.current = listenOnce(
+      {
+        onReady: () => setReady(true),
+        onInterim: setInterim,
+        onFinal: (candidates) => {
+          const result = scoreBest(line.en, candidates);
+          setLast(result);
+          setBest((b) => (!b[line.id] || result.score > b[line.id].score ? { ...b, [line.id]: result } : b));
+        },
+        onError: (code, raw) => {
+          setError(code);
+          setErrorRaw(raw);
+        },
+        onEnd: () => {
+          setListening(false);
+          setReady(false);
+          recRef.current = null;
+        },
       },
-      onError: setError,
-      onEnd: () => {
-        setListening(false);
-        recRef.current = null;
-      },
-    });
+      { delayMs: wasPlaying ? 500 : 0 },
+    );
   };
 
   const start = (speakerId: string) => {
@@ -323,9 +340,11 @@ export function PracticeSession({ chapter }: { chapter: Chapter }) {
                       showHint={showHint || revealed}
                       onReveal={() => setRevealed(true)}
                       listening={listening}
+                      ready={ready}
                       interim={interim}
                       result={last}
                       error={error}
+                      errorRaw={errorRaw}
                       support={support}
                       onMic={startListening}
                       onStop={() => recRef.current?.stop()}
@@ -398,9 +417,11 @@ type MyTurnProps = {
   showHint: boolean;
   onReveal: () => void;
   listening: boolean;
+  ready: boolean;
   interim: string;
   result: ScoreResult | null;
   error: SpeechErrorCode | null;
+  errorRaw: string;
   support: SpeechSupport;
   onMic: () => void;
   onStop: () => void;
@@ -464,12 +485,25 @@ function MyTurn(props: MyTurnProps) {
         </div>
       )}
 
-      {listening && (
-        <p lang="en" className="mt-3 min-h-6 italic text-[var(--muted)]">
-          {props.interim || p.listening}
-        </p>
+      {listening &&
+        (props.interim ? (
+          <p lang="en" className="mt-3 min-h-6 italic text-[var(--ink)]">
+            {props.interim}
+          </p>
+        ) : props.ready ? (
+          <p className="mt-3 flex min-h-6 items-center gap-2 font-semibold text-[var(--miss)]">
+            <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-[var(--miss)]" />
+            {p.speakNow}
+          </p>
+        ) : (
+          <p className="mt-3 min-h-6 text-[var(--muted)]">{p.preparing}</p>
+        ))}
+      {!listening && !result && props.error && (
+        <Notice>
+          {p.errors[props.error]}
+          {props.errorRaw && <span className="ml-1 opacity-60">({props.errorRaw})</span>}
+        </Notice>
       )}
-      {!listening && !result && props.error && <Notice>{p.errors[props.error]}</Notice>}
       {props.support !== "ok" && <Notice>{p.errors[props.support]}</Notice>}
 
       {!result && !listening && <p className="mt-3 text-sm text-[var(--muted)]">{p.yourTurn}</p>}

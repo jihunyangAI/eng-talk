@@ -1,9 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-// 한 번에 하나의 음성만 재생
-let current: HTMLAudioElement | null = null;
+import { playExclusive } from "@/lib/audio";
 
 export function AudioButton({ src, label }: { src: string; label: string }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -24,10 +22,10 @@ export function AudioButton({ src, label }: { src: string; label: string }) {
       a.pause();
       return;
     }
-    if (current && current !== a) current.pause();
-    current = a;
+    // 음성인식 전에 오디오가 해제됐을 수 있으므로 매번 src를 다시 지정
+    if (a.getAttribute("src") !== src) a.src = src;
     a.currentTime = 0;
-    void a.play().catch(() => setPlaying(false));
+    void playExclusive(a).catch(() => setPlaying(false));
   };
 
   return (
