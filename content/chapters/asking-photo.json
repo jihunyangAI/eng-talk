@@ -149,5 +149,31 @@
         "prompt": "The passerby hands the camera back to the tourist; both are smiling and she waves goodbye."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Could you take a picture of me",
+      "ko": "'사진 좀 찍어 주시겠어요?'",
+      "th": "‘ช่วยถ่ายรูปให้หน่อยได้ไหม’"
+    },
+    {
+      "line": "l4",
+      "en": "in the background",
+      "ko": "'배경에' — 뒤에 보이게 찍을 때.",
+      "th": "‘เป็นฉากหลัง’ ให้เห็นด้านหลัง"
+    },
+    {
+      "line": "l6",
+      "en": "Say cheese",
+      "ko": "'김치~' — 사진 찍기 직전 하는 말.",
+      "th": "‘ยิ้มหน่อย’ พูดก่อนกดถ่าย"
+    },
+    {
+      "line": "l7",
+      "en": "Would you like me to take one of you",
+      "ko": "'제가 한 장 찍어 드릴까요?' — 친절한 제안.",
+      "th": "‘ให้ถ่ายให้บ้างไหม’ ข้อเสนออย่างใจดี"
+    }
+  ]
 }

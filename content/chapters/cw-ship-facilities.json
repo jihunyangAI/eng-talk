@@ -149,5 +149,31 @@
         "prompt": "Supansa points toward the front of the ship; the passenger gives a thumbs up."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "in the middle of the ship",
+      "ko": "'배 한가운데에'",
+      "th": "‘กลางเรือ’"
+    },
+    {
+      "line": "l4",
+      "en": "near the back",
+      "ko": "'뒤쪽 근처에'",
+      "th": "‘ใกล้ท้ายเรือ’"
+    },
+    {
+      "line": "l6",
+      "en": "Just show your cruise card",
+      "ko": "'크루즈 카드만 보여 주세요'",
+      "th": "‘แค่แสดงบัตรครูซ’"
+    },
+    {
+      "line": "l8",
+      "en": "with an ocean view",
+      "ko": "'바다 전망이 있는'",
+      "th": "‘มีวิวทะเล’"
+    }
+  ]
 }

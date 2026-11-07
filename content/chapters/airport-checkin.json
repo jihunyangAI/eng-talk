@@ -174,5 +174,41 @@
         "prompt": "The traveler waves goodbye and walks away from the counter toward the departures sign; the staff smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Where are you flying to",
+      "ko": "'어디로 가세요?' — 공항에서 목적지를 물을 때 쓰는 기본 질문.",
+      "th": "‘บินไปไหนคะ’ คำถามพื้นฐานที่เคาน์เตอร์เช็คอิน",
+      "alt": "Where are you headed?"
+    },
+    {
+      "line": "l3",
+      "en": "bags to check",
+      "ko": "'부칠 짐' — check는 '수하물로 맡기다'라는 뜻.",
+      "th": "‘กระเป๋าที่จะโหลด’ check ในที่นี้แปลว่าโหลดใต้เครื่อง",
+      "alt": "checked luggage"
+    },
+    {
+      "line": "l5",
+      "en": "a window or an aisle seat",
+      "ko": "'창가 자리 아니면 통로 자리' — 좌석 고를 때 꼭 나오는 표현.",
+      "th": "‘ที่นั่งริมหน้าต่างหรือริมทางเดิน’ ได้ยินบ่อยตอนเลือกที่นั่ง"
+    },
+    {
+      "line": "l8",
+      "en": "Got it",
+      "ko": "'알겠어요' — 이해했다는 뜻으로 아주 자주 써요.",
+      "th": "‘เข้าใจแล้ว / โอเค’ ใช้บอกว่ารับทราบ",
+      "alt": "Okay, thanks"
+    },
+    {
+      "line": "l9",
+      "en": "Have a nice flight",
+      "ko": "'좋은 비행 되세요' — 공항 직원의 인사.",
+      "th": "‘ขอให้เดินทางปลอดภัย’ คำอวยพรจากพนักงาน",
+      "alt": "Have a safe trip"
+    }
+  ]
 }

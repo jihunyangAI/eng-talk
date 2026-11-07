@@ -149,5 +149,32 @@
         "prompt": "The customer nods and turns toward the door to wait outside; the host smiles at him."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "How many people",
+      "ko": "'몇 분이세요?' — 식당 입구 첫 질문.",
+      "th": "‘กี่ท่านคะ’ คำถามแรกที่หน้าร้าน",
+      "alt": "How many in your party?"
+    },
+    {
+      "line": "l3",
+      "en": "a fifteen-minute wait",
+      "ko": "'15분 대기' — wait를 명사로 써요.",
+      "th": "‘ต้องรอสิบห้านาที’ ใช้ wait เป็นคำนาม"
+    },
+    {
+      "line": "l6",
+      "en": "text me when it's ready",
+      "ko": "'준비되면 문자 주세요' — text는 '문자 보내다'.",
+      "th": "‘ส่งข้อความบอกเมื่อพร้อม’ text แปลว่าส่งข้อความ"
+    },
+    {
+      "line": "l8",
+      "en": "We'll wait outside",
+      "ko": "'밖에서 기다릴게요'",
+      "th": "‘เราจะรอข้างนอก’"
+    }
+  ]
 }

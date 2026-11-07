@@ -149,5 +149,31 @@
         "prompt": "The father fills out a form on a clipboard while Supansa holds up a colorful wristband."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "for children from three to twelve",
+      "ko": "'3세부터 12세 어린이용'",
+      "th": "‘สำหรับเด็กอายุสามถึงสิบสองปี’"
+    },
+    {
+      "line": "l4",
+      "en": "arts and crafts",
+      "ko": "'만들기 활동' — 그리기·공작 등.",
+      "th": "‘งานศิลปะและงานประดิษฐ์’"
+    },
+    {
+      "line": "l6",
+      "en": "costs a small fee",
+      "ko": "'약간의 요금이 들어요'",
+      "th": "‘มีค่าบริการเล็กน้อย’"
+    },
+    {
+      "line": "l7",
+      "en": "How do I sign her up",
+      "ko": "'어떻게 등록해요?' — sign up = 신청하다.",
+      "th": "‘จะสมัครให้เธอยังไง’ sign up คือสมัคร"
+    }
+  ]
 }

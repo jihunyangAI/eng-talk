@@ -149,5 +149,31 @@
         "prompt": "The tourist waves thank you to the local man; in the distance there is a subway station entrance with a small convenience store next to it."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Could you help me",
+      "ko": "'좀 도와주시겠어요?' — 낯선 사람에게 말 걸 때.",
+      "th": "‘ช่วยหน่อยได้ไหม’ ใช้ตอนทักคนแปลกหน้า"
+    },
+    {
+      "line": "l3",
+      "en": "How do I get to",
+      "ko": "'~에 어떻게 가요?' — 길 묻기의 기본.",
+      "th": "‘ไป…ยังไง’ ประโยคพื้นฐานในการถามทาง"
+    },
+    {
+      "line": "l6",
+      "en": "a five-minute walk",
+      "ko": "'걸어서 5분' — 거리를 시간으로 말해요.",
+      "th": "‘เดินห้านาที’ บอกระยะทางเป็นเวลา"
+    },
+    {
+      "line": "l8",
+      "en": "right next to",
+      "ko": "'바로 옆에' — right은 '바로'.",
+      "th": "‘อยู่ติดกับ…เลย’ right แปลว่าตรงนั้นเลย"
+    }
+  ]
 }

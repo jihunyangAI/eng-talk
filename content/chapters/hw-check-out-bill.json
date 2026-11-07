@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the guest a corrected bill; he smiles and nods."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Are you checking out today",
+      "ko": "'오늘 체크아웃하세요?'",
+      "th": "‘เช็คเอาท์วันนี้ใช่ไหมคะ’"
+    },
+    {
+      "line": "l3",
+      "en": "That's for",
+      "ko": "'그건 ~ 비용이에요' — 요금 설명.",
+      "th": "‘อันนั้นเป็นค่า…’ ใช้อธิบายค่าใช้จ่าย"
+    },
+    {
+      "line": "l5",
+      "en": "Let me check with housekeeping",
+      "ko": "'객실 관리팀에 확인해 볼게요' — check with = ~에게 확인하다.",
+      "th": "‘ขอเช็คกับแม่บ้านก่อน’ check with คือสอบถามกับ…"
+    },
+    {
+      "line": "l7",
+      "en": "It was our mistake",
+      "ko": "'저희 실수였어요' — 잘못을 인정할 때.",
+      "th": "‘เป็นความผิดพลาดของเรา’ ใช้ยอมรับผิด"
+    }
+  ]
 }

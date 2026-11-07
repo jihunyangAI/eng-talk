@@ -149,5 +149,32 @@
         "prompt": "Supansa hands the passenger new batteries for the TV remote; he smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Would you like me to clean your cabin now",
+      "ko": "'지금 객실 청소해 드릴까요?'",
+      "th": "‘ให้ทำความสะอาดห้องตอนนี้ไหมคะ’"
+    },
+    {
+      "line": "l3",
+      "en": "Is there anything else you need",
+      "ko": "'더 필요한 거 있으세요?'",
+      "th": "‘ต้องการอะไรเพิ่มอีกไหมคะ’",
+      "alt": "Anything else I can get you?"
+    },
+    {
+      "line": "l5",
+      "en": "a soft pillow or a firm pillow",
+      "ko": "'푹신한 베개, 단단한 베개'",
+      "th": "‘หมอนนุ่มหรือหมอนแน่น’"
+    },
+    {
+      "line": "l7",
+      "en": "I'll bring new batteries",
+      "ko": "'새 건전지 가져다 드릴게요'",
+      "th": "‘จะเอาถ่านใหม่มาให้ค่ะ’"
+    }
+  ]
 }

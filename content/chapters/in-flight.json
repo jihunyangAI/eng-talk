@@ -174,5 +174,38 @@
         "prompt": "The flight attendant gestures toward the seat belt sign above; the passenger fastens his seat belt."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "chicken or beef",
+      "ko": "'치킨이요, 소고기요?' — 기내식 단골 질문.",
+      "th": "‘ไก่หรือเนื้อ’ คำถามประจำบนเครื่องบิน"
+    },
+    {
+      "line": "l3",
+      "en": "what would you like to drink",
+      "ko": "'무엇을 마시겠어요?'",
+      "th": "‘รับเครื่องดื่มอะไรดี’"
+    },
+    {
+      "line": "l6",
+      "en": "Could I also have a blanket",
+      "ko": "'담요도 주실 수 있나요?' — also로 하나 더 부탁.",
+      "th": "‘ขอผ้าห่มด้วยได้ไหม’ ใช้ also ขอเพิ่ม"
+    },
+    {
+      "line": "l8",
+      "en": "How long until we land",
+      "ko": "'착륙까지 얼마나 남았어요?' — How long until ~?",
+      "th": "‘อีกนานไหมกว่าจะลงจอด’ How long until…?"
+    },
+    {
+      "line": "l9",
+      "en": "fasten your seat belt",
+      "ko": "'안전벨트를 매다'",
+      "th": "‘คาดเข็มขัดนิรภัย’",
+      "alt": "buckle up"
+    }
+  ]
 }

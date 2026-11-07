@@ -149,5 +149,31 @@
         "prompt": "The passenger sits on a bench while Supansa kneels beside him kindly."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "You look pale",
+      "ko": "'안색이 안 좋아 보여요'",
+      "th": "‘หน้าซีดนะคะ’"
+    },
+    {
+      "line": "l3",
+      "en": "get some fresh air",
+      "ko": "'바람 좀 쐬다'",
+      "th": "‘ไปรับลมสดชื่นหน่อย’"
+    },
+    {
+      "line": "l5",
+      "en": "seasickness tablets",
+      "ko": "'멀미약'",
+      "th": "‘ยาแก้เมาเรือ’"
+    },
+    {
+      "line": "l7",
+      "en": "moves the least",
+      "ko": "'가장 덜 흔들려요'",
+      "th": "‘โคลงน้อยที่สุด’"
+    }
+  ]
 }

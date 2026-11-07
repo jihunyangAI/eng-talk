@@ -149,5 +149,31 @@
         "prompt": "The passenger nods with understanding; Supansa smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "charged to your account",
+      "ko": "'계정으로 청구돼요'",
+      "th": "‘เรียกเก็บเข้าบัญชีของคุณ’"
+    },
+    {
+      "line": "l4",
+      "en": "The ship is cashless",
+      "ko": "'배에서는 현금을 안 써요' — cashless = 현금 없는.",
+      "th": "‘บนเรือไม่ใช้เงินสด’ cashless คือไม่ใช้เงินสด"
+    },
+    {
+      "line": "l6",
+      "en": "check it on the TV in your cabin",
+      "ko": "'객실 TV에서 확인하다'",
+      "th": "‘เช็คได้ที่ทีวีในห้อง’"
+    },
+    {
+      "line": "l8",
+      "en": "a statement under your door",
+      "ko": "'문 아래로 명세서' — statement = 명세서.",
+      "th": "‘ใบแจ้งยอดใต้ประตู’ statement คือใบแจ้งยอด"
+    }
+  ]
 }

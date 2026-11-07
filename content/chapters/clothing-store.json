@@ -174,5 +174,37 @@
         "prompt": "At the checkout counter, the clerk holds up a receipt and explains; the customer nods with the jacket folded on the counter."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I'm looking for",
+      "ko": "'~를 찾고 있어요' — 가게에서 가장 많이 쓰는 말.",
+      "th": "‘กำลังหา…อยู่’ ใช้บ่อยที่สุดในร้าน"
+    },
+    {
+      "line": "l4",
+      "en": "Do you have it in a medium",
+      "ko": "'이거 M 사이즈 있어요?' — in + 사이즈/색.",
+      "th": "‘มีไซซ์ M ไหม’ ใช้ in + ไซซ์/สี"
+    },
+    {
+      "line": "l6",
+      "en": "It fits well",
+      "ko": "'잘 맞아요' — fit은 사이즈가 맞다.",
+      "th": "‘ใส่พอดี’ fit คือขนาดพอดี"
+    },
+    {
+      "line": "l8",
+      "en": "if I change my mind",
+      "ko": "'마음이 바뀌면'",
+      "th": "‘ถ้าเปลี่ยนใจ’"
+    },
+    {
+      "line": "l10",
+      "en": "I'll take it",
+      "ko": "'이걸로 할게요' — 사기로 결정할 때.",
+      "th": "‘เอาอันนี้’ ใช้ตอนตัดสินใจซื้อ"
+    }
+  ]
 }

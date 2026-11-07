@@ -166,6 +166,12 @@
       "alt": "I really want"
     },
     {
+      "line": "l4",
+      "en": "I heard it's really good",
+      "ko": "'진짜 맛있대' — 들은 얘기 전하기.",
+      "th": "‘ได้ยินว่าอร่อยมาก’ เล่าสิ่งที่ได้ยินมา"
+    },
+    {
       "line": "l5",
       "en": "check it out",
       "ko": "'한번 가 보다, 구경해 보다'",
@@ -178,6 +184,12 @@
       "ko": "'더 말 안 해도 돼(바로 콜)'",
       "th": "‘ไม่ต้องพูดต่อ เอาเลย’",
       "alt": "You don't have to ask twice."
+    },
+    {
+      "line": "l8",
+      "en": "it's totally worth it",
+      "ko": "'완전 그럴 만한 가치가 있어'",
+      "th": "‘คุ้มสุดๆ’"
     }
   ]
 }

@@ -149,5 +149,31 @@
         "prompt": "Supansa circles two places on a paper city map with a pen."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Do you like Thai food",
+      "ko": "'태국 음식 좋아하세요?' — 추천 전 취향 묻기.",
+      "th": "‘ชอบอาหารไทยไหมคะ’ ถามความชอบก่อนแนะนำ"
+    },
+    {
+      "line": "l4",
+      "en": "Try the night market",
+      "ko": "'야시장 가 보세요' — Try ~ = 추천.",
+      "th": "‘ลองไปตลาดกลางคืนดู’ Try… ใช้แนะนำ"
+    },
+    {
+      "line": "l6",
+      "en": "It's best to go early",
+      "ko": "'일찍 가는 게 제일 좋아요' — 팁 주기.",
+      "th": "‘ไปเช้าๆ ดีที่สุด’ ใช้ให้คำแนะนำ"
+    },
+    {
+      "line": "l8",
+      "en": "I'll mark both places for you",
+      "ko": "'두 곳 다 표시해 드릴게요'",
+      "th": "‘จะทำเครื่องหมายให้ทั้งสองที่’"
+    }
+  ]
 }

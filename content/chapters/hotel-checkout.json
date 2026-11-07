@@ -149,5 +149,31 @@
         "prompt": "The guest waves goodbye happily; the clerk smiles and waves back from the front desk."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "I'd like to check out",
+      "ko": "'체크아웃할게요'",
+      "th": "‘ขอเช็คเอาท์ค่ะ’"
+    },
+    {
+      "line": "l3",
+      "en": "Are there any extra charges",
+      "ko": "'추가 요금 있나요?'",
+      "th": "‘มีค่าใช้จ่ายเพิ่มไหม’"
+    },
+    {
+      "line": "l5",
+      "en": "leave my luggage here until three",
+      "ko": "'3시까지 짐을 맡기다' — leave = 맡겨 두다.",
+      "th": "‘ฝากกระเป๋าไว้ถึงบ่ายสาม’ leave แปลว่าฝากไว้"
+    },
+    {
+      "line": "l8",
+      "en": "We're glad to hear that",
+      "ko": "'그렇게 말씀해 주셔서 기뻐요' — 칭찬에 답할 때.",
+      "th": "‘ดีใจที่ได้ยินอย่างนั้น’ ใช้ตอบคำชม"
+    }
+  ]
 }

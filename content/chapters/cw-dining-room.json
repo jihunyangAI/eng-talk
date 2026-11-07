@@ -149,5 +149,32 @@
         "prompt": "The passenger sits at the table while Supansa explains politely, standing beside him."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "May I see your cruise card",
+      "ko": "'크루즈 카드 보여 주시겠어요?'",
+      "th": "‘ขอดูบัตรครูซหน่อยได้ไหมคะ’"
+    },
+    {
+      "line": "l3",
+      "en": "Please follow me",
+      "ko": "'따라오세요' — 자리 안내할 때.",
+      "th": "‘เชิญทางนี้ค่ะ’ ใช้ตอนพาไปที่นั่ง",
+      "alt": "Right this way"
+    },
+    {
+      "line": "l5",
+      "en": "You look very nice",
+      "ko": "'정말 멋지세요' — 손님 칭찬.",
+      "th": "‘ดูดีมากเลยค่ะ’ ชมลูกค้า"
+    },
+    {
+      "line": "l7",
+      "en": "smart casual",
+      "ko": "'단정한 캐주얼' — 드레스 코드.",
+      "th": "‘แต่งกายสุภาพแบบลำลอง’ dress code"
+    }
+  ]
 }

@@ -174,5 +174,37 @@
         "prompt": "The guest waves goodnight and walks toward the elevators with his suitcase; the receptionist smiles from the front desk."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I have a reservation under the name",
+      "ko": "'~ 이름으로 예약했어요' — under the name이 핵심.",
+      "th": "‘จองไว้ในชื่อ…’ ใช้ under the name"
+    },
+    {
+      "line": "l4",
+      "en": "Is breakfast included",
+      "ko": "'조식 포함인가요?' — included는 '포함된'.",
+      "th": "‘รวมอาหารเช้าไหม’ included แปลว่ารวมอยู่แล้ว"
+    },
+    {
+      "line": "l5",
+      "en": "breakfast is served from seven to ten",
+      "ko": "'조식은 7시부터 10시까지예요' — serve는 음식을 제공하다.",
+      "th": "‘อาหารเช้าเสิร์ฟตั้งแต่เจ็ดถึงสิบโมง’"
+    },
+    {
+      "line": "l8",
+      "en": "What time is check-out",
+      "ko": "'체크아웃은 몇 시예요?'",
+      "th": "‘เช็คเอาท์กี่โมง’"
+    },
+    {
+      "line": "l9",
+      "en": "Enjoy your stay",
+      "ko": "'즐거운 숙박 되세요' — 호텔 직원의 마무리 인사.",
+      "th": "‘ขอให้พักผ่อนอย่างมีความสุข’ คำปิดท้ายของพนักงานโรงแรม"
+    }
+  ]
 }

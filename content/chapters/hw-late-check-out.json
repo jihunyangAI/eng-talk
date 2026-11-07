@@ -149,5 +149,31 @@
         "prompt": "Supansa points to a luggage storage room behind the front desk."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "What time would you like to check out",
+      "ko": "'몇 시에 체크아웃하고 싶으세요?'",
+      "th": "‘อยากเช็คเอาท์กี่โมงคะ’"
+    },
+    {
+      "line": "l4",
+      "en": "there is a fee of",
+      "ko": "'~의 요금이 있어요' — 추가 요금 안내.",
+      "th": "‘มีค่าธรรมเนียม…’ แจ้งค่าใช้จ่ายเพิ่ม"
+    },
+    {
+      "line": "l6",
+      "en": "I've noted it on your booking",
+      "ko": "'예약에 메모해 두었어요'",
+      "th": "‘บันทึกไว้ในการจองแล้วค่ะ’"
+    },
+    {
+      "line": "l8",
+      "en": "until your taxi arrives",
+      "ko": "'택시가 올 때까지'",
+      "th": "‘จนกว่าแท็กซี่จะมา’"
+    }
+  ]
 }

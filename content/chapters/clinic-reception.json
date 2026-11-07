@@ -149,5 +149,31 @@
         "prompt": "The receptionist points down a hallway to the right; the patient looks in that direction."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "I'd like to see a doctor",
+      "ko": "'진료를 받고 싶어요' — see a doctor = 진찰받다.",
+      "th": "‘อยากพบหมอ’ see a doctor คือไปหาหมอ"
+    },
+    {
+      "line": "l3",
+      "en": "It's my first visit",
+      "ko": "'처음 왔어요'",
+      "th": "‘มาครั้งแรก’"
+    },
+    {
+      "line": "l5",
+      "en": "How long is the wait",
+      "ko": "'얼마나 기다려야 해요?'",
+      "th": "‘ต้องรอนานไหม’"
+    },
+    {
+      "line": "l8",
+      "en": "down the hall on the right",
+      "ko": "'복도 따라가서 오른쪽'",
+      "th": "‘ตามทางเดินไปทางขวา’"
+    }
+  ]
 }

@@ -149,5 +149,31 @@
         "prompt": "Supansa places a vase of pink roses next to a chocolate cake in a hotel room while the guest gives a thumbs up at the door."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "How lovely",
+      "ko": "'정말 멋져요!' — 감탄 표현.",
+      "th": "‘น่ารักจังเลย’ คำอุทาน"
+    },
+    {
+      "line": "l4",
+      "en": "What kind of cake does she like",
+      "ko": "'어떤 케이크를 좋아하세요?'",
+      "th": "‘เธอชอบเค้กแบบไหนคะ’"
+    },
+    {
+      "line": "l6",
+      "en": "while you're at dinner",
+      "ko": "'저녁 드시는 동안'",
+      "th": "‘ระหว่างที่คุณไปทานมื้อค่ำ’"
+    },
+    {
+      "line": "l8",
+      "en": "Your secret is safe with us",
+      "ko": "'비밀 꼭 지킬게요' — 원어민식 약속.",
+      "th": "‘ความลับปลอดภัยกับเราแน่นอน’ สำนวนรับปากเก็บความลับ"
+    }
+  ]
 }

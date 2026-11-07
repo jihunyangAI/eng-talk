@@ -149,5 +149,31 @@
         "prompt": "The passenger nods with understanding; Supansa smiles reassuringly."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Everyone must attend",
+      "ko": "'모두 참석해야 해요' — must = 의무.",
+      "th": "‘ทุกคนต้องเข้าร่วม’ must คือบังคับ"
+    },
+    {
+      "line": "l3",
+      "en": "Yours is station C",
+      "ko": "'손님 것은 C 구역이에요' — yours = 당신의 것.",
+      "th": "‘ของคุณคือจุด C’ yours คือของคุณ"
+    },
+    {
+      "line": "l5",
+      "en": "Just bring your cruise card",
+      "ko": "'크루즈 카드만 가져오세요'",
+      "th": "‘นำบัตรครูซมาอย่างเดียวพอ’"
+    },
+    {
+      "line": "l7",
+      "en": "seven short blasts and one long blast",
+      "ko": "'짧은 경적 7번, 긴 경적 1번' — 비상 신호.",
+      "th": "‘เสียงหวอสั้นเจ็ดครั้งและยาวหนึ่งครั้ง’ สัญญาณฉุกเฉิน"
+    }
+  ]
 }

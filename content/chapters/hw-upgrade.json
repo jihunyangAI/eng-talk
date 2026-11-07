@@ -149,5 +149,31 @@
         "prompt": "Supansa types on the computer while the guest smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I'm here on business",
+      "ko": "'출장 왔어요'",
+      "th": "‘มาทำงาน / มาธุระ’"
+    },
+    {
+      "line": "l3",
+      "en": "for just twenty dollars more per night",
+      "ko": "'1박에 20달러만 더 내면' — 업셀링 표현.",
+      "th": "‘เพิ่มแค่คืนละยี่สิบดอลลาร์’ ประโยคขายอัปเกรด"
+    },
+    {
+      "line": "l5",
+      "en": "a great city view",
+      "ko": "'멋진 도시 전망'",
+      "th": "‘วิวเมืองสวยๆ’"
+    },
+    {
+      "line": "l7",
+      "en": "I'll update your booking",
+      "ko": "'예약 변경해 드릴게요'",
+      "th": "‘จะอัปเดตการจองให้นะคะ’"
+    }
+  ]
 }

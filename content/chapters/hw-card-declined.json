@@ -149,5 +149,31 @@
         "prompt": "The guest hands cash to Supansa, who accepts it with a kind smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "your card was declined",
+      "ko": "'카드가 승인 거절됐어요' — declined = 거절된.",
+      "th": "‘บัตรถูกปฏิเสธ’ declined คือไม่ผ่าน"
+    },
+    {
+      "line": "l3",
+      "en": "insert your card again",
+      "ko": "'카드를 다시 꽂아 주세요'",
+      "th": "‘เสียบบัตรอีกครั้งค่ะ’"
+    },
+    {
+      "line": "l5",
+      "en": "I'm afraid not",
+      "ko": "'안타깝지만 아니에요' — 정중하게 No.",
+      "th": "‘เสียใจด้วย ไม่ผ่านค่ะ’ ปฏิเสธอย่างสุภาพ"
+    },
+    {
+      "line": "l7",
+      "en": "The total is",
+      "ko": "'총액은 ~예요'",
+      "th": "‘ยอดรวมคือ…’"
+    }
+  ]
 }

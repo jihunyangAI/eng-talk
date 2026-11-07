@@ -174,5 +174,40 @@
         "prompt": "The taxi has stopped in front of a hotel entrance; the passenger hands cash to the driver from the back seat."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Where to",
+      "ko": "'어디로 모실까요?' — 택시 기사가 짧게 묻는 말.",
+      "th": "‘ไปไหนครับ’ คำถามสั้นๆ ของคนขับแท็กซี่",
+      "alt": "Where are you going?"
+    },
+    {
+      "line": "l3",
+      "en": "put your bag in the trunk",
+      "ko": "'가방을 트렁크에 넣다'",
+      "th": "‘ใส่กระเป๋าไว้ท้ายรถ’"
+    },
+    {
+      "line": "l5",
+      "en": "Traffic is a little heavy",
+      "ko": "'차가 좀 막혀요' — heavy traffic은 교통 체증.",
+      "th": "‘รถติดนิดหน่อย’ heavy traffic คือรถติด",
+      "alt": "There's a lot of traffic"
+    },
+    {
+      "line": "l8",
+      "en": "turn on the air conditioning",
+      "ko": "'에어컨을 켜다' — 반대는 turn off.",
+      "th": "‘เปิดแอร์’ ตรงข้ามคือ turn off",
+      "alt": "turn up the AC"
+    },
+    {
+      "line": "l10",
+      "en": "Keep the change",
+      "ko": "'잔돈은 가지세요' — 팁처럼 거스름돈을 줄 때.",
+      "th": "‘ไม่ต้องทอน’ ให้เงินทอนเป็นทิป"
+    }
+  ]
 }

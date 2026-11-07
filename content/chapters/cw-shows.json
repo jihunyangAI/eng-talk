@@ -149,5 +149,31 @@
         "prompt": "On the pool deck at night with colorful lights, Supansa and the passenger smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "What shows are on tonight",
+      "ko": "'오늘 밤 무슨 공연 해요?' — be on = 상영/공연 중.",
+      "th": "‘คืนนี้มีโชว์อะไรบ้าง’ be on คือกำลังจัดแสดง"
+    },
+    {
+      "line": "l4",
+      "en": "There are two shows",
+      "ko": "'공연이 두 번 있어요'",
+      "th": "‘มีสองรอบ’"
+    },
+    {
+      "line": "l6",
+      "en": "arrive early to get a good seat",
+      "ko": "'좋은 자리 잡으려면 일찍 오세요'",
+      "th": "‘มาเร็วหน่อยจะได้ที่นั่งดีๆ’"
+    },
+    {
+      "line": "l8",
+      "en": "a dance party on the pool deck",
+      "ko": "'수영장 데크 댄스 파티'",
+      "th": "‘ปาร์ตี้เต้นรำที่ดาดฟ้าสระว่ายน้ำ’"
+    }
+  ]
 }

@@ -149,5 +149,31 @@
         "prompt": "The guest gives a thumbs up and Supansa smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Breakfast is from six-thirty to ten",
+      "ko": "'조식은 6시 반부터 10시까지예요' — from A to B.",
+      "th": "‘อาหารเช้าตั้งแต่หกโมงครึ่งถึงสิบโมง’ from A to B"
+    },
+    {
+      "line": "l4",
+      "en": "It's open until nine",
+      "ko": "'9시까지 열어요'",
+      "th": "‘เปิดถึงสามทุ่ม’"
+    },
+    {
+      "line": "l6",
+      "en": "enter your room number and last name",
+      "ko": "'방 번호와 성을 입력하세요'",
+      "th": "‘ใส่หมายเลขห้องและนามสกุล’"
+    },
+    {
+      "line": "l8",
+      "en": "open twenty-four hours",
+      "ko": "'24시간 운영'",
+      "th": "‘เปิดยี่สิบสี่ชั่วโมง’"
+    }
+  ]
 }

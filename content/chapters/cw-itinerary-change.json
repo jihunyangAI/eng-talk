@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the passenger a printed activity schedule; he looks calmer."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I'm afraid so",
+      "ko": "'유감스럽지만 그래요' — 정중하게 Yes.",
+      "th": "‘เสียใจด้วย ใช่ค่ะ’ ตอบรับอย่างสุภาพ"
+    },
+    {
+      "line": "l4",
+      "en": "fully refunded",
+      "ko": "'전액 환불'",
+      "th": "‘คืนเงินเต็มจำนวน’"
+    },
+    {
+      "line": "l6",
+      "en": "a sea day",
+      "ko": "'해상일' — 기항지 없이 바다에서 보내는 날.",
+      "th": "‘วันล่องทะเล’ วันที่ไม่แวะท่าเรือ"
+    },
+    {
+      "line": "l8",
+      "en": "Thank you for understanding",
+      "ko": "'이해해 주셔서 감사해요' — 불편 사항 안내 후 마무리.",
+      "th": "‘ขอบคุณที่เข้าใจ’ ปิดท้ายหลังแจ้งข่าวไม่ดี"
+    }
+  ]
 }

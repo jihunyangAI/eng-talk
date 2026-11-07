@@ -149,5 +149,31 @@
         "prompt": "Supansa places two mango smoothies on the bar counter; the passenger smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "What can I get you",
+      "ko": "'뭐 드릴까요?' — 바텐더의 기본 인사.",
+      "th": "‘รับอะไรดีคะ’ ประโยคพื้นฐานของบาร์เทนเดอร์"
+    },
+    {
+      "line": "l3",
+      "en": "with or without alcohol",
+      "ko": "'알코올 넣을까요, 뺄까요?'",
+      "th": "‘ใส่แอลกอฮอล์หรือไม่ใส่’"
+    },
+    {
+      "line": "l5",
+      "en": "Yes, it's included",
+      "ko": "'네, 포함돼 있어요'",
+      "th": "‘ค่ะ รวมอยู่แล้ว’"
+    },
+    {
+      "line": "l7",
+      "en": "the package covers one drink at a time",
+      "ko": "'패키지는 한 번에 한 잔만 돼요' — cover = 보장하다.",
+      "th": "‘แพ็กเกจครอบคลุมครั้งละหนึ่งแก้ว’ cover คือครอบคลุม"
+    }
+  ]
 }

@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the guest two bottles of water with a kind smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Do you have a fever or a stomachache",
+      "ko": "'열이나 복통이 있으세요?'",
+      "th": "‘มีไข้หรือปวดท้องไหมคะ’"
+    },
+    {
+      "line": "l4",
+      "en": "would you like me to call a doctor",
+      "ko": "'의사를 불러 드릴까요?'",
+      "th": "‘ให้เรียกหมอให้ไหมคะ’"
+    },
+    {
+      "line": "l6",
+      "en": "drink plenty of water",
+      "ko": "'물을 충분히 드세요'",
+      "th": "‘ดื่มน้ำเยอะๆ นะคะ’"
+    },
+    {
+      "line": "l8",
+      "en": "if you feel worse",
+      "ko": "'더 안 좋아지시면'",
+      "th": "‘ถ้ารู้สึกแย่ลง’"
+    }
+  ]
 }

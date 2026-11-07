@@ -174,5 +174,38 @@
         "prompt": "Daniel and Jiwoo each hold out their smartphones to exchange phone numbers, both smiling."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Nice to meet you",
+      "ko": "'만나서 반가워요'",
+      "th": "‘ยินดีที่ได้รู้จัก’"
+    },
+    {
+      "line": "l4",
+      "en": "How about you",
+      "ko": "'당신은요?' — 질문을 돌려줄 때.",
+      "th": "‘แล้วคุณล่ะ’ ใช้ถามกลับ",
+      "alt": "What about you?"
+    },
+    {
+      "line": "l5",
+      "en": "What do you do",
+      "ko": "'무슨 일 하세요?' — 직업을 묻는 자연스러운 말.",
+      "th": "‘ทำงานอะไร’ วิธีถามอาชีพแบบธรรมชาติ"
+    },
+    {
+      "line": "l7",
+      "en": "What do you do for fun",
+      "ko": "'쉴 때 뭐 하고 놀아요?' — 취미 묻기.",
+      "th": "‘ยามว่างชอบทำอะไร’ ถามงานอดิเรก"
+    },
+    {
+      "line": "l10",
+      "en": "Let's exchange numbers",
+      "ko": "'번호 교환해요'",
+      "th": "‘แลกเบอร์กันเถอะ’"
+    }
+  ]
 }

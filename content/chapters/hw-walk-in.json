@@ -149,5 +149,32 @@
         "prompt": "The guest fills out a paper registration form on the counter while Supansa waits with a smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Do you have a room for tonight",
+      "ko": "'오늘 밤 방 있어요?'",
+      "th": "‘มีห้องว่างคืนนี้ไหม’",
+      "alt": "Any rooms available tonight?"
+    },
+    {
+      "line": "l3",
+      "en": "Let me check",
+      "ko": "'확인해 볼게요' — 직원이 가장 많이 쓰는 말.",
+      "th": "‘ขอเช็คก่อนนะคะ’ พนักงานใช้บ่อยที่สุด"
+    },
+    {
+      "line": "l6",
+      "en": "I'll take the sea-view room",
+      "ko": "'바다 전망 방으로 할게요' — I'll take ~ = 고를 때.",
+      "th": "‘เอาห้องวิวทะเล’ I'll take ใช้ตอนเลือก"
+    },
+    {
+      "line": "l7",
+      "en": "Could you fill out this form",
+      "ko": "'이 양식 작성해 주시겠어요?'",
+      "th": "‘ช่วยกรอกแบบฟอร์มนี้ได้ไหมคะ’"
+    }
+  ]
 }

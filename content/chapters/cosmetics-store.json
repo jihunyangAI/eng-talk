@@ -149,5 +149,32 @@
         "prompt": "At the counter, the advisor puts small sample packets into a pink shopping bag; the customer smiles happily."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "for oily skin",
+      "ko": "'지성 피부용'",
+      "th": "‘สำหรับผิวมัน’"
+    },
+    {
+      "line": "l4",
+      "en": "it feels really nice",
+      "ko": "'느낌이 정말 좋아요' — 촉감은 feel.",
+      "th": "‘รู้สึกดีมาก’ ใช้ feel บอกสัมผัส"
+    },
+    {
+      "line": "l5",
+      "en": "Buy one, get one free",
+      "ko": "'1+1' — 원 플러스 원 행사.",
+      "th": "‘ซื้อหนึ่งแถมหนึ่ง’",
+      "alt": "BOGO"
+    },
+    {
+      "line": "l7",
+      "en": "put some in your bag",
+      "ko": "'봉투에 좀 넣어 드릴게요'",
+      "th": "‘ใส่ให้ในถุงนะ’"
+    }
+  ]
 }

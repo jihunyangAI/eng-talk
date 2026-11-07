@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the passenger a printed daily schedule sheet."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "All-aboard time",
+      "ko": "'승선 마감 시간'",
+      "th": "‘เวลาที่ต้องกลับขึ้นเรือ’"
+    },
+    {
+      "line": "l4",
+      "en": "the ship can't wait",
+      "ko": "'배가 기다릴 수 없어요'",
+      "th": "‘เรือรอไม่ได้นะคะ’"
+    },
+    {
+      "line": "l6",
+      "en": "a photo ID",
+      "ko": "'사진 있는 신분증'",
+      "th": "‘บัตรประจำตัวที่มีรูป’"
+    },
+    {
+      "line": "l8",
+      "en": "Good question",
+      "ko": "'좋은 질문이에요' — 질문에 대한 긍정 반응.",
+      "th": "‘คำถามดีค่ะ’ ตอบรับคำถามเชิงบวก"
+    }
+  ]
 }

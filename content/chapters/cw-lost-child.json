@@ -149,5 +149,31 @@
         "prompt": "Supansa smiles with good news; the father puts his hand on his chest in relief."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Please stay calm",
+      "ko": "'진정하세요' — 위급할 때 먼저 하는 말.",
+      "th": "‘ใจเย็นๆ นะคะ’ คำแรกในสถานการณ์ฉุกเฉิน"
+    },
+    {
+      "line": "l4",
+      "en": "Where did you last see him",
+      "ko": "'마지막으로 어디서 봤어요?'",
+      "th": "‘เห็นเขาครั้งสุดท้ายที่ไหนคะ’"
+    },
+    {
+      "line": "l6",
+      "en": "All crew members will look for him",
+      "ko": "'모든 승무원이 찾을 거예요'",
+      "th": "‘ลูกเรือทุกคนจะช่วยกันหา’"
+    },
+    {
+      "line": "l8",
+      "en": "He's safe",
+      "ko": "'아이는 안전해요'",
+      "th": "‘เขาปลอดภัยแล้วค่ะ’"
+    }
+  ]
 }

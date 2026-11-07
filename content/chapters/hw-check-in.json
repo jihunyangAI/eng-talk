@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the guest a key card and gestures to the right toward the elevators."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Do you have a reservation",
+      "ko": "'예약하셨어요?' — 프런트 첫 질문.",
+      "th": "‘จองไว้หรือเปล่าคะ’ คำถามแรกที่เคาน์เตอร์"
+    },
+    {
+      "line": "l3",
+      "en": "May I see your passport",
+      "ko": "'여권 좀 보여 주시겠어요?' — May I는 정중한 요청.",
+      "th": "‘ขอดูพาสปอร์ตหน่อยได้ไหมคะ’ May I สุภาพ"
+    },
+    {
+      "line": "l5",
+      "en": "We need a deposit",
+      "ko": "'보증금이 필요해요' — deposit = 보증금.",
+      "th": "‘ต้องวางมัดจำ’ deposit คือเงินมัดจำ"
+    },
+    {
+      "line": "l7",
+      "en": "the elevator is on your right",
+      "ko": "'엘리베이터는 오른쪽에 있어요' — 방향 안내.",
+      "th": "‘ลิฟต์อยู่ทางขวามือ’ บอกทาง"
+    }
+  ]
 }

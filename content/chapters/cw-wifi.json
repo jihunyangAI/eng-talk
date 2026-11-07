@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the passenger a small paper slip with a code."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Would you like to buy one",
+      "ko": "'하나 구매하시겠어요?' — 판매 제안.",
+      "th": "‘สนใจซื้อไหมคะ’ เสนอขาย"
+    },
+    {
+      "line": "l4",
+      "en": "for video calls",
+      "ko": "'영상 통화용'",
+      "th": "‘สำหรับวิดีโอคอล’"
+    },
+    {
+      "line": "l6",
+      "en": "may still be a little slow at sea",
+      "ko": "'바다 위에서는 조금 느릴 수 있어요' — 미리 기대치 맞추기.",
+      "th": "‘อาจจะช้านิดหน่อยกลางทะเล’ บอกไว้ก่อนให้ลูกค้าเข้าใจ"
+    },
+    {
+      "line": "l8",
+      "en": "Here's your login code",
+      "ko": "'로그인 코드 여기 있어요'",
+      "th": "‘นี่รหัสเข้าสู่ระบบค่ะ’"
+    }
+  ]
 }

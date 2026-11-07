@@ -149,5 +149,31 @@
         "prompt": "At the ship's exit gangway with the port terminal outside, Supansa waves goodbye to the passenger."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "put these luggage tags on your bags",
+      "ko": "'가방에 이 짐표를 붙이다'",
+      "th": "‘ติดป้ายนี้ที่กระเป๋า’"
+    },
+    {
+      "line": "l4",
+      "en": "Leave them outside your cabin door",
+      "ko": "'객실 문밖에 두세요'",
+      "th": "‘วางไว้หน้าประตูห้อง’"
+    },
+    {
+      "line": "l6",
+      "en": "Your tag color is green",
+      "ko": "'짐표 색이 초록이에요'",
+      "th": "‘ป้ายของคุณสีเขียว’"
+    },
+    {
+      "line": "l8",
+      "en": "Thank you for sailing with us",
+      "ko": "'함께 항해해 주셔서 감사합니다' — 크루즈 작별 인사.",
+      "th": "‘ขอบคุณที่ล่องเรือกับเรา’ คำอำลาบนเรือครูซ"
+    }
+  ]
 }

@@ -149,5 +149,31 @@
         "prompt": "Supansa serves a glass of iced tea to the guest, who sits on a lobby sofa."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Have you tried",
+      "ko": "'~ 해 보셨어요?' — 간단한 해결책 먼저 제안.",
+      "th": "‘ลอง…หรือยังคะ’ เสนอวิธีแก้ง่ายๆ ก่อน"
+    },
+    {
+      "line": "l4",
+      "en": "I'll send a technician",
+      "ko": "'기술자를 보내 드릴게요'",
+      "th": "‘จะส่งช่างไปให้ค่ะ’"
+    },
+    {
+      "line": "l6",
+      "en": "While you wait",
+      "ko": "'기다리시는 동안' — 기다림을 배려하는 말.",
+      "th": "‘ระหว่างที่รอ’ ใส่ใจลูกค้าระหว่างรอ"
+    },
+    {
+      "line": "l8",
+      "en": "Please have a seat",
+      "ko": "'앉아 계세요' — 정중한 착석 권유.",
+      "th": "‘เชิญนั่งก่อนค่ะ’ เชิญนั่งอย่างสุภาพ"
+    }
+  ]
 }

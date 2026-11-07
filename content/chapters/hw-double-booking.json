@@ -149,5 +149,31 @@
         "prompt": "Supansa walks the guest to the hotel entrance where a black car is waiting."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "There seems to be a problem",
+      "ko": "'문제가 있는 것 같아요' — 나쁜 소식을 부드럽게.",
+      "th": "‘ดูเหมือนจะมีปัญหา’ แจ้งข่าวร้ายอย่างนุ่มนวล"
+    },
+    {
+      "line": "l3",
+      "en": "we are fully booked",
+      "ko": "'만실이에요' — fully booked = 예약 꽉 참.",
+      "th": "‘ห้องเต็มแล้ว’ fully booked คือเต็มหมด"
+    },
+    {
+      "line": "l5",
+      "en": "at no cost to you",
+      "ko": "'손님 부담 없이'",
+      "th": "‘โดยไม่มีค่าใช้จ่ายสำหรับคุณ’"
+    },
+    {
+      "line": "l7",
+      "en": "our driver will take you there",
+      "ko": "'저희 기사가 모셔다 드릴 거예요'",
+      "th": "‘คนขับของเราจะพาไปส่งค่ะ’"
+    }
+  ]
 }

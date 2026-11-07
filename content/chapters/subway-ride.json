@@ -149,5 +149,32 @@
         "prompt": "Near the ticket gates, the station staff holds up four fingers; the tourist nods and smiles, holding her ticket."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "How do I buy a ticket",
+      "ko": "'표는 어떻게 사요?'",
+      "th": "‘ซื้อตั๋วยังไง’"
+    },
+    {
+      "line": "l3",
+      "en": "I'm going to",
+      "ko": "'~에 가요' — 목적지 말하기.",
+      "th": "‘จะไป…’ บอกจุดหมาย"
+    },
+    {
+      "line": "l6",
+      "en": "Take the green line toward",
+      "ko": "'~ 방면 초록색 노선을 타세요' — toward는 방향.",
+      "th": "‘ขึ้นสายสีเขียวไปทาง…’ toward บอกทิศทาง"
+    },
+    {
+      "line": "l7",
+      "en": "Do I need to transfer",
+      "ko": "'갈아타야 해요?' — transfer는 환승.",
+      "th": "‘ต้องเปลี่ยนสายไหม’ transfer คือเปลี่ยนรถ",
+      "alt": "Do I have to change trains?"
+    }
+  ]
 }

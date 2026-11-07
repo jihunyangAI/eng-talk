@@ -149,5 +149,31 @@
         "prompt": "The guest holds up a hair dryer with a frown; the housekeeper looks apologetic."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "extra towels",
+      "ko": "'수건 몇 장 더'",
+      "th": "‘ผ้าเช็ดตัวเพิ่ม’"
+    },
+    {
+      "line": "l4",
+      "en": "Would you like me to clean your room now",
+      "ko": "'지금 방 청소해 드릴까요?' — Would you like me to ~?는 제안.",
+      "th": "‘ให้ทำความสะอาดห้องตอนนี้เลยไหม’ Would you like me to…? คือการเสนอ"
+    },
+    {
+      "line": "l5",
+      "en": "come back after lunch",
+      "ko": "'점심 후에 다시 오다'",
+      "th": "‘กลับมาใหม่หลังมื้อเที่ยง’"
+    },
+    {
+      "line": "l8",
+      "en": "I'll bring you a new one",
+      "ko": "'새것으로 갖다 드릴게요'",
+      "th": "‘จะนำอันใหม่มาให้’"
+    }
+  ]
 }

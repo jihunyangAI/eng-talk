@@ -149,5 +149,31 @@
         "prompt": "Supansa points toward the hotel entrance where a white shuttle van is parked outside."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "It leaves every hour",
+      "ko": "'매시간 출발해요'",
+      "th": "‘ออกทุกชั่วโมง’"
+    },
+    {
+      "line": "l4",
+      "en": "per person",
+      "ko": "'1인당'",
+      "th": "‘ต่อคน’"
+    },
+    {
+      "line": "l6",
+      "en": "Shall I reserve a seat",
+      "ko": "'자리 예약해 드릴까요?' — Shall I ~? = 해 드릴까요?",
+      "th": "‘ให้จองที่นั่งไหมคะ’ Shall I…? คือให้ฉันทำให้ไหม"
+    },
+    {
+      "line": "l8",
+      "en": "be in the lobby ten minutes early",
+      "ko": "'10분 일찍 로비에 와 주세요'",
+      "th": "‘มาที่ล็อบบี้ก่อนสิบนาที’"
+    }
+  ]
 }

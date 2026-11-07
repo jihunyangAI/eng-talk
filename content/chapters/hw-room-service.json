@@ -149,5 +149,32 @@
         "prompt": "Supansa delivers a room service tray with a sandwich at the guest's door; he opens the door smiling."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "How may I help you",
+      "ko": "'무엇을 도와드릴까요?' — 전화 응대의 정중한 표현.",
+      "th": "‘มีอะไรให้ช่วยคะ’ ประโยครับโทรศัพท์แบบสุภาพ"
+    },
+    {
+      "line": "l3",
+      "en": "What would you like",
+      "ko": "'무엇으로 하시겠어요?'",
+      "th": "‘รับอะไรดีคะ’"
+    },
+    {
+      "line": "l5",
+      "en": "Would you like fries with your sandwich",
+      "ko": "'샌드위치에 감자튀김도 드릴까요?'",
+      "th": "‘รับเฟรนช์ฟรายส์กับแซนด์วิชไหมคะ’"
+    },
+    {
+      "line": "l7",
+      "en": "It will be charged to your room",
+      "ko": "'객실 요금에 추가돼요'",
+      "th": "‘จะเรียกเก็บรวมกับค่าห้องค่ะ’",
+      "alt": "put it on your room"
+    }
+  ]
 }

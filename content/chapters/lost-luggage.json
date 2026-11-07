@@ -149,5 +149,31 @@
         "prompt": "The traveler writes on a paper form on the counter; the agent points to where she should write."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "didn't come out",
+      "ko": "'(짐이) 안 나왔어요'",
+      "th": "‘(กระเป๋า) ไม่ออกมา’"
+    },
+    {
+      "line": "l4",
+      "en": "Let me check",
+      "ko": "'확인해 볼게요' — 서비스업에서 아주 자주 써요.",
+      "th": "‘ขอเช็คก่อนนะ’ ใช้บ่อยมากในงานบริการ"
+    },
+    {
+      "line": "l5",
+      "en": "When will it arrive",
+      "ko": "'언제 도착해요?'",
+      "th": "‘จะมาถึงเมื่อไร’"
+    },
+    {
+      "line": "l7",
+      "en": "deliver it to my hotel",
+      "ko": "'호텔로 배달하다'",
+      "th": "‘ส่งไปที่โรงแรม’"
+    }
+  ]
 }

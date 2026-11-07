@@ -174,5 +174,45 @@
         "prompt": "The customer is eating grilled salmon with a side salad; the server checks on her and she gives a thumbs up."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Are you ready to order",
+      "ko": "'주문하시겠어요?' — 식당 직원의 첫 질문.",
+      "th": "‘พร้อมสั่งหรือยังคะ’ คำถามแรกของพนักงาน"
+    },
+    {
+      "line": "l3",
+      "en": "very popular",
+      "ko": "'인기가 많아요' — 추천할 때 쓰기 좋은 말.",
+      "th": "‘ขายดีมาก’ ใช้แนะนำเมนู"
+    },
+    {
+      "line": "l4",
+      "en": "I'll have the salmon",
+      "ko": "'연어로 할게요' — 주문은 I'll have.",
+      "th": "‘เอาแซลมอนค่ะ’ สั่งอาหารด้วย I'll have"
+    },
+    {
+      "line": "l5",
+      "en": "Would you like a salad or fries with that",
+      "ko": "'샐러드나 감자튀김을 곁들이시겠어요?' — with that = 그 메뉴에 곁들여.",
+      "th": "‘รับสลัดหรือเฟรนช์ฟรายส์คู่กันไหม’ with that คือทานคู่กับจานนั้น"
+    },
+    {
+      "line": "l7",
+      "en": "anything to drink",
+      "ko": "'마실 것은요?' — 음료 주문 받기.",
+      "th": "‘รับเครื่องดื่มอะไรดี’",
+      "alt": "Can I get you something to drink?"
+    },
+    {
+      "line": "l10",
+      "en": "Could I get the check",
+      "ko": "'계산서 주시겠어요?' — 미국식은 check, 영국식은 bill.",
+      "th": "‘ขอเช็คบิลด้วย’ แบบอเมริกันใช้ check อังกฤษใช้ bill",
+      "alt": "Can I have the bill?"
+    }
+  ]
 }

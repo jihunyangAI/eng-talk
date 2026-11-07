@@ -149,5 +149,33 @@
         "prompt": "The librarian points to a small sign about late fees on the desk; the student nods, holding the book and his new library card."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "I'd like to borrow",
+      "ko": "'빌리고 싶어요' — I'd like to는 공손한 요청.",
+      "th": "‘อยากจะยืม…’ I'd like to เป็นการขออย่างสุภาพ"
+    },
+    {
+      "line": "l4",
+      "en": "fill out this form",
+      "ko": "'이 양식을 작성하다' — 서류 쓸 때 꼭 쓰는 표현.",
+      "th": "‘กรอกแบบฟอร์มนี้’ ใช้บ่อยเวลากรอกเอกสาร",
+      "alt": "fill in this form"
+    },
+    {
+      "line": "l6",
+      "en": "renew it online",
+      "ko": "'온라인으로 연장하다' — renew는 대출 기간 연장.",
+      "th": "‘ต่ออายุการยืมทางออนไลน์’ renew คือขยายเวลา"
+    },
+    {
+      "line": "l8",
+      "en": "a small fine",
+      "ko": "'약간의 연체료' — fine은 '벌금'.",
+      "th": "‘ค่าปรับเล็กน้อย’ fine แปลว่าค่าปรับ",
+      "alt": "a late fee"
+    }
+  ]
 }

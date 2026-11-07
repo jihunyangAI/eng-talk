@@ -149,5 +149,32 @@
         "prompt": "The clerk picks up the desk phone to call for help; the guest waits next to her rolling suitcase."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "isn't working",
+      "ko": "'작동이 안 돼요' — 고장 났을 때 가장 쉬운 말.",
+      "th": "‘ใช้ไม่ได้ / เสีย’ วิธีบอกว่าของเสียที่ง่ายที่สุด",
+      "alt": "is broken"
+    },
+    {
+      "line": "l3",
+      "en": "Could I change rooms",
+      "ko": "'방을 바꿀 수 있을까요?' — rooms는 복수형!",
+      "th": "‘ขอเปลี่ยนห้องได้ไหม’ ใช้ rooms เป็นพหูพจน์"
+    },
+    {
+      "line": "l5",
+      "en": "Is there an extra charge",
+      "ko": "'추가 요금이 있나요?'",
+      "th": "‘มีค่าใช้จ่ายเพิ่มไหม’"
+    },
+    {
+      "line": "l7",
+      "en": "help me with my bags",
+      "ko": "'짐 좀 도와주세요' — help A with B.",
+      "th": "‘ช่วยยกกระเป๋าให้หน่อย’ help A with B"
+    }
+  ]
 }

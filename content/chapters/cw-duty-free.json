@@ -149,5 +149,31 @@
         "prompt": "Supansa ties a gold ribbon around a wrapped gift box at the counter."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Are you looking for a gift",
+      "ko": "'선물 찾으세요?'",
+      "th": "‘กำลังหาของขวัญอยู่ไหมคะ’"
+    },
+    {
+      "line": "l3",
+      "en": "our best seller",
+      "ko": "'가장 잘 팔리는 제품'",
+      "th": "‘ขายดีที่สุดของเรา’"
+    },
+    {
+      "line": "l5",
+      "en": "you get twenty percent off",
+      "ko": "'20% 할인 받아요' — ~ off = 할인.",
+      "th": "‘ได้ส่วนลดยี่สิบเปอร์เซ็นต์’ … off คือลด"
+    },
+    {
+      "line": "l7",
+      "en": "a pink or a gold ribbon",
+      "ko": "'분홍 리본, 금색 리본'",
+      "th": "‘ริบบิ้นสีชมพูหรือสีทอง’"
+    }
+  ]
 }

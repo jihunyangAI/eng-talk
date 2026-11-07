@@ -149,5 +149,32 @@
         "prompt": "Supansa hands the guest a small card with a phone number; he nods, calmer."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I'm so sorry about that",
+      "ko": "'정말 죄송합니다' — 불만 응대 첫마디.",
+      "th": "‘ขอโทษจริงๆ ค่ะ’ คำแรกเวลารับเรื่องร้องเรียน"
+    },
+    {
+      "line": "l4",
+      "en": "I'll call them right away",
+      "ko": "'바로 전화하겠습니다'",
+      "th": "‘จะโทรหาเขาทันทีค่ะ’"
+    },
+    {
+      "line": "l6",
+      "en": "if you need it",
+      "ko": "'필요하시면'",
+      "th": "‘ถ้าคุณต้องการ’"
+    },
+    {
+      "line": "l8",
+      "en": "I apologize for the trouble",
+      "ko": "'불편을 드려 죄송합니다' — 격식 있는 사과.",
+      "th": "‘ขออภัยในความไม่สะดวก’ คำขอโทษแบบเป็นทางการ",
+      "alt": "Sorry for the inconvenience"
+    }
+  ]
 }

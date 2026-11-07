@@ -149,5 +149,31 @@
         "prompt": "Supansa talks on the desk phone booking a taxi; the guest nods."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Certainly",
+      "ko": "'물론이죠' — Sure보다 더 정중해요.",
+      "th": "‘ได้แน่นอนค่ะ’ สุภาพกว่า Sure"
+    },
+    {
+      "line": "l4",
+      "en": "Here is your claim ticket",
+      "ko": "'보관표 여기 있어요'",
+      "th": "‘นี่ตั๋วรับกระเป๋าค่ะ’"
+    },
+    {
+      "line": "l6",
+      "en": "Where are you going",
+      "ko": "'어디 가세요?'",
+      "th": "‘จะไปที่ไหนคะ’"
+    },
+    {
+      "line": "l8",
+      "en": "at the front entrance",
+      "ko": "'정문에서'",
+      "th": "‘ที่ทางเข้าด้านหน้า’"
+    }
+  ]
 }

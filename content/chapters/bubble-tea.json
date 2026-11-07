@@ -149,5 +149,31 @@
         "prompt": "The customer holds a small order receipt and points toward a waiting area with stools; the staff smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "What would you like",
+      "ko": "'뭐로 드릴까요?'",
+      "th": "‘รับอะไรดีคะ’"
+    },
+    {
+      "line": "l4",
+      "en": "less ice",
+      "ko": "'얼음 적게'",
+      "th": "‘น้ำแข็งน้อย’"
+    },
+    {
+      "line": "l5",
+      "en": "add pearls",
+      "ko": "'펄 추가'",
+      "th": "‘เพิ่มไข่มุก’"
+    },
+    {
+      "line": "l8",
+      "en": "I'll wait over there",
+      "ko": "'저쪽에서 기다릴게요'",
+      "th": "‘จะรอตรงโน้นนะ’"
+    }
+  ]
 }

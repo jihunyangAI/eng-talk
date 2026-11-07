@@ -149,5 +149,32 @@
         "prompt": "The customer taps her card on a handheld card reader held by the server; both are smiling."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "pay together or separately",
+      "ko": "'같이 계산하세요, 따로 하세요?'",
+      "th": "‘จ่ายรวมหรือแยกคะ’",
+      "alt": "split the bill"
+    },
+    {
+      "line": "l4",
+      "en": "That comes to",
+      "ko": "'합계 ~입니다' — 금액 합계를 말할 때.",
+      "th": "‘ทั้งหมดเป็นเงิน…’ ใช้บอกยอดรวม"
+    },
+    {
+      "line": "l6",
+      "en": "Tips are optional",
+      "ko": "'팁은 선택이에요'",
+      "th": "‘ทิปแล้วแต่ความสมัครใจ’"
+    },
+    {
+      "line": "l8",
+      "en": "Have a great night",
+      "ko": "'좋은 밤 보내세요' — 저녁 손님 배웅 인사.",
+      "th": "‘ขอให้มีค่ำคืนที่ดี’ คำส่งลูกค้าตอนเย็น"
+    }
+  ]
 }

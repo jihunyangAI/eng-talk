@@ -149,5 +149,32 @@
         "prompt": "The customer hands a twenty-dollar bill to the clerk at the register; a plastic bag with her items sits on the counter."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Is that everything",
+      "ko": "'이게 다인가요?' — 계산대에서 자주 들어요.",
+      "th": "‘ครบแล้วใช่ไหม’ ได้ยินบ่อยที่แคชเชียร์",
+      "alt": "Anything else?"
+    },
+    {
+      "line": "l4",
+      "en": "heat up this sandwich",
+      "ko": "'이 샌드위치 데워 주세요'",
+      "th": "‘ช่วยอุ่นแซนด์วิชนี้ให้หน่อย’"
+    },
+    {
+      "line": "l5",
+      "en": "Do you need a bag",
+      "ko": "'봉투 필요하세요?'",
+      "th": "‘รับถุงไหม’"
+    },
+    {
+      "line": "l8",
+      "en": "Here's a twenty",
+      "ko": "'20달러 여기요' — 지폐는 a twenty처럼 말해요.",
+      "th": "‘นี่แบงก์ยี่สิบ’ เรียกธนบัตรว่า a twenty"
+    }
+  ]
 }

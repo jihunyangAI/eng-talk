@@ -149,5 +149,31 @@
         "prompt": "The pharmacist hands the customer a small box of medicine and points to the label; he takes it gratefully."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "a sore throat",
+      "ko": "'목이 아프다' — 증상은 I have a ~.",
+      "th": "‘เจ็บคอ’ บอกอาการด้วย I have a…"
+    },
+    {
+      "line": "l3",
+      "en": "Do you have a fever",
+      "ko": "'열이 있어요?'",
+      "th": "‘มีไข้ไหม’"
+    },
+    {
+      "line": "l5",
+      "en": "allergic to any medicine",
+      "ko": "'약 알레르기' — allergic to ~.",
+      "th": "‘แพ้ยาอะไรไหม’ allergic to…"
+    },
+    {
+      "line": "l7",
+      "en": "twice a day after meals",
+      "ko": "'하루 두 번 식후에'",
+      "th": "‘วันละสองครั้งหลังอาหาร’"
+    }
+  ]
 }

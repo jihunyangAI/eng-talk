@@ -149,5 +149,32 @@
         "prompt": "The customer and the staff stand at the doorway of a sunny yoga studio with mats on the floor, both smiling."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "I'd like to join the gym",
+      "ko": "'헬스장 등록하고 싶어요' — join = 가입하다.",
+      "th": "‘อยากสมัครฟิตเนส’ join คือสมัครสมาชิก",
+      "alt": "sign up"
+    },
+    {
+      "line": "l4",
+      "en": "Classes are included",
+      "ko": "'수업이 포함돼요'",
+      "th": "‘รวมคลาสแล้ว’"
+    },
+    {
+      "line": "l5",
+      "en": "What kind of",
+      "ko": "'어떤 종류의 ~?'",
+      "th": "‘…แบบไหนบ้าง’"
+    },
+    {
+      "line": "l7",
+      "en": "I'd love to try",
+      "ko": "'꼭 해 보고 싶어요' — I'd love to는 강한 희망.",
+      "th": "‘อยากลองมาก’ I'd love to แสดงความอยากมาก"
+    }
+  ]
 }

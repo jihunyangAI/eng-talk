@@ -149,5 +149,31 @@
         "prompt": "Supansa takes the guest's small suitcase behind the front desk."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "let me see if a room is ready",
+      "ko": "'방이 준비됐는지 볼게요' — let me see if ~.",
+      "th": "‘ขอดูก่อนว่าห้องพร้อมไหม’ let me see if…"
+    },
+    {
+      "line": "l4",
+      "en": "your room isn't ready yet",
+      "ko": "'방이 아직 준비 안 됐어요'",
+      "th": "‘ห้องยังไม่พร้อมค่ะ’"
+    },
+    {
+      "line": "l6",
+      "en": "you can use the shower at the gym",
+      "ko": "'헬스장 샤워실을 쓰실 수 있어요'",
+      "th": "‘ใช้ห้องอาบน้ำที่ฟิตเนสได้ค่ะ’"
+    },
+    {
+      "line": "l8",
+      "en": "as soon as your room is ready",
+      "ko": "'방이 준비되는 대로' — as soon as = ~하자마자.",
+      "th": "‘ทันทีที่ห้องพร้อม’ as soon as คือทันทีที่"
+    }
+  ]
 }

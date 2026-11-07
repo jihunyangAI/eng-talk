@@ -149,5 +149,32 @@
         "prompt": "Supansa hands the guest a new key card with a smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "What seems to be the problem",
+      "ko": "'무슨 문제가 있으신가요?' — 부드럽게 문제를 묻는 말.",
+      "th": "‘มีปัญหาอะไรหรือคะ’ ถามปัญหาอย่างนุ่มนวล"
+    },
+    {
+      "line": "l4",
+      "en": "That shouldn't happen",
+      "ko": "'있어서는 안 될 일이에요' — 잘못 인정.",
+      "th": "‘ไม่ควรเกิดขึ้นเลย’ ยอมรับว่าผิดพลาด"
+    },
+    {
+      "line": "l6",
+      "en": "at no extra cost",
+      "ko": "'추가 비용 없이'",
+      "th": "‘ไม่มีค่าใช้จ่ายเพิ่ม’",
+      "alt": "free of charge"
+    },
+    {
+      "line": "l8",
+      "en": "A bellboy will help you",
+      "ko": "'벨보이가 도와드릴 거예요'",
+      "th": "‘พนักงานยกกระเป๋าจะมาช่วยค่ะ’"
+    }
+  ]
 }

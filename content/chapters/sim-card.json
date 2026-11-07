@@ -174,5 +174,38 @@
         "prompt": "The staff carefully inserts a small SIM card into the customer's phone with a SIM tool; the customer watches and smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "I need a SIM card",
+      "ko": "'유심이 필요해요'",
+      "th": "‘ต้องการซิมการ์ด’"
+    },
+    {
+      "line": "l4",
+      "en": "I need a lot of data",
+      "ko": "'데이터가 많이 필요해요'",
+      "th": "‘ต้องใช้เน็ตเยอะ’"
+    },
+    {
+      "line": "l5",
+      "en": "unlimited data",
+      "ko": "'무제한 데이터'",
+      "th": "‘เน็ตไม่อั้น’"
+    },
+    {
+      "line": "l8",
+      "en": "Can you install it for me",
+      "ko": "'설치해 주실 수 있어요?'",
+      "th": "‘ช่วยใส่ให้หน่อยได้ไหม’",
+      "alt": "Could you set it up for me?"
+    },
+    {
+      "line": "l10",
+      "en": "Thanks for your help",
+      "ko": "'도와주셔서 고마워요'",
+      "th": "‘ขอบคุณที่ช่วยนะ’"
+    }
+  ]
 }

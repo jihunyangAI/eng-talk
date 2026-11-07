@@ -149,5 +149,31 @@
         "prompt": "The guest signs a form on the counter; Supansa smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "What do they look like",
+      "ko": "'어떻게 생겼어요?' — 물건 생김새 묻기.",
+      "th": "‘หน้าตาเป็นแบบไหนคะ’ ถามลักษณะของ"
+    },
+    {
+      "line": "l4",
+      "en": "When were you in the restaurant",
+      "ko": "'언제 식당에 계셨어요?'",
+      "th": "‘อยู่ที่ร้านอาหารตอนไหนคะ’"
+    },
+    {
+      "line": "l6",
+      "en": "Are they yours",
+      "ko": "'이거 손님 거예요?'",
+      "th": "‘ใช่ของคุณไหมคะ’"
+    },
+    {
+      "line": "l8",
+      "en": "Please sign here to confirm",
+      "ko": "'확인용으로 여기 서명해 주세요'",
+      "th": "‘กรุณาเซ็นตรงนี้เพื่อยืนยันค่ะ’"
+    }
+  ]
 }

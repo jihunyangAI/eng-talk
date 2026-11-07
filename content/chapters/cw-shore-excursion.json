@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the passenger a printed tour ticket with a smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "island hopping",
+      "ko": "'섬 투어' — 여러 섬을 돌아다니는 것.",
+      "th": "‘ทัวร์เที่ยวเกาะ’ เที่ยวหลายเกาะ"
+    },
+    {
+      "line": "l4",
+      "en": "lunch is included",
+      "ko": "'점심 포함'",
+      "th": "‘รวมอาหารกลางวัน’"
+    },
+    {
+      "line": "l6",
+      "en": "Shall I book it for you",
+      "ko": "'예약해 드릴까요?'",
+      "th": "‘ให้จองให้ไหมคะ’"
+    },
+    {
+      "line": "l8",
+      "en": "Don't forget sunscreen",
+      "ko": "'선크림 잊지 마세요' — 친근한 마무리.",
+      "th": "‘อย่าลืมครีมกันแดดนะ’ ปิดท้ายแบบเป็นกันเอง"
+    }
+  ]
 }

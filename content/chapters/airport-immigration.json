@@ -174,5 +174,38 @@
         "prompt": "The officer stamps the passport and hands it back; the traveler takes it with a happy smile."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "May I see your passport",
+      "ko": "'여권 좀 보여 주시겠어요?' — 공항·호텔에서 자주 들어요.",
+      "th": "‘ขอดูพาสปอร์ตหน่อยได้ไหม’ ได้ยินบ่อยที่สนามบินและโรงแรม"
+    },
+    {
+      "line": "l4",
+      "en": "I'm here on vacation",
+      "ko": "'휴가차 왔어요' — 방문 목적 답변의 기본.",
+      "th": "‘มาเที่ยวพักผ่อน’ คำตอบพื้นฐานเรื่องจุดประสงค์",
+      "alt": "I'm here for sightseeing"
+    },
+    {
+      "line": "l6",
+      "en": "For about a week",
+      "ko": "'일주일 정도요' — about으로 대략을 말해요.",
+      "th": "‘ประมาณหนึ่งสัปดาห์’ ใช้ about บอกตัวเลขโดยประมาณ"
+    },
+    {
+      "line": "l7",
+      "en": "Where will you be staying",
+      "ko": "'어디에 머무르실 건가요?' — 숙소를 묻는 질문.",
+      "th": "‘จะพักที่ไหน’ คำถามเรื่องที่พัก"
+    },
+    {
+      "line": "l9",
+      "en": "Enjoy your stay",
+      "ko": "'즐거운 시간 보내세요' — 호텔·입국 심사에서 자주 하는 인사.",
+      "th": "‘ขอให้สนุกกับการพัก’ คำอวยพรที่ได้ยินบ่อย"
+    }
+  ]
 }

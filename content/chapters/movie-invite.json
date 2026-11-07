@@ -149,5 +149,32 @@
         "prompt": "Supansa and Kenji wave goodbye to each other on the campus path."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Are you free this Saturday",
+      "ko": "'이번 토요일에 시간 있어?' — 약속 잡기의 시작.",
+      "th": "‘เสาร์นี้ว่างไหม’ ประโยคเริ่มนัด"
+    },
+    {
+      "line": "l3",
+      "en": "Do you want to see a movie",
+      "ko": "'영화 볼래?'",
+      "th": "‘อยากไปดูหนังไหม’",
+      "alt": "Wanna catch a movie?"
+    },
+    {
+      "line": "l6",
+      "en": "Sounds fun",
+      "ko": "'재밌겠다'",
+      "th": "‘น่าสนุกนะ’"
+    },
+    {
+      "line": "l8",
+      "en": "See you then",
+      "ko": "'그때 봐'",
+      "th": "‘เจอกันนะ’"
+    }
+  ]
 }

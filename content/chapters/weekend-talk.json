@@ -149,5 +149,31 @@
         "prompt": "Raj and Nok walk out of the office kitchen together, chatting cheerfully."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "How was your weekend",
+      "ko": "'주말 어땠어?' — 월요일 인사의 정석.",
+      "th": "‘สุดสัปดาห์เป็นไงบ้าง’ คำทักทายวันจันทร์"
+    },
+    {
+      "line": "l3",
+      "en": "That sounds nice",
+      "ko": "'좋았겠다' — 맞장구치기.",
+      "th": "‘ฟังดูดีจัง’ ใช้ตอบรับ"
+    },
+    {
+      "line": "l5",
+      "en": "Lucky you",
+      "ko": "'좋겠다~' — 부러울 때.",
+      "th": "‘โชคดีจัง / อิจฉา’ ใช้ตอนรู้สึกอิจฉา"
+    },
+    {
+      "line": "l8",
+      "en": "grab lunch",
+      "ko": "'점심 먹다' — grab은 가볍게 먹을 때.",
+      "th": "‘ไปกินข้าวเที่ยง’ grab ใช้กับการกินแบบสบายๆ"
+    }
+  ]
 }

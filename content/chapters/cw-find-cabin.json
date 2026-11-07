@@ -149,5 +149,31 @@
         "prompt": "Supansa hands the passenger a folded deck plan map."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "No problem",
+      "ko": "'문제없어요' — 가볍게 도와줄 때.",
+      "th": "‘ไม่มีปัญหาค่ะ’ ใช้ตอนยินดีช่วย"
+    },
+    {
+      "line": "l4",
+      "en": "at the back of the ship",
+      "ko": "'배 뒤쪽에'",
+      "th": "‘ท้ายเรือ’"
+    },
+    {
+      "line": "l6",
+      "en": "Forward is the front, and aft is the back",
+      "ko": "'포워드는 앞, 애프트는 뒤' — 배 용어.",
+      "th": "‘forward คือหัวเรือ aft คือท้ายเรือ’ ศัพท์บนเรือ"
+    },
+    {
+      "line": "l8",
+      "en": "check the ship's app",
+      "ko": "'선박 앱을 확인하다'",
+      "th": "‘เช็คในแอปของเรือ’"
+    }
+  ]
 }

@@ -149,5 +149,31 @@
         "prompt": "Supansa gestures toward a softly lit treatment room; the passenger smiles."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Would you like a Thai massage or an oil massage",
+      "ko": "'타이 마사지와 오일 마사지 중 어느 걸로 하시겠어요?'",
+      "th": "‘รับนวดไทยหรือนวดน้ำมันคะ’"
+    },
+    {
+      "line": "l4",
+      "en": "You'll love it",
+      "ko": "'분명 좋아하실 거예요' — 자신 있게 추천.",
+      "th": "‘ต้องชอบแน่นอน’ แนะนำอย่างมั่นใจ"
+    },
+    {
+      "line": "l6",
+      "en": "We have three o'clock or four-thirty",
+      "ko": "'3시나 4시 반이 있어요' — 가능한 시간 안내.",
+      "th": "‘มีบ่ายสามหรือสี่โมงครึ่ง’ แจ้งเวลาว่าง"
+    },
+    {
+      "line": "l8",
+      "en": "wear comfortable clothes",
+      "ko": "'편한 옷을 입다'",
+      "th": "‘ใส่เสื้อผ้าสบายๆ’"
+    }
+  ]
 }

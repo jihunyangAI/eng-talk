@@ -149,5 +149,31 @@
         "prompt": "Supansa points toward a security checkpoint area; the passenger nods."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l1",
+      "en": "Welcome aboard",
+      "ko": "'탑승을 환영합니다' — 배·비행기 인사.",
+      "th": "‘ยินดีต้อนรับขึ้นเรือ’ ใช้บนเรือและเครื่องบิน"
+    },
+    {
+      "line": "l3",
+      "en": "How exciting",
+      "ko": "'정말 설레시겠어요!' — 처음이라는 손님에게.",
+      "th": "‘ตื่นเต้นจังเลย’ พูดกับลูกค้าที่มาครั้งแรก"
+    },
+    {
+      "line": "l5",
+      "en": "It's your room key and ID",
+      "ko": "'방 열쇠이자 신분증이에요'",
+      "th": "‘เป็นทั้งกุญแจห้องและบัตรประจำตัว’"
+    },
+    {
+      "line": "l7",
+      "en": "go through security",
+      "ko": "'보안 검색을 통과하다'",
+      "th": "‘ผ่านจุดตรวจความปลอดภัย’"
+    }
+  ]
 }

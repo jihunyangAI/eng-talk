@@ -149,5 +149,31 @@
         "prompt": "Supansa points across the lobby toward an ATM next to a gift shop."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "we can exchange US dollars and euros",
+      "ko": "'달러와 유로를 환전할 수 있어요' — exchange = 환전하다.",
+      "th": "‘แลกดอลลาร์และยูโรได้’ exchange คือแลกเงิน"
+    },
+    {
+      "line": "l4",
+      "en": "for one dollar",
+      "ko": "'1달러당' — 환율 말하기.",
+      "th": "‘ต่อหนึ่งดอลลาร์’ ใช้บอกอัตราแลกเปลี่ยน"
+    },
+    {
+      "line": "l6",
+      "en": "usually has a better rate",
+      "ko": "'보통 환율이 더 좋아요'",
+      "th": "‘มักจะได้เรทดีกว่า’"
+    },
+    {
+      "line": "l8",
+      "en": "right next to the gift shop",
+      "ko": "'기념품 가게 바로 옆'",
+      "th": "‘ติดกับร้านของที่ระลึก’"
+    }
+  ]
 }

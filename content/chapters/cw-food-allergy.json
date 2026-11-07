@@ -149,5 +149,31 @@
         "prompt": "Supansa serves a plate of grilled fish with vegetables to the passenger."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Thank you for telling me",
+      "ko": "'말씀해 주셔서 감사해요' — 알레르기 응대 첫마디.",
+      "th": "‘ขอบคุณที่บอกนะคะ’ คำแรกเวลาลูกค้าแจ้งแพ้อาหาร"
+    },
+    {
+      "line": "l4",
+      "en": "I've noted that",
+      "ko": "'메모해 두었어요'",
+      "th": "‘จดไว้แล้วค่ะ’"
+    },
+    {
+      "line": "l6",
+      "en": "has no peanuts and no pork",
+      "ko": "'땅콩도 돼지고기도 없어요'",
+      "th": "‘ไม่มีถั่วลิสงและไม่มีหมู’"
+    },
+    {
+      "line": "l8",
+      "en": "for the rest of the cruise",
+      "ko": "'남은 크루즈 기간 동안'",
+      "th": "‘ตลอดการล่องเรือที่เหลือ’"
+    }
+  ]
 }

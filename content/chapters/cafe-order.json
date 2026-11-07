@@ -174,5 +174,39 @@
         "prompt": "The barista places an iced latte in a takeaway cup on the pickup counter; the customer smiles and reaches for it."
       }
     ]
-  }
+  },
+  "expressions": [
+    {
+      "line": "l2",
+      "en": "Can I get",
+      "ko": "'~ 주시겠어요?' — 원어민이 주문할 때 가장 많이 쓰는 표현.",
+      "th": "‘ขอ…ได้ไหม’ วิธีสั่งที่เจ้าของภาษาใช้บ่อยที่สุด",
+      "alt": "Could I have…?"
+    },
+    {
+      "line": "l4",
+      "en": "can I get it with oat milk",
+      "ko": "'귀리 우유로 해 주세요' — with로 옵션을 붙여요.",
+      "th": "‘ขอเป็นนมโอ๊ตได้ไหม’ ใช้ with บอกตัวเลือกเพิ่ม"
+    },
+    {
+      "line": "l5",
+      "en": "for here or to go",
+      "ko": "'드시고 가세요, 가져가세요?' — 카페 필수 질문.",
+      "th": "‘ทานที่นี่หรือกลับบ้าน’ คำถามประจำร้านกาแฟ",
+      "alt": "Dine in or takeaway?"
+    },
+    {
+      "line": "l7",
+      "en": "That'll be five fifty",
+      "ko": "'5달러 50센트입니다' — 가격은 That'll be로 말해요.",
+      "th": "‘ทั้งหมดห้าดอลลาร์ห้าสิบเซนต์’ บอกราคาด้วย That'll be"
+    },
+    {
+      "line": "l9",
+      "en": "ready at the counter",
+      "ko": "'카운터에서 받아 가세요' — 음료가 나오는 곳 안내.",
+      "th": "‘รับที่เคาน์เตอร์ได้เลย’ บอกจุดรับเครื่องดื่ม"
+    }
+  ]
 }
