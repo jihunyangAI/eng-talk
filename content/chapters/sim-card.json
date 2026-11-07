@@ -1,0 +1,177 @@
+{
+  "id": "sim-card",
+  "order": 15,
+  "title": {
+    "en": "Buying a SIM Card",
+    "ko": "유심 구입하기",
+    "th": "ซื้อซิมการ์ด"
+  },
+  "description": {
+    "en": "Choose a data plan and get a SIM card installed at a phone shop.",
+    "ko": "휴대폰 매장에서 데이터 요금제를 고르고 유심을 설치하는 상황",
+    "th": "เลือกแพ็กเกจอินเทอร์เน็ตและให้ร้านใส่ซิมการ์ดให้"
+  },
+  "level": "beginner",
+  "cover": "/images/sim-card/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Staff",
+        "role": {
+          "en": "Shop staff",
+          "ko": "매장 직원",
+          "th": "พนักงานร้าน"
+        },
+        "look": "woman in her 20s, black hair in a high ponytail, white shirt with a blue lanyard",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "tall man in his 30s, short brown hair, blue checked shirt, holding a smartphone",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Welcome! What can I do for you?",
+        "ko": "어서 오세요! 무엇을 도와드릴까요?",
+        "th": "ยินดีต้อนรับค่ะ มีอะไรให้ช่วยไหมคะ",
+        "audio": "/audio/sim-card/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I need a SIM card for my phone.",
+        "ko": "휴대폰에 쓸 유심이 필요해요.",
+        "th": "ผมต้องการซิมการ์ดสำหรับโทรศัพท์ครับ",
+        "audio": "/audio/sim-card/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "How long will you be here?",
+        "ko": "여기 얼마나 계실 예정이에요?",
+        "th": "จะอยู่ที่นี่นานเท่าไรคะ",
+        "audio": "/audio/sim-card/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "For two weeks. I need a lot of data.",
+        "ko": "2주요. 데이터가 많이 필요해요.",
+        "th": "สองสัปดาห์ครับ ต้องใช้อินเทอร์เน็ตเยอะครับ",
+        "audio": "/audio/sim-card/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "This plan has unlimited data for fifteen days.",
+        "ko": "이 요금제는 15일 동안 데이터가 무제한이에요.",
+        "th": "แพ็กเกจนี้ใช้เน็ตได้ไม่จำกัดสิบห้าวันค่ะ",
+        "audio": "/audio/sim-card/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "That sounds good. How much is it?",
+        "ko": "좋네요. 얼마예요?",
+        "th": "ฟังดูดีครับ ราคาเท่าไรครับ",
+        "audio": "/audio/sim-card/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "It's twenty-five dollars. I need to see your passport.",
+        "ko": "25달러입니다. 여권을 보여 주셔야 해요.",
+        "th": "ยี่สิบห้าดอลลาร์ค่ะ ขอดูพาสปอร์ตด้วยค่ะ",
+        "audio": "/audio/sim-card/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Sure. Can you install it for me?",
+        "ko": "네. 설치도 해 주실 수 있나요?",
+        "th": "ได้ครับ ช่วยใส่ซิมให้ด้วยได้ไหมครับ",
+        "audio": "/audio/sim-card/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "Of course. Please give me your phone.",
+        "ko": "물론이죠. 휴대폰을 주세요.",
+        "th": "ได้แน่นอนค่ะ ขอโทรศัพท์หน่อยนะคะ",
+        "audio": "/audio/sim-card/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Here you go. Thanks for your help.",
+        "ko": "여기요. 도와주셔서 감사해요.",
+        "th": "นี่ครับ ขอบคุณที่ช่วยครับ",
+        "audio": "/audio/sim-card/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/sim-card/s1.webp",
+        "prompt": "In a bright mobile phone shop, the staff greets the customer at the counter; he holds up his smartphone."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/sim-card/s2.webp",
+        "prompt": "The customer holds up two fingers while talking; the staff listens attentively behind the counter."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/sim-card/s3.webp",
+        "prompt": "The staff points to a plan brochure laid on the counter; the customer leans in to look."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/sim-card/s4.webp",
+        "prompt": "The customer hands his passport to the staff across the counter."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/sim-card/s5.webp",
+        "prompt": "The staff carefully inserts a small SIM card into the customer's phone with a SIM tool; the customer watches and smiles."
+      }
+    ]
+  }
+}

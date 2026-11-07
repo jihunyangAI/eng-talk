@@ -1,0 +1,152 @@
+{
+  "id": "clinic-reception",
+  "order": 17,
+  "title": {
+    "en": "At the Clinic",
+    "ko": "병원 접수",
+    "th": "แผนกต้อนรับคลินิก"
+  },
+  "description": {
+    "en": "Check in at a clinic for the first time and ask about the wait.",
+    "ko": "처음 간 병원에서 접수하고 대기 시간을 묻는 상황",
+    "th": "ลงทะเบียนที่คลินิกครั้งแรกและถามเวลารอ"
+  },
+  "level": "intermediate",
+  "cover": "/images/clinic-reception/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Patient",
+        "role": {
+          "en": "Patient",
+          "ko": "환자",
+          "th": "ผู้ป่วย"
+        },
+        "look": "Korean woman in her 20s, long straight black hair, beige knit sweater",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Receptionist",
+        "role": {
+          "en": "Receptionist",
+          "ko": "접수 직원",
+          "th": "พนักงานต้อนรับ"
+        },
+        "look": "man in his 30s, neat black hair, light blue medical scrubs",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi. I'd like to see a doctor, please.",
+        "ko": "안녕하세요. 진료를 받고 싶어요.",
+        "th": "สวัสดีค่ะ อยากพบแพทย์ค่ะ",
+        "audio": "/audio/clinic-reception/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Do you have an appointment?",
+        "ko": "예약하셨나요?",
+        "th": "นัดไว้หรือเปล่าครับ",
+        "audio": "/audio/clinic-reception/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "No, I don't. It's my first visit.",
+        "ko": "아니요. 처음 왔어요.",
+        "th": "ไม่ได้นัดค่ะ มาครั้งแรกค่ะ",
+        "audio": "/audio/clinic-reception/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Please fill out this form. May I see your insurance card?",
+        "ko": "이 양식을 작성해 주세요. 보험 카드를 보여 주시겠어요?",
+        "th": "กรุณากรอกแบบฟอร์มนี้ครับ ขอดูบัตรประกันหน่อยครับ",
+        "audio": "/audio/clinic-reception/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Here it is. How long is the wait?",
+        "ko": "여기 있어요. 얼마나 기다려야 하나요?",
+        "th": "นี่ค่ะ ต้องรอนานไหมคะ",
+        "audio": "/audio/clinic-reception/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "About twenty minutes. Please have a seat.",
+        "ko": "20분 정도요. 앉아서 기다려 주세요.",
+        "th": "ประมาณยี่สิบนาทีครับ เชิญนั่งรอก่อนครับ",
+        "audio": "/audio/clinic-reception/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Okay. Where is the restroom?",
+        "ko": "알겠습니다. 화장실은 어디예요?",
+        "th": "ค่ะ ห้องน้ำอยู่ที่ไหนคะ",
+        "audio": "/audio/clinic-reception/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "It's down the hall on the right.",
+        "ko": "복도 끝 오른쪽에 있어요.",
+        "th": "เดินไปตามทางเดินแล้วอยู่ทางขวามือครับ",
+        "audio": "/audio/clinic-reception/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/clinic-reception/s1.webp",
+        "prompt": "In a bright, calm clinic lobby, the patient walks up to the reception desk; the receptionist looks up from his computer."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/clinic-reception/s2.webp",
+        "prompt": "The receptionist hands the patient a clipboard with a form; she hands him a plastic insurance card."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/clinic-reception/s3.webp",
+        "prompt": "The receptionist gestures toward the chairs in the waiting area; the patient holds the clipboard."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/clinic-reception/s4.webp",
+        "prompt": "The receptionist points down a hallway to the right; the patient looks in that direction."
+      }
+    ]
+  }
+}

@@ -86,5 +86,115 @@
     },
     "level": "beginner",
     "cover": "/images/asking-directions/s1.webp"
+  },
+  {
+    "id": "in-flight",
+    "order": 9,
+    "title": {
+      "en": "On the Plane",
+      "ko": "기내에서",
+      "th": "บนเครื่องบิน"
+    },
+    "level": "beginner",
+    "cover": "/images/in-flight/s1.webp"
+  },
+  {
+    "id": "subway-ride",
+    "order": 10,
+    "title": {
+      "en": "Taking the Subway",
+      "ko": "지하철 타기",
+      "th": "นั่งรถไฟใต้ดิน"
+    },
+    "level": "beginner",
+    "cover": "/images/subway-ride/s1.webp"
+  },
+  {
+    "id": "hotel-room-problem",
+    "order": 11,
+    "title": {
+      "en": "A Problem with the Room",
+      "ko": "호텔 방 문제 해결",
+      "th": "ปัญหาห้องพักในโรงแรม"
+    },
+    "level": "intermediate",
+    "cover": "/images/hotel-room-problem/s1.webp"
+  },
+  {
+    "id": "asking-photo",
+    "order": 12,
+    "title": {
+      "en": "Asking Someone to Take a Photo",
+      "ko": "사진 부탁하기",
+      "th": "ขอให้ช่วยถ่ายรูป"
+    },
+    "level": "beginner",
+    "cover": "/images/asking-photo/s1.webp"
+  },
+  {
+    "id": "clothing-store",
+    "order": 13,
+    "title": {
+      "en": "Shopping for Clothes",
+      "ko": "옷가게에서",
+      "th": "ซื้อเสื้อผ้า"
+    },
+    "level": "beginner",
+    "cover": "/images/clothing-store/s1.webp"
+  },
+  {
+    "id": "convenience-store",
+    "order": 14,
+    "title": {
+      "en": "At the Convenience Store",
+      "ko": "편의점에서",
+      "th": "ที่ร้านสะดวกซื้อ"
+    },
+    "level": "beginner",
+    "cover": "/images/convenience-store/s1.webp"
+  },
+  {
+    "id": "sim-card",
+    "order": 15,
+    "title": {
+      "en": "Buying a SIM Card",
+      "ko": "유심 구입하기",
+      "th": "ซื้อซิมการ์ด"
+    },
+    "level": "beginner",
+    "cover": "/images/sim-card/s1.webp"
+  },
+  {
+    "id": "pharmacy",
+    "order": 16,
+    "title": {
+      "en": "At the Pharmacy",
+      "ko": "약국에서",
+      "th": "ที่ร้านขายยา"
+    },
+    "level": "beginner",
+    "cover": "/images/pharmacy/s1.webp"
+  },
+  {
+    "id": "clinic-reception",
+    "order": 17,
+    "title": {
+      "en": "At the Clinic",
+      "ko": "병원 접수",
+      "th": "แผนกต้อนรับคลินิก"
+    },
+    "level": "intermediate",
+    "cover": "/images/clinic-reception/s1.webp"
+  },
+  {
+    "id": "making-friends",
+    "order": 18,
+    "title": {
+      "en": "Making a New Friend",
+      "ko": "새 친구 사귀기",
+      "th": "หาเพื่อนใหม่"
+    },
+    "level": "beginner",
+    "cover": "/images/making-friends/s1.webp"
   }
 ]

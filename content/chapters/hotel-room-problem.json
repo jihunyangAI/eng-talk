@@ -1,0 +1,152 @@
+{
+  "id": "hotel-room-problem",
+  "order": 11,
+  "title": {
+    "en": "A Problem with the Room",
+    "ko": "호텔 방 문제 해결",
+    "th": "ปัญหาห้องพักในโรงแรม"
+  },
+  "description": {
+    "en": "Report a broken air conditioner and ask to change rooms.",
+    "ko": "고장 난 에어컨을 알리고 방을 바꿔 달라고 요청하는 상황",
+    "th": "แจ้งแอร์เสียและขอเปลี่ยนห้อง"
+  },
+  "level": "intermediate",
+  "cover": "/images/hotel-room-problem/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Guest",
+        "role": {
+          "en": "Guest",
+          "ko": "투숙객",
+          "th": "แขกผู้เข้าพัก"
+        },
+        "look": "woman in her 30s, curly black hair, olive green jacket over a white top",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Front desk clerk",
+        "role": {
+          "en": "Front desk clerk",
+          "ko": "프런트 직원",
+          "th": "พนักงานต้อนรับ"
+        },
+        "look": "man in his 20s, neat short brown hair, black suit with a gold name tag",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi, I'm in room 512. The air conditioner isn't working.",
+        "ko": "안녕하세요, 512호인데요. 에어컨이 작동하지 않아요.",
+        "th": "สวัสดีค่ะ ห้อง 512 ค่ะ แอร์ไม่ทำงานค่ะ",
+        "audio": "/audio/hotel-room-problem/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I'm very sorry about that. I'll send someone to fix it.",
+        "ko": "정말 죄송합니다. 고칠 사람을 보내 드릴게요.",
+        "th": "ขออภัยเป็นอย่างมากครับ เดี๋ยวจะส่งช่างไปซ่อมให้ครับ",
+        "audio": "/audio/hotel-room-problem/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Also, the room is a bit noisy. Could I change rooms?",
+        "ko": "그리고 방이 좀 시끄러워요. 방을 바꿀 수 있을까요?",
+        "th": "แล้วห้องก็เสียงดังนิดหน่อยค่ะ ขอเปลี่ยนห้องได้ไหมคะ",
+        "audio": "/audio/hotel-room-problem/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Let me check. We have a quiet room on the tenth floor.",
+        "ko": "확인해 볼게요. 10층에 조용한 방이 있습니다.",
+        "th": "ขอตรวจสอบสักครู่นะครับ มีห้องเงียบ ๆ ที่ชั้นสิบครับ",
+        "audio": "/audio/hotel-room-problem/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "That would be great. Is there an extra charge?",
+        "ko": "그거 좋네요. 추가 요금이 있나요?",
+        "th": "ดีเลยค่ะ มีค่าใช้จ่ายเพิ่มไหมคะ",
+        "audio": "/audio/hotel-room-problem/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "No, there's no extra charge. Here's your new key.",
+        "ko": "아니요, 추가 요금은 없습니다. 새 키 여기 있습니다.",
+        "th": "ไม่มีครับ ไม่มีค่าใช้จ่ายเพิ่ม นี่คีย์การ์ดใหม่ครับ",
+        "audio": "/audio/hotel-room-problem/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Thank you. Can someone help me with my bags?",
+        "ko": "감사합니다. 짐 옮기는 걸 도와주실 수 있나요?",
+        "th": "ขอบคุณค่ะ มีคนช่วยขนกระเป๋าได้ไหมคะ",
+        "audio": "/audio/hotel-room-problem/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Of course. A bellhop will be there in five minutes.",
+        "ko": "물론이죠. 벨보이가 5분 안에 갈 거예요.",
+        "th": "ได้แน่นอนครับ พนักงานยกกระเป๋าจะไปถึงภายในห้านาทีครับ",
+        "audio": "/audio/hotel-room-problem/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/hotel-room-problem/s1.webp",
+        "prompt": "At a hotel front desk, the guest looks tired and explains a problem; the front desk clerk listens with a concerned, apologetic face."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/hotel-room-problem/s2.webp",
+        "prompt": "The guest covers one ear with her hand, gesturing about noise; the clerk checks the computer screen at the desk."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/hotel-room-problem/s3.webp",
+        "prompt": "The clerk smiles and hands the guest a new key card across the counter; she looks relieved."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/hotel-room-problem/s4.webp",
+        "prompt": "The clerk picks up the desk phone to call for help; the guest waits next to her rolling suitcase."
+      }
+    ]
+  }
+}

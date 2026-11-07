@@ -1,0 +1,152 @@
+{
+  "id": "pharmacy",
+  "order": 16,
+  "title": {
+    "en": "At the Pharmacy",
+    "ko": "약국에서",
+    "th": "ที่ร้านขายยา"
+  },
+  "description": {
+    "en": "Describe your symptoms and get medicine at a pharmacy.",
+    "ko": "약국에서 증상을 설명하고 약을 받는 상황",
+    "th": "อธิบายอาการและรับยาที่ร้านขายยา"
+  },
+  "level": "beginner",
+  "cover": "/images/pharmacy/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Pharmacist",
+        "role": {
+          "en": "Pharmacist",
+          "ko": "약사",
+          "th": "เภสัชกร"
+        },
+        "look": "Indian woman in her 50s, black hair in a low bun, white pharmacist coat, reading glasses",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "man in his 30s, short red-brown beard, dark green hoodie, looking a little unwell",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hello. How can I help you?",
+        "ko": "안녕하세요. 무엇을 도와드릴까요?",
+        "th": "สวัสดีค่ะ มีอะไรให้ช่วยไหมคะ",
+        "audio": "/audio/pharmacy/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "I have a headache and a sore throat.",
+        "ko": "머리가 아프고 목도 아파요.",
+        "th": "ผมปวดหัวและเจ็บคอครับ",
+        "audio": "/audio/pharmacy/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Do you have a fever?",
+        "ko": "열도 있나요?",
+        "th": "มีไข้ด้วยไหมคะ",
+        "audio": "/audio/pharmacy/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "A little. It started yesterday.",
+        "ko": "조금요. 어제부터 그래요.",
+        "th": "นิดหน่อยครับ เริ่มเป็นตั้งแต่เมื่อวานครับ",
+        "audio": "/audio/pharmacy/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Are you allergic to any medicine?",
+        "ko": "알레르기가 있는 약이 있나요?",
+        "th": "แพ้ยาอะไรไหมคะ",
+        "audio": "/audio/pharmacy/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "No, I'm not.",
+        "ko": "아니요, 없어요.",
+        "th": "ไม่แพ้ครับ",
+        "audio": "/audio/pharmacy/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Take this twice a day after meals.",
+        "ko": "이 약을 하루 두 번 식후에 드세요.",
+        "th": "ทานยานี้วันละสองครั้งหลังอาหารนะคะ",
+        "audio": "/audio/pharmacy/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Okay. Thank you very much.",
+        "ko": "알겠습니다. 정말 감사합니다.",
+        "th": "ได้ครับ ขอบคุณมากครับ",
+        "audio": "/audio/pharmacy/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/pharmacy/s1.webp",
+        "prompt": "At a clean pharmacy counter with shelves of medicine behind, the pharmacist greets the customer, who touches his forehead and throat."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/pharmacy/s2.webp",
+        "prompt": "The pharmacist leans forward with a caring expression and asks; the customer nods weakly."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/pharmacy/s3.webp",
+        "prompt": "The pharmacist looks at a computer screen while asking a question; the customer shakes his head."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/pharmacy/s4.webp",
+        "prompt": "The pharmacist hands the customer a small box of medicine and points to the label; he takes it gratefully."
+      }
+    ]
+  }
+}

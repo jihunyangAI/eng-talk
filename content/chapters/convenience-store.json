@@ -1,0 +1,152 @@
+{
+  "id": "convenience-store",
+  "order": 14,
+  "title": {
+    "en": "At the Convenience Store",
+    "ko": "편의점에서",
+    "th": "ที่ร้านสะดวกซื้อ"
+  },
+  "description": {
+    "en": "Buy an umbrella, ask to heat up food, and pay at the counter.",
+    "ko": "우산을 사고, 음식을 데워 달라고 하고, 계산하는 상황",
+    "th": "ซื้อร่ม ขอให้อุ่นอาหาร และจ่ายเงินที่เคาน์เตอร์"
+  },
+  "level": "beginner",
+  "cover": "/images/convenience-store/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Clerk",
+        "role": {
+          "en": "Store clerk",
+          "ko": "점원",
+          "th": "พนักงานร้าน"
+        },
+        "look": "young man in his 20s, buzz cut, green convenience store uniform vest over a white shirt",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "woman in her 40s, short gray-streaked hair, red raincoat",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi. Is that everything?",
+        "ko": "안녕하세요. 이게 전부인가요?",
+        "th": "สวัสดีครับ ทั้งหมดนี้ใช่ไหมครับ",
+        "audio": "/audio/convenience-store/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Yes. Oh, and do you sell umbrellas?",
+        "ko": "네. 아, 그리고 우산 파나요?",
+        "th": "ใช่ค่ะ อ้อ แล้วมีร่มขายไหมคะ",
+        "audio": "/audio/convenience-store/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Yes, they're right by the door.",
+        "ko": "네, 문 바로 옆에 있어요.",
+        "th": "มีครับ อยู่ข้างประตูเลยครับ",
+        "audio": "/audio/convenience-store/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "I'll take one. Can you heat up this sandwich?",
+        "ko": "하나 살게요. 이 샌드위치 데워 주실 수 있나요?",
+        "th": "เอาหนึ่งคันค่ะ ช่วยอุ่นแซนด์วิชนี้ให้หน่อยได้ไหมคะ",
+        "audio": "/audio/convenience-store/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Sure. Do you need a bag?",
+        "ko": "그럼요. 봉투 필요하세요?",
+        "th": "ได้ครับ รับถุงไหมครับ",
+        "audio": "/audio/convenience-store/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Yes, please.",
+        "ko": "네, 주세요.",
+        "th": "ค่ะ ขอด้วยค่ะ",
+        "audio": "/audio/convenience-store/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "That's twelve dollars in total.",
+        "ko": "전부 12달러입니다.",
+        "th": "ทั้งหมดสิบสองดอลลาร์ครับ",
+        "audio": "/audio/convenience-store/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Here's a twenty.",
+        "ko": "여기 20달러요.",
+        "th": "นี่ค่ะ ยี่สิบดอลลาร์ค่ะ",
+        "audio": "/audio/convenience-store/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/convenience-store/s1.webp",
+        "prompt": "At a convenience store counter, the clerk scans a bottle of water and a sandwich; the customer in a red raincoat stands at the counter, and rain is visible through the window."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/convenience-store/s2.webp",
+        "prompt": "The clerk points toward an umbrella stand by the store's glass door; the customer turns to look."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/convenience-store/s3.webp",
+        "prompt": "The clerk puts the sandwich into a microwave behind the counter; the customer holds a clear plastic umbrella."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/convenience-store/s4.webp",
+        "prompt": "The customer hands a twenty-dollar bill to the clerk at the register; a plastic bag with her items sits on the counter."
+      }
+    ]
+  }
+}

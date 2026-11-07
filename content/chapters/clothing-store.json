@@ -1,0 +1,177 @@
+{
+  "id": "clothing-store",
+  "order": 13,
+  "title": {
+    "en": "Shopping for Clothes",
+    "ko": "옷가게에서",
+    "th": "ซื้อเสื้อผ้า"
+  },
+  "description": {
+    "en": "Find a jacket in your size, try it on, and ask about returns.",
+    "ko": "맞는 사이즈의 재킷을 찾아 입어 보고 반품 규정을 묻는 상황",
+    "th": "หาเสื้อแจ็กเก็ตไซซ์ที่ใช่ ลองใส่ และถามเรื่องการคืนสินค้า"
+  },
+  "level": "beginner",
+  "cover": "/images/clothing-store/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Clerk",
+        "role": {
+          "en": "Store clerk",
+          "ko": "점원",
+          "th": "พนักงานขาย"
+        },
+        "look": "woman in her 20s, shoulder-length brown hair, black t-shirt with a store lanyard",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Customer",
+        "role": {
+          "en": "Customer",
+          "ko": "손님",
+          "th": "ลูกค้า"
+        },
+        "look": "Black man in his 20s, short curly hair, white t-shirt and jeans",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Hi! Can I help you find anything?",
+        "ko": "안녕하세요! 찾으시는 거 있으세요?",
+        "th": "สวัสดีค่ะ ให้ช่วยหาอะไรไหมคะ",
+        "audio": "/audio/clothing-store/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Yes, I'm looking for a jacket.",
+        "ko": "네, 재킷을 찾고 있어요.",
+        "th": "ครับ ผมกำลังหาเสื้อแจ็กเก็ตครับ",
+        "audio": "/audio/clothing-store/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "How about this one? It's on sale.",
+        "ko": "이건 어떠세요? 세일 중이에요.",
+        "th": "ตัวนี้เป็นยังไงคะ กำลังลดราคาอยู่ค่ะ",
+        "audio": "/audio/clothing-store/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "I like it. Do you have it in a medium?",
+        "ko": "마음에 들어요. 미디엄 사이즈 있나요?",
+        "th": "ชอบครับ มีไซซ์กลางไหมครับ",
+        "audio": "/audio/clothing-store/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Yes, here you go. The fitting room is over there.",
+        "ko": "네, 여기 있어요. 탈의실은 저쪽이에요.",
+        "th": "มีค่ะ นี่ค่ะ ห้องลองเสื้ออยู่ทางโน้นค่ะ",
+        "audio": "/audio/clothing-store/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "It fits well. How much is it?",
+        "ko": "잘 맞네요. 얼마예요?",
+        "th": "ใส่พอดีเลยครับ ราคาเท่าไรครับ",
+        "audio": "/audio/clothing-store/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "It's forty dollars after the discount.",
+        "ko": "할인해서 40달러예요.",
+        "th": "ลดราคาแล้วเหลือสี่สิบดอลลาร์ค่ะ",
+        "audio": "/audio/clothing-store/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "Great. Can I return it if I change my mind?",
+        "ko": "좋아요. 마음이 바뀌면 반품할 수 있나요?",
+        "th": "ดีเลยครับ ถ้าเปลี่ยนใจขอคืนได้ไหมครับ",
+        "audio": "/audio/clothing-store/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "Yes, within thirty days with the receipt.",
+        "ko": "네, 영수증이 있으면 30일 이내에 가능해요.",
+        "th": "ได้ค่ะ ภายในสามสิบวันพร้อมใบเสร็จค่ะ",
+        "audio": "/audio/clothing-store/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Perfect. I'll take it.",
+        "ko": "좋네요. 이걸로 살게요.",
+        "th": "เยี่ยมเลยครับ เอาตัวนี้ครับ",
+        "audio": "/audio/clothing-store/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/clothing-store/s1.webp",
+        "prompt": "In a bright modern clothing store with racks of clothes, the clerk greets the customer with a friendly smile."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/clothing-store/s2.webp",
+        "prompt": "The clerk holds up a navy bomber jacket with a red sale tag; the customer looks at it with interest."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/clothing-store/s3.webp",
+        "prompt": "The clerk hands the customer the jacket and points toward the fitting rooms at the back of the store."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/clothing-store/s4.webp",
+        "prompt": "The customer, now wearing the navy jacket, checks himself in a tall mirror; the clerk stands beside him smiling."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/clothing-store/s5.webp",
+        "prompt": "At the checkout counter, the clerk holds up a receipt and explains; the customer nods with the jacket folded on the counter."
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "in-flight",
+  "order": 9,
+  "title": {
+    "en": "On the Plane",
+    "ko": "기내에서",
+    "th": "บนเครื่องบิน"
+  },
+  "description": {
+    "en": "Order a meal and drink, and ask for a blanket during a flight.",
+    "ko": "비행 중 기내식과 음료를 주문하고 담요를 요청하는 상황",
+    "th": "สั่งอาหารและเครื่องดื่ม และขอผ้าห่มระหว่างเที่ยวบิน"
+  },
+  "level": "beginner",
+  "cover": "/images/in-flight/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Flight attendant",
+        "role": {
+          "en": "Flight attendant",
+          "ko": "승무원",
+          "th": "พนักงานต้อนรับบนเครื่องบิน"
+        },
+        "look": "woman in her 30s, light brown hair in a neat French twist, burgundy flight attendant uniform with a silver wing pin",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passenger",
+        "role": {
+          "en": "Passenger",
+          "ko": "승객",
+          "th": "ผู้โดยสาร"
+        },
+        "look": "man in his 40s, short graying hair, black-rimmed glasses, grey crew-neck sweater",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Would you like chicken or beef for dinner?",
+        "ko": "저녁 식사로 치킨과 소고기 중 어느 것으로 하시겠어요?",
+        "th": "รับไก่หรือเนื้อสำหรับมื้อเย็นดีคะ",
+        "audio": "/audio/in-flight/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Chicken, please.",
+        "ko": "치킨으로 주세요.",
+        "th": "ขอไก่ครับ",
+        "audio": "/audio/in-flight/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "And what would you like to drink?",
+        "ko": "음료는 무엇으로 드릴까요?",
+        "th": "แล้วรับเครื่องดื่มอะไรดีคะ",
+        "audio": "/audio/in-flight/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Orange juice, please.",
+        "ko": "오렌지 주스 주세요.",
+        "th": "ขอน้ำส้มครับ",
+        "audio": "/audio/in-flight/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Here you are. Enjoy your meal.",
+        "ko": "여기 있습니다. 맛있게 드세요.",
+        "th": "นี่ค่ะ ทานให้อร่อยนะคะ",
+        "audio": "/audio/in-flight/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Thank you. Could I also have a blanket?",
+        "ko": "고마워요. 담요도 하나 주실 수 있나요?",
+        "th": "ขอบคุณครับ ขอผ้าห่มด้วยได้ไหมครับ",
+        "audio": "/audio/in-flight/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Of course. I'll bring one right away.",
+        "ko": "물론이죠. 바로 가져다 드릴게요.",
+        "th": "ได้แน่นอนค่ะ เดี๋ยวจะนำมาให้เลยค่ะ",
+        "audio": "/audio/in-flight/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "How long until we land?",
+        "ko": "착륙까지 얼마나 남았나요?",
+        "th": "อีกนานแค่ไหนกว่าจะลงจอดครับ",
+        "audio": "/audio/in-flight/l8.mp3"
+      },
+      {
+        "id": "l9",
+        "speaker": "A",
+        "en": "About two hours. Please fasten your seat belt.",
+        "ko": "2시간 정도요. 안전벨트를 매 주세요.",
+        "th": "ประมาณสองชั่วโมงค่ะ กรุณารัดเข็มขัดนิรภัยด้วยนะคะ",
+        "audio": "/audio/in-flight/l9.mp3"
+      },
+      {
+        "id": "l10",
+        "speaker": "B",
+        "en": "Okay, I will.",
+        "ko": "네, 그럴게요.",
+        "th": "ได้ครับ",
+        "audio": "/audio/in-flight/l10.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/in-flight/s1.webp",
+        "prompt": "In the aisle of an airplane cabin, the flight attendant stands beside a meal cart and asks the passenger in an aisle seat about dinner."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/in-flight/s2.webp",
+        "prompt": "The flight attendant pours orange juice into a plastic cup from the cart; the passenger points at the juice."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/in-flight/s3.webp",
+        "prompt": "The flight attendant places a meal tray on the passenger's tray table; he smiles and asks her something."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/in-flight/s4.webp",
+        "prompt": "The flight attendant hands the passenger a folded blue blanket; he takes it and looks up to ask a question."
+      },
+      {
+        "id": "s5",
+        "lines": [
+          "l9",
+          "l10"
+        ],
+        "image": "/images/in-flight/s5.webp",
+        "prompt": "The flight attendant gestures toward the seat belt sign above; the passenger fastens his seat belt."
+      }
+    ]
+  }
+}

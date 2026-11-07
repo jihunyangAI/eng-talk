@@ -1,0 +1,152 @@
+{
+  "id": "asking-photo",
+  "order": 12,
+  "title": {
+    "en": "Asking Someone to Take a Photo",
+    "ko": "사진 부탁하기",
+    "th": "ขอให้ช่วยถ่ายรูป"
+  },
+  "description": {
+    "en": "Ask a stranger to take your picture at a tourist spot.",
+    "ko": "관광지에서 처음 보는 사람에게 사진을 부탁하는 상황",
+    "th": "ขอให้คนแปลกหน้าช่วยถ่ายรูปที่สถานที่ท่องเที่ยว"
+  },
+  "level": "beginner",
+  "cover": "/images/asking-photo/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Tourist",
+        "role": {
+          "en": "Tourist",
+          "ko": "여행객",
+          "th": "นักท่องเที่ยว"
+        },
+        "look": "East Asian man in his 40s, short black hair, sunglasses pushed up on his head, light blue shirt, black camera strap around his neck",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Passerby",
+        "role": {
+          "en": "Passerby",
+          "ko": "행인",
+          "th": "คนที่เดินผ่าน"
+        },
+        "look": "woman in her 30s, long blonde hair, white cable-knit sweater, small brown handbag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. Could you take a picture of me?",
+        "ko": "실례합니다. 사진 좀 찍어 주실 수 있나요?",
+        "th": "ขอโทษครับ ช่วยถ่ายรูปให้หน่อยได้ไหมครับ",
+        "audio": "/audio/asking-photo/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "Sure, I'd be happy to.",
+        "ko": "그럼요, 기꺼이요.",
+        "th": "ได้สิคะ ยินดีค่ะ",
+        "audio": "/audio/asking-photo/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "Thank you. Just press this button.",
+        "ko": "고마워요. 이 버튼만 누르시면 돼요.",
+        "th": "ขอบคุณครับ แค่กดปุ่มนี้ครับ",
+        "audio": "/audio/asking-photo/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Okay. Do you want the fountain in the background?",
+        "ko": "알겠어요. 분수가 뒤에 나오게 찍을까요?",
+        "th": "ได้ค่ะ อยากให้น้ำพุอยู่ด้านหลังไหมคะ",
+        "audio": "/audio/asking-photo/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Yes, please. Could you take one vertically too?",
+        "ko": "네, 부탁해요. 세로로도 한 장 찍어 주실래요?",
+        "th": "ครับ ช่วยถ่ายแนวตั้งอีกรูปได้ไหมครับ",
+        "audio": "/audio/asking-photo/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Sure. Ready? Say cheese!",
+        "ko": "그럼요. 준비됐죠? 치즈!",
+        "th": "ได้ค่ะ พร้อมไหมคะ ยิ้มหน่อยค่ะ",
+        "audio": "/audio/asking-photo/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Thank you so much. Would you like me to take one of you?",
+        "ko": "정말 고마워요. 제가 한 장 찍어 드릴까요?",
+        "th": "ขอบคุณมากครับ ให้ผมถ่ายให้คุณบ้างไหมครับ",
+        "audio": "/audio/asking-photo/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "That's very kind, but I'm fine. Have a nice trip!",
+        "ko": "친절하시네요, 하지만 괜찮아요. 즐거운 여행 되세요!",
+        "th": "ใจดีจังค่ะ แต่ไม่เป็นไรค่ะ ขอให้เที่ยวให้สนุกนะคะ",
+        "audio": "/audio/asking-photo/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/asking-photo/s1.webp",
+        "prompt": "In a sunny European-style city square with a grand stone fountain, the tourist politely approaches the passerby, holding his camera."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/asking-photo/s2.webp",
+        "prompt": "The tourist shows the passerby the shutter button on top of his camera; she nods."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/asking-photo/s3.webp",
+        "prompt": "The passerby holds the camera up to take a photo; the tourist poses with a big smile in front of the fountain."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/asking-photo/s4.webp",
+        "prompt": "The passerby hands the camera back to the tourist; both are smiling and she waves goodbye."
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "subway-ride",
+  "order": 10,
+  "title": {
+    "en": "Taking the Subway",
+    "ko": "지하철 타기",
+    "th": "นั่งรถไฟใต้ดิน"
+  },
+  "description": {
+    "en": "Buy a ticket and ask which line to take.",
+    "ko": "지하철 표를 사고 어느 노선을 타야 하는지 묻는 상황",
+    "th": "ซื้อตั๋วและถามว่าต้องขึ้นรถไฟสายไหน"
+  },
+  "level": "beginner",
+  "cover": "/images/subway-ride/s1.webp",
+  "dialogue": {
+    "speakers": [
+      {
+        "id": "A",
+        "name": "Tourist",
+        "role": {
+          "en": "Tourist",
+          "ko": "여행객",
+          "th": "นักท่องเที่ยว"
+        },
+        "look": "Southeast Asian woman in her 20s, long straight black hair, white blouse, small tan crossbody bag",
+        "voice": {
+          "name": "Emily",
+          "voiceId": "6b3e3642-f7b7-4cb8-9688-51e233c4b92f"
+        }
+      },
+      {
+        "id": "B",
+        "name": "Station staff",
+        "role": {
+          "en": "Station staff",
+          "ko": "역무원",
+          "th": "เจ้าหน้าที่สถานี"
+        },
+        "look": "man in his 50s, gray mustache, dark blue station staff uniform and cap",
+        "voice": {
+          "name": "Mark",
+          "voiceId": "27c04473-84a9-4b60-a41f-c8e8458bd4f1"
+        }
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "speaker": "A",
+        "en": "Excuse me. How do I buy a ticket?",
+        "ko": "실례합니다. 표는 어떻게 사나요?",
+        "th": "ขอโทษค่ะ ซื้อตั๋วยังไงคะ",
+        "audio": "/audio/subway-ride/l1.mp3"
+      },
+      {
+        "id": "l2",
+        "speaker": "B",
+        "en": "You can use this machine. Where are you going?",
+        "ko": "이 기계를 이용하시면 돼요. 어디까지 가세요?",
+        "th": "ใช้เครื่องนี้ได้เลยครับ จะไปที่ไหนครับ",
+        "audio": "/audio/subway-ride/l2.mp3"
+      },
+      {
+        "id": "l3",
+        "speaker": "A",
+        "en": "I'm going to Central Station.",
+        "ko": "센트럴역까지 가요.",
+        "th": "จะไปสถานีเซ็นทรัลค่ะ",
+        "audio": "/audio/subway-ride/l3.mp3"
+      },
+      {
+        "id": "l4",
+        "speaker": "B",
+        "en": "Press this button and pay three dollars.",
+        "ko": "이 버튼을 누르고 3달러를 내세요.",
+        "th": "กดปุ่มนี้แล้วจ่ายสามดอลลาร์ครับ",
+        "audio": "/audio/subway-ride/l4.mp3"
+      },
+      {
+        "id": "l5",
+        "speaker": "A",
+        "en": "Which line should I take?",
+        "ko": "몇 호선을 타야 하나요?",
+        "th": "ต้องขึ้นสายไหนคะ",
+        "audio": "/audio/subway-ride/l5.mp3"
+      },
+      {
+        "id": "l6",
+        "speaker": "B",
+        "en": "Take the green line toward Riverside.",
+        "ko": "리버사이드 방면 초록색 노선을 타세요.",
+        "th": "ขึ้นสายสีเขียวไปทางริเวอร์ไซด์ครับ",
+        "audio": "/audio/subway-ride/l6.mp3"
+      },
+      {
+        "id": "l7",
+        "speaker": "A",
+        "en": "Do I need to transfer?",
+        "ko": "갈아타야 하나요?",
+        "th": "ต้องเปลี่ยนสายไหมคะ",
+        "audio": "/audio/subway-ride/l7.mp3"
+      },
+      {
+        "id": "l8",
+        "speaker": "B",
+        "en": "No, it's a direct train. It's the fourth stop.",
+        "ko": "아니요, 한 번에 가는 열차예요. 네 번째 역이에요.",
+        "th": "ไม่ต้องครับ เป็นขบวนตรง ลงสถานีที่สี่ครับ",
+        "audio": "/audio/subway-ride/l8.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s1",
+        "lines": [
+          "l1",
+          "l2"
+        ],
+        "image": "/images/subway-ride/s1.webp",
+        "prompt": "In a clean modern subway station, the tourist approaches the station staff member standing next to a row of ticket machines."
+      },
+      {
+        "id": "s2",
+        "lines": [
+          "l3",
+          "l4"
+        ],
+        "image": "/images/subway-ride/s2.webp",
+        "prompt": "The station staff points at the touch screen of a ticket machine; the tourist inserts money into the machine."
+      },
+      {
+        "id": "s3",
+        "lines": [
+          "l5",
+          "l6"
+        ],
+        "image": "/images/subway-ride/s3.webp",
+        "prompt": "The station staff points to a large subway line map on the wall with a green line highlighted; the tourist looks at it."
+      },
+      {
+        "id": "s4",
+        "lines": [
+          "l7",
+          "l8"
+        ],
+        "image": "/images/subway-ride/s4.webp",
+        "prompt": "Near the ticket gates, the station staff holds up four fingers; the tourist nods and smiles, holding her ticket."
+      }
+    ]
+  }
+}
