@@ -224,6 +224,42 @@
           }
         }
       }
+    },
+    "words": {
+      "type": "array",
+      "description": "필수 단어 — 대사(line)에 연결, 장면 아래 표시. audio 없으면 브라우저 음성(TTS)",
+      "items": {
+        "type": "object",
+        "required": [
+          "line",
+          "en",
+          "ko",
+          "th"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "line": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ko": {
+            "type": "string",
+            "minLength": 1
+          },
+          "th": {
+            "type": "string",
+            "minLength": 1
+          },
+          "audio": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
     }
   },
   "$defs": {

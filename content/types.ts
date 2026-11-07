@@ -51,6 +51,15 @@ export interface Dialogue {
 }
 
 /** 핵심 표현 — 대사 1줄에 연결되어 그 장면 아래에 표시 */
+/** 필수 단어 — 대사(line)에 나온 단어, 장면 아래 표시. audio가 없으면 브라우저 음성으로 읽음 */
+export interface Word {
+  line: string;
+  en: string;
+  ko: string;
+  th: string;
+  audio?: string;
+}
+
 export interface Expression {
   /** 이 표현이 나오는 대사 id */
   line: string;
@@ -73,6 +82,7 @@ export interface Chapter {
   cover: string;
   dialogue: Dialogue;
   expressions?: Expression[];
+  words?: Word[];
 }
 
 /** content/index.json 의 항목 — 챕터 목록 화면용 */

@@ -179,5 +179,61 @@
       "th": "‘เผลอหลุดปาก’",
       "alt": "spill the beans"
     }
+  ],
+  "words": [
+    {
+      "line": "l1",
+      "en": "surprise party",
+      "ko": "깜짝 파티",
+      "th": "ปาร์ตี้เซอร์ไพรส์"
+    },
+    {
+      "line": "l1",
+      "en": "throw",
+      "ko": "(파티를) 열다",
+      "th": "จัด (ปาร์ตี้)"
+    },
+    {
+      "line": "l2",
+      "en": "gonna",
+      "ko": "~할 거야 (going to)",
+      "th": "จะ"
+    },
+    {
+      "line": "l3",
+      "en": "decorations",
+      "ko": "장식",
+      "th": "ของตกแต่ง"
+    },
+    {
+      "line": "l4",
+      "en": "baking",
+      "ko": "베이킹",
+      "th": "การอบขนม"
+    },
+    {
+      "line": "l5",
+      "en": "finding out",
+      "ko": "알아채는 것",
+      "th": "รู้ความลับ"
+    },
+    {
+      "line": "l6",
+      "en": "see it coming",
+      "ko": "눈치채다",
+      "th": "คาดไม่ถึง"
+    },
+    {
+      "line": "l7",
+      "en": "genius",
+      "ko": "천재적인",
+      "th": "อัจฉริยะ"
+    },
+    {
+      "line": "l8",
+      "en": "secrets",
+      "ko": "비밀",
+      "th": "ความลับ"
+    }
   ]
 }

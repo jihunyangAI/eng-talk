@@ -179,5 +179,55 @@
       "th": "‘ไม่โกรธกันนะ’",
       "alt": "No offense taken."
     }
+  ],
+  "words": [
+    {
+      "line": "l1",
+      "en": "get off work",
+      "ko": "퇴근하다",
+      "th": "เลิกงาน"
+    },
+    {
+      "line": "l2",
+      "en": "late",
+      "ko": "늦게",
+      "th": "ดึก"
+    },
+    {
+      "line": "l3",
+      "en": "take you out",
+      "ko": "데이트 신청하다",
+      "th": "ชวนออกไป"
+    },
+    {
+      "line": "l4",
+      "en": "customers",
+      "ko": "손님",
+      "th": "ลูกค้า"
+    },
+    {
+      "line": "l5",
+      "en": "number",
+      "ko": "전화번호",
+      "th": "เบอร์โทร"
+    },
+    {
+      "line": "l6",
+      "en": "professional",
+      "ko": "직업적인, 프로다운",
+      "th": "เป็นมืออาชีพ"
+    },
+    {
+      "line": "l7",
+      "en": "hard feelings",
+      "ko": "서운한 감정",
+      "th": "ความขุ่นเคือง"
+    },
+    {
+      "line": "l8",
+      "en": "another",
+      "ko": "하나 더",
+      "th": "อีกแก้ว"
+    }
   ]
 }

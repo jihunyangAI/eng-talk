@@ -29,6 +29,7 @@ type Messages = {
   listen: string;
   keyExpressions: string;
   alsoSay: string;
+  keyWords: string;
   sceneOf: (i: number, n: number) => string;
   finish: string;
   practice: Practice;
@@ -105,6 +106,7 @@ export const messages: Record<TranslationLang, Messages> = {
     listen: "발음 듣기",
     keyExpressions: "핵심 표현",
     alsoSay: "이렇게도 말해요",
+    keyWords: "필수 단어",
     sceneOf: (i, n) => `장면 ${i} / ${n}`,
     finish: "완료! 목록으로",
     practice: {
@@ -181,6 +183,7 @@ export const messages: Record<TranslationLang, Messages> = {
     listen: "ฟังการออกเสียง",
     keyExpressions: "สำนวนเด็ด",
     alsoSay: "พูดแบบนี้ก็ได้",
+    keyWords: "คำศัพท์สำคัญ",
     sceneOf: (i, n) => `ฉาก ${i} / ${n}`,
     finish: "เสร็จแล้ว! กลับไปที่รายการ",
     practice: {

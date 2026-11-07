@@ -185,5 +185,55 @@
       "th": "‘ขอเติมอีกรอบ’",
       "alt": "Can I have more?"
     }
+  ],
+  "words": [
+    {
+      "line": "l1",
+      "en": "make yourself at home",
+      "ko": "편하게 있어",
+      "th": "ทำตัวตามสบาย"
+    },
+    {
+      "line": "l2",
+      "en": "smells",
+      "ko": "냄새가 나다",
+      "th": "หอม"
+    },
+    {
+      "line": "l3",
+      "en": "green curry",
+      "ko": "그린 커리",
+      "th": "แกงเขียวหวาน"
+    },
+    {
+      "line": "l4",
+      "en": "dessert",
+      "ko": "디저트",
+      "th": "ของหวาน"
+    },
+    {
+      "line": "l5",
+      "en": "help yourself",
+      "ko": "마음껏 먹어",
+      "th": "ตามสบายเลย"
+    },
+    {
+      "line": "l6",
+      "en": "recipe",
+      "ko": "레시피",
+      "th": "สูตรอาหาร"
+    },
+    {
+      "line": "l7",
+      "en": "grandma",
+      "ko": "할머니",
+      "th": "คุณยาย"
+    },
+    {
+      "line": "l8",
+      "en": "seconds",
+      "ko": "한 그릇 더",
+      "th": "ขอเพิ่มอีกจาน"
+    }
   ]
 }

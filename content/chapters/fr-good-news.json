@@ -179,5 +179,61 @@
       "th": "‘ต้องทำนะ!’",
       "alt": "You'd better!"
     }
+  ],
+  "words": [
+    {
+      "line": "l1",
+      "en": "job",
+      "ko": "일자리",
+      "th": "งาน"
+    },
+    {
+      "line": "l1",
+      "en": "cruise ship",
+      "ko": "크루즈선",
+      "th": "เรือสำราญ"
+    },
+    {
+      "line": "l2",
+      "en": "congratulations",
+      "ko": "축하해",
+      "th": "ยินดีด้วย"
+    },
+    {
+      "line": "l3",
+      "en": "excited",
+      "ko": "신난",
+      "th": "ตื่นเต้น"
+    },
+    {
+      "line": "l4",
+      "en": "worked so hard",
+      "ko": "정말 열심히 했다",
+      "th": "ทำงานหนักมาก"
+    },
+    {
+      "line": "l5",
+      "en": "nervous",
+      "ko": "긴장한",
+      "th": "ประหม่า"
+    },
+    {
+      "line": "l6",
+      "en": "normal",
+      "ko": "정상적인",
+      "th": "ปกติ"
+    },
+    {
+      "line": "l7",
+      "en": "port",
+      "ko": "항구",
+      "th": "ท่าเรือ"
+    },
+    {
+      "line": "l8",
+      "en": "celebrate",
+      "ko": "축하하다",
+      "th": "ฉลอง"
+    }
   ]
 }

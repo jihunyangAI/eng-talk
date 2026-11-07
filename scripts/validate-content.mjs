@@ -93,6 +93,26 @@ function validateChapter(ch, file) {
           warnings.push(at(`.expressions[${i}]: "${x.en}" not found in ${x.line}`));
       });
   }
+  // 필수 단어: 연결된 대사가 있어야 하고, 단어가 대사 안에 등장해야 함 (단어 시작 기준 → booked 안의 book 허용)
+  if (ch.words !== undefined) {
+    if (!Array.isArray(ch.words)) errors.push(at(".words: must be an array"));
+    else {
+      const norm = (s) => s.toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]/g, " ").replace(/\s+/g, " ").trim();
+      const seen = new Set();
+      ch.words.forEach((w, i) => {
+        const line = lines.find((l) => l.id === w.line);
+        if (!line) return errors.push(at(`.words[${i}]: unknown line "${w.line}"`));
+        for (const k of LANGS) if (!nonEmpty(w[k])) errors.push(at(`.words[${i}].${k}: empty`));
+        if (nonEmpty(w.en) && !` ${norm(line.en)} `.includes(` ${norm(w.en)}`))
+          warnings.push(at(`.words[${i}]: "${w.en}" not found in ${w.line}`));
+        const key = norm(w.en ?? "");
+        if (seen.has(key)) warnings.push(at(`.words[${i}]: duplicate word "${w.en}"`));
+        seen.add(key);
+        if (w.audio !== undefined && !existsSync(join(root, "public", w.audio)))
+          errors.push(at(`.words[${i}].audio file not found ${w.audio}`));
+      });
+    }
+  }
   return { lines: lines.length, scenes: scenes.length };
 }
 

@@ -9,6 +9,7 @@ import { ExpressionCard } from "./ExpressionCard";
 import { LangSwitcher } from "./LangSwitcher";
 import { LineBubble } from "./LineBubble";
 import { useSettings } from "./SettingsProvider";
+import { WordCard } from "./WordCard";
 
 const MODES: TranslationMode[] = ["show", "tap", "hide"];
 
@@ -139,6 +140,7 @@ export function DialogueViewer({ chapter }: { chapter: Chapter }) {
             );
           })}
           <ExpressionCard items={(chapter.expressions ?? []).filter((x) => scene.lines.includes(x.line))} />
+          <WordCard items={(chapter.words ?? []).filter((w) => scene.lines.includes(w.line))} />
         </div>
       </main>
 
