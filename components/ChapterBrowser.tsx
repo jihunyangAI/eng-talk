@@ -6,9 +6,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Category, Level } from "@/content/types";
 import { CATEGORIES, CATEGORY_COLORS } from "@/lib/categories";
 import type { ChapterListItem } from "@/lib/content";
-import { CategoryIcon, CloseIcon, SearchIcon, SupansaAvatar } from "./icons";
+import { CategoryIcon, CloseIcon, SearchIcon } from "./icons";
 import { LangSwitcher } from "./LangSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
+import { WalkingSupansa } from "./WalkingSupansa";
 import { useSettings } from "./SettingsProvider";
 
 type CatFilter = Category | "all";
@@ -82,16 +83,13 @@ export function ChapterBrowser({ chapters }: { chapters: ChapterListItem[] }) {
 
   return (
     <div className="mx-auto max-w-3xl pb-10">
-      <header className="flex items-center justify-between gap-3 px-4 pt-5">
-        <div className="flex min-w-0 items-center gap-2">
-          <span className="relative flex h-14 w-11 shrink-0 items-end justify-center">
-            <span aria-hidden className="absolute left-0 top-1 h-11 w-11 rounded-full bg-[var(--accent-soft)]" />
-            <SupansaAvatar className="relative h-14 w-10" />
-          </span>
-          <span className="min-w-0 leading-tight">
+      <header className="flex flex-wrap items-center justify-between gap-x-3 px-4 pt-5">
+        <div className="contents sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:gap-3">
+          <span className="shrink-0 leading-tight">
             <span className="block text-[1.125rem] font-semibold tracking-tight text-[var(--ink)]">Supansa&apos;s</span>
             <span className="block text-sm font-medium text-[var(--accent-ink)]">English App</span>
           </span>
+          <WalkingSupansa />
         </div>
         <div className="flex shrink-0 items-center gap-2">
           <ThemeToggle />
